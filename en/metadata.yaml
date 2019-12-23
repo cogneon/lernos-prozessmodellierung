@@ -1,0 +1,17 @@
+---
+title: "lernOS Guide"
+subtitle: "Operating System for Lifelong Learning and Learning Organizations"
+author: [Add author(s) here]
+date: "Version 0.1 (yyy-mm-yy)"
+titlepage: true
+titlepage-color: "ff6600"
+titlepage-text-color: "ffffff"
+titlepage-rule-color: "ffffff"
+links-as-notes: true
+lof: false
+toc: true
+toc-own-page: true
+toc-depth: 3
+logo: images/lernOS-logo-white-4000px.png
+logo-width: 300
+---
