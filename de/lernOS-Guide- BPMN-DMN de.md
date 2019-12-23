@@ -28,15 +28,95 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 
 
-# Introduction
+# Einführung
 
 ...
 
 # BPMN-DMN Lernpfade
 
+Wieso - weshalb & Warum
+
+## Mach Dich mit den Grundlagen vertraut (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
 ...
 
-## ... (Kata)
+## Dein erstes Diagramm (Happy-Path) (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## Triff Deine ersten Entscheidungen (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## Exkurs - Markierungen, Aufgabentypen &  Daten (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## Von Pools und Lanes (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## Exkurs - Eventtypen (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## DMN - Grundlagen (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## HIT-Policy (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## FEEL Expression (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## Dein erstes komplexes DRD (Kata)
+
+**... Kata's Mission ...**
+
+_**Duration:** ... Minutes_
+
+...
+
+## Dein Meisterstück (Kata)
 
 **... Kata's Mission ...**
 
@@ -46,18 +126,33 @@ _**Duration:** ... Minutes_
 
 # Stop talking, start doing!
 
-If you read through this guide but are not practising yet you should do so NOW! To start with lernOS is really easy. These five steps will help to start smoothly:
+Wenn du diesen Leitfaden gelesen hast, lernOS aber noch nicht aktiv umsetzt, solltest du jetzt damit beginnen! Mit lernOS zu starten ist wirklich einfach. Diese fünf Schritte werden dir beim reibungslosen Start helfen:
 
-1. **Schedule Time:** define the quarter when you begin to use lernOS. Add the time-slots for  the weekly to your calendar. This regular meeting is of particular importance if you practice in a lernOS Circle.
-1. **Define Objectives and Key Results:** use week 0 to define the objectives and the measurable results for the sprint. Choose an objective you really, really care about.
-1. **Find a Circle:** look for 3-4 people who want to start a sprint in the same quarter. If someone has been in a circle before he can take the role of the "Circle Moderator".
-1. **Organize the Weekly Meeting:** if you don't know each other meet face-to-face in week 0. Use social networks or instant messengers to communicate between the meetings. Use video conferencing tools to organize virtual meetings.
-1. **Plan, Do, Learn, Repeat:** Use the last weekly meeting in week 12 to reflect the results and the collaboration in the circle. Decide if you want to run another sprint together.
+1. **Zeit einplanen:** Definiere das Quartal, in dem du mit lernOS starten möchtest. Trage dir die Zeiten für das Weekly in den Kalender ein. Dieser regelmäßige Termin ist besonders wichtig, wenn du lernOS in einem Circle praktizierst.
+2. **Ziele und Schlüsselergebnisse definieren:** Nutze Woche 0, um deine Ziele und messbare Ergebnisse für den Sprint festzulegen. Wähle ein Ziel, das dir wirklich, wirklich am Herzen liegt.
+3. **Einen Circle gründen:** Suche nach 3-4 Mitstreitern, die im selben Quartal einen Sprint starten wollen. Wenn jemand schon in einem anderen Circle war, kann er die Rolle des Circle-Moderator übernehmen.
+4. **Organisiere das Weekly:** Wenn Ihr Euch im Circle nicht kennt, trefft Euch in Woche 0 am besten persönlich. Nutzt soziale Netzwerke oder Messenger, um zwischen den Treffen zu kommunizieren. Nutzt Videokonferenzen, um virtuelle Treffen zu organisieren.
+5. **Plan, Do, Learn, Repeat:** Nutzt das letzte Weekly in der Woche 12, um die Ergebnisse und die Zusammenarbeit im Kreis zu reflektieren. Entscheidet, ob Ihr einen weiteren Sprint gemeinsam durchlaufen wollt.
 
 Keep Calm & Learn On! :-)
 
-# Change History
 
-| Version | Edited by | Description | Date |
+
+# Danksagungen
+
+lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen habe ich [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
+
+- **Hirotaka Takeuchi** und **Ikujiro Nonaka** für die Einführung des Begriffs Scrum für agile Innovationsmethoden (1986).
+- **Jeff Sutherland** und **Ken Schwaber** für die Definition eines agilen Projektmanagements im [Scrum Guide](https://scrumguides.org) (2010).
+- **David Allen** für die Methode [Getting Things Done](https:/gettingthingsdone.com) (GTD), die den Weg zu stressfreier Produktivität von Wissensarbeiter*innen aufzeigt.
+- **Andy Grove** für die Entwicklung der Methode [Objectives & Key Results](https://de.wikipedia.org/wiki/Objectives_and_Key_Results) (OKR) als Weiterentwicklung des Management by Objectives (MbO) von Peter Drucker bei Intel (1980er). **John Doer** für die Einführung von OKR bei Google und **Rick Klau** von Google Ventures für seinen Vortrag [How Google sets goals: OKRs](https://www.youtube.com/watch?v=mJB83EZtAjc) (2013).
+- **Glyn Moody** (2006) und **Bryce Williams** (2010) für den Begriff und die Definition von Working Out Loud als "Observable Work + Narrating Your Work". **John Stepper** für die Gestaltung des 12-wöchigen WOL-Lernprogramms, das in den [WOL Circle Guides](https:/workingoutloud.com/circle-guides) dokumentiert ist (2015). **Katharina Krentz** von Bosch für ihre vielen Beiträge, Working Out Loud in Organisationen nutzbar zu machen.
+- **Johannes Müller** und **Tobias Müller-Zielke** für die Vorträge zu OKRs und GTD auf dem lernOS Rockstars Camp 2019 und **Alexander Rose** für die Zusammenstellung des GTD Lernpfads.
+
+
+
+# Änderungshistorie
+
+| Version | Bearbeitet von | Beschreibung der Änderung | Date |
 |---------|----------------|-----------------------|-------|
-| 0.1 | Alexander Rose | ... | 2019-12-23 |
+| 1.0 | Alexander Rose | Erste Version des Lernpfads | 2020-02-15 |
