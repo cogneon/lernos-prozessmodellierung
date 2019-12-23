@@ -81,7 +81,7 @@ Wieso - weshalb & Warum
 
 
 
-## Woche 0: Organisation & Ziele für die nächsten 12 Wochen
+## Woche 0: Organisation & Ziel(e) für die nächsten 12 Wochen
 
 In Woche 0 gilt es einige administrative & organisatorische Festlegungen für die nächsten 12 Wochen zu treffen:
 
@@ -91,29 +91,25 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
 - Welches **Ziel** willst Du in den nächsten 12 Wochen erreicht haben?
 
-  - Verwende die Methode 
-
-    [**Objective]: https://www.oreilly.com/business/free/files/introduction-to-okrs.pdf	"Introduction to OKR's"
-
-    , um dein Ziel genauer zu beschreiben. 
+  - Verwende die Methode **[OKR](https://felipecastro.com/resource/The-Beginners-Guide-to-OKR.pdf)** um dein Ziel genauer zu beschreiben. 
 
   - Schreibe dein Ziel auf. Definiere **2-4 Schlüsselergebnisse pro Ziel**, um dir bei der Fortschrittkontrolle zu helfen. 
 
-  - Du solltest die Schlüsselergebnisse auf einer **Skala von 0,0-1,0** messen können. Um sich ehrgeizige Ziele zu setzen, gilt eine Fertigstellungsrate von 0,7 als Erfolg.
+  - Du solltest die Schlüsselergebnisse auf einer **Skala von 0,0 - 1,0** messen können. Um sich ehrgeizige Ziele zu setzen, gilt eine Fertigstellungsrate von 0,7 als Erfolg.
 
     
 
     > *Ich will (Ziel):* ...
-    >
+  >
     > *gemessen an (Schlüsselergebnisse):*
-    >
+  >
     > 1. ...
     > 2. ...
     > 3. ...
     > 4. ...
-
   
-
+  
+  
 - Welche **Tools** werden für die Kommunikation und Dokumentation verwendet? 
 
 - **Wer** ist der Facilitator des Circles? Rollierend oder eine fester Person?
@@ -128,17 +124,30 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
 - Besuche die Seite  [Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/) und lies sie Dir gründlich durch. 
 - Notiere Dir Dinge, die Du ggf. noch nicht nicht verstehst. (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
-- 
 
 
 
 ## Dein erstes Diagramm (Happy-Path) (Kata)
 
-**... Kata's Mission ...**
+**In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvorhergesehene Ereignisse.  I.d.R. gibt es auch nichts zu entscheiden. In der Welt der Prozessmodellierung nennen wir diesen Weg den Happy-Path. Tatsächlich beginnen wir bei einem neuen Prozessmodell zunächst immer mit der einfachsten Variante. Komplizierter wird es später schon ganz von alleine.**
 
-_**Duration:** ... Minutes_
+**Dauer:** ca. 30 Minuten
 
-...
+- Schau Dir die folgenden Folien in Ruhe an
+
+<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 80%;" />
+
+<img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+- Modelliere dann:
+  - a) einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
+  - b) einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
+
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
 
 ## Triff Deine ersten Entscheidungen (Kata)
 
@@ -148,6 +157,8 @@ _**Duration:** ... Minutes_
 
 ...
 
+
+
 ## Exkurs - Markierungen, Aufgabentypen &  Daten (Kata)
 
 **... Kata's Mission ...**
@@ -155,6 +166,8 @@ _**Duration:** ... Minutes_
 _**Duration:** ... Minutes_
 
 ...
+
+
 
 ## Von Pools und Lanes (Kata)
 
@@ -164,6 +177,8 @@ _**Duration:** ... Minutes_
 
 ...
 
+
+
 ## Exkurs - Eventtypen (Kata)
 
 **... Kata's Mission ...**
@@ -171,6 +186,8 @@ _**Duration:** ... Minutes_
 _**Duration:** ... Minutes_
 
 ...
+
+
 
 ## DMN - Grundlagen (Kata)
 
@@ -188,6 +205,8 @@ _**Duration:** ... Minutes_
 
 ...
 
+
+
 ## FEEL Expression (Kata)
 
 **... Kata's Mission ...**
@@ -195,6 +214,8 @@ _**Duration:** ... Minutes_
 _**Duration:** ... Minutes_
 
 ...
+
+
 
 ## Dein erstes komplexes DRD (Kata)
 
@@ -225,8 +246,6 @@ Wenn du diesen Leitfaden gelesen hast, lernOS aber noch nicht aktiv umsetzt, sol
 Keep Calm & Learn On! :-)
 
 
-
-- 
 
 
 
