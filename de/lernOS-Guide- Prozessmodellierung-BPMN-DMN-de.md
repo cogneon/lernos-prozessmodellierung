@@ -79,13 +79,58 @@ Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er 
 
 Wieso - weshalb & Warum
 
+
+
+## Woche 0: Organisation & Ziele für die nächsten 12 Wochen
+
+In Woche 0 gilt es einige administrative & organisatorische Festlegungen für die nächsten 12 Wochen zu treffen:
+
+- **Wann** wird der wöchentliche Termin (Weekly) stattfinden? 
+
+- **Wo** wird der wöchentliche Termin (Weekly) stattfinden? Persönliches Treffen oder virtuell?
+
+- Welches **Ziel** willst Du in den nächsten 12 Wochen erreicht haben?
+
+  - Verwende die Methode 
+
+    [**Objective]: https://www.oreilly.com/business/free/files/introduction-to-okrs.pdf	"Introduction to OKR's"
+
+    , um dein Ziel genauer zu beschreiben. 
+
+  - Schreibe dein Ziel auf. Definiere **2-4 Schlüsselergebnisse pro Ziel**, um dir bei der Fortschrittkontrolle zu helfen. 
+
+  - Du solltest die Schlüsselergebnisse auf einer **Skala von 0,0-1,0** messen können. Um sich ehrgeizige Ziele zu setzen, gilt eine Fertigstellungsrate von 0,7 als Erfolg.
+
+    
+
+    > *Ich will (Ziel):* ...
+    >
+    > *gemessen an (Schlüsselergebnisse):*
+    >
+    > 1. ...
+    > 2. ...
+    > 3. ...
+    > 4. ...
+
+  
+
+- Welche **Tools** werden für die Kommunikation und Dokumentation verwendet? 
+
+- **Wer** ist der Facilitator des Circles? Rollierend oder eine fester Person?
+
+
+
 ## Mach Dich mit den Grundlagen vertraut (Kata)
 
-**... Kata's Mission ...**
+**In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da Du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen**
 
-_**Duration:** ... Minutes_
+**Dauer:** ca.  60 Minuten
 
-...
+- Besuche die Seite  [Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/) und lies sie Dir gründlich durch. 
+- Notiere Dir Dinge, die Du ggf. noch nicht nicht verstehst. (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- 
+
+
 
 ## Dein erstes Diagramm (Happy-Path) (Kata)
 
