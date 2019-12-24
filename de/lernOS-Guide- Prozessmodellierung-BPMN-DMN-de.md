@@ -151,11 +151,33 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
 ## Triff Deine ersten Entscheidungen (Kata)
 
-**... Kata's Mission ...**
+**Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die Du in dieser Kata kennenlernen und anwenden wirst**
 
-_**Duration:** ... Minutes_
+**Dauer:**  90 Minuten
 
-...
+Schau Dir die folgenden Folien in Ruhe an:
+
+Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
+
+<img src="D:\Daten\Alex\Repository\Prozessmodellierung-BPMN-DMN\de\images\Exklusive Gateways (XOR) einfach.svg" style="zoom:80%;" />
+
+Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf **genau einen** ausgehenden Pfad (Entweder/Oder-Entscheidung)
+
+Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht Sie auswählen. 
+
+<img src="D:\Daten\Alex\Repository\Prozessmodellierung-BPMN-DMN\de\images\Exklusive Gateways (XOR) mehrere Endergebnisse.svg" style="zoom:80%;" />
+
+
+
+- Modelliere dann:
+  - a) 
+  - b) 
+
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+
 
 
 
