@@ -159,13 +159,15 @@ Schau Dir die folgenden Folien in Ruhe an:
 
 Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
 
-<img src="D:\Daten\Alex\Repository\Prozessmodellierung-BPMN-DMN\de\images\Exklusive Gateways (XOR) einfach.svg" style="zoom:80%;" />
+<img src="./images/Exklusive Gateways (XOR) einfach.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
 
 Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf **genau einen** ausgehenden Pfad (Entweder/Oder-Entscheidung)
 
 Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht Sie auswählen. 
 
-<img src="D:\Daten\Alex\Repository\Prozessmodellierung-BPMN-DMN\de\images\Exklusive Gateways (XOR) mehrere Endergebnisse.svg" style="zoom:80%;" />
+<img src="./images/Exklusive Gateways (XOR) mehrere Endergebnisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 
 
