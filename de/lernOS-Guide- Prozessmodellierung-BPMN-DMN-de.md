@@ -157,7 +157,13 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
 Schau Dir die folgenden Folien in Ruhe an:
 
-Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
+Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
+
+
+
+### Exklusives Gateway (XOR) 
+
+Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
 
 <img src="./images/Exklusive Gateways (XOR) einfach.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
@@ -165,9 +171,49 @@ Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **E
 
 Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf **genau einen** ausgehenden Pfad (Entweder/Oder-Entscheidung)
 
+
+
+### Exklusives Gateway (XOR) mit mehreren Enden
+
 Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht Sie auswählen. 
 
 <img src="./images/Exklusive Gateways (XOR) mehrere Endergebnisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+### Exklusives Gateway (XOR) Split und Join
+
+In diesem Beispiel haben wir zwei Exklusive Gateways das Erste teilt (Split) den Prozess in zwei Zweige und das Zweite führt diese wieder zusammen (Join).
+
+<img src="./images/Exklusive Gateways (XOR) Split & Join.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+### Exklusives Gateway (XOR) Schleifen
+
+Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen um das gewünschte Ziel zu erreichen.
+
+<FEHLT>
+
+
+
+### Parallele Gateways  (AND)
+
+Aufgaben können oder müssen manchmal parallel ausgeführt werden. 
+
+<FEHLT>
+
+Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Bei der Zusammenführung **wird auf alle Zweige/Pfade gewartet**
+
+
+
+### Kombination von XOR und AND Gateway
+
+In diesem Beispiel wird der Salat parallel zum Hauptgericht angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.
+
+<FEHLT>
+
+
 
 
 
