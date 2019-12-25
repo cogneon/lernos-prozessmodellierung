@@ -193,7 +193,9 @@ In diesem Beispiel haben wir zwei Exklusive Gateways das Erste teilt (Split) den
 
 Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen um das gewünschte Ziel zu erreichen.
 
-<FEHLT>
+
+
+<img src="./images/Exklusives Gateway (XOR) Schleifen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 
 
