@@ -139,6 +139,8 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
 <img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
+------
+
 
 
 - Modelliere dann:
@@ -205,17 +207,42 @@ Aufgaben können oder müssen manchmal parallel ausgeführt werden.
 
 <img src="./images/Parallele Gateways  (AND).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
-Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Bei der Zusammenführung **wird auf alle Zweige/Pfade gewartet**
+Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Bei der Zusammenführung **wird auf alle Zweige/Pfade gewartet**.
 
 
 
-### Kombination von XOR und AND Gateway
+### Kombination von XOR und AND Gateway (Das Tokenprinzip)
 
 In diesem Beispiel wird der Salat parallel zum Hauptgericht angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.
 
-<FEHLT>
+Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell Dir das Token wie einen Spielball bzw. eine Kugel vor. Die Kugel wird bei jedem Start des Prozesses erzeugt und durchläuft ihn. Bei einem exklusiven Gateway kann der Token nur einen Weg nehmen. Bei einem parallelen Gateway teilt sich der Token in mehrere Token auf, je nach Anzahl der folgenden Zweige.
+
+In unserem Beispiel wird also am parallelen Gateway ein zweites Token erzeugt. Diese beiden Token durchlaufen nun den parallelen Prozessabschnitt, bis sie durch das zweite AND-Gateway wieder zusammengeführt werden. Danach durchläuft der Token den restlichen Prozess und wird am Ende des Prozesses konsumiert 
 
 
+
+<img src="./images/Kombination von XOR und AND Gateway (Das Tokenprinzip).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+### Inklusive Gateway (OR)
+
+Manchmal benötigen Prozesse noch etwas mehr Flexibilität. Hier kommt das **Inklusive Gateway (OR)** zum Einsatz. Im Gegensatz zum parallelen Gateway sind **die ausgehenden Zweige optional,** jedoch muss mindestens einer durchlaufen werden.
+
+<img src="./images/Inklusive Gateway (OR).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+Inklusive Gateway (OR) werden genutzt, wenn **eine oder mehrere Bedingungen möglich sind**.
+Bei der Zusammenführung **wird auf alle gewählten Zweige gewartet**.
+
+Es gibt in diesem Beispiel 7 mögliche Kombinationen.
+
+**Formel: 2^n-1, hier: 2^3-1=7 (n = Anzahl der ausgehenden Zweige)**
+
+- Ein Zweig: Nur Steak; nur Salat; nur Paste
+- Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
+- Alle Zweige: Pasta, Steak & Salat
+
+------
 
 
 
