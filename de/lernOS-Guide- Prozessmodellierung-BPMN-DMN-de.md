@@ -266,7 +266,7 @@ _**Duration:** ... Minutes_
 
 ...
 
-
+<img src="./images/Markierungen, Aufgaben-Typen und Daten.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 ## Von Pools und Lanes (Kata)
 
