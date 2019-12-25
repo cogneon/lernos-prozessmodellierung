@@ -71,13 +71,15 @@ Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er enthält unter anderem:
 
 - 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodelierung
-- Zahlreiche Ressourcen zur lernen
+- Zahlreiche Ressourcen zur weiteren Vertiefung
 
 
 
 # Lernpfad Prozessmodellierung (BPMN&DMN)
 
 Wieso - weshalb & Warum
+
+Alle Übungen sind so angelegt, das sie mit einem Stift und einem Blatt Papier zu lösen sind.  
 
 
 
@@ -260,13 +262,29 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 ## Exkurs - Markierungen, Aufgabentypen &  Daten (Kata)
 
-**... Kata's Mission ...**
+**Attribute mit visuellen Effekten**
 
-_**Duration:** ... Minutes_
+**Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Die folgende Liste gibt Ihnen einen Überblick über die wichtigsten dieser Attribute** 
 
-...
+**Dauer**: 60 Minuten
+
+Schau Dir die folgenden Beschreibungen in Ruhe an:
 
 <img src="./images/Markierungen, Aufgaben-Typen und Daten.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+------
+
+Modelliere dann:
+
+- Ein beliebiges Prozessdiagramm mit mindestens
+  - Drei verschiedenen Attributen 
+  - Einem Datenobjekt
+  - Einer Assoziation 
+  - Einem AND-Gateway
+
+Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
 
 ## Von Pools und Lanes (Kata)
 
