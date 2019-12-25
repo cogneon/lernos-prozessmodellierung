@@ -203,7 +203,7 @@ Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umst�
 
 Aufgaben können oder müssen manchmal parallel ausgeführt werden. 
 
-<FEHLT>
+<img src="./images/Parallele Gateways  (AND).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Bei der Zusammenführung **wird auf alle Zweige/Pfade gewartet**
 
