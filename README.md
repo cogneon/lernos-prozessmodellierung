@@ -5,3 +5,4 @@ The lernOS Guide BPMN-DMN is part of [lernOS](https://lernos.org). The guide wil
 # Release Notes
 **0.1**
 * Not released yet.
+* Plan: 15.02.2020
