@@ -333,11 +333,40 @@ Modelliere dann:
 
 **... Kata's Mission ...**
 
-_**Duration:** ... Minutes_
+**Dauer:**  90 Minuten
 
-...
+Schau Dir die folgenden Beschreibungen in Ruhe an:
+
+### Blanko-Zwischenereignis
+
+In diesem Prozess sehen wir ein **Blanko-Zwischenereignis**. Es wird verwendet, um
+wichtige Zustände oder Meilensteine in einem Prozess darzustellen und hat keine
+weitere Funktion.
+
+<img src="./images/Blanko-Zwischenereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+**Zwischenergebnisse (blanko)** repräsentieren Zustände oder Meilensteine im Prozess und haben
+keinen Einfluss auf den Prozessverlauf.
+
+### Nachrichten-Zwischenereignis
+
+Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.
+
+<img src="./images/Nachrichten-Zwischenereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 
+
+**Nachrichten-Zwischenereignisse** werden genutzt bei eingehenden Nachrichten, Waren oder Zahlungen, auf die im Prozess gewartet werden muss.
+
+
+
+------
+
+Modelliere dann:
+
+- <FEHLT>
+
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 ## DMN - Grundlagen (Kata)
 
