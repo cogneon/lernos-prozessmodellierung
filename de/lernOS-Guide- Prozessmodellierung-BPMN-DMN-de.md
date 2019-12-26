@@ -329,13 +329,17 @@ Modelliere dann:
 
 - Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
+
+
 ## Exkurs - Eventtypen (Kata)
 
-**... Kata's Mission ...**
+**Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen. **
 
 **Dauer:**  90 Minuten
 
 Schau Dir die folgenden Beschreibungen in Ruhe an:
+
+
 
 ### Blanko-Zwischenereignis
 
@@ -347,6 +351,8 @@ weitere Funktion.
 
 **Zwischenergebnisse (blanko)** repräsentieren Zustände oder Meilensteine im Prozess und haben
 keinen Einfluss auf den Prozessverlauf.
+
+
 
 ### Nachrichten-Zwischenereignis
 
@@ -360,6 +366,55 @@ Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Proze
 
 
 
+### Zeitereignisse
+
+Zeitereignisse können Prozesse starten oder verzögern.
+
+<img src="./images/Zeitereignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+- **Zwischen-Zeitereignis:** Zeitpunkte (auch wiederkehrende) oder Wartezeiten
+- **Start-Zeitereignis:** Zu diesen Zeitpunkten wird der Prozess gestartet.
+
+### Eventbasierte Gateways
+
+Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **Ereignisbasierten Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
+
+<img src="./images/Ereignisbasierte Gateways.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+**Ereignisbasierte Gateways**  steuern den Prozessfluss anhand von möglichen Ereignissen. Sie warten auf eintretende Ereignisse.
+
+
+
+### Eventbasierte Gateways (Schleifen)
+
+Ereignisbasierte Gateways können auch für Schleifen verwendet werden. In diesem Beispiel wollen wir nicht weiter auf unsere Pasta warten, falls diese nach dreimaligen Nachfragen immer noch nicht geliefert wurde.
+
+<img src="./images/Ereignisbasierte Gateways (Schleife).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+**Ereignis: Bedingung**: Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.
+
+
+
+### Bedingungsereignisse
+
+In diesem Beispielsiehst Du  die Verwendung von **Bedingungsereignissen** im Vergleich zu **Zeitereignissen**.
+
+<img src="./images/Bedingungsereignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+### Angeheftete Zwischenereignisse
+
+Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 15 min dauert, dann bestellen wir nicht, sondern backen Pizza.
+
+<img src="./images/Angeheftete Zwischenerignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+### Übersicht aller Ereignisse
+
+<img src="./images/Ereignise.png" alt="http://bpmb.de/poster" style="zoom: 80%;" />
+
 ------
 
 Modelliere dann:
@@ -367,6 +422,8 @@ Modelliere dann:
 - <FEHLT>
 
 - Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
 
 ## DMN - Grundlagen (Kata)
 
