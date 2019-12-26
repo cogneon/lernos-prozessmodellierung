@@ -290,7 +290,7 @@ Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Br
 
 ## Von Pools und Lanes (Kata)
 
-**Nachdem wir jetzt sehr vieles über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben. **
+**Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.**
 
 **Dauer:**  60 Minuten
 
