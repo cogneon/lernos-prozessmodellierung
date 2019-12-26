@@ -1,3 +1,5 @@
+
+
 # Vorwort
 
 Das Verb "lernos" ist die Zukunftsform von "lernen" auf Esperanto (mi lernos = ich werde lernen, ni lernos = wir werden lernen). **lernOS** ist ein **Betriebssystem** für **Lebenslanges Lernen** und **Lernende Organisationen**. lernOS ist aber keine Software, sondern "Brainware". Es ist eine Art zu Denken und zu Handeln, um als Einzelperson, Team oder Organisation im 21. Jahrhundert erfolgreich zu sein. Das groß geschriebene "OS" im Namen unterstreicht die Bedeutung der Digitalisierung für unsere vernetzte Wissensgesellschaft.
@@ -288,13 +290,44 @@ Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Br
 
 ## Von Pools und Lanes (Kata)
 
-**... Kata's Mission ...**
+**Nachdem wir jetzt sehr vieles über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben. **
 
-_**Duration:** ... Minutes_
+**Dauer:**  60 Minuten
 
-...
+In BPMN werden Verantwortlichkeiten (Organisationseinheiten, Abteilungen, Personen, Rollen) für Aufgaben mit Swimlanes (Pools und Lanes) dargestellt. Ein Prozess "gehört" zu einem Pool und ein Task wird von der jeweiligen Lane ausgeführt.
 
+Schau Dir die folgenden Folien in Ruhe an:
 
+<img src="./images/Von Pools und Lanes I.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+Folgende Benennungen von Pools & Lanes haben sich im Einsatz bewährt:
+
+| Typ                   | Beispiel                                            |
+| --------------------- | --------------------------------------------------- |
+| Organisationseinheit  | Finanzen, Personal, Vertrieb, Service               |
+| Stelle/Position       | Abteilungsleiter Finanzen, Führungskraft Recht, ... |
+| Prozessbezogene Rolle | Mitarbeiter, Vorgesetzter, Prozessverantwortlicher  |
+| Personen              | Frau Schulze, Herr Meier                            |
+
+Von der Personen-Benennung ist jedoch abzuraten, da sich Personen ständig ändern können. Nutzen Sie in dem Fall besser die **prozessbezogenen Rollen**.
+
+Sabine, Ralf und Alex wollen etwas kochen.  Jeder bekommt Aufgaben zugewiesen.
+
+<img src="./images/Sabine, Ralf und Alex wollen etwas kochen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+Ein Task kann in BPMN nur zu **genau einer Lane** (Rolle / Verantwortlichkeit) gehören.
+
+Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen Beteiligten oder weiteren Lanes dargestellt.
+
+<img src="./images/Sabine, Ralf und Alex wollen etwas kochen II.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+------
+
+Modelliere dann:
+
+- <FEHLT>
+
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 ## Exkurs - Eventtypen (Kata)
 
