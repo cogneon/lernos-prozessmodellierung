@@ -240,7 +240,9 @@ Bei der Zusammenführung **wird auf alle gewählten Zweige gewartet**.
 
 Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
-**Formel: 2^n-1, hier: 2^3-1=7 (n = Anzahl der ausgehenden Zweige)**
+**Formel: 2^n^-1, hier: 2^3^-1 = 7 (n = Anzahl der ausgehenden Zweige)**
+
+
 
 - Ein Zweig: Nur Steak; nur Salat; nur Paste
 - Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
@@ -255,10 +257,6 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
   - b) 
 
 - Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
-
-
-
-
 
 
 
@@ -349,8 +347,9 @@ weitere Funktion.
 
 <img src="./images/Blanko-Zwischenereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
-**Zwischenergebnisse (blanko)** repräsentieren Zustände oder Meilensteine im Prozess und haben
-keinen Einfluss auf den Prozessverlauf.
+**Zwischenergebnisse (blanko)** 
+
+Repräsentieren Zustände oder Meilensteine im Prozess und haben keinen Einfluss auf den Prozessverlauf.
 
 
 
@@ -362,7 +361,9 @@ Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Proze
 
 
 
-**Nachrichten-Zwischenereignisse** werden genutzt bei eingehenden Nachrichten, Waren oder Zahlungen, auf die im Prozess gewartet werden muss.
+**Nachrichten-Zwischenereignisse** 
+
+Werden genutzt bei eingehenden Nachrichten, Waren oder Zahlungen, auf die im Prozess gewartet werden muss.
 
 
 
@@ -377,13 +378,17 @@ Zeitereignisse können Prozesse starten oder verzögern.
 - **Zwischen-Zeitereignis:** Zeitpunkte (auch wiederkehrende) oder Wartezeiten
 - **Start-Zeitereignis:** Zu diesen Zeitpunkten wird der Prozess gestartet.
 
+
+
 ### Eventbasierte Gateways
 
 Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **Ereignisbasierten Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
 
 <img src="./images/Ereignisbasierte Gateways.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
-**Ereignisbasierte Gateways**  steuern den Prozessfluss anhand von möglichen Ereignissen. Sie warten auf eintretende Ereignisse.
+**Ereignisbasierte Gateways**  
+
+Steuern den Prozessfluss anhand von möglichen Ereignissen. Sie warten auf eintretende Ereignisse.
 
 
 
@@ -393,7 +398,9 @@ Ereignisbasierte Gateways können auch für Schleifen verwendet werden. In diese
 
 <img src="./images/Ereignisbasierte Gateways (Schleife).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
-**Ereignis: Bedingung**: Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.
+**Ereignis: Bedingung** 
+
+Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.
 
 
 
@@ -411,16 +418,30 @@ Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen
 
 <img src="./images/Angeheftete Zwischenerignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
+### Link-Ereignis
+
+Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den Sequenzfluss auf den nächstfolgenden Prozess weiterzuleiten. Zwei zusammengehörende Link-Ereignisse repräsentieren dabei einen Sequenzfluss.
+
+<img src="./images/Link-Ereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+**Link-Ereignis**
+Ein auslösendes und eintretendes Link-Ereignis mit **gleichem Namen** entspricht einem Sequenzfluss, d.h. Sie können große Prozesse in Abschnitte aufteilen.
+
+Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen Prozesshierachie-Ebene** befinden.
+
+
+
 ### Übersicht aller Ereignisse
 
-<img src="./images/Ereignise.png" alt="http://bpmb.de/poster" style="zoom: 80%;" />
+<img src="./images/Ereignise.png" alt="http://bpmb.de/poster" style="zoom: 50%;" />
 
 ------
 
 Modelliere dann:
 
 - <FEHLT>
-
 - Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 
