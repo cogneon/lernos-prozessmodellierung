@@ -56,7 +56,7 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 Um diesen Leitfaden bestmöglich nutzen zu können, solltest du etwas über lernOS wissen, auf dem dieser Leitfaden aufbaut. Dazu das Wichtigste in einer Sketchnote:
 
-![Karl Damke cc BY](./images/lernos_in_a_nutshell.png)
+<img src="./images/lernos_in_a_nutshell.png" alt="Karl Damke cc BY"  />
 
 Wenn du mehr wissen willst, kannst alles über lernOS [auf Github](https://cogneon.github.io/lernos-core/) nachlesen, dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören. 
 
@@ -240,7 +240,7 @@ Bei der Zusammenführung **wird auf alle gewählten Zweige gewartet**.
 
 Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
-**Formel: 2^n^-1, hier: 2^3^-1 = 7 (n = Anzahl der ausgehenden Zweige)**
+**Formel: 2^n-1, hier: 2^3-1 = 7 (n = Anzahl der ausgehenden Zweige)**
 
 
 
@@ -524,15 +524,65 @@ DMN dient als **Schnittstelle zwischen Modellierung und Implementierung** von En
 
 ## DMN - Grundlagen (Kata)
 
-**Din dieser Kata lernst Du die Kernelemente von DMN, wir erarbeiten die Unterschiede zwischen BPMN und DMN und beschäftigen uns mit Entscheidungstabellen**
+**In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen**
 
 **Dauer:** 60 Minuten
 
 Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf **zwei Ebenen** erstellt. Während in der ersten Ebene die **Anforderungen (Informationen)** für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die **Logik (Regeln).**
 
+<img src="./images/Ebenenmodell.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 
 
+Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können sie auch unabhängig voneinander existieren.
+
+<img src="./images/Geschäftslogik vs. Entscheidungslokok.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+### Kernelemente von DMN
+
+#### Desicion
+
+- Benutzt Logik um Ergebnis zu bestimmen 
+- Zerlegung in Teilentscheidungen möglich
+
+<img src="./images/Desicion.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+
+#### Input Data
+
+- Stellt Informationen für Entscheidungen bereit 
+- Kann von verschiedenen Entscheidungen genutzt werden
+
+<img src="./images/Input Data.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+
+#### Knowledge Source
+
+- Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. 
+- z.B. Gesetze, Regularien oder Richtlinie
+
+<img src="./images/Knowledge Source.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+
+
+
+Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
+
+<u>Entscheidungen identifizieren und abgrenzen</u> 
+
+- Welche Entscheidungen müssen überhaupt getroffen werden? 
+- Was ist das Ziel dieser Entscheidungen? 
+
+<u>Benötigte Anforderungen sammeln</u>
+
+- Welche Informationen werden benötigt, um die Entscheidung zu treffen? 
+- Wird die Logik aus externen Gesetzen / internen Richtlinien vorgeschrieben? 
+
+<u>Entscheidungen aufteilen</u> 
+
+- Müssen die benötigten Informationen ggf. selbst erst ermittelt werden? 
+- Bei Unterentscheidungen analoges Vorgehen -> Anforderungen sammeln
+
+
+
+**HIERGEHETESWEITER**
 
 ## Datentypen und HIT-Policy (Kata)
 
