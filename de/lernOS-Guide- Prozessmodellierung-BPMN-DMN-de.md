@@ -582,7 +582,47 @@ Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **
 
 
 
-**HIERGEHETESWEITER**
+Das kann z.B. so aussehen
+
+<img src="./images/Entscheidungsdiagramm .svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+
+
+
+**Entscheidungsdiagramme** beantworten folgende **Fragen** auf leicht verständliche Weise:
+
+- Welche Informationen werden benötigt? 
+- Gibt vorgelagerte Entscheidungen? 
+- Gibt es externe oder interne Richtlinien? 
+- Wie sind die Abhängigkeiten?
+
+Hier siehst Du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im folgenden im Detail erklärt.
+
+<img src="./images/Entscheidungsdiagramm I.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+
+
+
+### Entscheidungstabellen
+
+Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht **jede Reihe einer Geschäftsregel**. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:
+
+- Personen mit mehr als zwei Unfällen wird keine Versicherung gewährt
+- Personen unter 18 Jahren wird keine Versicherung gewährt
+- Personen mit mehr als vier Punkten wird keine Versicherung gewährt
+
+
+
+**HIER GEHT ES WEITER**
+
+
+
+------
+
+Modelliere dann:
+
+- <FEHLT>
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
 
 ## Datentypen und HIT-Policy (Kata)
 
