@@ -446,31 +446,103 @@ Modelliere dann:
 
 
 
+## Unterprozesse und Nachrichtenflüsse über Poolgrenzen
+
+**In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert.** 
+
+**Dauer:**  60 Minuten
+
+Schau Dir die folgenden Folien in Ruhe an:
+
+### Unterprozesse
+
+Zugeklappte Unterprozesse fassen mehrere Aufgaben (Tasks) zusammen. Damit können komplexe Prozesse übersichtlich dargestellt werden. 
+
+<img src="./images/Unterprozesse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+In diesem Beispiel wird die Anwendung von **angehängten Zwischenereignissen** an Unterprozessen gezeigt. Falls also die Pasta verkoch ist, wird die Eskalation ausgelöst und Pasta bestellt. Dies sollte jedoch nicht der Standardpfad sein.
+
+<img src="./images/Unterprozesse II.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+### Nachrichtenflüsse über Poolgrenzen
+
+Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
+
+<img src="./images/Nachrichtenflüsse über Poolgrenzen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+**Nachrichtenfluss**
+
+Stellt die Kommunikation zwischen den Pools dar.
+
+------
+
+Modelliere dann:
+
+- <FEHLT>
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+
+
+# DMN - Decition Model an Notation
+
+## Einführung
+
+Business Decision Management (BDM) stellt Konzepte, Methodenund Technikenfür die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
+
+| Menschliche Entscheidungen    | Automatisierte Entscheidungen               |
+| ----------------------------- | ------------------------------------------- |
+| Unklare Regeln                | Fehlende Transparenz                        |
+| Unsicherheiten                | Veraltete / falsche Entscheidungsgrundlagen |
+| Langsame Entscheidungsfindung | Kostenintensive Anpassung                   |
+| Inkonsistente Entscheidungen  | Hoher Kommunikationsaufwand                 |
+
+**BDM** dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.
+
+Das digitale Zeitalter und die zunehmend verstärkten gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.
+
+
+
+| Das digitale Zeitalter                           | Erweiterte Vorschriften                                      |
+| ------------------------------------------------ | ------------------------------------------------------------ |
+| Mehr verfügbare Daten                            | Pflicht zur Nachvollziehbarkeit & Transparenz: Von der Anforderung bis zur Implementierung |
+| Big Data Analyse                                 | Risiken für Verstöße gegen gesetzliche Vorschriften frühzeitig |
+| Schneller auf veränderte Anforderungen reagieren | Vermeidung von Strafe                                        |
+| **Entscheidungen intelligenter treffen**         | **Entscheidungen intelligenter treffen**                     |
+
+
+
+**Decision Model and Notation** (DMN) ist eine grafische Spezifikationssprache, die Elemente definiert um Geschäftsentscheidungen zu modellieren und deren Logik zu dokumentieren. 
+DMN dient als **Schnittstelle zwischen Modellierung und Implementierung** von Entscheidungslogik (Fachbereich & IT).
+
+
+
 ## DMN - Grundlagen (Kata)
 
-**... Kata's Mission ...**
+**Din dieser Kata lernst Du die Kernelemente von DMN, wir erarbeiten die Unterschiede zwischen BPMN und DMN und beschäftigen uns mit Entscheidungstabellen**
 
-_**Duration:** ... Minutes_
+**Dauer:** 60 Minuten
 
-...
-
-## HIT-Policy (Kata)
-
-**... Kata's Mission ...**
-
-_**Duration:** ... Minutes_
-
-...
+Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf **zwei Ebenen** erstellt. Während in der ersten Ebene die **Anforderungen (Informationen)** für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die **Logik (Regeln).**
 
 
 
-## FEEL Expression (Kata)
+
+
+## Datentypen und HIT-Policy (Kata)
 
 **... Kata's Mission ...**
 
 _**Duration:** ... Minutes_
 
 ...
+
+**Pro-Tip:** [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
 
 
