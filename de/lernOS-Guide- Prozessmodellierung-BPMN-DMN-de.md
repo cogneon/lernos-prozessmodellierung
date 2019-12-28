@@ -613,7 +613,7 @@ Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Ko
 
 
 
-**HIER GEHT ES WEITER**
+<img src="./images/Entscheidungstabelle 01.png" alt="Alexander Rose cc BY">
 
 
 
@@ -646,25 +646,38 @@ _**Duration:** ... Minutes_
 
 ...
 
+
+
 ## Dein Meisterstück (Kata)
 
-**In der letzten Kata get es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Oprimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannt. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen. 
+**In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen. 
 **
 
-**Dauer:** 120 - 240 Minuten
+**Dauer:** 120 - 240 Minuten (Je nach Ausprägung Deines Prozesses)
 
 Folgende Komponenten sollte dein Meisterstück mindestens enthalten
 
 - 3 Pools mit Nachrichtenflüssen
+
 - 1 Unterprozess
+
 - Tasks mit verschiedenen Attributen
+
 - Verschiedene Datenobjekte
+
 - Verschiedene Eventtypen: Mindestens ein Link-Event und ein angeheftetes Kompensations-Zwischenevent
+
 - Verschiedene Gateways: Mindestens ein Event-Gateway
-- 1 DRD mit 2 kaskadierenden Decicions und 4 Input-Data's & 2 Knowledge-Sources
+
+- 1 DRD mit 2 kaskadierenden Decisions und 4 Input-Data & 2 Knowledge-Sources
+
 - 2 unterschiedliche HIT-Policies (Single & Multiple)
 
-- Bringe Dein Meisterstück in das letzte Weekly und stelle es den anderen Teilnehmern vor.
+  
+
+  
+
+Bringe Dein Meisterstück in das letzte Weekly und stelle es den anderen Teilnehmern vor.
 
 **Pro-Tip:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit auszeichnung bestanden.
 
