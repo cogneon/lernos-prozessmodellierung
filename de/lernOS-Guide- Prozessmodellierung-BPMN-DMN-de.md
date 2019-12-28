@@ -613,9 +613,41 @@ Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Ko
 
 
 
+
+
 <img src="./images/Entscheidungstabelle 01.png" alt="Alexander Rose cc BY">
 
 
+
+Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel beschreibt dabei eine mögliche Kombination von Eingängen, in welcher jede zu einem bestimmten Ergebnis führt.
+
+<img src="./images/Entscheidungstabelle 02.png" alt="Alexander Rose cc BY">
+
+
+
+Operatoren werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an Operatoren:
+
+| Operator                                  | Beschreibung                                                 | Vorhanden für Typen                                          |
+| :---------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| gleich (für Datum:auf)                    | Gibt true zurück, falls der Eingabewert gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum, Liste jeden Typs |
+| gleich (für Daten:nicht auf)              | Gibt true zurück, falls der Eingabewert nicht gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum, Liste jeden Typs |
+| weniger (für Datum: vorher)               | Gibt true zurück, falls der Eingabewert kleiner als der Wert im entsprechenden Feld der Entscheidungstabelle ist. | Nummer, Datum                                                |
+| weniger oder gleich (für Datum:bis)       | Gibt true zurück, falls der Eingabewert kleiner oder gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Nummer, Datum                                                |
+| größer (für Datum: nach)                  | Gibt true zurück, falls der Eingabewert kleiner als der Wert im entsprechenden Feld der Entscheidungstabelle ist. | Nummer, Datum                                                |
+| größer oder gleich (für Datum: von)       | - Gibt ``true`` zurück, falls der Eingabewert größer oder gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Nummer, Datum                                                |
+| enthält (für Zahlen: enthält)             | Gibt truezurück, falls der Eingabewert den Wert im entsprechenden Feld der Entscheidungstabelle enthält. | Text, Zahl                                                   |
+| enthält nicht (für Zahlen: enthält nicht) | Gibt true zurück, falls der Eingabewert nicht gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Text, Zahl                                                   |
+| beginnt mit                               | Gibt truezurück, falls der Eingabewert den Wert im entsprechenden Feld der Entscheidungstabelle enthält. | Text                                                         |
+| endet mit                                 | - Gibt ``true`` zurück, falls der Eingabewert den Wert im entsprechenden Feld der Entscheidungstabelle enthält. | Text                                                         |
+| Element von                               | Gibt true zurück, falls der Eingabewert in der Liste des entsprechenden Felds der Entscheidungstabelle ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
+| nicht Element von                         | Gibt true zurück, falls der Eingabewert nicht in der Liste des entsprechenden Felds der Entscheidungstabelle ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
+| Elemente von und enthält nur              | Gibt true zurück, falls der Eingabewert nur in der Liste des entsprechenden Felds der Entscheidungstabelle ist. | Liste aller Typen                                            |
+| enthält alle von                          | Gibt true zurück, falls die Eingabeliste wenigstens ein Element des entsprechenden Felds der Entscheidungstabelle enthält. | Liste aller Typen                                            |
+| enthält keins von                         | Gibt true zurück, falls die Eingabeliste kein Element in der Liste des entsprechenden Felds der Entscheidungstabelle enthält. | Liste aller Typen                                            |
+| gültig                                    | Gibt true zurück, falls der Eingabewert definiert (nicht leer) und gültig ist. Falls die Regel zum Beispiel nur numerische Werte, die gleich oder größer als 0 sind, akzeptiert, sind alle numerischen Werte kleiner als 0 und alle nicht-numerischen Werte nicht valide (ungültig). | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
+| nicht gültig                              | Gibt true zurück, falls der Eingabewert definiert (nicht leer) und nicht gültig ist. Falls die Regel zum Beispiel nur numerische Werte, die gleich oder größer als 0 sind, akzeptiert, sind alle numerischen Werte kleiner als 0 und alle nicht-numerischen Werte nicht valide (ungültig). | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
+| definiert                                 | Gibt true zurück, falls der Eingabewert definiert (nicht leer) ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
+| nicht definiert                           | Gibt true zurück, falls der Eingabewert nicht definiert ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
 
 ------
 
