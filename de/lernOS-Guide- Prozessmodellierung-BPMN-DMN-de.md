@@ -540,6 +540,8 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 
 <img src="./images/Geschäftslogik vs. Entscheidungslokok.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
+
+
 ### Kernelemente von DMN
 
 #### Desicion
@@ -625,6 +627,8 @@ Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel be
 
 
 
+
+
 Operatoren werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an Operatoren:
 
 | Operator                                  | Beschreibung                                                 | Vorhanden für Typen                                          |
@@ -649,6 +653,142 @@ Operatoren werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt
 | definiert                                 | Gibt true zurück, falls der Eingabewert definiert (nicht leer) ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
 | nicht definiert                           | Gibt true zurück, falls der Eingabewert nicht definiert ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
 
+
+
+### Datentypen für Input-Data Elemente
+
+In der Praxis können Informationen in verschiedenen Arten vorkommen z.B. textuell, als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Hierfür gibt es folgende Datentypen:
+
+- Boolean: Wahr / Falsch (Wahrheitswert) 
+- Zahlwert: 12, 33%, 45€ 
+- Aufzählung: Hund, Katze, Maus 
+- Text: Namen, Modellnummer: ED4637K 
+- Datum: 12.12.2017 
+- Hierarchie: Abteilungsleiter, Teamleiter, Mitarbeiter
+
+
+
+#### Boolean
+
+Ein Input Data vom Typ **Boolean** besitzt einen von zwei möglichen Werten. Dieser Wert kann entweder **wahr** oder **falsch** sein. Booleans können für einfache Abfragen genutzt werden.
+
+<img src="./images/Datentypen für Input Data Elemente (Boolean).svg" alt="Alexander Rose cc BY">
+
+
+
+In diesem Beispiel ist der Input Data "Stammkunde" vom Typ Boolean, da es hier nur 2 mögliche Ausprägungen geben kann. Entweder handelt es sich um einen Stammkunden **(wahr)** oder nicht **(falsch)**.
+
+
+
+#### Zahlwert
+
+Eingangsdaten vom Typ **Zahlwert** enthalten **numerische Werte**. Diese können Bereiche oder einfache Zahlen sein. Nummern werden von Operatoren (siehe vorheriges Kapitel) verglichen und können eine Einheit haben. 
+
+
+
+<img src="./images/Datentypen für Input Data Elemente (Zahlwert) .svg" alt="Alexander Rose cc BY">
+
+<u>Einheiten:</u>
+
+- Prozent
+- Gewicht
+- Länge
+- Temperatur
+- Währung
+
+
+
+**Zahlwerte** können in verschiedenen Bereichen angegeben werden.
+
+- Eckige Klammern für **geschlossene Intervalle** 
+  - [1..5] zwischen 1 und 5, inklusive 1 und 5
+
+- Runde Klammern für **offene Intervalle** 
+  - (1..5) zwischen 1 und 5, exklusive 1 und 5
+
+- **Gemischte(halb-offene) Intervalle** 
+  - (1..5] zwischen 1 und 5, exklusive 1 und inklusive 5 
+  - [1..5) zwischen 1 und 5, inklusive 1 und exklusive 5
+
+
+
+#### Aufzählung
+
+Ist der Datentyp einer Eingabe **Aufzählung,** wird eine **Liste von Auswahloptionen** vordefiniert. Diese Werte können durch Operatoren mit anderen Eingabewerten / Listen verglichen werden. 
+
+Z.B. Express Versand, Standard Versand, ...)
+
+
+
+<img src="./images/Datentypen für Input Data Elemente (Aufzählung).svg" alt="Alexander Rose cc BY">
+
+Operatoren können sein:
+
+- Gleich
+- Ungleich
+- Element von 
+- Kein Element von 
+
+
+
+#### Datum
+
+Ein **Datum** wird genutzt, um **bestimmte Zeitpunkte** festzulegen. Durch Operatoren kann der Wert verglichen werden (zum Beispiel mit dem aktuellen Datum).
+
+<img src="./images/Datentypen für Input Data Elemente (Datum).svg" alt="Alexander Rose cc BY">
+
+Operatoren können sein:
+
+- Gleich
+- Ungleich
+- Größer als
+- Kleiner als
+- Größer oder gleich
+- Kleiner oder gleich
+
+
+
+#### Text
+
+Der Datentyp **Text** wird für **Vermerke und andere textbasierte Informationen** benutzt. Da die Auswahl eines vordefinierten Wertes weniger fehleranfällig ist, als den Wert selbst einzutippen (Leerzeichen, Tippfehler etc.), sollten Texttypen wenn möglich durch Aufzählungen ersetzt werden. 
+
+
+
+<img src="./images/Datentypen für Input Data Elemente (Text).svg" alt="Alexander Rose cc BY">
+
+Operatoren können sein:
+
+- Gleich
+- Ungleich
+- Enthält
+- Enthält nicht
+- Beginnt mit
+- Endet mit 
+- Element von 
+- Kein Element von 
+
+
+
+#### Hierarchie
+
+Ein Eingang vom Typ **Hierarchie** listet **Werte in verschiedenen Kategorien** auf, die voneinander hierarchisch abhängig sind. Dies erlaubt die Anwendung von Entscheidungsregeln für eine gesamte Kategorie und/oder einzelne Werte.
+
+<img src="./images/Datentypen für Input Data Elemente (Hierarchie).svg" alt="Alexander Rose cc BY">
+
+
+
+Operatoren können sein:
+
+- Gleich
+
+- Ungleich
+
+- Element von
+
+- Kein Element von
+
+  
+
 ------
 
 Modelliere dann:
@@ -659,6 +799,8 @@ Modelliere dann:
 
 
 ## Datentypen und HIT-Policy (Kata)
+
+**HIERGEHTESWEITER**
 
 **... Kata's Mission ...**
 
@@ -682,8 +824,7 @@ _**Duration:** ... Minutes_
 
 ## Dein Meisterstück (Kata)
 
-**In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen. 
-**
+**In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.**
 
 **Dauer:** 120 - 240 Minuten (Je nach Ausprägung Deines Prozesses)
 
