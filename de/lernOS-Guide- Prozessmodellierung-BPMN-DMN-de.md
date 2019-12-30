@@ -912,10 +912,27 @@ Folgende Aggregationen können angewendet werden:
 
 Modelliere dann:
 
-- <FEHLT>
+1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
+
+   a) Der Kunde muss mindestens 18 Jahre alt sein; 
+
+   b) Nichtmitgliederunter23 müssenmindestens5 Jahre Fahrerfahrung haben; 
+
+   c) Mitgliederunter23 müssenmindestens2 Jahre Fahrerfahrung haben
+
+2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
+
+   a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens1500 € erhalten VIP Status
+
+   b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
+
+   c) Ein Kunde mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhält ebensfalls Gold Status 
+
+   d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 Euro werden Standardkunden
+
 - Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
-**Pro-Tip:** [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
+**Pro-Tip:** Wenn Du Dich noch tiefer mit dem Thema auseinandersetzen willst, findest Du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
 
 
