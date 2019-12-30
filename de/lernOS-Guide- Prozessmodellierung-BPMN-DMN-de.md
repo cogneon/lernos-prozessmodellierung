@@ -866,7 +866,7 @@ Bei diesen Hit Policies werden alle zutreffenden Regeln betrachtet. Die erhalten
 
 Liefert alle Treffer in **absteigender Reihenfolge** der Ausgabepriorität. Die Ausgabeprioritäten werden in der geordneten Liste der Ausgabewerte in absteigende Reihenfolge ausgelesen.
 
-<img src="./images/Output order policy.png" alt="Alexander Rose cc BY">
+<img src="./images/output order policy.png" alt="Alexander Rose cc BY">
 
 Beispielrechnung:
 
@@ -881,7 +881,7 @@ Beispielrechnung:
 Die Ausgaben aller **übereinstimmenden Regeln** werden als sortierte Liste zurückgegeben, in der
 Reihenfolge der Regeln.
 
-<img src="./images/Rule order policy.png" alt="Alexander Rose cc BY">
+<img src="./images/rule order policy.png" alt="Alexander Rose cc BY">
 
 Beispielrechnung:
 
@@ -900,7 +900,7 @@ Folgende Aggregationen können angewendet werden:
 - max >
 - count #
 
-<img src="./images/Collect policy.png" alt="Alexander Rose cc BY">
+<img src="./images/collect policy.png" alt="Alexander Rose cc BY">
 
 - Input (50, 31):
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
