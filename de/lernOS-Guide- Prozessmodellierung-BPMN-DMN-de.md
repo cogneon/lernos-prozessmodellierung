@@ -862,21 +862,68 @@ Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter ’”70
 
 Bei diesen Hit Policies werden alle zutreffenden Regeln betrachtet. Die erhaltenen Ergebnisse können entweder als Liste ausgegeben oder zu einem einzelnen Wert aggregiert werden (z.B. als Summe).
 
+#### Output order policy (O)
+
+Liefert alle Treffer in **absteigender Reihenfolge** der Ausgabepriorität. Die Ausgabeprioritäten werden in der geordneten Liste der Ausgabewerte in absteigende Reihenfolge ausgelesen.
+
+<img src="./images/Output order policy.png" alt="Alexander Rose cc BY">
+
+Beispielrechnung:
+
+- Input (50, 31) 
+  - Die Regeln 1,2,4,5 und 6 werden aktiviert
+- Output: 2,2,3,4,26
 
 
-#### Collect
 
-#### Output Order
+#### Rule order policy (R)
 
-#### Rule Order
+Die Ausgaben aller **übereinstimmenden Regeln** werden als sortierte Liste zurückgegeben, in der
+Reihenfolge der Regeln.
+
+<img src="./images/Rule order policy.png" alt="Alexander Rose cc BY">
+
+Beispielrechnung:
+
+- Input (50, 31):
+  - Die Regeln 1,2,4,5 und 6 werden aktiviert
+- Output: 26,2,2,3,4
+
+#### Collect policy (C)
+
+Die Ausgaben aller übereinstimmenden Regeln werden als unsortierte Liste zurückgegeben.
+
+Folgende Aggregationen können angewendet werden:
+
+- sum +
+- min <
+- max >
+- count #
+
+<img src="./images/Collect policy.png" alt="Alexander Rose cc BY">
+
+- Input (50, 31):
+  - Die Regeln 1,2,4,5 und 6 werden aktiviert
+- Output für C+: 37
+
+------
 
 
+
+Modelliere dann:
+
+- <FEHLT>
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 **Pro-Tip:** [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
-**HIERGEHTESWEITER**
+
 
 ## Dein erstes komplexes DRD (Kata)
+
+**HIERGEHTSWEITER**
+
+
 
 **... Kata's Mission ...**
 
