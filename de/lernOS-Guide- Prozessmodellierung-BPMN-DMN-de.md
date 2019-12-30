@@ -800,17 +800,81 @@ Modelliere dann:
 
 ## Datentypen und HIT-Policy (Kata)
 
-**HIERGEHTESWEITER**
+**Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. **
 
-**... Kata's Mission ...**
+**Dauer:**  90 Minuten
 
-_**Duration:** ... Minutes_
+Schau Dir die folgenden Informationen in Ruhe an:
 
-...
+
+
+### Single hit policies 
+
+Bei diesen Hit Policieswird **immer nur eine Regel** in der Entscheidungstaballe angewendet, auch wenn mehrere Regeln zutreffen.
+
+
+
+#### Unique hit policy (U)
+
+Bei der unique hit policy kann für jede Kombinationen an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind  sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
+
+<img src="./images/Unique hit policy.png" alt="Alexander Rose cc BY">
+
+Ein "**-**" steht für "**any**" und bedeutet, dass an dieser Stelle jeder mögliche Wert stehen kann.
+
+**In Regel 2:** Ist die gewählte Versandart Expressversand und der Kundentyp Einzelhändler, spielt es keine Rolle ob Nahrungsmittel oder Sachgüterausgewählt ist. Das Ergebnis wird immer eine hohe Lieferpriorität sein.
+
+**In Regel 3:** Ist die gewählte Versandart Standardversand, die Güterart Nahrungsmittel und der Kundentyp Großhändler, haben wir eine hohe Lieferpriorität.
+
+
+
+#### First hit policy (F)
+
+Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings **nur die erste zutreffende Regel** verwendet. Die First Hit Policy geht von einer **Sortierung der Regeln** aus –sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine ersten drei Regeln auf den Sachverhalt zu, kann die **letzte Regel als allgemeine “Auffangregel”** genutzt werden.
+
+<img src="./images/First hit policy.png" alt="Alexander Rose cc BY">
+
+In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und der Kunde Großhändler ist. Wenn ja, tritt die Regel ein, ansonsten wird die zweite Regel geprüft. Stimmt diese nicht mit den Eingaben überein, wird die dritte Regel geprüft und so weiter.
+
+
+
+#### Any hit policy (A)
+
+Bei Verwendung der any hit policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.
+
+<img src="./images/Any hit policy.png" alt="Alexander Rose cc BY">
+
+Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft, führt dies direkt zum Ergebnis der VIP Anforderungen "nicht erfüllt". Somit sind nur bei einer gültigen Kombination von Input Data die VIP Anforderungen "erfüllt". 
+
+
+
+#### Priority hit policy (P)
+
+Mehrere Regeln können für einen Eingabewert eintreffen, wenn die priority hit policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.
+
+<img src="./images/Priority hit policy.png" alt="Alexander Rose cc BY">
+
+Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter ’”70” und die Krankengeschichte “schlecht” ist. Demnach wären die möglichen Ergebnisse Hoch und Mittel. Da „Mittel“ jedoch gegenüber „Hoch“ eine höhere Priorität besitzt, wird dieses Ergebnis ausgegeben.
+
+
+
+### Multi hit policies 
+
+Bei diesen Hit Policies werden alle zutreffenden Regeln betrachtet. Die erhaltenen Ergebnisse können entweder als Liste ausgegeben oder zu einem einzelnen Wert aggregiert werden (z.B. als Summe).
+
+
+
+#### Collect
+
+#### Output Order
+
+#### Rule Order
+
+
 
 **Pro-Tip:** [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
-
+**HIERGEHTESWEITER**
 
 ## Dein erstes komplexes DRD (Kata)
 
