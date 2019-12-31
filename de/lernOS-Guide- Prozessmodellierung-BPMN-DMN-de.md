@@ -926,7 +926,7 @@ Modelliere dann:
 
    b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
 
-   c) Ein Kunde mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhält ebensfalls Gold Status 
+   c) Ein Kunde mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhält ebenfalls Gold Status 
 
    d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 Euro werden Standardkunden
 
@@ -938,15 +938,30 @@ Modelliere dann:
 
 ## Dein erstes komplexes DRD (Kata)
 
-**HIERGEHTSWEITER**
+**Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt**
+
+**Dauer:**  45 Minuten
+
+Das Diagramm zeigt, dass sehr viele Informationen berücksichtigt werden müssen, damit der Rabatt bestimmt werden kann. Um **große Entscheidungen** wie diese zu vermeiden, können Teile der Informationen in **untergeordnete Entscheidungen** ausgelagert werden. Doch wann sollten Entscheidungen überhaupt aufgeteilt werden? 
+
+<img src="./images/Große Entscheidungen.svg" alt="Alexander Rose cc BY">
+
+Sobald eine Entscheidung mehr als sechs Eingänge hat, wird die Entscheidungslogik sehr **komplex**. Jeder einzelne Informationseingang muss schließlich als Regel in der Entscheidungstabelle berücksichtigt werden. Hier ist es empfehlenswert, die verschiedenen Informationseingänge in einzelne Teilentscheidungen aufzuteilen.
+
+Das Entscheidungsdiagramm ist nun auf eine strategische Entscheidung und drei untergeordnete Entscheidungen aufgeteilt. Dadurch ist das gesamte Diagramm leichter verständlich und die Abhängigkeiten sowie Eingangswerte sind besser erkennbar.
+
+<img src="./images/Große Entscheidungen I.svg" alt="Alexander Rose cc BY">
+
+Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine einzelne Teilentscheidung kann jetzt geändert werden, ohne die Logik in den anderen Teilentscheidungen anpassen zu müssen.
 
 
 
-**... Kata's Mission ...**
+------
 
-_**Duration:** ... Minutes_
+Modelliere dann:
 
-...
+- XXX
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 
 
