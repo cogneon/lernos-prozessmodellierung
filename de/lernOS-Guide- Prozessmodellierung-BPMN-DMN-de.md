@@ -64,6 +64,8 @@ Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stel
 
 
 
+# Grundlagen
+
 ## Warum ein Lernpfad Prozessmodellierung (BPMN&DMN)?
 
 In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können einen hohen Wert besitzen. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt Du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT mit einer gemeinsamen verbindenden  Sprache (BPMN & DMN) die digitale Transformation nach vorne zu bringen.
@@ -72,16 +74,14 @@ Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
 Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er enthält unter anderem:
 
+- 11 Lerninhalte mit den wichtigsten Grundlageninformationen zum jeweiligen Kapitel
 - 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodelierung
 - Zahlreiche Ressourcen zur weiteren Vertiefung
+- Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier umzusetzen sind.  
 
 
 
-# Lernpfad Prozessmodellierung (BPMN&DMN)
-
-Wieso - weshalb & Warum
-
-Alle Übungen sind so angelegt, das sie mit einem Stift und einem Blatt Papier zu lösen sind.  
+# Der Lernpfad Prozessmodellierung (BPMN&DMN)
 
 
 
@@ -137,20 +137,11 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
 **Dauer:** ca. 30 Minuten
 
-- Schau Dir die folgenden Folien in Ruhe an
+Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an und modelliere dann:
 
-<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 80%;" />
-
-<img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-------
-
-
-
-- Modelliere dann:
-  - a) einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
+- - a) einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
   - b) einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
-
+  
 - Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 
@@ -1025,6 +1016,45 @@ Bringe Dein Meisterstück in das letzte Weekly und stelle es den anderen Teilneh
 
 **Pro-Tip:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit auszeichnung bestanden.
 
+
+
+# Lerninhalte
+
+## Mach Dich mit den Grundlagen vertraut (KATA)
+
+## Dein erstes Diagramm (Happy-Path)
+
+- Schau Dir die folgenden Folien in Ruhe an
+
+<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 80%;" />
+
+<img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+[Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata))
+
+## Triff Deine ersten Entscheidungen (KATA)
+
+## Exkurs - Markierungen, Aufgabentypen & Daten (KATA)
+
+## Von Pools & Lanes (KATA)
+
+## Exkurs - Eventtypen (KATA)
+
+## Unterprozesse und Nachrichtenflüsse über Poolgrenzen
+
+## DMN - Grundlagen (KATA)
+
+## Datentypen & Hitpolicy (KATA)
+
+## Dein erstes komplexes DRD (KATA)
+
+## Dein Meisterstück (KATA)
+
+
+
+# Ressourcen
+
+<FEHLT>
 
 # Stop talking, start doing!
 
