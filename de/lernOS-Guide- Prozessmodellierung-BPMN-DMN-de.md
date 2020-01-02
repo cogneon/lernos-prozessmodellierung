@@ -974,11 +974,13 @@ Zur Besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen
 
 Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für andere Betrachter klar verständlich ist, was genau entschieden wird, gibt es **verschiedene Benennungsarten.**  
 
+
+
 | Benennungsstil  | Beispiel                                                     | Beschreibung                                                 |
 | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Aktivitätenstil | <img src="./images/Benenennsart Aktiviitätenstil.svg" alt="Alexander Rose cc BY"> | selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählenund ermitteln |
+| Aktivitätenstil | <img src="./images/Benenennsart Aktiviitätenstil.svg" alt="Alexander Rose cc BY"> | Selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählenund ermitteln |
 | Ereignisstil    | <img src="./images/Benenennsart Ergebnisstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidungwir nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
-| Fragenstil      | <img src="./images/Benenennsart Fragenstil.svg" alt="Alexander Rose cc BY"> | DieEntscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
+| Fragenstil      | <img src="./images/Benenennsart Fragenstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
 
 
 
