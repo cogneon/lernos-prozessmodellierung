@@ -938,7 +938,7 @@ Modelliere dann:
 
 ## Dein erstes komplexes DRD (Kata)
 
-**Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt**
+**Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich**
 
 **Dauer:**  45 Minuten
 
@@ -953,6 +953,32 @@ Das Entscheidungsdiagramm ist nun auf eine strategische Entscheidung und drei un
 <img src="./images/Große Entscheidungen I.svg" alt="Alexander Rose cc BY">
 
 Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine einzelne Teilentscheidung kann jetzt geändert werden, ohne die Logik in den anderen Teilentscheidungen anpassen zu müssen.
+
+
+
+Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wiederverwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind Statusbestimmen oder Berechtigung prüfen.
+
+In diesem Beispiel wird die Entscheidung **Kundenstatsu** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatt**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
+
+<img src="./images/Teilentscheidungen.svg" alt="Alexander Rose cc BY">
+
+
+
+Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elementes dargestellt werden.
+
+Zur Besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.
+
+<img src="./images/Teilentscheidungen II.svg" alt="Alexander Rose cc BY">
+
+
+
+Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für andere Betrachter klar verständlich ist, was genau entschieden wird, gibt es **verschiedene Benennungsarten.**  
+
+| Benennungsstil  | Beispiel                                                     | Beschreibung                                                 |
+| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Aktivitätenstil | <img src="./images/Benenennsart Aktiviitätenstil.svg" alt="Alexander Rose cc BY"> | selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählenund ermitteln |
+| Ereignisstil    | <img src="./images/Benenennsart Ergebnisstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidungwir nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
+| Fragenstil      | <img src="./images/Benenennsart Fragenstil.svg" alt="Alexander Rose cc BY"> | DieEntscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
 
 
 
