@@ -152,7 +152,186 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 
 **Dauer:**  90 Minuten
 
-Schau Dir die folgenden Folien in Ruhe an:
+Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an und modelliere dann:
+
+- - a) 
+  - b) 
+  
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+## Exkurs - Markierungen, Aufgabentypen &  Daten (Kata)
+
+**Attribute mit visuellen Effekten**
+
+**Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Die folgende Liste gibt Ihnen einen Überblick über die wichtigsten dieser Attribute** 
+
+**Dauer**: 60 Minuten
+
+Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen & Daten) an und modelliere dann:
+
+- Ein beliebiges Prozessdiagramm mit mindestens
+  - Drei verschiedenen Attributen 
+  - Einem Datenobjekt
+  - Einer Assoziation 
+  - Einem AND-Gateway
+
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+
+## Von Pools und Lanes (Kata)
+
+**Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.**
+
+**Dauer:**  60 Minuten
+
+Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere dann:
+
+- <FEHLT>
+
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+## Exkurs - Eventtypen (Kata)
+
+**Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen. **
+
+**Dauer:**  90 Minuten
+
+Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere dann:
+
+- <FEHLT>
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (Kata)
+
+**In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert.** 
+
+**Dauer:**  60 Minuten
+
+Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen) an und modelliere dann:
+
+- <FEHLT>
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+
+
+## DMN - Grundlagen (Kata)
+
+**In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen**
+
+**Dauer:** 60 Minuten
+
+Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere dann:
+
+- <FEHLT>
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+## Datentypen und HIT-Policy (Kata)
+
+**Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. **
+
+**Dauer:**  90 Minuten
+
+Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und modelliere dann:
+
+1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
+
+   a) Der Kunde muss mindestens 18 Jahre alt sein; 
+
+   b) Nichtmitgliederunter23 müssenmindestens5 Jahre Fahrerfahrung haben; 
+
+   c) Mitgliederunter23 müssenmindestens2 Jahre Fahrerfahrung haben
+
+2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
+
+   a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens1500 € erhalten VIP Status
+
+   b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
+
+   c) Ein Kunde mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhält ebenfalls Gold Status 
+
+   d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 Euro werden Standardkunden
+
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+**Pro-Tip:** Wenn Du Dich noch tiefer mit dem Thema auseinandersetzen willst, findest Du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
+
+
+
+## Dein erstes komplexes DRD (Kata)
+
+**Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich**
+
+**Dauer:**  45 Minuten
+
+Schaue Dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und modelliere dann:
+
+- XXX
+- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+
+
+
+## Dein Meisterstück (Kata)
+
+**In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.**
+
+**Dauer:** 120 - 240 Minuten (Je nach Ausprägung Deines Prozesses)
+
+Folgende Komponenten sollte dein Meisterstück mindestens enthalten
+
+- 3 Pools mit Nachrichtenflüssen
+
+- 1 Unterprozess
+
+- Tasks mit verschiedenen Attributen
+
+- Verschiedene Datenobjekte
+
+- Verschiedene Eventtypen: Mindestens ein Link-Event und ein angeheftetes Kompensations-Zwischenevent
+
+- Verschiedene Gateways: Mindestens ein Event-Gateway
+
+- 1 DRD mit 2 kaskadierenden Decisions und 4 Input-Data & 2 Knowledge-Sources
+
+- 2 unterschiedliche HIT-Policies (Single & Multiple)
+
+  
+
+
+Bringe Dein Meisterstück in das letzte Weekly und stelle es den anderen Teilnehmern vor.
+
+**Pro-Tip:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit auszeichnung bestanden.
+
+
+
+# Lerninhalte
+
+## Dein erstes Diagramm (Happy-Path)
+
+- Schau Dir die folgenden Folien in Ruhe an
+
+<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 80%;" />
+
+<img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+[Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata))
+
+------
+
+
+
+## Triff Deine ersten Entscheidungen
 
 Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
 
@@ -161,6 +340,8 @@ Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **E
 ### Exklusives Gateway (XOR) 
 
 Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
+
+
 
 <img src="./images/Exklusive Gateways (XOR) einfach.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
@@ -239,53 +420,27 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 - Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
 - Alle Zweige: Pasta, Steak & Salat
 
+[Zurück zur KATA](#Triff Deine ersten Entscheidungen (Kata))
+
 ------
 
 
 
-- Modelliere dann:
-  - a) 
-  - b) 
-
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+## Exkurs - Markierungen, Aufgabentypen & Daten
 
 
-
-## Exkurs - Markierungen, Aufgabentypen &  Daten (Kata)
-
-**Attribute mit visuellen Effekten**
-
-**Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Die folgende Liste gibt Ihnen einen Überblick über die wichtigsten dieser Attribute** 
-
-**Dauer**: 60 Minuten
-
-Schau Dir die folgenden Beschreibungen in Ruhe an:
 
 <img src="./images/Markierungen, Aufgaben-Typen und Daten.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
+[Zurück zur KATA](#Exkurs - Markierungen, Aufgabentypen &  Daten (Kata))
+
 ------
 
-Modelliere dann:
-
-- Ein beliebiges Prozessdiagramm mit mindestens
-  - Drei verschiedenen Attributen 
-  - Einem Datenobjekt
-  - Einer Assoziation 
-  - Einem AND-Gateway
-
-Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 
-
-## Von Pools und Lanes (Kata)
-
-**Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.**
-
-**Dauer:**  60 Minuten
+## Von Pools und Lanes
 
 In BPMN werden Verantwortlichkeiten (Organisationseinheiten, Abteilungen, Personen, Rollen) für Aufgaben mit Swimlanes (Pools und Lanes) dargestellt. Ein Prozess "gehört" zu einem Pool und ein Task wird von der jeweiligen Lane ausgeführt.
-
-Schau Dir die folgenden Folien in Ruhe an:
 
 <img src="./images/Von Pools und Lanes I.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
@@ -310,25 +465,13 @@ Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen
 
 <img src="./images/Sabine, Ralf und Alex wollen etwas kochen II.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
+[Zurück zur KATA](#Von Pools und Lanes (Kata))
+
 ------
 
-Modelliere dann:
-
-- <FEHLT>
-
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 
-
-## Exkurs - Eventtypen (Kata)
-
-**Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen. **
-
-**Dauer:**  90 Minuten
-
-Schau Dir die folgenden Beschreibungen in Ruhe an:
-
-
+## Exkurs - Eventtypen
 
 ### Blanko-Zwischenereignis
 
@@ -428,22 +571,15 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 <img src="./images/Ereignise.png" alt="http://bpmb.de/poster" style="zoom: 50%;" />
 
+
+
+[Zurück zur KATA](#Exkurs - Eventtypen (Kata))
+
 ------
-
-Modelliere dann:
-
-- <FEHLT>
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 
 
 ## Unterprozesse und Nachrichtenflüsse über Poolgrenzen
-
-**In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert.** 
-
-**Dauer:**  60 Minuten
-
-Schau Dir die folgenden Folien in Ruhe an:
 
 ### Unterprozesse
 
@@ -469,20 +605,15 @@ Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der
 
 Stellt die Kommunikation zwischen den Pools dar.
 
+[Zurück zur KATA](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen (Kata))
+
 ------
 
-Modelliere dann:
-
-- <FEHLT>
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 
+## DMN - Grundlagen
 
-
-
-# DMN - Decition Model an Notation
-
-## Einführung
+### Einführung
 
 Business Decision Management (BDM) stellt Konzepte, Methodenund Technikenfür die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
 Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer DMN Software, um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidunstabellen bestätigen zu lassen. 
@@ -512,14 +643,6 @@ Das digitale Zeitalter und die zunehmend verstärkten gesetzlichen Regulierungen
 
 **Decision Model and Notation** (DMN) ist eine grafische Spezifikationssprache, die Elemente definiert um Geschäftsentscheidungen zu modellieren und deren Logik zu dokumentieren. 
 DMN dient als **Schnittstelle zwischen Modellierung und Implementierung** von Entscheidungslogik (Fachbereich & IT).
-
-
-
-## DMN - Grundlagen (Kata)
-
-**In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen**
-
-**Dauer:** 60 Minuten
 
 Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf **zwei Ebenen** erstellt. Während in der ersten Ebene die **Anforderungen (Informationen)** für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die **Logik (Regeln).**
 
@@ -771,33 +894,17 @@ Ein Eingang vom Typ **Hierarchie** listet **Werte in verschiedenen Kategorien** 
 Operatoren können sein:
 
 - Gleich
-
 - Ungleich
-
 - Element von
-
 - Kein Element von
 
-  
+[Zurück zur KATA](#DMN - Grundlagen (Kata))
 
 ------
 
-Modelliere dann:
-
-- <FEHLT>
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
 
 
-
-## Datentypen und HIT-Policy (Kata)
-
-**Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. **
-
-**Dauer:**  90 Minuten
-
-Schau Dir die folgenden Informationen in Ruhe an:
-
-
+## Datentypen und HIT-Policy
 
 ### Single hit policies 
 
@@ -897,41 +1004,13 @@ Folgende Aggregationen können angewendet werden:
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
 - Output für C+: 37
 
+[Zurück zur KATA](#Datentypen und HIT-policy (Kata))
+
 ------
 
 
 
-Modelliere dann:
-
-1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
-
-   a) Der Kunde muss mindestens 18 Jahre alt sein; 
-
-   b) Nichtmitgliederunter23 müssenmindestens5 Jahre Fahrerfahrung haben; 
-
-   c) Mitgliederunter23 müssenmindestens2 Jahre Fahrerfahrung haben
-
-2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
-
-   a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens1500 € erhalten VIP Status
-
-   b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
-
-   c) Ein Kunde mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhält ebenfalls Gold Status 
-
-   d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 Euro werden Standardkunden
-
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
-
-**Pro-Tip:** Wenn Du Dich noch tiefer mit dem Thema auseinandersetzen willst, findest Du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
-
-
-
-## Dein erstes komplexes DRD (Kata)
-
-**Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich**
-
-**Dauer:**  45 Minuten
+## Dein erstes komplexes DRD
 
 Das Diagramm zeigt, dass sehr viele Informationen berücksichtigt werden müssen, damit der Rabatt bestimmt werden kann. Um **große Entscheidungen** wie diese zu vermeiden, können Teile der Informationen in **untergeordnete Entscheidungen** ausgelagert werden. Doch wann sollten Entscheidungen überhaupt aufgeteilt werden? 
 
@@ -973,82 +1052,11 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 | Ereignisstil    | <img src="./images/Benenennsart Ergebnisstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidungwir nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
 | Fragenstil      | <img src="./images/Benenennsart Fragenstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
 
-
+[Zurück zur KATA](#Dein erstes komplexes DRD (Kata))
 
 ------
 
-Modelliere dann:
 
-- XXX
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
-
-
-
-## Dein Meisterstück (Kata)
-
-**In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.**
-
-**Dauer:** 120 - 240 Minuten (Je nach Ausprägung Deines Prozesses)
-
-Folgende Komponenten sollte dein Meisterstück mindestens enthalten
-
-- 3 Pools mit Nachrichtenflüssen
-
-- 1 Unterprozess
-
-- Tasks mit verschiedenen Attributen
-
-- Verschiedene Datenobjekte
-
-- Verschiedene Eventtypen: Mindestens ein Link-Event und ein angeheftetes Kompensations-Zwischenevent
-
-- Verschiedene Gateways: Mindestens ein Event-Gateway
-
-- 1 DRD mit 2 kaskadierenden Decisions und 4 Input-Data & 2 Knowledge-Sources
-
-- 2 unterschiedliche HIT-Policies (Single & Multiple)
-
-  
-
-  
-
-Bringe Dein Meisterstück in das letzte Weekly und stelle es den anderen Teilnehmern vor.
-
-**Pro-Tip:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit auszeichnung bestanden.
-
-
-
-# Lerninhalte
-
-## Mach Dich mit den Grundlagen vertraut (KATA)
-
-## Dein erstes Diagramm (Happy-Path)
-
-- Schau Dir die folgenden Folien in Ruhe an
-
-<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 80%;" />
-
-<img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-[Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata))
-
-## Triff Deine ersten Entscheidungen (KATA)
-
-## Exkurs - Markierungen, Aufgabentypen & Daten (KATA)
-
-## Von Pools & Lanes (KATA)
-
-## Exkurs - Eventtypen (KATA)
-
-## Unterprozesse und Nachrichtenflüsse über Poolgrenzen
-
-## DMN - Grundlagen (KATA)
-
-## Datentypen & Hitpolicy (KATA)
-
-## Dein erstes komplexes DRD (KATA)
-
-## Dein Meisterstück (KATA)
 
 
 
