@@ -8,7 +8,7 @@ Zu lernOS gibt es **drei grundlegende Leitfäden**, die den Ansatz auf **individ
 
 Wenn du **weitere Fragen** bezüglich lernOS hast, oder **Unterstützung von Gleichgesinnten** brauchst, kannst du die Community-Plattform [CONNECT](https://community.cogneon.de) und den [lernOS CircleFinder](https://community.cogneon.de/c/lernos/lernos-circlefinder) nutzen oder mit [#lernOS](https://twitter.com/search?q=%23lernOS) auf Twitter schreiben. Beachte: Die Meisterschaft von lernOS ist eine Frage von Monaten oder Jahren, nicht Stunden oder Tagen. Also: **Keep Calm & Learn On!**
 
-Dein @locutusvonborg
+Dein [@locutusvonborg](https://www.linkedin.com/in/alexander-rose-loci/)
 
 
 
@@ -48,15 +48,44 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 # Grundlagen
 
+## Was ist lernOS
+
 Um diesen Leitfaden bestmöglich nutzen zu können, solltest du etwas über lernOS wissen, auf dem dieser Leitfaden aufbaut. Dazu das Wichtigste in einer Sketchnote:
 
 <img src="./images/lernos_in_a_nutshell.png" alt="Karl Damke cc BY"  />
 
-Wenn du mehr wissen willst, kannst alles über lernOS [auf Github](https://cogneon.github.io/lernos-core/) nachlesen, dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören. 
+Wenn du mehr wissen willst, kannst alles über lernOS [auf Github](https://cogneon.github.io/lernos-core/) nachlesen, dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören, oder Dir diese [Präsentation](https://cogneon.github.io/lernos-for-you) ansehen.
 
-Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stellen auf bestimmte Inhalte aus dem [lernOS-für-Dich Leitfaden](https://github.com/cogneon/lernos-for-you) oder weiterführende Ressourcen verweisen. 
+Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stellen auf bestimmte Inhalte aus dem lernOS-für-Dich Leitfaden oder weiterführende Ressourcen verweisen. 
 
 
+
+## lernOS Sprints: Lebenslanges Lernen in 13-wöchigen Timeboxen
+
+lernOS wird in Zeiträumen von 13 Wochen, die wie bei [Scrum](https://scrumguides.org/) Learning Sprints genannt werden, praktiziert. Normalerweise laufen die Sprints jeweils in einem Quartal des Jahres. Der Rhythmus kann bei Bedarf angepasst werden. Ein Sprint kann alleine (lernOS Solist), zu zweit (lernOS Tandem) oder in einer Gruppe von 4-5 Personen (lernOS Circle) durchlaufen werden.
+
+<img src="./images/Sprint.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+So läuft ein lernOS Sprint ab:
+
+- **Woche 0:** Die Sprint Planung. Versteht jeder die Vorgehensweise? Wann wird der wöchentliche Termin (Weekly) stattfinden? Welcher Lernpfad wird für den Sprint gewählt? Bei lernOS Tandems und Circles: Wird das Weekly als persönliches Treffen oder virtuell stattfinden? Welche Tools werden für die Kommunikation und Dokumentation verwendet? Ist jeder in der Lage, die Tools zu verwenden?
+- **Wochen 1-11:** Es wird an den Zielen und gewünschten Ergebnissen gearbeitet und der Fortschritt im Weekly kritisch reflektiert. Ein Lernpfad schlägt Übungen vor, die wie bei [CoderDojos](https://coderdojo.com/) Katas genannt werden. Die beiden Boxenstopps in Woche 4 und Woche 8 helfen zu sehen, ob noch alle auf dem richtigen Weg sind. 
+  - In vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
+- **Woche 12 mit der Retrospektive:** Review der finalen Ergebnisse des Sprints und Retrospektive des gesamten Prozesses. Bei Lerntandems und Circles: Die Beteiligten entscheiden, ob sie für einen weiteren Sprint zusammen bleiben wollen.
+
+## Was ist Prozessmodellierung?
+
+Bei der **Prozessmodellierung**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden.[^1]: [https://de.wikipedia.org/wiki/Gesch%C3%A4ftsprozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)
+
+## Was ist BMMP?
+
+Die **Business Process Model and Notation** (BPMN, deutsch Geschäftsprozessmodell und -notation) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können. [^2]: https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation
+
+## Was ist DMN?
+
+**Decision Model and Notation** (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten.[^3]: https://de.wikipedia.org/wiki/Decision_Model_and_Notation
 
 ## Warum ein Lernpfad Prozessmodellierung (BPMN&DMN)?
 
@@ -84,17 +113,7 @@ Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er 
 
 
 
-## Was ist Prozessmodellierung?
 
-Bei der **Prozessmodellierung**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden.[^1]: [https://de.wikipedia.org/wiki/Gesch%C3%A4ftsprozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)
-
-## Was ist BMMP?
-
-Die **Business Process Model and Notation** (BPMN, deutsch Geschäftsprozessmodell und -notation) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können. [^2]: https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation
-
-## Was ist DMN?
-
-**Decision Model and Notation** (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten.[^3]: https://de.wikipedia.org/wiki/Decision_Model_and_Notation
 
 
 
@@ -1051,7 +1070,7 @@ Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine ein
 
 Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wiederverwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind Statusbestimmen oder Berechtigung prüfen.
 
-In diesem Beispiel wird die Entscheidung **Kundenstatsu** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatt**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
+In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatt**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
 <img src="./images/Teilentscheidungen.svg" alt="Alexander Rose cc BY">
 
@@ -1071,8 +1090,8 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 | Benennungsstil  | Beispiel                                                     | Beschreibung                                                 |
 | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Aktivitätenstil | <img src="./images/Benenennsart Aktiviitätenstil.svg" alt="Alexander Rose cc BY"> | Selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählenund ermitteln |
-| Ereignisstil    | <img src="./images/Benenennsart Ergebnisstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidungwir nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
+| Aktivitätenstil | <img src="./images/Benenennsart Aktiviitätenstil.svg" alt="Alexander Rose cc BY"> | Selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln |
+| Ereignisstil    | <img src="./images/Benenennsart Ergebnisstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidung wird nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
 | Fragenstil      | <img src="./images/Benenennsart Fragenstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
 
 [Zurück zur KATA](#Dein erstes komplexes DRD (Kata))
@@ -1081,11 +1100,61 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 
 
-
-
 # Ressourcen
 
-<FEHLT>
+## Webseiten
+
+[Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/)
+
+[Object Management Group - Business Process Model and Notation](https://www.omg.org/spec/BPMN)
+
+[Object Management Group - Decision Model and Notation](https://www.omg.org/spec/DMN)
+
+[BPMN - Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf)
+
+[Blog von Bruce Silver](https://methodandstyle.com/blog/)
+
+[BPMN 2.0 Cheat Sheet](https://www.signavio.com/de/downloads/kurzinfos/bpmn-2-0-cheat-sheet/)
+
+[DMN 1.1 Cheat Sheet](https://www.signavio.com/de/downloads/kurzinfos/dmn-1-1-cheat-sheet/)
+
+## Foren & Gruppen
+
+[Xing-Forum: Berliner BPM - Offensive](https://www.xing.com/communities/groups/berliner-bpm-offensive-bdbf-1074763)
+
+[LinkedIN-Gruppe: BPMN](https://www.linkedin.com/groups/111271/)
+
+[LinkedIN-Gruppe: BPMN and beyond](https://www.linkedin.com/groups/115356/)
+
+[LinkedIN-Gruppe: Decision Model and Notation (DMN)](https://www.linkedin.com/groups/4225568/)
+
+
+
+## Literatur
+
+[Praxishandbuch BPMN 2.0](https://www.amazon.de/Praxishandbuch-BPMN-2-0-Jakob-Freund/dp/3446442553/)
+
+[BPMN Methode und Stil - Bruce Silver](https://www.amazon.de/Methode-Zweite-Auflage-Handbuch-Prozessautomatisierung/dp/0982368127)
+
+## Video
+
+[BPMN 2.0 - Grundelemente (Tutorial Part 1)](https://youtu.be/VappsiNgx38)
+
+[BPMN 2.0 - Gateways (Tutorial Part 2)](https://youtu.be/pcefgu-D8b0)
+
+[BPMN 2.0 - Aktivitäten (Tutorial Part 3)](https://youtu.be/QIFSaaAvLzg)
+
+[BPMN 2.0 - Ereignisse (Tutorial Part 4)](https://youtu.be/4-OYKum7VnY)
+
+[BPMN 2.0 - Pools & Lanes (Tutorial Part 5)](https://youtu.be/9Sjb-R44FBg)
+
+[BPMN 2.0 - Daten (Tutorial Part 6)](https://youtu.be/a2HCoJUG0xs)
+
+## MOOC
+
+[Business Processes: Modeling, Simulation, Execution](https://open.hpi.de/courses/bpm2019)
+
+
 
 # Stop talking, start doing!
 
@@ -1113,15 +1182,6 @@ lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den S
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 
 - t.b.d.
-
-**<u>*In wie weit müssen, sollen die im Core genannten in den Child-Lernpfaden genannt werden?</u>***
-
-> - **Hirotaka Takeuchi** und **Ikujiro Nonaka** für die Einführung des Begriffs Scrum für agile Innovationsmethoden (1986).
-> - **Jeff Sutherland** und **Ken Schwaber** für die Definition eines agilen Projektmanagements im [Scrum Guide](https://scrumguides.org) (2010).
-> - **David Allen** für die Methode [Getting Things Done](https:/gettingthingsdone.com) (GTD), die den Weg zu stressfreier Produktivität von Wissensarbeiter*innen aufzeigt.
-> - **Andy Grove** für die Entwicklung der Methode [Objectives & Key Results](https://de.wikipedia.org/wiki/Objectives_and_Key_Results) (OKR) als Weiterentwicklung des Management by Objectives (MbO) von Peter Drucker bei Intel (1980er). **John Doer** für die Einführung von OKR bei Google und **Rick Klau** von Google Ventures für seinen Vortrag [How Google sets goals: OKRs](https://www.youtube.com/watch?v=mJB83EZtAjc) (2013).
-> - **Glyn Moody** (2006) und **Bryce Williams** (2010) für den Begriff und die Definition von Working Out Loud als "Observable Work + Narrating Your Work". **John Stepper** für die Gestaltung des 12-wöchigen WOL-Lernprogramms, das in den [WOL Circle Guides](https:/workingoutloud.com/circle-guides) dokumentiert ist (2015). **Katharina Krentz** von Bosch für ihre vielen Beiträge, Working Out Loud in Organisationen nutzbar zu machen.
-> - **Johannes Müller** und **Tobias Müller-Zielke** für die Vorträge zu OKRs und GTD auf dem lernOS Rockstars Camp 2019 und **Alexander Rose** für die Zusammenstellung des GTD Lernpfads.
 
 
 
