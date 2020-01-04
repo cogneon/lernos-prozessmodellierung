@@ -10,13 +10,27 @@ Wenn du **weitere Fragen** bezüglich lernOS hast, oder **Unterstützung von Gle
 
 Dein @locutusvonborg
 
+
+
+------
+
+**!!! Temporärer Einzug während der Entwicklung !!!**
+
+# Table of content
+
+[toc]
+
+**!!! Temporärer Einzug während der Entwicklung !!!**
+
+
+
 # Danksagungen
 
 lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
 
 - Simon Dückert für <FEHLT>
 - Hans Facher für <FEHLT>
-- Florian für <FEHLT>
+- Florian Adam für <FEHLT>
 - Ralf Schramm für <FEHLT>
 
 **<u>*In wie weit müssen, sollen die im Core genannten in den Child-Lernpfaden genannt werden?</u>***
@@ -70,6 +84,10 @@ Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stel
 
 In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können einen hohen Wert besitzen. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt Du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT mit einer gemeinsamen verbindenden  Sprache (BPMN & DMN) die digitale Transformation nach vorne zu bringen.
 
+Dieser Lernpfad funktioniert für **alle Erfahrungslevel** und richtet sich damit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob Du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
+
+Das bedeutet auch, das die Übungen eine steile Lernkurve mit sich bringen.  Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier umzusetzen sind.  
+
 Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
 Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er enthält unter anderem:
@@ -77,7 +95,20 @@ Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er 
 - 11 Lerninhalte mit den wichtigsten Grundlageninformationen zum jeweiligen Kapitel
 - 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodelierung
 - Zahlreiche Ressourcen zur weiteren Vertiefung
-- Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier umzusetzen sind.  
+
+
+
+## Was ist Prozessmodellierung?
+
+<FEHLT>
+
+## Was ist BMMP?
+
+<FEHLT>
+
+## Was ist DMN?
+
+<FEHLT>
 
 
 
