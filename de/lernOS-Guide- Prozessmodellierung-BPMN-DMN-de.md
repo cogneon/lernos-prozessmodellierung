@@ -24,26 +24,6 @@ Dein @locutusvonborg
 
 
 
-# Danksagungen
-
-lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
-
-- Simon Dückert für <FEHLT>
-- Hans Facher für <FEHLT>
-- Florian Adam für <FEHLT>
-- Ralf Schramm für <FEHLT>
-
-**<u>*In wie weit müssen, sollen die im Core genannten in den Child-Lernpfaden genannt werden?</u>***
-
-> - **Hirotaka Takeuchi** und **Ikujiro Nonaka** für die Einführung des Begriffs Scrum für agile Innovationsmethoden (1986).
-> - **Jeff Sutherland** und **Ken Schwaber** für die Definition eines agilen Projektmanagements im [Scrum Guide](https://scrumguides.org) (2010).
-> - **David Allen** für die Methode [Getting Things Done](https:/gettingthingsdone.com) (GTD), die den Weg zu stressfreier Produktivität von Wissensarbeiter*innen aufzeigt.
-> - **Andy Grove** für die Entwicklung der Methode [Objectives & Key Results](https://de.wikipedia.org/wiki/Objectives_and_Key_Results) (OKR) als Weiterentwicklung des Management by Objectives (MbO) von Peter Drucker bei Intel (1980er). **John Doer** für die Einführung von OKR bei Google und **Rick Klau** von Google Ventures für seinen Vortrag [How Google sets goals: OKRs](https://www.youtube.com/watch?v=mJB83EZtAjc) (2013).
-> - **Glyn Moody** (2006) und **Bryce Williams** (2010) für den Begriff und die Definition von Working Out Loud als "Observable Work + Narrating Your Work". **John Stepper** für die Gestaltung des 12-wöchigen WOL-Lernprogramms, das in den [WOL Circle Guides](https:/workingoutloud.com/circle-guides) dokumentiert ist (2015). **Katharina Krentz** von Bosch für ihre vielen Beiträge, Working Out Loud in Organisationen nutzbar zu machen.
-> - **Johannes Müller** und **Tobias Müller-Zielke** für die Vorträge zu OKRs und GTD auf dem lernOS Rockstars Camp 2019 und **Alexander Rose** für die Zusammenstellung des GTD Lernpfads.
-
-
-
 # Lizenz
 
 lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0): 
@@ -66,7 +46,7 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 
 
-# Einleitung
+# Grundlagen
 
 Um diesen Leitfaden bestmöglich nutzen zu können, solltest du etwas über lernOS wissen, auf dem dieser Leitfaden aufbaut. Dazu das Wichtigste in einer Sketchnote:
 
@@ -74,11 +54,9 @@ Um diesen Leitfaden bestmöglich nutzen zu können, solltest du etwas über lern
 
 Wenn du mehr wissen willst, kannst alles über lernOS [auf Github](https://cogneon.github.io/lernos-core/) nachlesen, dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören. 
 
-Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stellen auf bestimmte Inhalte aus dem lernOS Leitfaden oder weiterführende Ressourcen verweisen. 
+Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stellen auf bestimmte Inhalte aus dem [lernOS-für-Dich Leitfaden](https://github.com/cogneon/lernos-for-you) oder weiterführende Ressourcen verweisen. 
 
 
-
-# Grundlagen
 
 ## Warum ein Lernpfad Prozessmodellierung (BPMN&DMN)?
 
@@ -98,6 +76,14 @@ Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er 
 
 
 
+## Aufbau des dieses Lernpfades
+
+`Fehlt: Sketchnote non Ralf`
+
+`Inhalt: Trennung von Lerninhalt & KATA. Trennung von BPMN & DMN`
+
+
+
 ## Was ist Prozessmodellierung?
 
 Bei der **Prozessmodellierung**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden.[^1]: [https://de.wikipedia.org/wiki/Gesch%C3%A4ftsprozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)
@@ -108,19 +94,17 @@ Die **Business Process Model and Notation** (BPMN, deutsch Geschäftsprozessmode
 
 ## Was ist DMN?
 
-**Decision Model and Notatio**n (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten.[^3]: https://de.wikipedia.org/wiki/Decision_Model_and_Notation
+**Decision Model and Notation** (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten.[^3]: https://de.wikipedia.org/wiki/Decision_Model_and_Notation
 
 
 
-
-
-# Der Lernpfad Prozessmodellierung (BPMN&DMN)
+# Lernpfad Prozessmodellierung (BPMN&DMN)
 
 
 
-## Woche 0: Organisation & Ziel(e) für die nächsten 12 Wochen
+## Organisation & Ziel(e) für die nächsten 12 Wochen
 
-In Woche 0 gilt es einige administrative & organisatorische Festlegungen für die nächsten 12 Wochen zu treffen:
+In **Woche 0** gilt es einige administrative & organisatorische Festlegungen für die nächsten 12 Wochen zu treffen:
 
 - **Wann** wird der wöchentliche Termin (Weekly) stattfinden? 
 
@@ -134,16 +118,16 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
   - Du solltest die Schlüsselergebnisse auf einer **Skala von 0,0 - 1,0** messen können. Um sich ehrgeizige Ziele zu setzen, gilt eine Fertigstellungsrate von 0,7 als Erfolg.
 
-    
+    Vorlage:
 
     > *Ich will (Ziel):* ...
-  >
-    > *gemessen an (Schlüsselergebnisse):*
-  >
-    > 1. ...
-    > 2. ...
-    > 3. ...
-    > 4. ...
+    
+    >*gemessen an (Schlüsselergebnisse):*
+      > 
+    >1. ...
+      > 2. ...
+      > 3. ...
+      > 4. ...
   
   
   
@@ -153,7 +137,7 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
 
 
-## Mach Dich mit den Grundlagen vertraut (Kata)
+## Mach Dich mit den Grundlagen vertraut (KATA)
 
 **In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da Du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen**
 
@@ -164,7 +148,7 @@ In Woche 0 gilt es einige administrative & organisatorische Festlegungen für di
 
 
 
-## Dein erstes Diagramm (Happy-Path) (Kata)
+## Dein erstes Diagramm (Happy-Path) (KATA)
 
 **In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvorhergesehene Ereignisse.  I.d.R. gibt es auch nichts zu entscheiden. In der Welt der Prozessmodellierung nennen wir diesen Weg den Happy-Path. Tatsächlich beginnen wir bei einem neuen Prozessmodell zunächst immer mit der einfachsten Variante. Komplizierter wird es später schon ganz von alleine.**
 
@@ -179,7 +163,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 
 
 
-## Triff Deine ersten Entscheidungen (Kata)
+## Triff Deine ersten Entscheidungen (KATA)
 
 **Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die Du in dieser Kata kennenlernen und anwenden wirst**
 
@@ -194,7 +178,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an 
 
 
 
-## Exkurs - Markierungen, Aufgabentypen &  Daten (Kata)
+## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA)
 
 **Attribute mit visuellen Effekten**
 
@@ -215,7 +199,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen &
 
 
 
-## Von Pools und Lanes (Kata)
+## Von Pools und Lanes (KATA)
 
 **Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.**
 
@@ -229,7 +213,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere
 
 
 
-## Exkurs - Eventtypen (Kata)
+## Exkurs - Eventtypen (KATA)
 
 **Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen.**
 
@@ -242,7 +226,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere
 
 
 
-## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (Kata)
+## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (KATA)
 
 **In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert.** 
 
@@ -257,7 +241,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse �
 
 
 
-## DMN - Grundlagen (Kata)
+## DMN - Grundlagen (KATA)
 
 **In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen**
 
@@ -270,7 +254,7 @@ Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere da
 
 
 
-## Datentypen und HIT-Policy (Kata)
+## Datentypen und HIT-Policy (KATA)
 
 **Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. **
 
@@ -302,7 +286,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
 
 
-## Dein erstes komplexes DRD (Kata)
+## Dein erstes komplexes DRD (KATA)
 
 **Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich**
 
@@ -315,7 +299,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und mode
 
 
 
-## Dein Meisterstück (Kata)
+## Dein Meisterstück (KATA)
 
 **In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.**
 
@@ -348,7 +332,13 @@ Bringe Dein Meisterstück in das letzte Weekly und stelle es den anderen Teilneh
 
 
 
-# Lerninhalte
+## Retrospektive & Feier
+
+In dieser Woche sollte die endgültige Iteration Deiner Key Results vorliegen. Sprecht darüber und zeigt Sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie Ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet Ihr Euch etwas Zeit nehmen, um Euren Erfolg zu feiern!
+
+
+
+# Lernunterlagen
 
 ## Dein erstes Diagramm (Happy-Path)
 
@@ -1110,6 +1100,35 @@ Wenn du diesen Leitfaden gelesen hast, lernOS aber noch nicht aktiv umsetzt, sol
 Keep Calm & Learn On! :-)
 
 
+
+# Danksagungen
+
+lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
+
+- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATAS A, B,C ...
+
+  [Hans Facher]: https://www.linkedin.com/in/hans-facher-83957018a/	"LOL"
+
+  
+
+- Florian Adam für <FEHLT>
+
+- Ralf Schramm für die Scetschontes X, Y, Z, sowie
+
+- Simon Dückert für die didaktische und technische Unterstützung
+
+Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
+
+- t.b.d.
+
+**<u>*In wie weit müssen, sollen die im Core genannten in den Child-Lernpfaden genannt werden?</u>***
+
+> - **Hirotaka Takeuchi** und **Ikujiro Nonaka** für die Einführung des Begriffs Scrum für agile Innovationsmethoden (1986).
+> - **Jeff Sutherland** und **Ken Schwaber** für die Definition eines agilen Projektmanagements im [Scrum Guide](https://scrumguides.org) (2010).
+> - **David Allen** für die Methode [Getting Things Done](https:/gettingthingsdone.com) (GTD), die den Weg zu stressfreier Produktivität von Wissensarbeiter*innen aufzeigt.
+> - **Andy Grove** für die Entwicklung der Methode [Objectives & Key Results](https://de.wikipedia.org/wiki/Objectives_and_Key_Results) (OKR) als Weiterentwicklung des Management by Objectives (MbO) von Peter Drucker bei Intel (1980er). **John Doer** für die Einführung von OKR bei Google und **Rick Klau** von Google Ventures für seinen Vortrag [How Google sets goals: OKRs](https://www.youtube.com/watch?v=mJB83EZtAjc) (2013).
+> - **Glyn Moody** (2006) und **Bryce Williams** (2010) für den Begriff und die Definition von Working Out Loud als "Observable Work + Narrating Your Work". **John Stepper** für die Gestaltung des 12-wöchigen WOL-Lernprogramms, das in den [WOL Circle Guides](https:/workingoutloud.com/circle-guides) dokumentiert ist (2015). **Katharina Krentz** von Bosch für ihre vielen Beiträge, Working Out Loud in Organisationen nutzbar zu machen.
+> - **Johannes Müller** und **Tobias Müller-Zielke** für die Vorträge zu OKRs und GTD auf dem lernOS Rockstars Camp 2019 und **Alexander Rose** für die Zusammenstellung des GTD Lernpfads.
 
 
 
