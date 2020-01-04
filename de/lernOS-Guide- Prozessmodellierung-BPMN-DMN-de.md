@@ -1106,16 +1106,9 @@ Keep Calm & Learn On! :-)
 lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
 
 - [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATAS A, B,C ...
-
-  [Hans Facher]: https://www.linkedin.com/in/hans-facher-83957018a/	"LOL"
-
-  
-
-- Florian Adam für <FEHLT>
-
-- Ralf Schramm für die Scetschontes X, Y, Z, sowie
-
-- Simon Dückert für die didaktische und technische Unterstützung
+- [Florian Adam](https://www.linkedin.com/in/florian-adam-59627a142/) für <FEHLT>
+- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die Scetschontes X, Y, Z, sowie
+- [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die didaktische und technische Unterstützung
 
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 
