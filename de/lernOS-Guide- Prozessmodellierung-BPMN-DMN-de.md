@@ -64,6 +64,8 @@ Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stel
 
 lernOS wird in Zeiträumen von 13 Wochen, die wie bei [Scrum](https://scrumguides.org/) Learning Sprints genannt werden, praktiziert. Normalerweise laufen die Sprints jeweils in einem Quartal des Jahres. Der Rhythmus kann bei Bedarf angepasst werden. Ein Sprint kann alleine (lernOS Solist), zu zweit (lernOS Tandem) oder in einer Gruppe von 4-5 Personen (lernOS Circle) durchlaufen werden.
 
+
+
 <img src="./images/Sprint.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 
@@ -75,25 +77,33 @@ lernOS wird in Zeiträumen von 13 Wochen, die wie bei [Scrum](https://scrumguide
   - In vielen Fällen ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
 - **Woche 12 mit der Retrospektive:** Review der finalen Ergebnisse des Sprints und Retrospektive des gesamten Prozesses. Bei Lerntandems und Circles: Die Beteiligten entscheiden, ob sie für einen weiteren Sprint zusammen bleiben wollen.
 
-### So läuft ein Weekly ab
+### So läuft ein Weekly ab:
 
 - **Check-in:** Was habe ich seit dem letzten Check-in getan? Was hat sich bei den Schlüsselergebnissen getan? Was hält mich auf? Zwei-Minuten-Timebox pro Circle-Mitglied. *(10 Minuten)*
+
 - **Kata-Diskussion** Zeigt Euch gegenseitig Eure Ergebnisse. Diskutiert Eure Erkenntnisse & Herausforderungen 
+
 - **Check-out:** Was werde ich bis zum nächsten Weekly tun? Eine-Minute-Timebox pro Circle-Mitglied. *(5 Minuten)*
+
+  
+
+------
 
 
 
 ## Was ist Prozessmodellierung?
 
-Bei der **Prozessmodellierung**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden.[^1]: [https://de.wikipedia.org/wiki/Gesch%C3%A4ftsprozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)
+Bei der **Prozessmodellierung**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. Quelle:  [Wikipedia](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)
 
-## Was ist BMMP?
+### Was ist BMMP?
 
-Die **Business Process Model and Notation** (BPMN, deutsch Geschäftsprozessmodell und -notation) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können. [^2]: https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation
+Die **Business Process Model and Notation** (BPMN, deutsch Geschäftsprozessmodell und -notation) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können. Quelle:  [Wikipedia](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notatio)
 
-## Was ist DMN?
+### Was ist DMN?
 
-**Decision Model and Notation** (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten.[^3]: https://de.wikipedia.org/wiki/Decision_Model_and_Notation
+**Decision Model and Notation** (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten.  Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Decision_Model_and_Notation)
+
+
 
 ## Warum ein Lernpfad Prozessmodellierung (BPMN&DMN)?
 
@@ -101,14 +111,14 @@ In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [di
 
 Dieser Lernpfad funktioniert für **alle Erfahrungslevel** und richtet sich damit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob Du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
 
-Das bedeutet auch, das die Übungen eine steile Lernkurve mit sich bringen.  Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier umzusetzen sind.  
+Das bedeutet auch, das die Übungen eine **steile Lernkurve** für Euch bereit halten.  Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier umsetzbar sind.  
 
 Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
 Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er enthält unter anderem:
 
 - 11 Lerninhalte mit den wichtigsten Grundlageninformationen zum jeweiligen Kapitel
-- 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodelierung
+- 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodellierung
 - Zahlreiche Ressourcen zur weiteren Vertiefung
 
 
