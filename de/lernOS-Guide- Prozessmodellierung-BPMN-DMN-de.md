@@ -68,12 +68,20 @@ lernOS wird in Zeiträumen von 13 Wochen, die wie bei [Scrum](https://scrumguide
 
 
 
-So läuft ein lernOS Sprint ab:
+### So läuft ein lernOS Sprint ab:
 
 - **Woche 0:** Die Sprint Planung. Versteht jeder die Vorgehensweise? Wann wird der wöchentliche Termin (Weekly) stattfinden? Welcher Lernpfad wird für den Sprint gewählt? Bei lernOS Tandems und Circles: Wird das Weekly als persönliches Treffen oder virtuell stattfinden? Welche Tools werden für die Kommunikation und Dokumentation verwendet? Ist jeder in der Lage, die Tools zu verwenden?
 - **Wochen 1-11:** Es wird an den Zielen und gewünschten Ergebnissen gearbeitet und der Fortschritt im Weekly kritisch reflektiert. Ein Lernpfad schlägt Übungen vor, die wie bei [CoderDojos](https://coderdojo.com/) Katas genannt werden. Die beiden Boxenstopps in Woche 4 und Woche 8 helfen zu sehen, ob noch alle auf dem richtigen Weg sind. 
-  - In vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
+  - In vielen Fällen ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
 - **Woche 12 mit der Retrospektive:** Review der finalen Ergebnisse des Sprints und Retrospektive des gesamten Prozesses. Bei Lerntandems und Circles: Die Beteiligten entscheiden, ob sie für einen weiteren Sprint zusammen bleiben wollen.
+
+### So läuft ein Weekly ab
+
+- **Check-in:** Was habe ich seit dem letzten Check-in getan? Was hat sich bei den Schlüsselergebnissen getan? Was hält mich auf? Zwei-Minuten-Timebox pro Circle-Mitglied. *(10 Minuten)*
+- **Kata-Diskussion** Zeigt Euch gegenseitig Eure Ergebnisse. Diskutiert Eure Erkenntnisse & Herausforderungen 
+- **Check-out:** Was werde ich bis zum nächsten Weekly tun? Eine-Minute-Timebox pro Circle-Mitglied. *(5 Minuten)*
+
+
 
 ## Was ist Prozessmodellierung?
 
@@ -163,7 +171,7 @@ In **Woche 0** gilt es einige administrative & organisatorische Festlegungen fü
 **Dauer:** ca.  60 Minuten
 
 - Besuche die Seite  [Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/) und lies sie Dir gründlich durch. 
-- Notiere Dir Dinge, die Du ggf. noch nicht nicht verstehst. (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -178,7 +186,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 - - a) einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
   - b) einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
   
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -193,7 +201,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an 
 - - a) 
   - b) 
   
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -213,7 +221,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen &
   - Einer Assoziation 
   - Einem AND-Gateway
 
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -228,7 +236,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere
 
 - <FEHLT>
 
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -241,7 +249,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere
 Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere dann:
 
 - <FEHLT>
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -254,9 +262,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere
 Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen) an und modelliere dann:
 
 - <FEHLT>
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
-
-
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -269,7 +275,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse �
 Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere dann:
 
 - <FEHLT>
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -299,7 +305,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
    d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 Euro werden Standardkunden
 
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 **Pro-Tip:** Wenn Du Dich noch tiefer mit dem Thema auseinandersetzen willst, findest Du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
@@ -314,7 +320,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 Schaue Dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und modelliere dann:
 
 - XXX
-- Notiere Dir die Schwierigkeiten & Erkenntnisse die Du bei der Übung hattest (Bringe sie in das Weekly und diskutiere sie mit den anderen Circlern)
+- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -345,9 +351,9 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten
   
 
 
-Bringe Dein Meisterstück in das letzte Weekly und stelle es den anderen Teilnehmern vor.
+Bringe Dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-**Pro-Tip:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit auszeichnung bestanden.
+**Pro-Tip:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit Auszeichnung bestanden.
 
 
 
@@ -1127,8 +1133,6 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 [LinkedIN-Gruppe: BPMN and beyond](https://www.linkedin.com/groups/115356/)
 
 [LinkedIN-Gruppe: Decision Model and Notation (DMN)](https://www.linkedin.com/groups/4225568/)
-
-
 
 ## Literatur
 
