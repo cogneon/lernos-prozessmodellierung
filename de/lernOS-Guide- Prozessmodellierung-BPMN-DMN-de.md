@@ -123,7 +123,7 @@ Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er 
 
 
 
-## Aufbau des dieses Lernpfades
+## Aufbau dieses Lernpfades
 
 `Fehlt: Sketchnote von Ralf`
 
@@ -131,7 +131,12 @@ Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er 
 
 
 
+Die meisten Katas stehen in 2 Varianten zur Verfügung
 
+1. Eine konkrete vorgegebene Aufgabe
+2. Eine Aufgabe ohne spezielle Vorgaben
+
+Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedenen Leistungsniveaus innerhalb eines Circles  bedienen zu wollen. Während Variante 1 eher für Beginner gedacht ist und sehr gut dazu geeignet, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Problemstellungen lösen wollen. 
 
 
 
@@ -176,7 +181,7 @@ In **Woche 0** gilt es einige administrative & organisatorische Festlegungen fü
 
 ## Mach Dich mit den Grundlagen vertraut (KATA)
 
-**In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da Du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen**
+In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da Du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
 
 **Dauer:** ca.  60 Minuten
 
@@ -187,7 +192,7 @@ In **Woche 0** gilt es einige administrative & organisatorische Festlegungen fü
 
 ## Dein erstes Diagramm (Happy-Path) (KATA)
 
-**In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvorhergesehene Ereignisse.  I.d.R. gibt es auch nichts zu entscheiden. In der Welt der Prozessmodellierung nennen wir diesen Weg den Happy-Path. Tatsächlich beginnen wir bei einem neuen Prozessmodell zunächst immer mit der einfachsten Variante. Komplizierter wird es später schon ganz von alleine.**
+In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvorhergesehene Ereignisse.  I.d.R. gibt es auch nichts zu entscheiden. In der Welt der Prozessmodellierung nennen wir diesen Weg den Happy-Path. Tatsächlich beginnen wir bei einem neuen Prozessmodell zunächst immer mit der einfachsten Variante. Komplizierter wird es später schon ganz von alleine.
 
 **Dauer:** ca. 30 Minuten
 
@@ -202,7 +207,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 
 ## Triff Deine ersten Entscheidungen (KATA)
 
-**Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die Du in dieser Kata kennenlernen und anwenden wirst**
+Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die Du in dieser Kata kennenlernen und anwenden wirst
 
 **Dauer:**  90 Minuten
 
@@ -217,9 +222,9 @@ Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an 
 
 ## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA)
 
-**Attribute mit visuellen Effekten**
+Attribute mit visuellen Effekten
 
-**Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Die folgende Liste gibt Ihnen einen Überblick über die wichtigsten dieser Attribute** 
+Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Die folgende Liste gibt Ihnen einen Überblick über die wichtigsten dieser Attribute 
 
 **Dauer**: 60 Minuten
 
@@ -238,7 +243,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen &
 
 ## Von Pools und Lanes (KATA)
 
-**Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.**
+Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.
 
 **Dauer:**  60 Minuten
 
@@ -252,7 +257,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere
 
 ## Exkurs - Eventtypen (KATA)
 
-**Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen.**
+Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen.
 
 **Dauer:**  90 Minuten
 
@@ -265,7 +270,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere
 
 ## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (KATA)
 
-**In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert.** 
+In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert. 
 
 **Dauer:**  60 Minuten
 
@@ -278,7 +283,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse �
 
 ## DMN - Grundlagen (KATA)
 
-**In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen**
+In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen
 
 **Dauer:** 60 Minuten
 
@@ -291,7 +296,7 @@ Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere da
 
 ## Datentypen und HIT-Policy (KATA)
 
-**Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. **
+Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
 **Dauer:**  90 Minuten
 
@@ -323,7 +328,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
 ## Dein erstes komplexes DRD (KATA)
 
-**Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich**
+Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich
 
 **Dauer:**  45 Minuten
 
@@ -336,7 +341,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und mode
 
 ## Dein Meisterstück (KATA)
 
-**In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.**
+In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.
 
 **Dauer:** 120 - 240 Minuten (Je nach Ausprägung Deines Prozesses)
 
@@ -673,8 +678,8 @@ Stellt die Kommunikation zwischen den Pools dar.
 
 ### Einführung
 
-Business Decision Management (BDM) stellt Konzepte, Methodenund Technikenfür die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
-Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer DMN Software, um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidunstabellen bestätigen zu lassen. 
+**Business Decision Management** (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
+Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer DMN Software, um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen. 
 
 
 | Menschliche Entscheidungen    | Automatisierte Entscheidungen               |
@@ -1133,6 +1138,10 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 [BPMN 2.0 Cheat Sheet](https://www.signavio.com/de/downloads/kurzinfos/bpmn-2-0-cheat-sheet/)
 
 [DMN 1.1 Cheat Sheet](https://www.signavio.com/de/downloads/kurzinfos/dmn-1-1-cheat-sheet/)
+
+## Tools
+
+[Web-based tooling for BPMN, DMN and CMMN](https://bpmn.io/)
 
 ## Foren & Gruppen
 
