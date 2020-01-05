@@ -125,7 +125,7 @@ Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er 
 
 ## Aufbau des dieses Lernpfades
 
-`Fehlt: Sketchnote non Ralf`
+`Fehlt: Sketchnote von Ralf`
 
 `Inhalt: Trennung von Lerninhalt & KATA. Trennung von BPMN & DMN`
 
