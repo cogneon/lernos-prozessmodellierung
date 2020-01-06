@@ -376,6 +376,8 @@ Bringe Dein Meisterstück in das letzte Weekly mit und stelle es den anderen Tei
 
 In dieser Woche sollte die endgültige Iteration Deiner Key Results vorliegen. Sprecht darüber und zeigt Sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie Ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet Ihr Euch etwas Zeit nehmen, um Euren Erfolg zu feiern!
 
+------
+
 
 
 # Lernunterlagen
@@ -475,7 +477,7 @@ Bei der Zusammenführung **wird auf alle gewählten Zweige gewartet**.
 
 Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
-**Formel: 2^n-1, hier: 2^3-1 = 7 (n = Anzahl der ausgehenden Zweige)**
+**Formel: 2^N-1, hier: 2^3-1 = 7 (N = Anzahl der ausgehenden Zweige)**
 
 
 
@@ -1204,6 +1206,7 @@ lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den S
 
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 
+- Andreas Schäffler
 - t.b.d.
 
 
