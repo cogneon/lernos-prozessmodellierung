@@ -12,18 +12,6 @@ Dein [@locutusvonborg](https://www.linkedin.com/in/alexander-rose-loci/)
 
 
 
-------
-
-**!!! Temporärer Einzug während der Entwicklung !!!**
-
-# Table of content
-
-[toc]
-
-**!!! Temporärer Einzug während der Entwicklung !!!**
-
-
-
 # Lizenz
 
 lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0): 
@@ -93,15 +81,15 @@ lernOS wird in Zeiträumen von 13 Wochen, die wie bei [Scrum](https://scrumguide
 
 ## Was ist Prozessmodellierung?
 
-Bei der **Prozessmodellierung**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. Quelle:  [Wikipedia](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)
+Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
 
-### Was ist BMMP?
+### Was ist BPMN?
 
-Die **Business Process Model and Notation** (BPMN, deutsch Geschäftsprozessmodell und -notation) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können. Quelle:  [Wikipedia](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notatio)
+Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN, deutsch Geschäftsprozessmodell und -notation) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.
 
 ### Was ist DMN?
 
-**Decision Model and Notation** (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten.  Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Decision_Model_and_Notation)
+**[Decision Model and Notation](https://de.wikipedia.org/wiki/Decision_Model_and_Notation)** (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten. 
 
 
 
