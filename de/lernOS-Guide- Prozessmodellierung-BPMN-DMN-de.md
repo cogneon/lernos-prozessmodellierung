@@ -1,6 +1,6 @@
 
 
-# Vorwort
+# Über lernOS
 
 Das Verb "lernos" ist die Zukunftsform von "lernen" auf Esperanto (mi lernos = ich werde lernen, ni lernos = wir werden lernen). **lernOS** ist ein **Betriebssystem** für **Lebenslanges Lernen** und **Lernende Organisationen**. lernOS ist aber keine Software, sondern "Brainware". Es ist eine Art zu Denken und zu Handeln, um als Einzelperson, Team oder Organisation im 21. Jahrhundert erfolgreich zu sein. Das groß geschriebene "OS" im Namen unterstreicht die Bedeutung der Digitalisierung für unsere vernetzte Wissensgesellschaft.
 
@@ -35,10 +35,6 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 
 # Grundlagen
-
-## Was ist lernOS?
-
-Alles was Du zur Methode lernOS wissen musst, findest Du [auf Github](https://cogneon.github.io/lernos-core/), dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören, oder Dir diese [Präsentation](https://cogneon.github.io/lernos-for-you) ansehen.
 
 ## Was ist Prozessmodellierung?
 
