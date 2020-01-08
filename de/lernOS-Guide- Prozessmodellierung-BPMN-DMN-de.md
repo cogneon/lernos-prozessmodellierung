@@ -36,42 +36,9 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 # Grundlagen
 
-## Was ist lernOS
+## Was ist lernOS?
 
-Um diesen Leitfaden bestmöglich nutzen zu können, solltest du etwas über lernOS wissen, auf dem dieser Leitfaden aufbaut. Dazu das Wichtigste in einer Sketchnote:
-
-<img src="./images/lernos_in_a_nutshell.png" alt="Karl Damke cc BY"  />
-
-Wenn du mehr wissen willst, kannst alles über lernOS [auf Github](https://cogneon.github.io/lernos-core/) nachlesen, dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören, oder Dir diese [Präsentation](https://cogneon.github.io/lernos-for-you) ansehen.
-
-Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stellen auf bestimmte Inhalte aus dem lernOS-für-Dich Leitfaden oder weiterführende Ressourcen verweisen. 
-
-
-
-## lernOS Sprints: Lebenslanges Lernen in 13-wöchigen Timeboxen
-
-lernOS wird in Zeiträumen von 13 Wochen, die wie bei [Scrum](https://scrumguides.org/) Learning Sprints genannt werden, praktiziert. Normalerweise laufen die Sprints jeweils in einem Quartal des Jahres. Der Rhythmus kann bei Bedarf angepasst werden. Ein Sprint kann alleine (lernOS Solist), zu zweit (lernOS Tandem) oder in einer Gruppe von 4-5 Personen (lernOS Circle) durchlaufen werden.
-
-
-
-<img src="./images/Sprint.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
-
-### So läuft ein lernOS Sprint ab:
-
-- **Woche 0:** Die Sprint Planung. Versteht jeder die Vorgehensweise? Wann wird der wöchentliche Termin (Weekly) stattfinden? Welcher Lernpfad wird für den Sprint gewählt? Bei lernOS Tandems und Circles: Wird das Weekly als persönliches Treffen oder virtuell stattfinden? Welche Tools werden für die Kommunikation und Dokumentation verwendet? Ist jeder in der Lage, die Tools zu verwenden?
-- **Wochen 1-11:** Es wird an den Zielen und gewünschten Ergebnissen gearbeitet und der Fortschritt im Weekly kritisch reflektiert. Ein Lernpfad schlägt Übungen vor, die wie bei [CoderDojos](https://coderdojo.com/) Katas genannt werden. Die beiden Boxenstopps in Woche 4 und Woche 8 helfen zu sehen, ob noch alle auf dem richtigen Weg sind. 
-  - In vielen Fällen ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
-- **Woche 12 mit der Retrospektive:** Review der finalen Ergebnisse des Sprints und Retrospektive des gesamten Prozesses. Bei Lerntandems und Circles: Die Beteiligten entscheiden, ob sie für einen weiteren Sprint zusammen bleiben wollen.
-
-
-
-
-
-------
-
-
+Alles was Du zur Methode lernOS wissen musst, findest Du [auf Github](https://cogneon.github.io/lernos-core/), dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören, oder Dir diese [Präsentation](https://cogneon.github.io/lernos-for-you) ansehen.
 
 ## Was ist Prozessmodellierung?
 
