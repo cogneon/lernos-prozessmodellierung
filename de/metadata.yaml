@@ -1,8 +1,8 @@
----
-title: "lernOS Guide"
-subtitle: "Operating System for Lifelong Learning and Learning Organizations"
-author: [Add author(s) here]
-date: "Version 0.1 (yyy-mm-yy)"
+```
+title: "lernOS Lernpfad Prozessmodellierung (BPMN&DMN)"
+subtitle: "Die Kunst des lebenslangen, selbstgesteuerten Lernens"
+author: [Alexander Rose]
+date: "Version 1.0 (15.02.2020)"
 titlepage: true
 titlepage-color: "ff6600"
 titlepage-text-color: "ffffff"
@@ -14,4 +14,5 @@ toc-own-page: true
 toc-depth: 3
 logo: images/lernOS-logo-white-4000px.png
 logo-width: 300
----
+
+```

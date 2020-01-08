@@ -1,6 +1,6 @@
 
 
-# Über lernOS
+# Vorwort
 
 Das Verb "lernos" ist die Zukunftsform von "lernen" auf Esperanto (mi lernos = ich werde lernen, ni lernos = wir werden lernen). **lernOS** ist ein **Betriebssystem** für **Lebenslanges Lernen** und **Lernende Organisationen**. lernOS ist aber keine Software, sondern "Brainware". Es ist eine Art zu Denken und zu Handeln, um als Einzelperson, Team oder Organisation im 21. Jahrhundert erfolgreich zu sein. Das groß geschriebene "OS" im Namen unterstreicht die Bedeutung der Digitalisierung für unsere vernetzte Wissensgesellschaft.
 
@@ -36,6 +36,49 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 # Grundlagen
 
+## Was ist lernOS
+
+Um diesen Leitfaden bestmöglich nutzen zu können, solltest du etwas über lernOS wissen, auf dem dieser Leitfaden aufbaut. Dazu das Wichtigste in einer Sketchnote:
+
+<img src="./images/lernos_in_a_nutshell.png" alt="Karl Damke cc BY"  />
+
+Wenn du mehr wissen willst, kannst alles über lernOS [auf Github](https://cogneon.github.io/lernos-core/) nachlesen, dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören, oder Dir diese [Präsentation](https://cogneon.github.io/lernos-for-you) ansehen.
+
+Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stellen auf bestimmte Inhalte aus dem lernOS-für-Dich Leitfaden oder weiterführende Ressourcen verweisen. 
+
+
+
+## lernOS Sprints: Lebenslanges Lernen in 13-wöchigen Timeboxen
+
+lernOS wird in Zeiträumen von 13 Wochen, die wie bei [Scrum](https://scrumguides.org/) Learning Sprints genannt werden, praktiziert. Normalerweise laufen die Sprints jeweils in einem Quartal des Jahres. Der Rhythmus kann bei Bedarf angepasst werden. Ein Sprint kann alleine (lernOS Solist), zu zweit (lernOS Tandem) oder in einer Gruppe von 4-5 Personen (lernOS Circle) durchlaufen werden.
+
+
+
+<img src="./images/Sprint.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
+
+
+### So läuft ein lernOS Sprint ab:
+
+- **Woche 0:** Die Sprint Planung. Versteht jeder die Vorgehensweise? Wann wird der wöchentliche Termin (Weekly) stattfinden? Welcher Lernpfad wird für den Sprint gewählt? Bei lernOS Tandems und Circles: Wird das Weekly als persönliches Treffen oder virtuell stattfinden? Welche Tools werden für die Kommunikation und Dokumentation verwendet? Ist jeder in der Lage, die Tools zu verwenden?
+- **Wochen 1-11:** Es wird an den Zielen und gewünschten Ergebnissen gearbeitet und der Fortschritt im Weekly kritisch reflektiert. Ein Lernpfad schlägt Übungen vor, die wie bei [CoderDojos](https://coderdojo.com/) Katas genannt werden. Die beiden Boxenstopps in Woche 4 und Woche 8 helfen zu sehen, ob noch alle auf dem richtigen Weg sind. 
+  - In vielen Fällen ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
+- **Woche 12 mit der Retrospektive:** Review der finalen Ergebnisse des Sprints und Retrospektive des gesamten Prozesses. Bei Lerntandems und Circles: Die Beteiligten entscheiden, ob sie für einen weiteren Sprint zusammen bleiben wollen.
+
+### So läuft ein Weekly ab:
+
+- **Check-in:** Was habe ich seit dem letzten Check-in getan? Was hat sich bei den Schlüsselergebnissen getan? Was hält mich auf? Zwei-Minuten-Timebox pro Circle-Mitglied. *(10 Minuten)*
+
+- **Kata-Diskussion** Zeigt Euch gegenseitig Eure Ergebnisse. Diskutiert Eure Erkenntnisse & Herausforderungen. (45 Minuten) 
+
+- **Check-out:** Was werde ich bis zum nächsten Weekly tun? Eine-Minute-Timebox pro Circle-Mitglied. *(5 Minuten)*
+
+  
+
+------
+
+
+
 ## Was ist Prozessmodellierung?
 
 Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
@@ -50,7 +93,7 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 
 
-## Warum ein Lernpfad Prozessmanagement und -modellierung
+## Warum ein Lernpfad Prozessmodellierung (BPMN&DMN)?
 
 In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können einen hohen Wert besitzen. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt Du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT mit einer gemeinsamen verbindenden  Sprache (BPMN & DMN) die digitale Transformation nach vorne zu bringen.
 
@@ -60,7 +103,7 @@ Das bedeutet auch, das die Übungen eine **steile Lernkurve** für Euch bereit h
 
 Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
-Dafür haben wir den **Prozessmanagement und -modellierung** entwickelt. Er enthält unter anderem:
+Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er enthält unter anderem:
 
 - 11 Lerninhalte mit den wichtigsten Grundlageninformationen zum jeweiligen Kapitel
 - 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodellierung
@@ -85,7 +128,7 @@ Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet we
 
 
 
-# Lernpfad Prozessmanagement und -modellierung
+# Lernpfad Prozessmodellierung (BPMN&DMN)
 
 
 
@@ -1145,50 +1188,7 @@ Keep Calm & Learn On! :-)
 
 
 
-# Anhang
-
-## Circle Moderator*innen Checkliste
-
-**WOCHE 0 - Sprint Planung & Get Together**
-
-Wenn Ihr Euch im Circle noch nicht kennt, lernt Euch in der Woche 0 kennen. Plant, wann Ihr Euch trefft, welche Tools Ihr nutzt und wer der Moderator ist.
-
-- **Check-in:** Herzlich willkommen! *(5 Minuten)*
-- **Get together:** Wer bist du? Stell Dich vor. Fünf-Minuten-Timebox pro Circle-Mitglied. *(25 Minuten)*
-- **Sprint Planung** siehe unten *(25 Minuten)*
-- **Check-out:** Das nächste Treffen bestätigen. *(5 Minuten)*
-
-Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der "Chef" des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendt. Entscheidet, ob Ihr den [lernOS Canvas]([https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas](https://github.com/cogneon/lernos-core/tree/master/lernOS Canvas))  als unterstützendes Werkzeug verwenden möchtet.
-
-- **Circle-Moderator:** ...
-- **Tag und Uhrzeit des Weekly:** ...
-- **Wöchentliche Treffen sind:** persönlich / virtuell
-- **Verwendete Tools (können alle sie nutzen?):** ...
-- **Benutzen wir den Canvas:** Ja / Nein
-
-**ProTip:** in vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
-
-**ProTip:** Wenn du das lernOS OneNote Circle Template verwendest, kannst du ein aktuelles Foto von Deinem Canvas machen und einfügen, damit die anderen Circle-Mitglieder es sehen und Feedback geben können.
-
-**WOCHE 1 - 11**
-
-- **Check-in:** Was habe ich seit dem letzten Check-in getan? Was hat sich bei den Schlüsselergebnissen getan? Was hält mich auf? Zwei-Minuten-Timebox pro Circle-Mitglied. *(10 Minuten)*
-- **Kata-Diskussion** Zeigt Euch gegenseitig Eure Ergebnisse. Diskutiert Eure Erkenntnisse & Herausforderungen. *(45 Minuten)* 
-- **Check-out:** Was werde ich bis zum nächsten Weekly tun? Eine-Minute-Timebox pro Circle-Mitglied. *(5 Minuten)*
-
-**WOCHE 12: Retrospektive & Feier**
-
-In dieser Woche sollte die endgültige Iteration Deiner Key Results vorliegen. Sprecht darüber und zeigt Sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie Ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet Ihr Euch etwas Zeit nehmen, um Euren Erfolg zu feiern!
-
-- **Check-in:** Was habe ich seit dem letzten Check-in getan? Zeigt die finale Iteration der Key Results. Drei-Minuten-Timebox pro Circle-Mitglied. *(15 Minuten)*
-- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 minutes)*
-- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 minutes)*
-- **Check-out:** Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?
-- **Party Time!** *(Die Dauer wählt ihr)*
-
-
-
-## Danksagungen
+# Danksagungen
 
 lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
 
@@ -1200,12 +1200,11 @@ lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den S
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 
 - Andreas Schäffler
-- [Daniel Kempa](https://www.linkedin.com/in/daniel-kempa-178570157/)
 - t.b.d.
 
 
 
-## Änderungshistorie
+# Änderungshistorie
 
 | Version | Bearbeitet von | Beschreibung der Änderung | Date |
 |---------|----------------|-----------------------|-------|
