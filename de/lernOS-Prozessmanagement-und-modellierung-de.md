@@ -358,7 +358,7 @@ Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **E
 
 Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
 
-![](./images/Exklusive Gateways (XOR) einfach.png)
+![](./images/Exklusive-Gateways-(XOR)-einfach.png)
 
 
 
@@ -370,7 +370,7 @@ Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf **genau einen**
 
 Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht Sie auswählen. 
 
-![](./images/Exklusive Gateways (XOR) mehrere Endergebnisse.png)
+![](./images/Exklusive-Gateways-(XOR)-mehrere-Endergebnisse.png)
 
 
 
@@ -378,7 +378,7 @@ Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es dr
 
 In diesem Beispiel haben wir zwei Exklusive Gateways das Erste teilt (Split) den Prozess in zwei Zweige und das Zweite führt diese wieder zusammen (Join).
 
-![](./images/Exklusive Gateways (XOR) Split & Join.png)
+![](./images/Exklusive-Gateways-(XOR)-Split-&-Join.png)
 
 
 
@@ -386,7 +386,7 @@ In diesem Beispiel haben wir zwei Exklusive Gateways das Erste teilt (Split) den
 
 Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen um das gewünschte Ziel zu erreichen.
 
-![](./images/Exklusives Gateway (XOR) Schleifen.png)
+![](./images/Exklusives-Gateway-(XOR)-Schleifen.png)
 
 
 
@@ -394,7 +394,7 @@ Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umst�
 
 Aufgaben können oder müssen manchmal parallel ausgeführt werden. 
 
-![](./images/Parallele Gateways  (AND).png)
+![](./images/Parallele-Gateways-(AND).png)
 
 Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Bei der Zusammenführung **wird auf alle Zweige/Pfade gewartet**.
 
@@ -408,13 +408,13 @@ Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell Dir
 
 In unserem Beispiel wird also am parallelen Gateway ein zweites Token erzeugt. Diese beiden Token durchlaufen nun den parallelen Prozessabschnitt, bis sie durch das zweite AND-Gateway wieder zusammengeführt werden. Danach durchläuft der Token den restlichen Prozess und wird am Ende des Prozesses konsumiert 
 
-![](./images/Kombination von XOR und AND Gateway (Das Tokenprinzip).png)
+![](./images/Kombination-von-XOR-und-AND-Gateway-(Das-Tokenprinzip).png)
 
 ### Inklusive Gateway (OR)
 
 Manchmal benötigen Prozesse noch etwas mehr Flexibilität. Hier kommt das **Inklusive Gateway (OR)** zum Einsatz. Im Gegensatz zum parallelen Gateway sind **die ausgehenden Zweige optional,** jedoch muss mindestens einer durchlaufen werden.
 
-![](./images/Inklusive Gateway (OR).png)
+![](./images/Inklusive-Gateway-(OR).png)
 
 Inklusive Gateway (OR) werden genutzt, wenn **eine oder mehrere Bedingungen möglich sind**.
 Bei der Zusammenführung **wird auf alle gewählten Zweige gewartet**.
