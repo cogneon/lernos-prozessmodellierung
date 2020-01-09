@@ -336,7 +336,9 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 - Schau Dir die folgenden Folien in Ruhe an
 
-<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 80%;" />
+![](./images/Happy-Path.png)
+
+<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 100%;" />
 
 <img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
@@ -1158,7 +1160,7 @@ Wenn Ihr Euch im Circle noch nicht kennt, lernt Euch in der Woche 0 kennen. Plan
 - **Sprint Planung** siehe unten *(25 Minuten)*
 - **Check-out:** Das nächste Treffen bestätigen. *(5 Minuten)*
 
-Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der "Chef" des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendt. Entscheidet, ob Ihr den [lernOS Canvas]([https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas](https://github.com/cogneon/lernos-core/tree/master/lernOS Canvas))  als unterstützendes Werkzeug verwenden möchtet.
+Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der "Chef" des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendt. Entscheidet, ob Ihr den [lernOS Canvas](https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas)   als unterstützendes Werkzeug verwenden möchtet.
 
 - **Circle-Moderator:** ...
 - **Tag und Uhrzeit des Weekly:** ...
