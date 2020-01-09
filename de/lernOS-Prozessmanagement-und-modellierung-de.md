@@ -338,9 +338,9 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ![](./images/Happy-Path.png)
 
-<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 100%;" />
+![](./images/Benennung von Ereignissen.png)
 
-<img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
 
 [Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata))
 
