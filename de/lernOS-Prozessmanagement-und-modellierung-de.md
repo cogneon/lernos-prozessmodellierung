@@ -377,11 +377,13 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ## Dein erstes Diagramm (Happy-Path)
 
-- Schau Dir die folgenden Folien in Ruhe an
+Schau Dir die folgenden unterlagen in Ruhe an:
 
-<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 80%;" />
+![Alexander Rose CC BY](./images/Happy-Path.png "Optional title")
 
-<img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![Alexander Rose CC BY](./images/Benennung von Ereignissen.png "Optional title")
+
+
 
 [Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata))
 
