@@ -336,7 +336,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ![](./images/Happy-Path.png)
 
-![](./images/Benennung von Ereignissen.png)
+![](./images/Benennung-von-Ereignissen.png)
 
 
 
