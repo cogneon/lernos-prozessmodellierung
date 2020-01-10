@@ -1,4 +1,4 @@
-# Über lernOS
+Über lernOS
 
 Das Verb "lernos" ist die Zukunftsform von "lernen" auf Esperanto (mi lernos = ich werde lernen, ni lernos = wir werden lernen). **lernOS** ist ein **Betriebssystem** für **Lebenslanges Lernen** und **Lernende Organisationen**. lernOS ist aber keine Software, sondern "Brainware". Es ist eine Art zu Denken und zu Handeln, um als Einzelperson, Team oder Organisation im 21. Jahrhundert erfolgreich zu sein. Das groß geschriebene "OS" im Namen unterstreicht die Bedeutung der Digitalisierung für unsere vernetzte Wissensgesellschaft.
 
@@ -879,7 +879,7 @@ Bei diesen Hit Policieswird **immer nur eine Regel** in der Entscheidungstaballe
 
 Bei der unique hit policy kann für jede Kombinationen an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind  sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
 
-<img src="./images/Unique hit policy.png" alt="Alexander Rose cc BY">
+![](./images/Unique-hit-policy.png)
 
 Ein "**-**" steht für "**any**" und bedeutet, dass an dieser Stelle jeder mögliche Wert stehen kann.
 
@@ -893,7 +893,7 @@ Ein "**-**" steht für "**any**" und bedeutet, dass an dieser Stelle jeder mögl
 
 Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings **nur die erste zutreffende Regel** verwendet. Die First Hit Policy geht von einer **Sortierung der Regeln** aus –sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine ersten drei Regeln auf den Sachverhalt zu, kann die **letzte Regel als allgemeine “Auffangregel”** genutzt werden.
 
-<img src="./images/First hit policy.png" alt="Alexander Rose cc BY">
+![](./images/First-hit-policy.png)
 
 In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und der Kunde Großhändler ist. Wenn ja, tritt die Regel ein, ansonsten wird die zweite Regel geprüft. Stimmt diese nicht mit den Eingaben überein, wird die dritte Regel geprüft und so weiter.
 
@@ -903,7 +903,7 @@ In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und d
 
 Bei Verwendung der any hit policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.
 
-<img src="./images/Any hit policy.png" alt="Alexander Rose cc BY">
+![](./images/ANY-hit-policy.png)
 
 Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft, führt dies direkt zum Ergebnis der VIP Anforderungen "nicht erfüllt". Somit sind nur bei einer gültigen Kombination von Input Data die VIP Anforderungen "erfüllt". 
 
@@ -913,7 +913,7 @@ Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft,
 
 Mehrere Regeln können für einen Eingabewert eintreffen, wenn die priority hit policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.
 
-<img src="./images/Priority hit policy.png" alt="Alexander Rose cc BY">
+![](./images/Priority-hit-policy.png)
 
 Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter ’”70” und die Krankengeschichte “schlecht” ist. Demnach wären die möglichen Ergebnisse Hoch und Mittel. Da „Mittel“ jedoch gegenüber „Hoch“ eine höhere Priorität besitzt, wird dieses Ergebnis ausgegeben.
 
@@ -927,7 +927,7 @@ Bei diesen Hit Policies werden alle zutreffenden Regeln betrachtet. Die erhalten
 
 Liefert alle Treffer in **absteigender Reihenfolge** der Ausgabepriorität. Die Ausgabeprioritäten werden in der geordneten Liste der Ausgabewerte in absteigende Reihenfolge ausgelesen.
 
-<img src="./images/output order policy.png" alt="Alexander Rose cc BY">
+![](./images/output-order-policy.png)
 
 Beispielrechnung:
 
@@ -942,7 +942,7 @@ Beispielrechnung:
 Die Ausgaben aller **übereinstimmenden Regeln** werden als sortierte Liste zurückgegeben, in der
 Reihenfolge der Regeln.
 
-<img src="./images/rule order policy.png" alt="Alexander Rose cc BY">
+![](./images/Rule-order-policy.png)
 
 Beispielrechnung:
 
@@ -961,7 +961,7 @@ Folgende Aggregationen können angewendet werden:
 - max >
 - count #
 
-<img src="./images/collect policy.png" alt="Alexander Rose cc BY">
+![](./images/collect-policy.png)
 
 - Input (50, 31):
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
