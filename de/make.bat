@@ -17,7 +17,7 @@ REM Create Web Version (html)
 REM pandoc -s --toc -o %filename%.html %filename%.md
 
 REM Create PDF Version (pdf)
-pandoc %filename%.md metadata.yaml -o %filename%.pdf --from markdown --template Prozessmanagement-und-modellierung --number-sections -V lang=de-de
+pandoc %filename%.md metadata.yaml -o %filename%.pdf --from markdown --template Prozessmodellierung.latex --number-sections -V lang=de-de
 
 REM Create eBook Versions (epub, mobi)
 REM magick -density 300 %filename%.pdf[0] ebook-cover.png
