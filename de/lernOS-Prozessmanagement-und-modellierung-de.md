@@ -653,15 +653,11 @@ DMN dient als **Schnittstelle zwischen Modellierung und Implementierung** von En
 
 Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf **zwei Ebenen** erstellt. Während in der ersten Ebene die **Anforderungen (Informationen)** für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die **Logik (Regeln).**
 
-<img src="./images/Ebenenmodell.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Ebenenmodell.png)
 
 Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können sie auch unabhängig voneinander existieren.
 
-<img src="./images/Geschäftslogik vs. Entscheidungslokok.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Geschäftslogik-vs.-Entscheidungslokok.png)
 
 ### Kernelemente von DMN
 
@@ -670,25 +666,21 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 - Benutzt Logik um Ergebnis zu bestimmen 
 - Zerlegung in Teilentscheidungen möglich
 
-<img src="./images/Desicion.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+![](./images/Desicion.png)
 
 #### Input Data
 
 - Stellt Informationen für Entscheidungen bereit 
 - Kann von verschiedenen Entscheidungen genutzt werden
 
-<img src="./images/Input Data.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+![](./images/Input-Data.png)
 
 #### Knowledge Source
 
 - Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. 
 - z.B. Gesetze, Regularien oder Richtlinie
 
-<img src="./images/Knowledge Source.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
-
-
-
-Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
+![](./images/Knowledge-Source.png)Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
 
 <u>Entscheidungen identifizieren und abgrenzen</u> 
 
@@ -707,11 +699,9 @@ Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **
 
 
 
-Das kann z.B. so aussehen
+Das kann z.B. so aussehen:
 
-<img src="./images/Entscheidungsdiagramm .svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
-
-
+![](./images/Entscheidungsdiagramm.png)
 
 **Entscheidungsdiagramme** beantworten folgende **Fragen** auf leicht verständliche Weise:
 
@@ -722,7 +712,7 @@ Das kann z.B. so aussehen
 
 Hier siehst Du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im folgenden im Detail erklärt.
 
-<img src="./images/Entscheidungsdiagramm I.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+![](./images/Entscheidungsdiagramm-I.png)
 
 
 
@@ -734,19 +724,15 @@ Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Ko
 - Personen unter 18 Jahren wird keine Versicherung gewährt
 - Personen mit mehr als vier Punkten wird keine Versicherung gewährt
 
+![](./images/Entscheidungstabelle-01.png)
 
 
-
-
-<img src="./images/Entscheidungstabelle 01.png" alt="Alexander Rose cc BY">
 
 
 
 Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel beschreibt dabei eine mögliche Kombination von Eingängen, in welcher jede zu einem bestimmten Ergebnis führt.
 
-<img src="./images/Entscheidungstabelle 02.png" alt="Alexander Rose cc BY">
-
-
+![](./images/Entscheidungstabelle-02.png)
 
 
 
@@ -771,9 +757,7 @@ In der Praxis können Informationen in verschiedenen Arten vorkommen z.B. textue
 
 Ein Input Data vom Typ **Boolean** besitzt einen von zwei möglichen Werten. Dieser Wert kann entweder **wahr** oder **falsch** sein. Booleans können für einfache Abfragen genutzt werden.
 
-<img src="./images/Datentypen für Input Data Elemente (Boolean).svg" alt="Alexander Rose cc BY">
-
-
+![](./images/Datentypen-für-Input-Data-Elemente-(Boolean).png)
 
 In diesem Beispiel ist der Input Data "Stammkunde" vom Typ Boolean, da es hier nur 2 mögliche Ausprägungen geben kann. Entweder handelt es sich um einen Stammkunden **(wahr)** oder nicht **(falsch)**.
 
@@ -783,9 +767,7 @@ In diesem Beispiel ist der Input Data "Stammkunde" vom Typ Boolean, da es hier n
 
 Eingangsdaten vom Typ **Zahlwert** enthalten **numerische Werte**. Diese können Bereiche oder einfache Zahlen sein. Nummern werden von Operatoren (siehe vorheriges Kapitel) verglichen und können eine Einheit haben. 
 
-
-
-<img src="./images/Datentypen für Input Data Elemente (Zahlwert) .svg" alt="Alexander Rose cc BY">
+![](./images/Datentypen-für-Input-Data-Elemente-(Zahlwert).png)
 
 <u>Einheiten:</u>
 
@@ -817,9 +799,7 @@ Ist der Datentyp einer Eingabe **Aufzählung,** wird eine **Liste von Auswahlopt
 
 Z.B. Express Versand, Standard Versand, ...)
 
-
-
-<img src="./images/Datentypen für Input Data Elemente (Aufzählung).svg" alt="Alexander Rose cc BY">
+![](./images/Datentypen-für-Input-Data-Elemente-(Aufzählung).png)
 
 Operatoren können sein:
 
@@ -834,7 +814,9 @@ Operatoren können sein:
 
 Ein **Datum** wird genutzt, um **bestimmte Zeitpunkte** festzulegen. Durch Operatoren kann der Wert verglichen werden (zum Beispiel mit dem aktuellen Datum).
 
-<img src="./images/Datentypen für Input Data Elemente (Datum).svg" alt="Alexander Rose cc BY">
+![](./images/Datentypen-für-Input-Data-Elemente-(Datum).png)
+
+
 
 Operatoren können sein:
 
@@ -851,9 +833,7 @@ Operatoren können sein:
 
 Der Datentyp **Text** wird für **Vermerke und andere textbasierte Informationen** benutzt. Da die Auswahl eines vordefinierten Wertes weniger fehleranfällig ist, als den Wert selbst einzutippen (Leerzeichen, Tippfehler etc.), sollten Texttypen wenn möglich durch Aufzählungen ersetzt werden. 
 
-
-
-<img src="./images/Datentypen für Input Data Elemente (Text).svg" alt="Alexander Rose cc BY">
+![](./images/Datentypen-für-Input-Data-Elemente-(Text).png)
 
 Operatoren können sein:
 
@@ -872,9 +852,7 @@ Operatoren können sein:
 
 Ein Eingang vom Typ **Hierarchie** listet **Werte in verschiedenen Kategorien** auf, die voneinander hierarchisch abhängig sind. Dies erlaubt die Anwendung von Entscheidungsregeln für eine gesamte Kategorie und/oder einzelne Werte.
 
-<img src="./images/Datentypen für Input Data Elemente (Hierarchie).svg" alt="Alexander Rose cc BY">
-
-
+![](./images/Datentypen-für-Input-Data-Elemente-(Hierarchie).png)
 
 Operatoren können sein:
 
