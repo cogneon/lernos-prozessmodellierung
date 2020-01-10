@@ -1,6 +1,4 @@
-
-
-# Vorwort
+Über lernOS
 
 Das Verb "lernos" ist die Zukunftsform von "lernen" auf Esperanto (mi lernos = ich werde lernen, ni lernos = wir werden lernen). **lernOS** ist ein **Betriebssystem** für **Lebenslanges Lernen** und **Lernende Organisationen**. lernOS ist aber keine Software, sondern "Brainware". Es ist eine Art zu Denken und zu Handeln, um als Einzelperson, Team oder Organisation im 21. Jahrhundert erfolgreich zu sein. Das groß geschriebene "OS" im Namen unterstreicht die Bedeutung der Digitalisierung für unsere vernetzte Wissensgesellschaft.
 
@@ -36,49 +34,6 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 # Grundlagen
 
-## Was ist lernOS
-
-Um diesen Leitfaden bestmöglich nutzen zu können, solltest du etwas über lernOS wissen, auf dem dieser Leitfaden aufbaut. Dazu das Wichtigste in einer Sketchnote:
-
-<img src="./images/lernos_in_a_nutshell.png" alt="Karl Damke cc BY"  />
-
-Wenn du mehr wissen willst, kannst alles über lernOS [auf Github](https://cogneon.github.io/lernos-core/) nachlesen, dort den Leitfaden herunterladen oder dir [diesen Podcast](https://colearn.de/clp066-aufzeichnung-cl-sprint-12-4-2019-die-kunst-des-selbstgesteuerten-lebenslangen-lernens/) mit Simon Dückert anhören, oder Dir diese [Präsentation](https://cogneon.github.io/lernos-for-you) ansehen.
-
-Im lernOS **Lernpfad Prozessmodellierung (BPMN&DMN)** werden wir an einigen Stellen auf bestimmte Inhalte aus dem lernOS-für-Dich Leitfaden oder weiterführende Ressourcen verweisen. 
-
-
-
-## lernOS Sprints: Lebenslanges Lernen in 13-wöchigen Timeboxen
-
-lernOS wird in Zeiträumen von 13 Wochen, die wie bei [Scrum](https://scrumguides.org/) Learning Sprints genannt werden, praktiziert. Normalerweise laufen die Sprints jeweils in einem Quartal des Jahres. Der Rhythmus kann bei Bedarf angepasst werden. Ein Sprint kann alleine (lernOS Solist), zu zweit (lernOS Tandem) oder in einer Gruppe von 4-5 Personen (lernOS Circle) durchlaufen werden.
-
-
-
-<img src="./images/Sprint.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
-
-### So läuft ein lernOS Sprint ab:
-
-- **Woche 0:** Die Sprint Planung. Versteht jeder die Vorgehensweise? Wann wird der wöchentliche Termin (Weekly) stattfinden? Welcher Lernpfad wird für den Sprint gewählt? Bei lernOS Tandems und Circles: Wird das Weekly als persönliches Treffen oder virtuell stattfinden? Welche Tools werden für die Kommunikation und Dokumentation verwendet? Ist jeder in der Lage, die Tools zu verwenden?
-- **Wochen 1-11:** Es wird an den Zielen und gewünschten Ergebnissen gearbeitet und der Fortschritt im Weekly kritisch reflektiert. Ein Lernpfad schlägt Übungen vor, die wie bei [CoderDojos](https://coderdojo.com/) Katas genannt werden. Die beiden Boxenstopps in Woche 4 und Woche 8 helfen zu sehen, ob noch alle auf dem richtigen Weg sind. 
-  - In vielen Fällen ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
-- **Woche 12 mit der Retrospektive:** Review der finalen Ergebnisse des Sprints und Retrospektive des gesamten Prozesses. Bei Lerntandems und Circles: Die Beteiligten entscheiden, ob sie für einen weiteren Sprint zusammen bleiben wollen.
-
-### So läuft ein Weekly ab:
-
-- **Check-in:** Was habe ich seit dem letzten Check-in getan? Was hat sich bei den Schlüsselergebnissen getan? Was hält mich auf? Zwei-Minuten-Timebox pro Circle-Mitglied. *(10 Minuten)*
-
-- **Kata-Diskussion** Zeigt Euch gegenseitig Eure Ergebnisse. Diskutiert Eure Erkenntnisse & Herausforderungen. (45 Minuten) 
-
-- **Check-out:** Was werde ich bis zum nächsten Weekly tun? Eine-Minute-Timebox pro Circle-Mitglied. *(5 Minuten)*
-
-  
-
-------
-
-
-
 ## Was ist Prozessmodellierung?
 
 Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
@@ -93,7 +48,7 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 
 
-## Warum ein Lernpfad Prozessmodellierung (BPMN&DMN)?
+## Warum ein Lernpfad Prozessmodellierung?
 
 In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können einen hohen Wert besitzen. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt Du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT mit einer gemeinsamen verbindenden  Sprache (BPMN & DMN) die digitale Transformation nach vorne zu bringen.
 
@@ -103,7 +58,7 @@ Das bedeutet auch, das die Übungen eine **steile Lernkurve** für Euch bereit h
 
 Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
-Dafür haben wir den **Prozessmodellierung (BPMN&DMN) Lernpfad** entwickelt. Er enthält unter anderem:
+Dafür haben wir den **Prozessmodellierung** entwickelt. Er enthält unter anderem:
 
 - 11 Lerninhalte mit den wichtigsten Grundlageninformationen zum jeweiligen Kapitel
 - 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodellierung
@@ -128,7 +83,7 @@ Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet we
 
 
 
-# Lernpfad Prozessmodellierung (BPMN&DMN)
+# Lernpfad Prozessmodellierung
 
 
 
@@ -167,7 +122,7 @@ In **Woche 0** gilt es einige administrative & organisatorische Festlegungen fü
 
 
 
-## Mach Dich mit den Grundlagen vertraut (KATA)
+## Mach Dich mit den Grundlagen vertraut (KATA 01)
 
 In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da Du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
 
@@ -178,7 +133,7 @@ In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Proz
 
 
 
-## Dein erstes Diagramm (Happy-Path) (KATA)
+## Dein erstes Diagramm (Happy-Path) (KATA 02)
 
 In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvorhergesehene Ereignisse.  I.d.R. gibt es auch nichts zu entscheiden. In der Welt der Prozessmodellierung nennen wir diesen Weg den Happy-Path. Tatsächlich beginnen wir bei einem neuen Prozessmodell zunächst immer mit der einfachsten Variante. Komplizierter wird es später schon ganz von alleine.
 
@@ -193,7 +148,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 
 
 
-## Triff Deine ersten Entscheidungen (KATA)
+## Triff Deine ersten Entscheidungen (KATA 03)
 
 Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die Du in dieser Kata kennenlernen und anwenden wirst
 
@@ -208,7 +163,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an 
 
 
 
-## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA)
+## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA 04)
 
 Attribute mit visuellen Effekten
 
@@ -229,7 +184,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen &
 
 
 
-## Von Pools und Lanes (KATA)
+## Von Pools und Lanes (KATA 05)
 
 Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.
 
@@ -243,7 +198,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere
 
 
 
-## Exkurs - Eventtypen (KATA)
+## Exkurs - Eventtypen (KATA 06)
 
 Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen.
 
@@ -256,7 +211,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere
 
 
 
-## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (KATA)
+## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (KATA 07)
 
 In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert. 
 
@@ -269,7 +224,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse �
 
 
 
-## DMN - Grundlagen (KATA)
+## DMN - Grundlagen (KATA 08)
 
 In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen
 
@@ -282,7 +237,7 @@ Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere da
 
 
 
-## Datentypen und HIT-Policy (KATA)
+## Datentypen und HIT-Policy (KATA 09)
 
 Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
@@ -314,7 +269,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
 
 
-## Dein erstes komplexes DRD (KATA)
+## Dein erstes komplexes DRD (KATA 10)
 
 Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich
 
@@ -327,7 +282,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und mode
 
 
 
-## Dein Meisterstück (KATA)
+## Dein Meisterstück (KATA 11)
 
 In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.
 
@@ -379,9 +334,13 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 - Schau Dir die folgenden Folien in Ruhe an
 
-<img src="./images/Happy-Path.svg" alt="Alexander Rose CC BY" style="zoom: 80%;" />
+![](./images/Happy-Path.png)
 
-<img src="./images/Benennung von Ereignissen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Benennung-von-Ereignissen.png)
+
+
+
+
 
 [Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata))
 
@@ -399,9 +358,7 @@ Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **E
 
 Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
 
-
-
-<img src="./images/Exklusive Gateways (XOR) einfach.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Exklusive-Gateways-(XOR)-einfach.png)
 
 
 
@@ -413,7 +370,7 @@ Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf **genau einen**
 
 Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht Sie auswählen. 
 
-<img src="./images/Exklusive Gateways (XOR) mehrere Endergebnisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Exklusive-Gateways-(XOR)-mehrere-Endergebnisse.png)
 
 
 
@@ -421,7 +378,7 @@ Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es dr
 
 In diesem Beispiel haben wir zwei Exklusive Gateways das Erste teilt (Split) den Prozess in zwei Zweige und das Zweite führt diese wieder zusammen (Join).
 
-<img src="./images/Exklusive Gateways (XOR) Split & Join.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Exklusive-Gateways-(XOR)-Split-&-Join.png)
 
 
 
@@ -429,9 +386,7 @@ In diesem Beispiel haben wir zwei Exklusive Gateways das Erste teilt (Split) den
 
 Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen um das gewünschte Ziel zu erreichen.
 
-
-
-<img src="./images/Exklusives Gateway (XOR) Schleifen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Exklusives-Gateway-(XOR)-Schleifen.png)
 
 
 
@@ -439,7 +394,7 @@ Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umst�
 
 Aufgaben können oder müssen manchmal parallel ausgeführt werden. 
 
-<img src="./images/Parallele Gateways  (AND).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Parallele-Gateways-(AND).png)
 
 Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Bei der Zusammenführung **wird auf alle Zweige/Pfade gewartet**.
 
@@ -453,17 +408,13 @@ Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell Dir
 
 In unserem Beispiel wird also am parallelen Gateway ein zweites Token erzeugt. Diese beiden Token durchlaufen nun den parallelen Prozessabschnitt, bis sie durch das zweite AND-Gateway wieder zusammengeführt werden. Danach durchläuft der Token den restlichen Prozess und wird am Ende des Prozesses konsumiert 
 
-
-
-<img src="./images/Kombination von XOR und AND Gateway (Das Tokenprinzip).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Kombination-von-XOR-und-AND-Gateway-(Das-Tokenprinzip).png)
 
 ### Inklusive Gateway (OR)
 
 Manchmal benötigen Prozesse noch etwas mehr Flexibilität. Hier kommt das **Inklusive Gateway (OR)** zum Einsatz. Im Gegensatz zum parallelen Gateway sind **die ausgehenden Zweige optional,** jedoch muss mindestens einer durchlaufen werden.
 
-<img src="./images/Inklusive Gateway (OR).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Inklusive-Gateway-(OR).png)
 
 Inklusive Gateway (OR) werden genutzt, wenn **eine oder mehrere Bedingungen möglich sind**.
 Bei der Zusammenführung **wird auf alle gewählten Zweige gewartet**.
@@ -486,9 +437,9 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 ## Exkurs - Markierungen, Aufgabentypen & Daten
 
+![](./images/Markierungen,-Aufgaben-Typen-und-Daten.png)
 
 
-<img src="./images/Markierungen, Aufgaben-Typen und Daten.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 [Zurück zur KATA](#Exkurs - Markierungen, Aufgabentypen &  Daten (Kata))
 
@@ -500,7 +451,9 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 In BPMN werden Verantwortlichkeiten (Organisationseinheiten, Abteilungen, Personen, Rollen) für Aufgaben mit Swimlanes (Pools und Lanes) dargestellt. Ein Prozess "gehört" zu einem Pool und ein Task wird von der jeweiligen Lane ausgeführt.
 
-<img src="./images/Von Pools und Lanes I.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Von-Pools-und-Lanes-I.png)
+
+
 
 Folgende Benennungen von Pools & Lanes haben sich im Einsatz bewährt:
 
@@ -515,13 +468,17 @@ Von der Personen-Benennung ist jedoch abzuraten, da sich Personen ständig ände
 
 Sabine, Ralf und Alex wollen etwas kochen.  Jeder bekommt Aufgaben zugewiesen.
 
-<img src="./images/Sabine, Ralf und Alex wollen etwas kochen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Sabine,-Ralf-und-Alex-wollen-etwas-kochen.png)
+
+
 
 Ein Task kann in BPMN nur zu **genau einer Lane** (Rolle / Verantwortlichkeit) gehören.
 
 Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen Beteiligten oder weiteren Lanes dargestellt.
 
-<img src="./images/Sabine, Ralf und Alex wollen etwas kochen II.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Sabine,-Ralf-und-Alex-wollen-etwas-kochen-II.png)
+
+
 
 [Zurück zur KATA](#Von Pools und Lanes (Kata))
 
@@ -537,7 +494,7 @@ In diesem Prozess sehen wir ein **Blanko-Zwischenereignis**. Es wird verwendet, 
 wichtige Zustände oder Meilensteine in einem Prozess darzustellen und hat keine
 weitere Funktion.
 
-<img src="./images/Blanko-Zwischenereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Blanko-Zwischenereignis.png)
 
 **Zwischenergebnisse (blanko)** 
 
@@ -549,7 +506,7 @@ Repräsentieren Zustände oder Meilensteine im Prozess und haben keinen Einfluss
 
 Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.
 
-<img src="./images/Nachrichten-Zwischenereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Nachrichten-Zwischenereignis.png)
 
 
 
@@ -563,9 +520,7 @@ Werden genutzt bei eingehenden Nachrichten, Waren oder Zahlungen, auf die im Pro
 
 Zeitereignisse können Prozesse starten oder verzögern.
 
-<img src="./images/Zeitereignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Zeitereignisse.png)
 
 - **Zwischen-Zeitereignis:** Zeitpunkte (auch wiederkehrende) oder Wartezeiten
 - **Start-Zeitereignis:** Zu diesen Zeitpunkten wird der Prozess gestartet.
@@ -576,7 +531,7 @@ Zeitereignisse können Prozesse starten oder verzögern.
 
 Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **Ereignisbasierten Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
 
-<img src="./images/Ereignisbasierte Gateways.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Ereignisbasierte-Gateways.png)
 
 **Ereignisbasierte Gateways**  
 
@@ -588,7 +543,7 @@ Steuern den Prozessfluss anhand von möglichen Ereignissen. Sie warten auf eintr
 
 Ereignisbasierte Gateways können auch für Schleifen verwendet werden. In diesem Beispiel wollen wir nicht weiter auf unsere Pasta warten, falls diese nach dreimaligen Nachfragen immer noch nicht geliefert wurde.
 
-<img src="./images/Ereignisbasierte Gateways (Schleife).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Ereignisbasierte-Gateways-(Schleife).png)
 
 **Ereignis: Bedingung** 
 
@@ -600,7 +555,7 @@ Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.
 
 In diesem Beispielsiehst Du  die Verwendung von **Bedingungsereignissen** im Vergleich zu **Zeitereignissen**.
 
-<img src="./images/Bedingungsereignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Bedingungsereignisse.png)
 
 
 
@@ -608,15 +563,13 @@ In diesem Beispielsiehst Du  die Verwendung von **Bedingungsereignissen** im Ver
 
 Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 15 min dauert, dann bestellen wir nicht, sondern backen Pizza.
 
-<img src="./images/Angeheftete Zwischenerignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Angeheftete-Zwischenerignisse.png)
 
 ### Link-Ereignis
 
 Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den Sequenzfluss auf den nächstfolgenden Prozess weiterzuleiten. Zwei zusammengehörende Link-Ereignisse repräsentieren dabei einen Sequenzfluss.
 
-<img src="./images/Link-Ereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Link-Ereignis.png)
 
 **Link-Ereignis**
 Ein auslösendes und eintretendes Link-Ereignis mit **gleichem Namen** entspricht einem Sequenzfluss, d.h. Sie können große Prozesse in Abschnitte aufteilen.
@@ -627,7 +580,7 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 ### Übersicht aller Ereignisse
 
-<img src="./images/Ereignise.png" alt="http://bpmb.de/poster" style="zoom: 50%;" />
+![](./images/Ereignise.png)
 
 
 
@@ -643,21 +596,17 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 Zugeklappte Unterprozesse fassen mehrere Aufgaben (Tasks) zusammen. Damit können komplexe Prozesse übersichtlich dargestellt werden. 
 
-<img src="./images/Unterprozesse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Unterprozesse.png)
 
 In diesem Beispiel wird die Anwendung von **angehängten Zwischenereignissen** an Unterprozessen gezeigt. Falls also die Pasta verkoch ist, wird die Eskalation ausgelöst und Pasta bestellt. Dies sollte jedoch nicht der Standardpfad sein.
 
-<img src="./images/Unterprozesse II.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Unterprozesse-II.png)
 
 ### Nachrichtenflüsse über Poolgrenzen
 
 Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
 
-<img src="./images/Nachrichtenflüsse über Poolgrenzen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Nachrichtenflüsse-über-Poolgrenzen.png)
 
 **Nachrichtenfluss**
 
@@ -704,15 +653,11 @@ DMN dient als **Schnittstelle zwischen Modellierung und Implementierung** von En
 
 Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf **zwei Ebenen** erstellt. Während in der ersten Ebene die **Anforderungen (Informationen)** für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die **Logik (Regeln).**
 
-<img src="./images/Ebenenmodell.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Ebenenmodell.png)
 
 Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können sie auch unabhängig voneinander existieren.
 
-<img src="./images/Geschäftslogik vs. Entscheidungslokok.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Geschäftslogik-vs.-Entscheidungslokok.png)
 
 ### Kernelemente von DMN
 
@@ -721,25 +666,21 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 - Benutzt Logik um Ergebnis zu bestimmen 
 - Zerlegung in Teilentscheidungen möglich
 
-<img src="./images/Desicion.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+![](./images/Desicion.png)
 
 #### Input Data
 
 - Stellt Informationen für Entscheidungen bereit 
 - Kann von verschiedenen Entscheidungen genutzt werden
 
-<img src="./images/Input Data.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+![](./images/Input-Data.png)
 
 #### Knowledge Source
 
 - Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. 
 - z.B. Gesetze, Regularien oder Richtlinie
 
-<img src="./images/Knowledge Source.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
-
-
-
-Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
+![](./images/Knowledge-Source.png)Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
 
 <u>Entscheidungen identifizieren und abgrenzen</u> 
 
@@ -758,11 +699,9 @@ Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **
 
 
 
-Das kann z.B. so aussehen
+Das kann z.B. so aussehen:
 
-<img src="./images/Entscheidungsdiagramm .svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
-
-
+![](./images/Entscheidungsdiagramm.png)
 
 **Entscheidungsdiagramme** beantworten folgende **Fragen** auf leicht verständliche Weise:
 
@@ -773,7 +712,7 @@ Das kann z.B. so aussehen
 
 Hier siehst Du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im folgenden im Detail erklärt.
 
-<img src="./images/Entscheidungsdiagramm I.svg" alt="Alexander Rose cc BY" style="zoom: 100%;" />
+![](./images/Entscheidungsdiagramm-I.png)
 
 
 
@@ -785,45 +724,19 @@ Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Ko
 - Personen unter 18 Jahren wird keine Versicherung gewährt
 - Personen mit mehr als vier Punkten wird keine Versicherung gewährt
 
+![](./images/Entscheidungstabelle-01.png)
 
 
-
-
-<img src="./images/Entscheidungstabelle 01.png" alt="Alexander Rose cc BY">
 
 
 
 Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel beschreibt dabei eine mögliche Kombination von Eingängen, in welcher jede zu einem bestimmten Ergebnis führt.
 
-<img src="./images/Entscheidungstabelle 02.png" alt="Alexander Rose cc BY">
+![](./images/Entscheidungstabelle-02.png)
 
 
 
-
-
-Operatoren werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an Operatoren:
-
-| Operator                                  | Beschreibung                                                 | Vorhanden für Typen                                          |
-| :---------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| gleich (für Datum:auf)                    | Gibt true zurück, falls der Eingabewert gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum, Liste jeden Typs |
-| gleich (für Daten:nicht auf)              | Gibt true zurück, falls der Eingabewert nicht gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum, Liste jeden Typs |
-| weniger (für Datum: vorher)               | Gibt true zurück, falls der Eingabewert kleiner als der Wert im entsprechenden Feld der Entscheidungstabelle ist. | Nummer, Datum                                                |
-| weniger oder gleich (für Datum:bis)       | Gibt true zurück, falls der Eingabewert kleiner oder gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Nummer, Datum                                                |
-| größer (für Datum: nach)                  | Gibt true zurück, falls der Eingabewert kleiner als der Wert im entsprechenden Feld der Entscheidungstabelle ist. | Nummer, Datum                                                |
-| größer oder gleich (für Datum: von)       | - Gibt ``true`` zurück, falls der Eingabewert größer oder gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Nummer, Datum                                                |
-| enthält (für Zahlen: enthält)             | Gibt truezurück, falls der Eingabewert den Wert im entsprechenden Feld der Entscheidungstabelle enthält. | Text, Zahl                                                   |
-| enthält nicht (für Zahlen: enthält nicht) | Gibt true zurück, falls der Eingabewert nicht gleich dem Wert im entsprechenden Feld der Entscheidungstabelle ist. | Text, Zahl                                                   |
-| beginnt mit                               | Gibt truezurück, falls der Eingabewert den Wert im entsprechenden Feld der Entscheidungstabelle enthält. | Text                                                         |
-| endet mit                                 | - Gibt ``true`` zurück, falls der Eingabewert den Wert im entsprechenden Feld der Entscheidungstabelle enthält. | Text                                                         |
-| Element von                               | Gibt true zurück, falls der Eingabewert in der Liste des entsprechenden Felds der Entscheidungstabelle ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
-| nicht Element von                         | Gibt true zurück, falls der Eingabewert nicht in der Liste des entsprechenden Felds der Entscheidungstabelle ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
-| Elemente von und enthält nur              | Gibt true zurück, falls der Eingabewert nur in der Liste des entsprechenden Felds der Entscheidungstabelle ist. | Liste aller Typen                                            |
-| enthält alle von                          | Gibt true zurück, falls die Eingabeliste wenigstens ein Element des entsprechenden Felds der Entscheidungstabelle enthält. | Liste aller Typen                                            |
-| enthält keins von                         | Gibt true zurück, falls die Eingabeliste kein Element in der Liste des entsprechenden Felds der Entscheidungstabelle enthält. | Liste aller Typen                                            |
-| gültig                                    | Gibt true zurück, falls der Eingabewert definiert (nicht leer) und gültig ist. Falls die Regel zum Beispiel nur numerische Werte, die gleich oder größer als 0 sind, akzeptiert, sind alle numerischen Werte kleiner als 0 und alle nicht-numerischen Werte nicht valide (ungültig). | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
-| nicht gültig                              | Gibt true zurück, falls der Eingabewert definiert (nicht leer) und nicht gültig ist. Falls die Regel zum Beispiel nur numerische Werte, die gleich oder größer als 0 sind, akzeptiert, sind alle numerischen Werte kleiner als 0 und alle nicht-numerischen Werte nicht valide (ungültig). | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
-| definiert                                 | Gibt true zurück, falls der Eingabewert definiert (nicht leer) ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
-| nicht definiert                           | Gibt true zurück, falls der Eingabewert nicht definiert ist. | Aufzählung, Text, Zahlwert, Wahrheitswert, Hierarchie, Datum |
+**Operatoren** werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an [Operatoren](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm).
 
 
 
@@ -844,9 +757,7 @@ In der Praxis können Informationen in verschiedenen Arten vorkommen z.B. textue
 
 Ein Input Data vom Typ **Boolean** besitzt einen von zwei möglichen Werten. Dieser Wert kann entweder **wahr** oder **falsch** sein. Booleans können für einfache Abfragen genutzt werden.
 
-<img src="./images/Datentypen für Input Data Elemente (Boolean).svg" alt="Alexander Rose cc BY">
-
-
+![](./images/Datentypen-für-Input-Data-Elemente-(Boolean).png)
 
 In diesem Beispiel ist der Input Data "Stammkunde" vom Typ Boolean, da es hier nur 2 mögliche Ausprägungen geben kann. Entweder handelt es sich um einen Stammkunden **(wahr)** oder nicht **(falsch)**.
 
@@ -856,9 +767,7 @@ In diesem Beispiel ist der Input Data "Stammkunde" vom Typ Boolean, da es hier n
 
 Eingangsdaten vom Typ **Zahlwert** enthalten **numerische Werte**. Diese können Bereiche oder einfache Zahlen sein. Nummern werden von Operatoren (siehe vorheriges Kapitel) verglichen und können eine Einheit haben. 
 
-
-
-<img src="./images/Datentypen für Input Data Elemente (Zahlwert) .svg" alt="Alexander Rose cc BY">
+![](./images/Datentypen-für-Input-Data-Elemente-(Zahlwert).png)
 
 <u>Einheiten:</u>
 
@@ -890,9 +799,7 @@ Ist der Datentyp einer Eingabe **Aufzählung,** wird eine **Liste von Auswahlopt
 
 Z.B. Express Versand, Standard Versand, ...)
 
-
-
-<img src="./images/Datentypen für Input Data Elemente (Aufzählung).svg" alt="Alexander Rose cc BY">
+![](./images/Datentypen-für-Input-Data-Elemente-(Aufzählung).png)
 
 Operatoren können sein:
 
@@ -907,7 +814,9 @@ Operatoren können sein:
 
 Ein **Datum** wird genutzt, um **bestimmte Zeitpunkte** festzulegen. Durch Operatoren kann der Wert verglichen werden (zum Beispiel mit dem aktuellen Datum).
 
-<img src="./images/Datentypen für Input Data Elemente (Datum).svg" alt="Alexander Rose cc BY">
+![](./images/Datentypen-für-Input-Data-Elemente-(Datum).png)
+
+
 
 Operatoren können sein:
 
@@ -924,9 +833,7 @@ Operatoren können sein:
 
 Der Datentyp **Text** wird für **Vermerke und andere textbasierte Informationen** benutzt. Da die Auswahl eines vordefinierten Wertes weniger fehleranfällig ist, als den Wert selbst einzutippen (Leerzeichen, Tippfehler etc.), sollten Texttypen wenn möglich durch Aufzählungen ersetzt werden. 
 
-
-
-<img src="./images/Datentypen für Input Data Elemente (Text).svg" alt="Alexander Rose cc BY">
+![](./images/Datentypen-für-Input-Data-Elemente-(Text).png)
 
 Operatoren können sein:
 
@@ -945,9 +852,7 @@ Operatoren können sein:
 
 Ein Eingang vom Typ **Hierarchie** listet **Werte in verschiedenen Kategorien** auf, die voneinander hierarchisch abhängig sind. Dies erlaubt die Anwendung von Entscheidungsregeln für eine gesamte Kategorie und/oder einzelne Werte.
 
-<img src="./images/Datentypen für Input Data Elemente (Hierarchie).svg" alt="Alexander Rose cc BY">
-
-
+![](./images/Datentypen-für-Input-Data-Elemente-(Hierarchie).png)
 
 Operatoren können sein:
 
@@ -974,7 +879,7 @@ Bei diesen Hit Policieswird **immer nur eine Regel** in der Entscheidungstaballe
 
 Bei der unique hit policy kann für jede Kombinationen an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind  sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
 
-<img src="./images/Unique hit policy.png" alt="Alexander Rose cc BY">
+![](./images/Unique-hit-policy.png)
 
 Ein "**-**" steht für "**any**" und bedeutet, dass an dieser Stelle jeder mögliche Wert stehen kann.
 
@@ -988,7 +893,7 @@ Ein "**-**" steht für "**any**" und bedeutet, dass an dieser Stelle jeder mögl
 
 Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings **nur die erste zutreffende Regel** verwendet. Die First Hit Policy geht von einer **Sortierung der Regeln** aus –sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine ersten drei Regeln auf den Sachverhalt zu, kann die **letzte Regel als allgemeine “Auffangregel”** genutzt werden.
 
-<img src="./images/First hit policy.png" alt="Alexander Rose cc BY">
+![](./images/First-hit-policy.png)
 
 In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und der Kunde Großhändler ist. Wenn ja, tritt die Regel ein, ansonsten wird die zweite Regel geprüft. Stimmt diese nicht mit den Eingaben überein, wird die dritte Regel geprüft und so weiter.
 
@@ -998,7 +903,7 @@ In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und d
 
 Bei Verwendung der any hit policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.
 
-<img src="./images/Any hit policy.png" alt="Alexander Rose cc BY">
+![](./images/ANY-hit-policy.png)
 
 Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft, führt dies direkt zum Ergebnis der VIP Anforderungen "nicht erfüllt". Somit sind nur bei einer gültigen Kombination von Input Data die VIP Anforderungen "erfüllt". 
 
@@ -1008,7 +913,7 @@ Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft,
 
 Mehrere Regeln können für einen Eingabewert eintreffen, wenn die priority hit policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.
 
-<img src="./images/Priority hit policy.png" alt="Alexander Rose cc BY">
+![](./images/Priority-hit-policy.png)
 
 Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter ’”70” und die Krankengeschichte “schlecht” ist. Demnach wären die möglichen Ergebnisse Hoch und Mittel. Da „Mittel“ jedoch gegenüber „Hoch“ eine höhere Priorität besitzt, wird dieses Ergebnis ausgegeben.
 
@@ -1022,7 +927,7 @@ Bei diesen Hit Policies werden alle zutreffenden Regeln betrachtet. Die erhalten
 
 Liefert alle Treffer in **absteigender Reihenfolge** der Ausgabepriorität. Die Ausgabeprioritäten werden in der geordneten Liste der Ausgabewerte in absteigende Reihenfolge ausgelesen.
 
-<img src="./images/output order policy.png" alt="Alexander Rose cc BY">
+![](./images/output-order-policy.png)
 
 Beispielrechnung:
 
@@ -1037,7 +942,7 @@ Beispielrechnung:
 Die Ausgaben aller **übereinstimmenden Regeln** werden als sortierte Liste zurückgegeben, in der
 Reihenfolge der Regeln.
 
-<img src="./images/rule order policy.png" alt="Alexander Rose cc BY">
+![](./images/Rule-order-policy.png)
 
 Beispielrechnung:
 
@@ -1056,7 +961,7 @@ Folgende Aggregationen können angewendet werden:
 - max >
 - count #
 
-<img src="./images/collect policy.png" alt="Alexander Rose cc BY">
+![](./images/collect-policy.png)
 
 - Input (50, 31):
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
@@ -1072,13 +977,13 @@ Folgende Aggregationen können angewendet werden:
 
 Das Diagramm zeigt, dass sehr viele Informationen berücksichtigt werden müssen, damit der Rabatt bestimmt werden kann. Um **große Entscheidungen** wie diese zu vermeiden, können Teile der Informationen in **untergeordnete Entscheidungen** ausgelagert werden. Doch wann sollten Entscheidungen überhaupt aufgeteilt werden? 
 
-<img src="./images/Große Entscheidungen.svg" alt="Alexander Rose cc BY">
+![](./images/Große-Entscheidungen.png)
 
 Sobald eine Entscheidung mehr als sechs Eingänge hat, wird die Entscheidungslogik sehr **komplex**. Jeder einzelne Informationseingang muss schließlich als Regel in der Entscheidungstabelle berücksichtigt werden. Hier ist es empfehlenswert, die verschiedenen Informationseingänge in einzelne Teilentscheidungen aufzuteilen.
 
 Das Entscheidungsdiagramm ist nun auf eine strategische Entscheidung und drei untergeordnete Entscheidungen aufgeteilt. Dadurch ist das gesamte Diagramm leichter verständlich und die Abhängigkeiten sowie Eingangswerte sind besser erkennbar.
 
-<img src="./images/Große Entscheidungen I.svg" alt="Alexander Rose cc BY">
+![](./images/Große-Entscheidungen-I.png)
 
 Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine einzelne Teilentscheidung kann jetzt geändert werden, ohne die Logik in den anderen Teilentscheidungen anpassen zu müssen.
 
@@ -1088,27 +993,23 @@ Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem
 
 In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatt**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
-<img src="./images/Teilentscheidungen.svg" alt="Alexander Rose cc BY">
-
-
+![](./images/Teilentscheidungen.png)
 
 Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elementes dargestellt werden.
 
 Zur Besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.
 
-<img src="./images/Teilentscheidungen II.svg" alt="Alexander Rose cc BY">
-
-
+![](./images/Teilentscheidungen-II.png)
 
 Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für andere Betrachter klar verständlich ist, was genau entschieden wird, gibt es **verschiedene Benennungsarten.**  
 
 
 
-| Benennungsstil  | Beispiel                                                     | Beschreibung                                                 |
-| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Aktivitätenstil | <img src="./images/Benenennsart Aktiviitätenstil.svg" alt="Alexander Rose cc BY"> | Selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln |
-| Ereignisstil    | <img src="./images/Benenennsart Ergebnisstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidung wird nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
-| Fragenstil      | <img src="./images/Benenennsart Fragenstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
+| Benennungsstil  | Beispiel                                        | Beschreibung                                                 |
+| --------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| Aktivitätenstil | ![](./images/Benenennsart-Aktiviitätenstil.png) | Selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln |
+| Ereignisstil    | ![](./images/Benenennsart-Ergebnisstil.png)     | Die Entscheidung wird nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
+| Fragenstil      | ![](./images/Benenennsart-Fragenstil.png)       | Die Entscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
 
 [Zurück zur KATA](#Dein erstes komplexes DRD (Kata))
 
@@ -1172,6 +1073,10 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 [Business Processes: Modeling, Simulation, Execution](https://open.hpi.de/courses/bpm2019)
 
+[Modellierung von Geschäftsprozessen mit BPMN](https://mooc.house/)
+
+[Einführung in die Entscheidungsmodellierung mit DMN](https://mooc.house/)
+
 
 
 # Stop talking, start doing!
@@ -1188,7 +1093,50 @@ Keep Calm & Learn On! :-)
 
 
 
-# Danksagungen
+# Anhang
+
+## Circle Moderator*innen Checkliste
+
+**WOCHE 0 - Sprint Planung & Get Together**
+
+Wenn Ihr Euch im Circle noch nicht kennt, lernt Euch in der Woche 0 kennen. Plant, wann Ihr Euch trefft, welche Tools Ihr nutzt und wer der Moderator ist.
+
+- **Check-in:** Herzlich willkommen! *(5 Minuten)*
+- **Get together:** Wer bist du? Stell Dich vor. Fünf-Minuten-Timebox pro Circle-Mitglied. *(25 Minuten)*
+- **Sprint Planung** siehe unten *(25 Minuten)*
+- **Check-out:** Das nächste Treffen bestätigen. *(5 Minuten)*
+
+Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der "Chef" des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendt. Entscheidet, ob Ihr den [lernOS Canvas](https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas)   als unterstützendes Werkzeug verwenden möchtet.
+
+- **Circle-Moderator:** ...
+- **Tag und Uhrzeit des Weekly:** ...
+- **Wöchentliche Treffen sind:** persönlich / virtuell
+- **Verwendete Tools (können alle sie nutzen?):** ...
+- **Benutzen wir den Canvas:** Ja / Nein
+
+**ProTip:** in vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
+
+**ProTip:** Wenn du das lernOS OneNote Circle Template verwendest, kannst du ein aktuelles Foto von Deinem Canvas machen und einfügen, damit die anderen Circle-Mitglieder es sehen und Feedback geben können.
+
+**WOCHE 1 - 11**
+
+- **Check-in:** Was habe ich seit dem letzten Check-in getan? Was hat sich bei den Schlüsselergebnissen getan? Was hält mich auf? Zwei-Minuten-Timebox pro Circle-Mitglied. *(10 Minuten)*
+- **Kata-Diskussion** Zeigt Euch gegenseitig Eure Ergebnisse. Diskutiert Eure Erkenntnisse & Herausforderungen. *(45 Minuten)* 
+- **Check-out:** Was werde ich bis zum nächsten Weekly tun? Eine-Minute-Timebox pro Circle-Mitglied. *(5 Minuten)*
+
+**WOCHE 12: Retrospektive & Feier**
+
+In dieser Woche sollte die endgültige Iteration Deiner Key Results vorliegen. Sprecht darüber und zeigt Sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie Ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet Ihr Euch etwas Zeit nehmen, um Euren Erfolg zu feiern!
+
+- **Check-in:** Was habe ich seit dem letzten Check-in getan? Zeigt die finale Iteration der Key Results. Drei-Minuten-Timebox pro Circle-Mitglied. *(15 Minuten)*
+- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 minutes)*
+- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 minutes)*
+- **Check-out:** Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?
+- **Party Time!** *(Die Dauer wählt ihr)*
+
+
+
+## Danksagungen
 
 lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
 
@@ -1200,11 +1148,16 @@ lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den S
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 
 - Andreas Schäffler
+- [Daniel Kempa](https://www.linkedin.com/in/daniel-kempa-178570157/)
 - t.b.d.
 
 
 
-# Änderungshistorie
+## Quellennachweis
+
+[BPMN-Poster]("http://bpmb.de/poster)
+
+## Änderungshistorie
 
 | Version | Bearbeitet von | Beschreibung der Änderung | Date |
 |---------|----------------|-----------------------|-------|

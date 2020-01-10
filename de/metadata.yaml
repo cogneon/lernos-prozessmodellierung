@@ -1,5 +1,5 @@
-```
-title: "lernOS Lernpfad Prozessmodellierung (BPMN&DMN)"
+---
+title: "lernOS Prozessmodellierung Leitfaden"
 subtitle: "Die Kunst des lebenslangen, selbstgesteuerten Lernens"
 author: [Alexander Rose]
 date: "Version 1.0 (15.02.2020)"
@@ -14,5 +14,4 @@ toc-own-page: true
 toc-depth: 3
 logo: images/lernOS-logo-white-4000px.png
 logo-width: 300
-
-```
+---
