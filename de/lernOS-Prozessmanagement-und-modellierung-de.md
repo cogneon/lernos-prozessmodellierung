@@ -596,21 +596,17 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 Zugeklappte Unterprozesse fassen mehrere Aufgaben (Tasks) zusammen. Damit können komplexe Prozesse übersichtlich dargestellt werden. 
 
-<img src="./images/Unterprozesse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Unterprozesse.png)
 
 In diesem Beispiel wird die Anwendung von **angehängten Zwischenereignissen** an Unterprozessen gezeigt. Falls also die Pasta verkoch ist, wird die Eskalation ausgelöst und Pasta bestellt. Dies sollte jedoch nicht der Standardpfad sein.
 
-<img src="./images/Unterprozesse II.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Unterprozesse-II.png)
 
 ### Nachrichtenflüsse über Poolgrenzen
 
 Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
 
-<img src="./images/Nachrichtenflüsse über Poolgrenzen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Nachrichtenflüsse-über-Poolgrenzen.png)
 
 **Nachrichtenfluss**
 
