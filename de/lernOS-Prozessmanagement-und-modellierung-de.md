@@ -48,7 +48,7 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 
 
-## Warum ein Lernpfad Prozessmanagement und -modellierung
+## Warum ein Lernpfad Prozessmodellierung?
 
 In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können einen hohen Wert besitzen. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt Du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT mit einer gemeinsamen verbindenden  Sprache (BPMN & DMN) die digitale Transformation nach vorne zu bringen.
 
@@ -58,7 +58,7 @@ Das bedeutet auch, das die Übungen eine **steile Lernkurve** für Euch bereit h
 
 Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
-Dafür haben wir den **Prozessmanagement und -modellierung** entwickelt. Er enthält unter anderem:
+Dafür haben wir den **Prozessmodellierung** entwickelt. Er enthält unter anderem:
 
 - 11 Lerninhalte mit den wichtigsten Grundlageninformationen zum jeweiligen Kapitel
 - 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodellierung
@@ -83,7 +83,7 @@ Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet we
 
 
 
-# Lernpfad Prozessmanagement und -modellierung
+# Lernpfad Prozessmodellierung
 
 
 
