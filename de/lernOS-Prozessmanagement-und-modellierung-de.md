@@ -122,7 +122,7 @@ In **Woche 0** gilt es einige administrative & organisatorische Festlegungen fü
 
 
 
-## Mach Dich mit den Grundlagen vertraut (KATA)
+## Mach Dich mit den Grundlagen vertraut (KATA 01)
 
 In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da Du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
 
@@ -133,7 +133,7 @@ In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Proz
 
 
 
-## Dein erstes Diagramm (Happy-Path) (KATA)
+## Dein erstes Diagramm (Happy-Path) (KATA 02)
 
 In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvorhergesehene Ereignisse.  I.d.R. gibt es auch nichts zu entscheiden. In der Welt der Prozessmodellierung nennen wir diesen Weg den Happy-Path. Tatsächlich beginnen wir bei einem neuen Prozessmodell zunächst immer mit der einfachsten Variante. Komplizierter wird es später schon ganz von alleine.
 
@@ -148,7 +148,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 
 
 
-## Triff Deine ersten Entscheidungen (KATA)
+## Triff Deine ersten Entscheidungen (KATA 03)
 
 Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die Du in dieser Kata kennenlernen und anwenden wirst
 
@@ -163,7 +163,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an 
 
 
 
-## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA)
+## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA 04)
 
 Attribute mit visuellen Effekten
 
@@ -184,7 +184,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen &
 
 
 
-## Von Pools und Lanes (KATA)
+## Von Pools und Lanes (KATA 05)
 
 Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.
 
@@ -198,7 +198,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere
 
 
 
-## Exkurs - Eventtypen (KATA)
+## Exkurs - Eventtypen (KATA 06)
 
 Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen.
 
@@ -211,7 +211,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere
 
 
 
-## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (KATA)
+## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (KATA 07)
 
 In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert. 
 
@@ -224,7 +224,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse �
 
 
 
-## DMN - Grundlagen (KATA)
+## DMN - Grundlagen (KATA 08)
 
 In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen
 
@@ -237,7 +237,7 @@ Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere da
 
 
 
-## Datentypen und HIT-Policy (KATA)
+## Datentypen und HIT-Policy (KATA 09)
 
 Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
@@ -269,7 +269,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
 
 
-## Dein erstes komplexes DRD (KATA)
+## Dein erstes komplexes DRD (KATA 10)
 
 Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich
 
@@ -282,7 +282,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und mode
 
 
 
-## Dein Meisterstück (KATA)
+## Dein Meisterstück (KATA 11)
 
 In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.
 
