@@ -437,9 +437,9 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 ## Exkurs - Markierungen, Aufgabentypen & Daten
 
+![](./images/Markierungen,-Aufgaben-Typen-und-Daten.png)
 
 
-<img src="./images/Markierungen, Aufgaben-Typen und Daten.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
 [Zurück zur KATA](#Exkurs - Markierungen, Aufgabentypen &  Daten (Kata))
 
@@ -451,7 +451,9 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 In BPMN werden Verantwortlichkeiten (Organisationseinheiten, Abteilungen, Personen, Rollen) für Aufgaben mit Swimlanes (Pools und Lanes) dargestellt. Ein Prozess "gehört" zu einem Pool und ein Task wird von der jeweiligen Lane ausgeführt.
 
-<img src="./images/Von Pools und Lanes I.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Von-Pools-und-Lanes-I.png)
+
+
 
 Folgende Benennungen von Pools & Lanes haben sich im Einsatz bewährt:
 
@@ -466,11 +468,15 @@ Von der Personen-Benennung ist jedoch abzuraten, da sich Personen ständig ände
 
 Sabine, Ralf und Alex wollen etwas kochen.  Jeder bekommt Aufgaben zugewiesen.
 
-<img src="./images/Sabine, Ralf und Alex wollen etwas kochen.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Sabine,-Ralf-und-Alex-wollen-etwas-kochen.png)
+
+
 
 Ein Task kann in BPMN nur zu **genau einer Lane** (Rolle / Verantwortlichkeit) gehören.
 
 Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen Beteiligten oder weiteren Lanes dargestellt.
+
+![](./images/Sabine,-Ralf-und-Alex-wollen-etwas-kochenI.png)
 
 <img src="./images/Sabine, Ralf und Alex wollen etwas kochen II.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
 
