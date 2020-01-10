@@ -476,9 +476,9 @@ Ein Task kann in BPMN nur zu **genau einer Lane** (Rolle / Verantwortlichkeit) g
 
 Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen Beteiligten oder weiteren Lanes dargestellt.
 
-![](./images/Sabine,-Ralf-und-Alex-wollen-etwas-kochenI.png)
+![](./images/Sabine,-Ralf-und-Alex-wollen-etwas-kochen-II.png)
 
-<img src="./images/Sabine, Ralf und Alex wollen etwas kochen II.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+
 
 [Zurück zur KATA](#Von Pools und Lanes (Kata))
 
@@ -494,7 +494,7 @@ In diesem Prozess sehen wir ein **Blanko-Zwischenereignis**. Es wird verwendet, 
 wichtige Zustände oder Meilensteine in einem Prozess darzustellen und hat keine
 weitere Funktion.
 
-<img src="./images/Blanko-Zwischenereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Blanko-Zwischenereignis.png)
 
 **Zwischenergebnisse (blanko)** 
 
@@ -506,7 +506,7 @@ Repräsentieren Zustände oder Meilensteine im Prozess und haben keinen Einfluss
 
 Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.
 
-<img src="./images/Nachrichten-Zwischenereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Nachrichten-Zwischenereignis.png)
 
 
 
@@ -520,9 +520,7 @@ Werden genutzt bei eingehenden Nachrichten, Waren oder Zahlungen, auf die im Pro
 
 Zeitereignisse können Prozesse starten oder verzögern.
 
-<img src="./images/Zeitereignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Zeitereignisse.png)
 
 - **Zwischen-Zeitereignis:** Zeitpunkte (auch wiederkehrende) oder Wartezeiten
 - **Start-Zeitereignis:** Zu diesen Zeitpunkten wird der Prozess gestartet.
@@ -533,7 +531,7 @@ Zeitereignisse können Prozesse starten oder verzögern.
 
 Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **Ereignisbasierten Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
 
-<img src="./images/Ereignisbasierte Gateways.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Ereignisbasierte-Gateways.png)
 
 **Ereignisbasierte Gateways**  
 
@@ -545,7 +543,7 @@ Steuern den Prozessfluss anhand von möglichen Ereignissen. Sie warten auf eintr
 
 Ereignisbasierte Gateways können auch für Schleifen verwendet werden. In diesem Beispiel wollen wir nicht weiter auf unsere Pasta warten, falls diese nach dreimaligen Nachfragen immer noch nicht geliefert wurde.
 
-<img src="./images/Ereignisbasierte Gateways (Schleife).svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Ereignisbasierte-Gateways-(Schleife).png)
 
 **Ereignis: Bedingung** 
 
@@ -557,7 +555,7 @@ Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.
 
 In diesem Beispielsiehst Du  die Verwendung von **Bedingungsereignissen** im Vergleich zu **Zeitereignissen**.
 
-<img src="./images/Bedingungsereignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Bedingungsereignisse.png)
 
 
 
@@ -565,15 +563,13 @@ In diesem Beispielsiehst Du  die Verwendung von **Bedingungsereignissen** im Ver
 
 Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 15 min dauert, dann bestellen wir nicht, sondern backen Pizza.
 
-<img src="./images/Angeheftete Zwischenerignisse.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
+![](./images/Angeheftete-Zwischenerignisse.png)
 
 ### Link-Ereignis
 
 Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den Sequenzfluss auf den nächstfolgenden Prozess weiterzuleiten. Zwei zusammengehörende Link-Ereignisse repräsentieren dabei einen Sequenzfluss.
 
-<img src="./images/Link-Ereignis.svg" alt="Alexander Rose cc BY" style="zoom: 80%;" />
-
-
+![](./images/Link-Ereignis.png)
 
 **Link-Ereignis**
 Ein auslösendes und eintretendes Link-Ereignis mit **gleichem Namen** entspricht einem Sequenzfluss, d.h. Sie können große Prozesse in Abschnitte aufteilen.
@@ -584,7 +580,7 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 ### Übersicht aller Ereignisse
 
-<img src="./images/Ereignise.png" alt="http://bpmb.de/poster" style="zoom: 50%;" />
+![](./images/Ereignise.png)
 
 
 
@@ -758,7 +754,7 @@ Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel be
 
 
 
-Operatoren werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an [Operatoren](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm).
+**Operatoren** werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an [Operatoren](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm).
 
 
 
