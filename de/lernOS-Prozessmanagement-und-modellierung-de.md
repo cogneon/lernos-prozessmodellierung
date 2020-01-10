@@ -977,13 +977,13 @@ Folgende Aggregationen können angewendet werden:
 
 Das Diagramm zeigt, dass sehr viele Informationen berücksichtigt werden müssen, damit der Rabatt bestimmt werden kann. Um **große Entscheidungen** wie diese zu vermeiden, können Teile der Informationen in **untergeordnete Entscheidungen** ausgelagert werden. Doch wann sollten Entscheidungen überhaupt aufgeteilt werden? 
 
-<img src="./images/Große Entscheidungen.svg" alt="Alexander Rose cc BY">
+![](./images/Große-Entscheidungen.png)
 
 Sobald eine Entscheidung mehr als sechs Eingänge hat, wird die Entscheidungslogik sehr **komplex**. Jeder einzelne Informationseingang muss schließlich als Regel in der Entscheidungstabelle berücksichtigt werden. Hier ist es empfehlenswert, die verschiedenen Informationseingänge in einzelne Teilentscheidungen aufzuteilen.
 
 Das Entscheidungsdiagramm ist nun auf eine strategische Entscheidung und drei untergeordnete Entscheidungen aufgeteilt. Dadurch ist das gesamte Diagramm leichter verständlich und die Abhängigkeiten sowie Eingangswerte sind besser erkennbar.
 
-<img src="./images/Große Entscheidungen I.svg" alt="Alexander Rose cc BY">
+![](./images/Große-Entscheidungen-I.png)
 
 Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine einzelne Teilentscheidung kann jetzt geändert werden, ohne die Logik in den anderen Teilentscheidungen anpassen zu müssen.
 
@@ -993,27 +993,23 @@ Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem
 
 In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatt**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
-<img src="./images/Teilentscheidungen.svg" alt="Alexander Rose cc BY">
-
-
+![](./images/Teilentscheidungen.png)
 
 Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elementes dargestellt werden.
 
 Zur Besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.
 
-<img src="./images/Teilentscheidungen II.svg" alt="Alexander Rose cc BY">
-
-
+![](./images/Teilentscheidungen-II.png)
 
 Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für andere Betrachter klar verständlich ist, was genau entschieden wird, gibt es **verschiedene Benennungsarten.**  
 
 
 
-| Benennungsstil  | Beispiel                                                     | Beschreibung                                                 |
-| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Aktivitätenstil | <img src="./images/Benenennsart Aktiviitätenstil.svg" alt="Alexander Rose cc BY"> | Selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln |
-| Ereignisstil    | <img src="./images/Benenennsart Ergebnisstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidung wird nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
-| Fragenstil      | <img src="./images/Benenennsart Fragenstil.svg" alt="Alexander Rose cc BY"> | Die Entscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
+| Benennungsstil  | Beispiel                                        | Beschreibung                                                 |
+| --------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| Aktivitätenstil | ![](./images/Benenennsart-Aktiviitätenstil.png) | Selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln |
+| Ereignisstil    | ![](./images/Benenennsart-Ergebnisstil.png)     | Die Entscheidung wird nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
+| Fragenstil      | ![](./images/Benenennsart-Fragenstil.png)       | Die Entscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
 
 [Zurück zur KATA](#Dein erstes komplexes DRD (Kata))
 
