@@ -5,7 +5,7 @@ REM Required Software
 REM See lernOS Core tbd.
 
 REM Variables
-set filename="lernOS-Prozessmanagement-und-modellierung-de"
+set filename="lernOS-Prozessmodellierung-de"
 
 REM Delete Old Versions
 REM del %filename%.docx %filename%.epub %filename%.mobi %filename%.html %filename%.pdf images\ebook-cover.png
