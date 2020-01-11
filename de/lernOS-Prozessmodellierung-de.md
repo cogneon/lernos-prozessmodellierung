@@ -295,9 +295,13 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ## Dein erstes Diagramm (Happy-Path)
 
-- Schau Dir die folgenden Folien in Ruhe an
+- Schau Dir die folgenden Folien in Ruhe an:
+
+  
 
 ![](./images/Happy-Path.png)
+
+
 
 ![](./images/Benennung-von-Ereignissen.png)
 
@@ -618,26 +622,19 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 
 ### Kernelemente von DMN
 
-#### Desicion
 
-- Benutzt Logik um Ergebnis zu bestimmen 
-- Zerlegung in Teilentscheidungen möglich
 
-![](./images/Desicion.png)
+| Element          | Eigenschaft                                                  |                                                      |
+| ---------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
+| Desicion         | Benutzt Logik um Ergebnis zu bestimmen.                      | Zerlegung in Teilentscheidungen möglich              |
+| Input Data       | Stellt Informationen für Entscheidungen bereit               | Kann von verschiedenen Entscheidungen genutzt werden |
+| Knowledge Source | Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. | z.B. Gesetze, Regularien oder Richtlinie             |
 
-#### Input Data
 
-- Stellt Informationen für Entscheidungen bereit 
-- Kann von verschiedenen Entscheidungen genutzt werden
 
-![](./images/Input-Data.png)
+![](./images/Decision-Inpitdata-KnowledgeSource.png)
 
-#### Knowledge Source
 
-- Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. 
-- z.B. Gesetze, Regularien oder Richtlinie
-
-![](./images/Knowledge-Source.png)
 
 Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
 
