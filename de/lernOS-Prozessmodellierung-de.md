@@ -301,10 +301,6 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ![](./images/Benennung-von-Ereignissen.png)
 
-
-
-
-
 [Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata))
 
 ------
@@ -641,7 +637,9 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 - Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. 
 - z.B. Gesetze, Regularien oder Richtlinie
 
-![](./images/Knowledge-Source.png)Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
+![](./images/Knowledge-Source.png)
+
+Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
 
 <u>Entscheidungen identifizieren und abgrenzen</u> 
 
