@@ -980,7 +980,7 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 
 
-# Ressourcen & Quellennachweis
+# Ressourcen & Quellennachweise
 
 ## Webseiten
 
@@ -997,6 +997,8 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 [BPMN - Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf)
 
 [Blog von Bruce Silver](https://methodandstyle.com/blog/)
+
+[BPMN Methoden & Stil Booklet](https://www.bpmessentials.com/wp-content/uploads/2017/10/Booklet-MethodStyle.pdf)
 
 [BPMN 2.0 Cheat Sheet](https://www.signavio.com/de/downloads/kurzinfos/bpmn-2-0-cheat-sheet/)
 
@@ -1034,6 +1036,10 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 [Prozess- und Entscheidungsmodellierung in BPMN/DMN - Eine Kurzanleitung](https://www.amazon.de/Prozess-Entscheidungsmodellierung-BPMN-Kurzanleitung-Prozessmodellierung/dp/1519542968)
 
+[BUSINESS PROCESS MANAGEMENT - CONCEPTS, LANGUAGES, ARCHITECTURES](https://epdf.pub/business-process-management-concepts-languages-architectures.html)
+
+
+
 ## Video
 
 [BPMN 2.0 - Grundelemente (Tutorial Part 1)](https://youtu.be/VappsiNgx38)
@@ -1047,6 +1053,8 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 [BPMN 2.0 - Pools & Lanes (Tutorial Part 5)](https://youtu.be/9Sjb-R44FBg)
 
 [BPMN 2.0 - Daten (Tutorial Part 6)](https://youtu.be/a2HCoJUG0xs)
+
+[Webinaraufzeichnungen](https://www.youtube.com/watch?v=jmQUloX_iv8&list=PLsdRG4tvgt7I93dd6O8YDWX9n7_oWwvCg)
 
 ## MOOC
 
