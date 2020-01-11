@@ -964,8 +964,10 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 | Benennungsstil  | Beschreibung                                                 | Beispiel                      |
 | --------------- | ------------------------------------------------------------ | ----------------------------- |
 | Aktivitätenstil | Selbe Bezeichnung wie zugehörige BPMN Aktivität. Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln | Kundenstatus ermitteln        |
-| Ereignisstil    | Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? z.B. der Kundenstatus. Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge | Kundenstatus                  |
+| Ereignisstil    | Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? z. B. der Kundenstatus. Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge | Kundenstatus                  |
 | Fragenstil      | Die Entscheidung wird als Frage formuliert. **Achtung:** Fragen können sehr umfangreich sein und damit zu langen Bezeichnungen führen | Welchen Status hat der Kunde? |
+
+
 
 [Zurück zur KATA](#Dein erstes komplexes DRD (Kata))
 
