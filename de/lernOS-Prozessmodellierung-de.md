@@ -655,7 +655,7 @@ Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **
 
 
 
-Das kann z.B. so aussehen:
+Das kann z. B. so aussehen:
 
 ![](./images/Entscheidungsdiagramm.png)
 
@@ -961,11 +961,11 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 
 
-| Benennungsstil  | Beispiel                                        | Beschreibung                                                 |
-| --------------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| Aktivitätenstil | ![](./images/Benenennsart-Aktiviitätenstil.png) | Selbe Bezeichnung wie zugehörige BPMN Aktivität <br />Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln |
-| Ereignisstil    | ![](./images/Benenennsart-Ergebnisstil.png)     | Die Entscheidung wird nach Ihrem Ausgang benannt.<br />Was wird entschieden? z.B. der Kundenstatus<br />Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge |
-| Fragenstil      | ![](./images/Benenennsart-Fragenstil.png)       | Die Entscheidung wird als Frage formuliert.<br />Achtung: Fragen können sehrumfangreich sein und damit zu langen Bezeichnungen führen |
+| Benennungsstil  | Beschreibung                                                 | Beispiel                      |
+| --------------- | ------------------------------------------------------------ | ----------------------------- |
+| Aktivitätenstil | Selbe Bezeichnung wie zugehörige BPMN Aktivität. Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln | Kundenstatus ermitteln        |
+| Ereignisstil    | Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? z.B. der Kundenstatus. Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge | Kundenstatus                  |
+| Fragenstil      | Die Entscheidung wird als Frage formuliert. **Achtung:** Fragen können sehr umfangreich sein und damit zu langen Bezeichnungen führen | Welchen Status hat der Kunde? |
 
 [Zurück zur KATA](#Dein erstes komplexes DRD (Kata))
 
