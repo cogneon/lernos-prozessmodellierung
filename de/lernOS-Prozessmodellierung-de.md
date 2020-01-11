@@ -543,9 +543,7 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 ### Übersicht aller Ereignisse
 
-![](./images/Ereignise.png)
-
-
+Eine **vollständige Übersicht** aller BPMN Ereignisse findest Du im [BPMN-Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf) auf der rechten Seite.
 
 [Zurück zur KATA](#Exkurs - Eventtypen (Kata))
 
