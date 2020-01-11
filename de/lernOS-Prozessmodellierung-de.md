@@ -85,43 +85,6 @@ Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet we
 
 # Lernpfad Prozessmodellierung
 
-
-
-## Organisation & Ziel(e) für die nächsten 12 Wochen
-
-In **Woche 0** gilt es einige administrative & organisatorische Festlegungen für die nächsten 12 Wochen zu treffen:
-
-- **Wann** wird der wöchentliche Termin (Weekly) stattfinden? 
-
-- **Wo** wird der wöchentliche Termin (Weekly) stattfinden? Persönliches Treffen oder virtuell?
-
-- Welches **Ziel** willst Du in den nächsten 12 Wochen erreicht haben?
-
-  - Verwende die Methode **[OKR](https://felipecastro.com/resource/The-Beginners-Guide-to-OKR.pdf)** um dein Ziel genauer zu beschreiben. 
-
-  - Schreibe dein Ziel auf. Definiere **2-4 Schlüsselergebnisse pro Ziel**, um dir bei der Fortschrittkontrolle zu helfen. 
-
-  - Du solltest die Schlüsselergebnisse auf einer **Skala von 0,0 - 1,0** messen können. Um sich ehrgeizige Ziele zu setzen, gilt eine Fertigstellungsrate von 0,7 als Erfolg.
-
-    Vorlage:
-
-    > *Ich will (Ziel):* ...
-    
-    >*gemessen an (Schlüsselergebnisse):*
-      > 
-    >1. ...
-      > 2. ...
-      > 3. ...
-      > 4. ...
-  
-  
-  
-- Welche **Tools** werden für die Kommunikation und Dokumentation verwendet? 
-
-- **Wer** ist der Facilitator des Circles? Rollierend oder eine fester Person?
-
-
-
 ## Mach Dich mit den Grundlagen vertraut (KATA 01)
 
 In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da Du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
@@ -265,7 +228,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
 - Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
-**Pro-Tip:** Wenn Du Dich noch tiefer mit dem Thema auseinandersetzen willst, findest Du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
+**Pro-Tippp:** Wenn Du Dich noch tiefer mit dem Thema auseinandersetzen willst, findest Du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
 
 
@@ -311,7 +274,7 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten
 
 Bringe Dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-**Pro-Tip:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit Auszeichnung bestanden.
+**Pro-Tippp:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit Auszeichnung bestanden.
 
 
 
@@ -1017,7 +980,7 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 
 
-# Ressourcen
+# Ressourcen & Quellennachweis
 
 ## Webseiten
 
@@ -1026,6 +989,8 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 [Object Management Group - Business Process Model and Notation](https://www.omg.org/spec/BPMN)
 
 [Object Management Group - Decision Model and Notation](https://www.omg.org/spec/DMN)
+
+[IOZ](https://www.ioz.ch/de/prozessmanagement.html)
 
 [BPMN - Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf)
 
@@ -1038,6 +1003,20 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 ## Tools
 
 [Web-based tooling for BPMN, DMN and CMMN](https://bpmn.io/)
+
+[BIC Design](http://www.bicdesign-free.com/webedition/)
+
+[BPM Free](https://www.bpm-free.de/)
+
+
+
+[yEd Graph Editor](https://www.yworks.com/products/yed)
+
+[Lucidchart](https://www.lucidchart.com/pages/de/landing/process-mapping-software)
+
+
+
+
 
 ## Foren & Gruppen
 
@@ -1114,9 +1093,11 @@ Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert
 - **Verwendete Tools (können alle sie nutzen?):** ...
 - **Benutzen wir den Canvas:** Ja / Nein
 
-**ProTip:** in vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
+**ProTipp:** Wähle ein Ziel für die nächsten 12 Wochen. Verwende die Fragen "Ist es mir wirklich, wirklich wichtig?" Verwende die Methode [Objective & Key Results (OKR)](https://de.wikipedia.org/wiki/Objectives_and_Key_Results), um dein Ziel genauer zu beschreiben. Schreibe dein Ziel auf. Definiere 2-4 Schlüsselergebnisse pro Ziel, um dir bei der Fortschrittkontrolle zu helfen. Du solltest die Schlüsselergebnisse auf einer Skala von 0,0-1,0 messen können. Um sich ehrgeizige Ziele zu setzen, gilt eine Fertigstellungsrate von 0,7 als Erfolg.
 
-**ProTip:** Wenn du das lernOS OneNote Circle Template verwendest, kannst du ein aktuelles Foto von Deinem Canvas machen und einfügen, damit die anderen Circle-Mitglieder es sehen und Feedback geben können.
+**ProTipp:** in vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
+
+**ProTipp:** Wenn du das lernOS OneNote Circle Template verwendest, kannst du ein aktuelles Foto von Deinem Canvas machen und einfügen, damit die anderen Circle-Mitglieder es sehen und Feedback geben können.
 
 **WOCHE 1 - 11**
 
@@ -1142,7 +1123,8 @@ lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den S
 
 - [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATAS A, B,C ...
 - [Florian Adam](https://www.linkedin.com/in/florian-adam-59627a142/) für <FEHLT>
-- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die Scetschontes X, Y, Z, sowie
+- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die Scetshnotes 
+- Benrd Neumayr für ...
 - [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die didaktische und technische Unterstützung
 
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
@@ -1152,10 +1134,6 @@ Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 - t.b.d.
 
 
-
-## Quellennachweis
-
-[BPMN-Poster]("http://bpmb.de/poster)
 
 ## Änderungshistorie
 
