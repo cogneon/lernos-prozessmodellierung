@@ -104,9 +104,9 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 
 Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an und modelliere dann:
 
-- - a) einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
-  - b) einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
-  
+1. Einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
+2. Einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
+
 - Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -119,9 +119,9 @@ Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir könn
 
 Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an und modelliere dann:
 
-- - a) 
-  - b) 
-  
+1. Eine **beliebige Entscheidung ** Deiner Wahl mit mindestens einem XOR und einem AND Gateway  
+2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
+
 - Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -305,7 +305,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ![](./images/Benennung-von-Ereignissen.png)
 
-[Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata))
+[Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata 02))
 
 ------
 
@@ -392,7 +392,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 - Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
 - Alle Zweige: Pasta, Steak & Salat
 
-[Zurück zur KATA](#Triff Deine ersten Entscheidungen (Kata))
+[Zurück zur KATA](#Triff Deine ersten Entscheidungen (Kata 03))
 
 ------
 
@@ -404,7 +404,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 
 
-[Zurück zur KATA](#Exkurs - Markierungen, Aufgabentypen &  Daten (Kata))
+[Zurück zur KATA](#Exkurs - Markierungen, Aufgabentypen &  Daten (Kata 04))
 
 ------
 
@@ -443,7 +443,7 @@ Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen
 
 
 
-[Zurück zur KATA](#Von Pools und Lanes (Kata))
+[Zurück zur KATA](#Von Pools und Lanes (Kata 05))
 
 ------
 
@@ -545,7 +545,7 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 Eine **vollständige Übersicht** aller BPMN Ereignisse findest Du im [BPMN-Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf) auf der rechten Seite.
 
-[Zurück zur KATA](#Exkurs - Eventtypen (Kata))
+[Zurück zur KATA](#Exkurs - Eventtypen (Kata 06))
 
 ------
 
@@ -573,7 +573,7 @@ Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der
 
 Stellt die Kommunikation zwischen den Pools dar.
 
-[Zurück zur KATA](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen (Kata))
+[Zurück zur KATA](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen (Kata 07))
 
 ------
 
@@ -817,7 +817,7 @@ Operatoren können sein:
 - Element von
 - Kein Element von
 
-[Zurück zur KATA](#DMN - Grundlagen (Kata))
+[Zurück zur KATA](#DMN - Grundlagen (Kata 08))
 
 ------
 
@@ -923,7 +923,7 @@ Folgende Aggregationen können angewendet werden:
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
 - Output für C+: 37
 
-[Zurück zur KATA](#Datentypen und HIT-policy (Kata))
+[Zurück zur KATA](#Datentypen und HIT-policy (Kata 09))
 
 ------
 
@@ -969,7 +969,7 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 
 
-[Zurück zur KATA](#Dein erstes komplexes DRD (Kata))
+[Zurück zur KATA](#Dein erstes komplexes DRD (Kata 10))
 
 ------
 
