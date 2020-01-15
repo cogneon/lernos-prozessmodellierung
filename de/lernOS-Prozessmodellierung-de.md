@@ -1,4 +1,4 @@
-Über lernOS
+# Über lernOS
 
 Das Verb "lernos" ist die Zukunftsform von "lernen" auf Esperanto (mi lernos = ich werde lernen, ni lernos = wir werden lernen). **lernOS** ist ein **Betriebssystem** für **Lebenslanges Lernen** und **Lernende Organisationen**. lernOS ist aber keine Software, sondern "Brainware". Es ist eine Art zu Denken und zu Handeln, um als Einzelperson, Team oder Organisation im 21. Jahrhundert erfolgreich zu sein. Das groß geschriebene "OS" im Namen unterstreicht die Bedeutung der Digitalisierung für unsere vernetzte Wissensgesellschaft.
 
@@ -50,17 +50,17 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ## Warum ein Lernpfad Prozessmodellierung?
 
-In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können einen hohen Wert besitzen. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt Du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT mit einer gemeinsamen verbindenden  Sprache (BPMN & DMN) die digitale Transformation nach vorne zu bringen.
+In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt Du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT eine gemeinsame verbindenden  Sprache (BPMN & DMN) die digitale Transformation entscheidend nach vorne zu bringen.
 
-Dieser Lernpfad funktioniert für **alle Erfahrungslevel** und richtet sich damit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob Du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
+Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob Du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
 
-Das bedeutet auch, das die Übungen eine **steile Lernkurve** für Euch bereit halten.  Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier umsetzbar sind.  
+Das bedeutet auch, das die Übungen eine **steile Lernkurve** für dich bereithalten.  Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier durchführbar sind.
 
 Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
-Dafür haben wir den **Prozessmodellierung** entwickelt. Er enthält unter anderem:
+Dafür haben wir den **Lernpfad Prozessmodellierung** entwickelt. Er enthält unter anderem:
 
-- 11 Lerninhalte mit den wichtigsten Grundlageninformationen zum jeweiligen Kapitel
+- 11 Lerninhalte mit den wichtigsten Grundlageninformationen
 - 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodellierung
 - Zahlreiche Ressourcen zur weiteren Vertiefung
 
@@ -74,12 +74,12 @@ Dafür haben wir den **Prozessmodellierung** entwickelt. Er enthält unter ander
 
 
 
-Die meisten Katas stehen in 2 Varianten zur Verfügung
+Die meisten Katas stehen in 2 Varianten zur Verfügung:
 
 1. Eine konkrete vorgegebene Aufgabe
 2. Eine Aufgabe ohne spezielle Vorgaben
 
-Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedenen Leistungsniveaus innerhalb eines Circles  bedienen zu wollen. Während Variante 1 eher für Beginner gedacht ist und sehr gut dazu geeignet, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Problemstellungen lösen wollen. 
+Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedenen Leistungsstufen innerhalb eines Circles  bedienen zu wollen. Während Variante 1 eher für Beginner gedacht ist und sehr gut dazu geeignet, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Aufgabenstellungen lösen wollen. 
 
 
 
@@ -92,7 +92,7 @@ In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Proz
 **Dauer:** ca.  60 Minuten
 
 - Besuche die Seite  [Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/) und lies sie Dir gründlich durch. 
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -107,11 +107,11 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 1. Einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
 2. Einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
 
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
-## Triff Deine ersten Entscheidungen (KATA 03)
+## Triff deine ersten Entscheidungen (KATA 03)
 
 Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die Du in dieser Kata kennenlernen und anwenden wirst
 
@@ -122,7 +122,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an 
 1. Eine **beliebige Entscheidung ** Deiner Wahl mit mindestens einem XOR und einem AND Gateway  
 2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
 
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
@@ -130,26 +130,27 @@ Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an 
 
 Attribute mit visuellen Effekten
 
-Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Die folgende Liste gibt Ihnen einen Überblick über die wichtigsten dieser Attribute 
+Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Dennoch kann es sehr hilfreich sein, über die Attribute direkt auf den Objekten einen **schnellen Überblick** zu bekommen. Die Liste in den Lernunterlagen gibt dir einen Überblick über die wichtigsten dieser Attribute. 
 
 **Dauer**: 60 Minuten
 
 Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen & Daten) an und modelliere dann:
 
-- Ein beliebiges Prozessdiagramm mit mindestens
-  - Drei verschiedenen Attributen 
-  - Einem Datenobjekt
-  - Einer Assoziation 
-  - Einem AND-Gateway
+1. Ein **beliebiges Prozessdiagramm** mit mindestens
+   - Drei verschiedenen Attributen 
+   - Einem Datenobjekt
+   - Einer Assoziation 
+   - Einem AND-Gateway
+2. Die "**Tee-Zubereitung**". Alle Tasks haben Attribute
 
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
 
 ## Von Pools und Lanes (KATA 05)
 
-Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den Verantwortlichkeiten. Diese werden in BPMN durch Pools und Lanes beschrieben.
+Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den **Verantwortlichkeiten**. Diese werden in BPMN durch Pools und Lanes beschrieben.
 
 **Dauer:**  60 Minuten
 
@@ -157,52 +158,52 @@ Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere
 
 - <FEHLT>
 
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
 ## Exkurs - Eventtypen (KATA 06)
 
-Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst Du die häufigsten Eventtypen kennen.
+Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
 
 **Dauer:**  90 Minuten
 
 Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere dann:
 
 - <FEHLT>
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
-## Unterprozesse und Nachrichtenflüsse über Poolgrenzen (KATA 07)
+## Unterprozesse und Nachrichtenflüsse (KATA 07)
 
-In dieser Kata lernen wir die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert. 
+In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert. Dies wird dir helfen komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
 
 **Dauer:**  60 Minuten
 
 Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen) an und modelliere dann:
 
 - <FEHLT>
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
 ## DMN - Grundlagen (KATA 08)
 
-In dieser Kata lernst Du die Kernelemente von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst Dich mit Entscheidungstabellen
+Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Berieche, die besonders für die Automatisierung von Prozessen nützlich sein werden. In dieser Kata lernst Du die **Grundelemente** von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
 **Dauer:** 60 Minuten
 
 Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere dann:
 
 - <FEHLT>
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
 ## Datentypen und HIT-Policy (KATA 09)
 
-Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das Herzstück des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
+Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
 **Dauer:**  90 Minuten
 
@@ -210,11 +211,11 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
 1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
 
-   a) Der Kunde muss mindestens 18 Jahre alt sein; 
+   a) Der Kunde muss mindestens 18 Jahre alt sein
 
-   b) Nichtmitgliederunter23 müssenmindestens5 Jahre Fahrerfahrung haben; 
+   b) Nichtmitglieder unter23 Jahre müssen mindestens 5 Jahre Fahrpraxis haben
 
-   c) Mitgliederunter23 müssenmindestens2 Jahre Fahrerfahrung haben
+   c) Mitglieder unter23 Jahre müssen mindestens 2 Jahre Fahrerfahrung haben
 
 2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
 
@@ -224,36 +225,36 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
    c) Ein Kunde mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhält ebenfalls Gold Status 
 
-   d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 Euro werden Standardkunden
+   d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden
 
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
-**Pro-Tippp:** Wenn Du Dich noch tiefer mit dem Thema auseinandersetzen willst, findest Du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
+**Pro-Tipp:** Wenn du dich noch tiefer mit dem Thema auseinandersetzen willst, findest du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
 
 
 ## Dein erstes komplexes DRD (KATA 10)
 
-Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst Du wann es Sinn macht Entscheidungen in Teilentscheidungen aufzuteilen und welche verschiedenen Namenskonventionen es gibt. Ein Decision Requirements Diagram (DRD) visualisiert dies anschaulich
+Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst du wann es Sinn macht Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
 
 **Dauer:**  45 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und modelliere dann:
 
 - XXX
-- Notiere Deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
 ## Dein Meisterstück (KATA 11)
 
-In der letzten Kata geht es um Alles. Alles was Du bisher gelernt hast, sollst Du in Deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts Du Dir einen Prozess aus, den Du selber gut kennst und den du damit auch gut beschreiben kannst. Ein Beispiel aus Deiner täglichen Arbeit oder aus Deinem Privatbereich wird Dir sicher schnell einfallen.
+In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatbereich wird dir sicher schnell einfallen.
 
 **Dauer:** 120 - 240 Minuten (Je nach Ausprägung Deines Prozesses)
 
 Folgende Komponenten sollte dein Meisterstück mindestens enthalten
 
-- 3 Pools mit Nachrichtenflüssen
+- 3 Pools mit Nachrichtenflüssen & mindestens 2 Lanes in einem Pool
 
 - 1 Unterprozess
 
@@ -261,7 +262,7 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten
 
 - Verschiedene Datenobjekte
 
-- Verschiedene Eventtypen: Mindestens ein Link-Event und ein angeheftetes Kompensations-Zwischenevent
+- Verschiedene Eventtypen: Mindestens ein Link-Event und ein angeheftetes Kompensations-Zwischenevent sowie ein Signal-Event
 
 - Verschiedene Gateways: Mindestens ein Event-Gateway
 
@@ -269,12 +270,10 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten
 
 - 2 unterschiedliche HIT-Policies (Single & Multiple)
 
-  
 
+Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-Bringe Dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
-
-**Pro-Tippp:** Die Feuertaufe - Lasse Dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen Deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit Auszeichnung bestanden.
+**Pro-Tipp:** Die Feuertaufe - Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
 
 
 
@@ -303,6 +302,10 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 
 
+
+
+
+
 ![](./images/Benennung-von-Ereignissen.png)
 
 [Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata 02))
@@ -311,9 +314,9 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 
 
-## Triff Deine ersten Entscheidungen
+## Triff deine ersten Entscheidungen
 
-Mit Gateways kann man den Prozessfluss steuern. Entscheidungenwerden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
+Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
 
 
 
@@ -331,15 +334,15 @@ Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf **genau einen**
 
 ### Exklusives Gateway (XOR) mit mehreren Enden
 
-Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht Sie auswählen. 
+Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht ausgewählt wird. 
 
 ![](./images/Exklusive-Gateways-(XOR)-mehrere-Endergebnisse.png)
 
 
 
-### Exklusives Gateway (XOR) Split und Join
+### Exklusives Gateway (XOR) split und join
 
-In diesem Beispiel haben wir zwei Exklusive Gateways das Erste teilt (Split) den Prozess in zwei Zweige und das Zweite führt diese wieder zusammen (Join).
+In diesem Beispiel haben wir zwei Exklusive Gateways. Das erste teilt (split) den Prozess in zwei Zweige und das zweite führt diese Zweige wieder zusammen (join).
 
 ![](./images/Exklusive-Gateways-(XOR)-Split-&-Join.png)
 
@@ -367,9 +370,9 @@ Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Be
 
 In diesem Beispiel wird der Salat parallel zum Hauptgericht angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.
 
-Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell Dir das Token wie einen Spielball bzw. eine Kugel vor. Die Kugel wird bei jedem Start des Prozesses erzeugt und durchläuft ihn. Bei einem exklusiven Gateway kann der Token nur einen Weg nehmen. Bei einem parallelen Gateway teilt sich der Token in mehrere Token auf, je nach Anzahl der folgenden Zweige.
+Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell dir das Token wie einen Spielball bzw. eine Kugel vor. Die Kugel wird bei jedem Start des Prozesses erzeugt und durchläuft ihn. Bei einem exklusiven Gateway kann der Token nur einen Weg nehmen. Bei einem parallelen Gateway teilt sich der Token in mehrere Token auf, je nach Anzahl der folgenden Zweige.
 
-In unserem Beispiel wird also am parallelen Gateway ein zweites Token erzeugt. Diese beiden Token durchlaufen nun den parallelen Prozessabschnitt, bis sie durch das zweite AND-Gateway wieder zusammengeführt werden. Danach durchläuft der Token den restlichen Prozess und wird am Ende des Prozesses konsumiert 
+In unserem Beispiel wird also am parallelen Gateway ein zweiter Token erzeugt. Diese beiden Token durchlaufen nun den parallelen Prozessabschnitt, bis sie durch das zweite AND-Gateway wieder zusammengeführt werden. Danach durchläuft der Token den restlichen Prozess und wird am Ende des Prozesses konsumiert .
 
 ![](./images/Kombination-von-XOR-und-AND-Gateway-(Das-Tokenprinzip).png)
 
@@ -379,8 +382,8 @@ Manchmal benötigen Prozesse noch etwas mehr Flexibilität. Hier kommt das **Ink
 
 ![](./images/Inklusive-Gateway-(OR).png)
 
-Inklusive Gateway (OR) werden genutzt, wenn **eine oder mehrere Bedingungen möglich sind**.
-Bei der Zusammenführung **wird auf alle gewählten Zweige gewartet**.
+Inklusive Gateway (OR) werden genutzt, wenn **eine oder mehrere** Bedingungen möglich sind.
+Bei der Zusammenführung wird auf **alle gewählten Zweige** gewartet.
 
 Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
@@ -427,7 +430,7 @@ Folgende Benennungen von Pools & Lanes haben sich im Einsatz bewährt:
 | Prozessbezogene Rolle | Mitarbeiter, Vorgesetzter, Prozessverantwortlicher  |
 | Personen              | Frau Schulze, Herr Meier                            |
 
-Von der Personen-Benennung ist jedoch abzuraten, da sich Personen ständig ändern können. Nutzen Sie in dem Fall besser die **prozessbezogenen Rollen**.
+Von der Personenbenennung ist jedoch abzuraten, da sich Personen ständig ändern können. Nutze  in dem Fall besser die **prozessbezogenen Rollen**.
 
 Sabine, Ralf und Alex wollen etwas kochen.  Jeder bekommt Aufgaben zugewiesen.
 
@@ -459,7 +462,7 @@ weitere Funktion.
 
 ![](./images/Blanko-Zwischenereignis.png)
 
-**Zwischenergebnisse (blanko)** 
+**Zwischenergebnisse (Blanko)** 
 
 Repräsentieren Zustände oder Meilensteine im Prozess und haben keinen Einfluss auf den Prozessverlauf.
 
@@ -492,7 +495,7 @@ Zeitereignisse können Prozesse starten oder verzögern.
 
 ### Eventbasierte Gateways
 
-Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **Ereignisbasierten Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
+Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **Ereignisbasierten-Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
 
 ![](./images/Ereignisbasierte-Gateways.png)
 
@@ -516,7 +519,7 @@ Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.
 
 ### Bedingungsereignisse
 
-In diesem Beispielsiehst Du  die Verwendung von **Bedingungsereignissen** im Vergleich zu **Zeitereignissen**.
+In diesem Beispiel siehst Du die Verwendung von **Bedingungsereignissen** im Vergleich zu **Zeitereignissen**.
 
 ![](./images/Bedingungsereignisse.png)
 
@@ -524,7 +527,7 @@ In diesem Beispielsiehst Du  die Verwendung von **Bedingungsereignissen** im Ver
 
 ### Angeheftete Zwischenereignisse
 
-Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 15 min dauert, dann bestellen wir nicht, sondern backen Pizza.
+Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 15 Minuten dauert, dann bestellen wir nicht, sondern backen Pizza.
 
 ![](./images/Angeheftete-Zwischenerignisse.png)
 
@@ -551,7 +554,7 @@ Eine **vollständige Übersicht** aller BPMN Ereignisse findest Du im [BPMN-Post
 
 
 
-## Unterprozesse und Nachrichtenflüsse über Poolgrenzen
+## Unterprozesse und Nachrichtenflüsse
 
 ### Unterprozesse
 
@@ -559,21 +562,21 @@ Zugeklappte Unterprozesse fassen mehrere Aufgaben (Tasks) zusammen. Damit könne
 
 ![](./images/Unterprozesse.png)
 
-In diesem Beispiel wird die Anwendung von **angehängten Zwischenereignissen** an Unterprozessen gezeigt. Falls also die Pasta verkoch ist, wird die Eskalation ausgelöst und Pasta bestellt. Dies sollte jedoch nicht der Standardpfad sein.
+Im nächsten  Beispiel wird die Anwendung von **angehängten Zwischenereignissen** an Unterprozessen gezeigt. Falls also die Pasta verkoch ist, wird eine Eskalation ausgelöst und Pasta bestellt. Dies sollte jedoch nicht der Standardpfad sein.
 
 ![](./images/Unterprozesse-II.png)
 
 ### Nachrichtenflüsse über Poolgrenzen
 
-Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
+Externe (Kommunikations)partner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
 
 ![](./images/Nachrichtenflüsse-über-Poolgrenzen.png)
 
 **Nachrichtenfluss**
 
-Stellt die Kommunikation zwischen den Pools dar.
+Stellt die Kommunikation zwischen Pools dar.
 
-[Zurück zur KATA](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen (Kata 07))
+[Zurück zur KATA](#Unterprozesse und Nachrichtenflüsse (Kata 07))
 
 ------
 
@@ -584,7 +587,7 @@ Stellt die Kommunikation zwischen den Pools dar.
 ### Einführung
 
 **Business Decision Management** (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
-Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer DMN Software, um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen. 
+Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer [DMN Software](https://demo.bpmn.io/dmn), um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen. 
 
 
 | Menschliche Entscheidungen    | Automatisierte Entscheidungen               |
@@ -596,14 +599,14 @@ Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, aller
 
 **BDM** dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.
 
-Das digitale Zeitalter und die zunehmend verstärkten gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.
+Das digitale Zeitalter und die zunehmend gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.
 
 
 
 | Das digitale Zeitalter                           | Erweiterte Vorschriften                                      |
 | ------------------------------------------------ | ------------------------------------------------------------ |
 | Mehr verfügbare Daten                            | Pflicht zur Nachvollziehbarkeit & Transparenz: Von der Anforderung bis zur Implementierung |
-| Big Data Analyse                                 | Risiken für Verstöße gegen gesetzliche Vorschriften frühzeitig |
+| Big Data Analyse                                 | Risiken für Verstöße gegen gesetzliche Vorschriften frühzeitig erkennen |
 | Schneller auf veränderte Anforderungen reagieren | Vermeidung von Strafe                                        |
 | **Entscheidungen intelligenter treffen**         | **Entscheidungen intelligenter treffen**                     |
 
@@ -628,7 +631,7 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 | ---------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
 | Desicion         | Benutzt Logik um Ergebnis zu bestimmen.                      | Zerlegung in Teilentscheidungen möglich              |
 | Input Data       | Stellt Informationen für Entscheidungen bereit               | Kann von verschiedenen Entscheidungen genutzt werden |
-| Knowledge Source | Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. | z.B. Gesetze, Regularien oder Richtlinie             |
+| Knowledge Source | Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. | z.B. Gesetze, Regularien oder Richtlinien            |
 
 
 
@@ -662,7 +665,7 @@ Das kann z. B. so aussehen:
 **Entscheidungsdiagramme** beantworten folgende **Fragen** auf leicht verständliche Weise:
 
 - Welche Informationen werden benötigt? 
-- Gibt vorgelagerte Entscheidungen? 
+- Gibt es vorgelagerte Entscheidungen? 
 - Gibt es externe oder interne Richtlinien? 
 - Wie sind die Abhängigkeiten?
 
@@ -698,20 +701,20 @@ Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel be
 
 ### Datentypen für Input-Data Elemente
 
-In der Praxis können Informationen in verschiedenen Arten vorkommen z.B. textuell, als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Hierfür gibt es folgende Datentypen:
+In der Praxis können Informationen in verschiedenen Arten vorkommen z.B. textuell, als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Es gibt folgende Datentypen:
 
 - Boolean: Wahr / Falsch (Wahrheitswert) 
 - Zahlwert: 12, 33%, 45€ 
 - Aufzählung: Hund, Katze, Maus 
 - Text: Namen, Modellnummer: ED4637K 
-- Datum: 12.12.2017 
+- Datum: 08.05.1970
 - Hierarchie: Abteilungsleiter, Teamleiter, Mitarbeiter
 
 
 
 #### Boolean
 
-Ein Input Data vom Typ **Boolean** besitzt einen von zwei möglichen Werten. Dieser Wert kann entweder **wahr** oder **falsch** sein. Booleans können für einfache Abfragen genutzt werden.
+Ein Input Data vom Typ **Boolean** besitzt einen von zwei möglichen Werten. Dieser Wert kann entweder **wahr** oder **falsch** sein. Boolean kann für einfache Abfragen genutzt werden.
 
 ![](./images/Datentypen-für-Input-Data-Elemente-(Boolean).png)
 
@@ -827,7 +830,7 @@ Operatoren können sein:
 
 ### Single hit policies 
 
-Bei diesen Hit Policieswird **immer nur eine Regel** in der Entscheidungstaballe angewendet, auch wenn mehrere Regeln zutreffen.
+Bei diesen Hit Policieswird **immer nur eine Regel** in der Entscheidungstabelle angewendet, auch wenn mehrere Regeln zutreffen.
 
 
 
@@ -847,7 +850,7 @@ Ein "**-**" steht für "**any**" und bedeutet, dass an dieser Stelle jeder mögl
 
 #### First hit policy (F)
 
-Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings **nur die erste zutreffende Regel** verwendet. Die First Hit Policy geht von einer **Sortierung der Regeln** aus –sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine ersten drei Regeln auf den Sachverhalt zu, kann die **letzte Regel als allgemeine “Auffangregel”** genutzt werden.
+Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings **nur die erste zutreffende Regel** verwendet. Die First Hit Policy geht von einer **Sortierung der Regeln** aus. Sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine der ersten drei Regeln auf den Sachverhalt zu, kann die **letzte Regel** als allgemeine **“Auffangregel”** genutzt werden.
 
 ![](./images/First-hit-policy.png)
 
@@ -871,13 +874,13 @@ Mehrere Regeln können für einen Eingabewert eintreffen, wenn die priority hit 
 
 ![](./images/Priority-hit-policy.png)
 
-Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter ’”70” und die Krankengeschichte “schlecht” ist. Demnach wären die möglichen Ergebnisse Hoch und Mittel. Da „Mittel“ jedoch gegenüber „Hoch“ eine höhere Priorität besitzt, wird dieses Ergebnis ausgegeben.
+Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter '70' und die Krankengeschichte “schlecht” ist. Demnach wären die möglichen Ergebnisse Hoch und Mittel. Da „Mittel“ jedoch gegenüber „Hoch“ eine höhere Priorität besitzt, wird dieses Ergebnis ausgegeben.
 
 
 
 ### Multi hit policies 
 
-Bei diesen Hit Policies werden alle zutreffenden Regeln betrachtet. Die erhaltenen Ergebnisse können entweder als Liste ausgegeben oder zu einem einzelnen Wert aggregiert werden (z.B. als Summe).
+Bei diesen Hit Policies werden **alle** zutreffenden Regeln betrachtet. Die erhaltenen Ergebnisse können entweder als Liste ausgegeben oder zu einem einzelnen Wert aggregiert werden (z.B. als Summe).
 
 #### Output order policy (O)
 
@@ -935,7 +938,7 @@ Das Diagramm zeigt, dass sehr viele Informationen berücksichtigt werden müssen
 
 ![](./images/Große-Entscheidungen.png)
 
-Sobald eine Entscheidung mehr als sechs Eingänge hat, wird die Entscheidungslogik sehr **komplex**. Jeder einzelne Informationseingang muss schließlich als Regel in der Entscheidungstabelle berücksichtigt werden. Hier ist es empfehlenswert, die verschiedenen Informationseingänge in einzelne Teilentscheidungen aufzuteilen.
+Sobald eine Entscheidung **mehr als sechs** Eingänge hat, wird die Entscheidungslogik sehr **komplex**. Jeder einzelne Informationseingang muss schließlich als Regel in der Entscheidungstabelle berücksichtigt werden. Hier ist es empfehlenswert, die verschiedenen Informationseingänge in einzelne Teilentscheidungen aufzuteilen.
 
 Das Entscheidungsdiagramm ist nun auf eine strategische Entscheidung und drei untergeordnete Entscheidungen aufgeteilt. Dadurch ist das gesamte Diagramm leichter verständlich und die Abhängigkeiten sowie Eingangswerte sind besser erkennbar.
 
@@ -945,7 +948,7 @@ Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine ein
 
 
 
-Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wiederverwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind Statusbestimmen oder Berechtigung prüfen.
+Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wiederverwendet werden. Ein paar Beispiele für solche wieder verwendbaren Teilentscheidungen sind Status bestimmen oder Berechtigung prüfen.
 
 In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatt**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
