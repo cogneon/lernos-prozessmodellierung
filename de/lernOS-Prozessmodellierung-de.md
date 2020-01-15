@@ -1127,8 +1127,8 @@ In dieser Woche sollte die endgültige Iteration Deiner Key Results vorliegen. S
 
 lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
 
-- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATAS A, B,C ...
-- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die Sketchnotes
+- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA 'DMN Grundlagen'  und 'Von Pools & Lanes'
+- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die Sketchnotes zum Aufbau des Lernpfads
 - Bernd Neumayr für ...
 - [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die didaktische und technische Unterstützung
 

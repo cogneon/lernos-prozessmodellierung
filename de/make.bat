@@ -11,13 +11,13 @@ REM Delete Old Versions
 REM del %filename%.docx %filename%.epub %filename%.mobi %filename%.html %filename%.pdf images\ebook-cover.png
 
 REM Create Microsoft Word Version (docx)
-pandoc -s -o %filename%.docx %filename%.md
+rem pandoc -s -o %filename%.docx %filename%.md
 
 REM Create Web Version (html)
 REM pandoc -s --toc -o %filename%.html %filename%.md
 
 REM Create PDF Version (pdf)
-rem pandoc %filename%.md metadata.yaml -o %filename%.pdf --from markdown --template Prozessmodellierung.latex --number-sections -V lang=de-de
+pandoc %filename%.md metadata.yaml -o %filename%.pdf --from markdown --template Prozessmodellierung.latex --number-sections -V lang=de-de
 
 REM Create eBook Versions (epub, mobi)
 REM magick -density 300 %filename%.pdf[0] ebook-cover.png
