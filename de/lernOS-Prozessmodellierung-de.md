@@ -50,9 +50,9 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ## Warum ein Lernpfad Prozessmodellierung?
 
-In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt Du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT eine gemeinsame verbindenden  Sprache (BPMN & DMN) die digitale Transformation entscheidend nach vorne zu bringen.
+In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT eine gemeinsame verbindenden  Sprache (BPMN & DMN) die digitale Transformation entscheidend nach vorne zu bringen.
 
-Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob Du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
+Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
 
 Das bedeutet auch, das die Übungen eine **steile Lernkurve** für dich bereithalten.  Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier durchführbar sind.
 
@@ -85,9 +85,9 @@ Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet we
 
 # Lernpfad Prozessmodellierung
 
-## Mach Dich mit den Grundlagen vertraut (KATA 01)
+## Mach dich mit den Grundlagen vertraut (KATA 01)
 
-In dieser Kata machst Du Dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da Du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
+In dieser Kata machst du dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
 
 **Dauer:** ca.  60 Minuten
 
@@ -113,7 +113,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 
 ## Triff deine ersten Entscheidungen (KATA 03)
 
-Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die Du in dieser Kata kennenlernen und anwenden wirst
+Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst
 
 **Dauer:**  90 Minuten
 
@@ -190,7 +190,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse �
 
 ## DMN - Grundlagen (KATA 08)
 
-Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Berieche, die besonders für die Automatisierung von Prozessen nützlich sein werden. In dieser Kata lernst Du die **Grundelemente** von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
+Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Berieche, die besonders für die Automatisierung von Prozessen nützlich sein werden. In dieser Kata lernst du die **Grundelemente** von DMN kennen. du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
 **Dauer:** 60 Minuten
 
@@ -273,7 +273,7 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten
 
 Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-**Pro-Tipp:** Die Feuertaufe - Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen dann hast Du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
+**Pro-Tipp:** Die Feuertaufe - Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
 
 
 
@@ -523,7 +523,7 @@ Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.
 
 ### Bedingungsereignisse
 
-In diesem Beispiel siehst Du die Verwendung von **Bedingungsereignissen** im Vergleich zu **Zeitereignissen**.
+In diesem Beispiel siehst du die Verwendung von **Bedingungsereignissen** im Vergleich zu **Zeitereignissen**.
 
 ![](./images/Bedingungsereignisse.png)
 
@@ -552,7 +552,7 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 ### Übersicht aller Ereignisse
 
-Eine **vollständige Übersicht** aller BPMN Ereignisse findest Du im [BPMN-Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf) auf der rechten Seite.
+Eine **vollständige Übersicht** aller BPMN Ereignisse findest du im [BPMN-Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf) auf der rechten Seite.
 
 [Zurück zur KATA](#Exkurs - Eventtypen (Kata 06))
 
@@ -677,7 +677,7 @@ Das kann z. B. so aussehen:
 - Gibt es externe oder interne Richtlinien? 
 - Wie sind die Abhängigkeiten?
 
-Hier siehst Du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im folgenden im Detail erklärt.
+Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im folgenden im Detail erklärt.
 
 ![](./images/Entscheidungsdiagramm-I.png)
 
@@ -1095,7 +1095,7 @@ Keep Calm & Learn On! :-)
 Wenn Ihr Euch im Circle noch nicht kennt, lernt Euch in der Woche 0 kennen. Plant, wann Ihr Euch trefft, welche Tools Ihr nutzt und wer der Moderator ist.
 
 - **Check-in:** Herzlich willkommen! *(5 Minuten)*
-- **Get together:** Wer bist du? Stell Dich vor. Fünf-Minuten-Timebox pro Circle-Mitglied. *(25 Minuten)*
+- **Get together:** Wer bist du? Stell dich vor. Fünf-Minuten-Timebox pro Circle-Mitglied. *(25 Minuten)*
 - **Sprint Planung** siehe unten *(25 Minuten)*
 - **Check-out:** Das nächste Treffen bestätigen. *(5 Minuten)*
 
