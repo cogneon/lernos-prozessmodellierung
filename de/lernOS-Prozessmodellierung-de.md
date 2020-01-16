@@ -541,6 +541,8 @@ Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den
 
 ![](./images/Link-Ereignis.png)
 
+![](./images/Link-Ereignis-I.png)
+
 **Link-Ereignis**
 Ein auslösendes und eintretendes Link-Ereignis mit **gleichem Namen** entspricht einem Sequenzfluss, d.h. Sie können große Prozesse in Abschnitte aufteilen.
 
