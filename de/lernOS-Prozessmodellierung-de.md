@@ -302,6 +302,10 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 
 
+------
+
+
+
 
 
 
@@ -405,7 +409,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 ![](./images/Markierungen,-Aufgaben-Typen-und-Daten.png)
 
-
+![](./images/Markierungen,-Aufgaben-Typen-und Daten-I.png)
 
 [Zurück zur KATA](#Exkurs - Markierungen, Aufgabentypen &  Daten (Kata 04))
 
