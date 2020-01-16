@@ -568,6 +568,8 @@ Zugeklappte Unterprozesse fassen mehrere Aufgaben (Tasks) zusammen. Damit könne
 
 ![](./images/Unterprozesse.png)
 
+------
+
 Im nächsten  Beispiel wird die Anwendung von **angehängten Zwischenereignissen** an Unterprozessen gezeigt. Falls also die Pasta verkoch ist, wird eine Eskalation ausgelöst und Pasta bestellt. Dies sollte jedoch nicht der Standardpfad sein.
 
 ![](./images/Unterprozesse-II.png)
