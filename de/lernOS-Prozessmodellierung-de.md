@@ -201,7 +201,7 @@ Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere da
 
 
 
-## Datentypen und HIT-Policy (KATA 09)
+## Datentypen und HIT-Policy (KATA 09) {#kata09}
 
 Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
@@ -934,7 +934,7 @@ Folgende Aggregationen können angewendet werden:
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
 - Output für C+: 37
 
-[Zurück zur KATA](#Datentypen und HIT-policy (Kata 09))
+[Zurück zur KATA](#kata09)
 
 ------
 
