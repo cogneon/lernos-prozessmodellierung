@@ -87,11 +87,11 @@ Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet we
 
 ## Mach dich mit den Grundlagen vertraut (KATA 01) {#kata01}
 
-In dieser Kata machst du dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
+In dieser Kata machst du dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm dir etwas Zeit für diese Übung, da du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
 
 **Dauer:** ca.  60 Minuten
 
-- Besuche die Seite  [Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/) und lies sie Dir gründlich durch. 
+- Besuche die Seite  [Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/) und lies sie dir gründlich durch. 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -102,7 +102,7 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 
 **Dauer:** ca. 30 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an und modelliere dann: 
+Schaue dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an und modelliere dann: 
 
 <!--Ggf. die Reihenfolge 1 & 2 tauschen. Hinweis Daniel. Dann müsste auch der Variantenterklärteil angepasst werden. Diskussion zum nächsten weekly-->
 
@@ -119,7 +119,7 @@ Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir könn
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an und modelliere dann:
 
 1. Eine **beliebige Entscheidung ** Deiner Wahl mit mindestens einem XOR und einem AND Gateway  
 2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
@@ -136,7 +136,7 @@ Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur 
 
 **Dauer**: 60 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen & Daten) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen & Daten) an und modelliere dann:
 
 1. Ein **beliebiges Prozessdiagramm** mit mindestens
    - Drei verschiedenen Attributen 
@@ -156,7 +156,7 @@ Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Eleme
 
 **Dauer:**  60 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere dann:
 
 - <FEHLT>
 
@@ -170,7 +170,7 @@ Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtyp
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -183,7 +183,7 @@ In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikatio
 
 **Dauer:**  60 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -196,7 +196,7 @@ Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erwe
 
 **Dauer:** 60 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -209,7 +209,7 @@ Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die me
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und modelliere dann:
 
 1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
 
@@ -296,7 +296,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ## Dein erstes Diagramm (Happy-Path)
 
-- Schau Dir die folgenden Folien in Ruhe an:
+- Schau dir die folgenden Folien in Ruhe an:
 
   
 
