@@ -102,7 +102,7 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 
 **Dauer:** ca. 30 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#LU-HappyPath) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-HappyPath) an und modelliere dann:
 
 1. Einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
 2. Einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
@@ -117,7 +117,7 @@ Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir könn
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#LU-Gateways) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Gateways) an und modelliere dann:
 
 1. Eine **beliebige Entscheidung ** Deiner Wahl mit mindestens einem XOR und einem AND Gateway  
 2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
@@ -134,7 +134,7 @@ Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur 
 
 **Dauer**: 60 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#LU-Markierungen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Markierungen) an und modelliere dann:
 
 1. Ein **beliebiges Prozessdiagramm** mit mindestens
    - Drei verschiedenen Attributen 
@@ -154,7 +154,7 @@ Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Eleme
 
 **Dauer:**  60 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#LU-Pools) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Pools) an und modelliere dann:
 
 - <FEHLT>
 
@@ -168,7 +168,7 @@ Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtyp
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#LU-Eventtypen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Eventtypen) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -181,7 +181,7 @@ In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikatio
 
 **Dauer:**  60 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#LU-Unterprozesse) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Unterprozesse) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -194,7 +194,7 @@ Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erwe
 
 **Dauer:** 60 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#LU-DMN) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-DMN) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -207,7 +207,7 @@ Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die me
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [Lernuterlagen](#LU-Datentypen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Datentypen) an und modelliere dann:
 
 1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
 
@@ -239,7 +239,7 @@ Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in 
 
 **Dauer:**  45 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#LU-DRD) an und modelliere dann:
+Schaue dir zunächst die [<*Lernuterlagen*>](#LU-DRD) an und modelliere dann:
 
 - XXX
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -312,7 +312,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ![](./images/Benennung-von-Ereignissen.png)
 
-[Zurück zur KATA](#kata02)
+[<*Zurück zur KATA*>](#kata02)
 
 ------
 
@@ -399,7 +399,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 - Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
 - Alle Zweige: Pasta, Steak & Salat
 
-[Zurück zur KATA](#kata03)
+[<*Zurück zur KATA*>](#kata03)
 
 ------
 
@@ -411,7 +411,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 ![](./images/Markierungen,-Aufgaben-Typen-und Daten-I.png)
 
-[Zurück zur KATA](#kata04)
+[<*Zurück zur KATA*>](#kata04)
 
 ------
 
@@ -450,7 +450,7 @@ Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen
 
 
 
-[Zurück zur KATA](#kata05)
+[<*Zurück zur KATA*>](#kata05)
 
 ------
 
@@ -554,7 +554,7 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 Eine **vollständige Übersicht** aller BPMN Ereignisse findest du im [BPMN-Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf) auf der rechten Seite.
 
-[Zurück zur KATA](#kata06)
+[<*Zurück zur KATA*>](#kata06)
 
 ------
 
@@ -584,7 +584,7 @@ Externe (Kommunikations)partner werden mit **zugeklappten Pools** dargestellt. D
 
 Stellt die Kommunikation zwischen Pools dar.
 
-[Zurück zur KATA](#kata07)
+[<*Zurück zur KATA*>](#kata07)
 
 ------
 
@@ -828,7 +828,7 @@ Operatoren können sein:
 - Element von
 - Kein Element von
 
-[Zurück zur KATA](#kata08)
+[<*Zurück zur KATA*>](#kata08)
 
 ------
 
@@ -934,7 +934,7 @@ Folgende Aggregationen können angewendet werden:
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
 - Output für C+: 37
 
-[Zurück zur KATA](#kata09)
+[<*Zurück zur KATA*>](#kata09)
 
 ------
 
@@ -980,7 +980,7 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 
 
-[Zurück zur KATA](#kata10)
+[<*Zurück zur KATA*>](#kata10)
 
 ------
 
