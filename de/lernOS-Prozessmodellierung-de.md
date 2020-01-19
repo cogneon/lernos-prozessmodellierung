@@ -36,7 +36,7 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 ## Was ist Prozessmodellierung?
 
-Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
+Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten) können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
 
 ### Was ist BPMN?
 
@@ -44,13 +44,13 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ### Was ist DMN?
 
-**[Decision Model and Notation](https://de.wikipedia.org/wiki/Decision_Model_and_Notation)** (kurz DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten. 
+**[Decision Model and Notation](https://de.wikipedia.org/wiki/Decision_Model_and_Notation)** (DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten. 
 
 
 
 ## Warum ein Lernpfad Prozessmodellierung?
 
-In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT eine gemeinsame verbindenden  Sprache (BPMN & DMN) die digitale Transformation entscheidend nach vorne zu bringen.
+In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung eine gemeinsame verbindenden  Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
 
 Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
 
@@ -87,11 +87,11 @@ Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet we
 
 ## Mach dich mit den Grundlagen vertraut (KATA 01) {#kata01}
 
-In dieser Kata machst du dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
+In dieser Kata machst du dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm dir etwas Zeit für diese Übung, da du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
 
 **Dauer:** ca.  60 Minuten
 
-- Besuche die Seite  [Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/) und lies sie Dir gründlich durch. 
+- Besuche die Seite  [Business Process Model and Notation (BPMN) — Einführung](https://www.signavio.com/de/bpmn-einfuehrung/) und lies sie dir gründlich durch. 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -102,7 +102,9 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 
 **Dauer:** ca. 30 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-HappyPath) an und modelliere dann:
+Schaue dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an und modelliere dann: 
+
+<!--Ggf. die Reihenfolge 1 & 2 tauschen. Hinweis Daniel. Dann müsste auch der Variantenterklärteil angepasst werden. Diskussion zum nächsten weekly-->
 
 1. Einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
 2. Einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
@@ -294,7 +296,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ## Dein erstes Diagramm (Happy-Path) {#LU-HappyPath}
 
-- Schau Dir die folgenden Folien in Ruhe an:
+- Schau dir die folgenden Folien in Ruhe an:
 
   
 
@@ -1108,6 +1110,12 @@ Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert
 - **Benutzen wir den Canvas:** Ja / Nein
 
 **ProTipp:** Wähle ein Ziel für die nächsten 12 Wochen. Verwende die Fragen "Ist es mir wirklich, wirklich wichtig?" Verwende die Methode [Objective & Key Results (OKR)](https://de.wikipedia.org/wiki/Objectives_and_Key_Results), um dein Ziel genauer zu beschreiben. Schreibe dein Ziel auf. Definiere 2-4 Schlüsselergebnisse pro Ziel, um dir bei der Fortschrittkontrolle zu helfen. Du solltest die Schlüsselergebnisse auf einer Skala von 0,0-1,0 messen können. Um sich ehrgeizige Ziele zu setzen, gilt eine Fertigstellungsrate von 0,7 als Erfolg.
+
+**Pro-Tipp:** Eine strukturierte Dokumentation für die Reflektion im Weekly kann hilfreich sein. Folgende Fragen sollten beantwortet sein:
+
+- Was war dir schon bekannt?
+- Was war dir neu?
+- Wo bestehen noch Fragen?
 
 **ProTipp:** in vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
 
