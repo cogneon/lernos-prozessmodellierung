@@ -85,7 +85,7 @@ Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet we
 
 # Lernpfad Prozessmodellierung
 
-## Mach dich mit den Grundlagen vertraut (KATA 01)
+## Mach dich mit den Grundlagen vertraut (KATA 01) {#kata01}
 
 In dieser Kata machst du dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm Dir etwas Zeit für diese Übung, da du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den  Kata's der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen
 
@@ -96,7 +96,7 @@ In dieser Kata machst du dich mit den <u>wichtigsten Grundelementen</u> der Proz
 
 
 
-## Dein erstes Diagramm (Happy-Path) (KATA 02)
+## Dein erstes Diagramm (Happy-Path) (KATA 02) {#kata02}
 
 In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvorhergesehene Ereignisse.  I.d.R. gibt es auch nichts zu entscheiden. In der Welt der Prozessmodellierung nennen wir diesen Weg den Happy-Path. Tatsächlich beginnen wir bei einem neuen Prozessmodell zunächst immer mit der einfachsten Variante. Komplizierter wird es später schon ganz von alleine.
 
@@ -111,7 +111,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an 
 
 
 
-## Triff deine ersten Entscheidungen (KATA 03)
+## Triff deine ersten Entscheidungen (KATA 03) {#kata03}
 
 Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst
 
@@ -126,7 +126,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an 
 
 
 
-## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA 04)
+## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA 04) {#kata04}
 
 Attribute mit visuellen Effekten
 
@@ -148,7 +148,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen &
 
 
 
-## Von Pools und Lanes (KATA 05)
+## Von Pools und Lanes (KATA 05) {#kata05}
 
 Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den **Verantwortlichkeiten**. Diese werden in BPMN durch Pools und Lanes beschrieben.
 
@@ -162,7 +162,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere
 
 
 
-## Exkurs - Eventtypen (KATA 06)
+## Exkurs - Eventtypen (KATA 06) {#kata06}
 
 Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
 
@@ -175,7 +175,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere
 
 
 
-## Unterprozesse und Nachrichtenflüsse (KATA 07)
+## Unterprozesse und Nachrichtenflüsse (KATA 07) {#kata07}
 
 In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert. Dies wird dir helfen komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
 
@@ -188,7 +188,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse �
 
 
 
-## DMN - Grundlagen (KATA 08)
+## DMN - Grundlagen (KATA 08) {#kata08}
 
 Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Berieche, die besonders für die Automatisierung von Prozessen nützlich sein werden. In dieser Kata lernst du die **Grundelemente** von DMN kennen. du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
@@ -201,7 +201,7 @@ Schaue Dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere da
 
 
 
-## Datentypen und HIT-Policy (KATA 09)
+## Datentypen und HIT-Policy (KATA 09) {#kata09}
 
 Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
@@ -233,7 +233,7 @@ Schaue Dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und mode
 
 
 
-## Dein erstes komplexes DRD (KATA 10)
+## Dein erstes komplexes DRD (KATA 10) {#kata10}
 
 Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst du wann es Sinn macht Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
 
@@ -246,7 +246,7 @@ Schaue dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und mode
 
 
 
-## Dein Meisterstück (KATA 11)
+## Dein Meisterstück (KATA 11) {#kata11}
 
 In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatbereich wird dir sicher schnell einfallen.
 
@@ -312,7 +312,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ![](./images/Benennung-von-Ereignissen.png)
 
-[Zurück zur KATA](#Dein erstes Diagramm (Happy-Path) (Kata 02))
+[Zurück zur KATA](#kata02)
 
 ------
 
@@ -399,7 +399,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 - Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
 - Alle Zweige: Pasta, Steak & Salat
 
-[Zurück zur KATA](#Triff Deine ersten Entscheidungen (Kata 03))
+[Zurück zur KATA](#kata03)
 
 ------
 
@@ -411,7 +411,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 ![](./images/Markierungen,-Aufgaben-Typen-und Daten-I.png)
 
-[Zurück zur KATA](#Exkurs - Markierungen, Aufgabentypen &  Daten (Kata 04))
+[Zurück zur KATA](#kata04)
 
 ------
 
@@ -450,7 +450,7 @@ Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen
 
 
 
-[Zurück zur KATA](#Von Pools und Lanes (Kata 05))
+[Zurück zur KATA](#kata05)
 
 ------
 
@@ -554,7 +554,7 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 Eine **vollständige Übersicht** aller BPMN Ereignisse findest du im [BPMN-Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf) auf der rechten Seite.
 
-[Zurück zur KATA](#Exkurs - Eventtypen (Kata 06))
+[Zurück zur KATA](#kata06)
 
 ------
 
@@ -584,7 +584,7 @@ Externe (Kommunikations)partner werden mit **zugeklappten Pools** dargestellt. D
 
 Stellt die Kommunikation zwischen Pools dar.
 
-[Zurück zur KATA](#Unterprozesse und Nachrichtenflüsse (Kata 07))
+[Zurück zur KATA](#kata07)
 
 ------
 
@@ -828,7 +828,7 @@ Operatoren können sein:
 - Element von
 - Kein Element von
 
-[Zurück zur KATA](#DMN - Grundlagen (Kata 08))
+[Zurück zur KATA](#kata08)
 
 ------
 
@@ -934,7 +934,7 @@ Folgende Aggregationen können angewendet werden:
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
 - Output für C+: 37
 
-[Zurück zur KATA](#Datentypen und HIT-policy (Kata 09))
+[Zurück zur KATA](#kata09)
 
 ------
 
@@ -980,7 +980,7 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 
 
-[Zurück zur KATA](#Dein erstes komplexes DRD (Kata 10))
+[Zurück zur KATA](#kata10)
 
 ------
 
