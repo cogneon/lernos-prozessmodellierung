@@ -40,7 +40,7 @@ Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessm
 
 ### Was ist BPMN?
 
-Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN, deutsch Geschäftsprozessmodell und -notation) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.
+Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.
 
 ### Was ist DMN?
 
@@ -50,11 +50,11 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ## Warum ein Lernpfad Prozessmodellierung?
 
-In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung eine gemeinsame verbindenden  Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
+In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modellieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung durch eine gemeinsame verbindenden Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
 
-Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
+Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal, ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
 
-Das bedeutet auch, das die Übungen eine **steile Lernkurve** für dich bereithalten.  Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier durchführbar sind.
+Das bedeutet auch, dass die Übungen eine **steile Lernkurve** für dich bereithalten.  Alle BPMN-Übungen sind so angelegt, dass sie auch mit einem Stift und einem Blatt Papier durchführbar sind.
 
 Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
@@ -79,7 +79,7 @@ Die meisten Katas stehen in 2 Varianten zur Verfügung:
 1. Eine konkrete vorgegebene Aufgabe
 2. Eine Aufgabe ohne spezielle Vorgaben
 
-Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedenen Leistungsstufen innerhalb eines Circles  bedienen zu wollen. Während Variante 1 eher für Beginner gedacht ist und sehr gut dazu geeignet, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Aufgabenstellungen lösen wollen. 
+Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedene Leistungsstufen innerhalb eines Circles  bedienen zu wollen. Während Variante 1 eher für Beginner gedacht und sehr gut dazu geeignet ist, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Aufgabenstellungen lösen wollen. 
 
 
 
@@ -102,7 +102,7 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 
 **Dauer:** ca. 30 Minuten
 
-Schaue dir zunächst die [<*Lernuterlagen*>](#LU-HappyPath) an und modelliere dann: 
+Schaue dir zunächst die [<*Lernunterlagen*>](#LU-HappyPath) an und modelliere dann: 
 
 <!--Ggf. die Reihenfolge 1 & 2 tauschen. Hinweis Daniel. Dann müsste auch der Variantenterklärteil angepasst werden. Diskussion zum nächsten weekly-->
 
@@ -115,13 +115,13 @@ Schaue dir zunächst die [<*Lernuterlagen*>](#LU-HappyPath) an und modelliere da
 
 ## Triff deine ersten Entscheidungen (KATA 03) {#kata03}
 
-Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst
+Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen, indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedener Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst.
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Gateways) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Gateways) an und modelliere dann:
 
-1. Eine **beliebige Entscheidung ** Deiner Wahl mit mindestens einem XOR und einem AND Gateway  
+1. Eine **beliebige Entscheidung ** deiner Wahl mit mindestens einem XOR und einem AND Gateway  
 2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -136,7 +136,7 @@ Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur 
 
 **Dauer**: 60 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Markierungen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Markierungen) an und modelliere dann:
 
 1. Ein **beliebiges Prozessdiagramm** mit mindestens
    - Drei verschiedenen Attributen 
@@ -152,11 +152,11 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Markierungen) an und modelliere
 
 ## Von Pools und Lanes (KATA 05) {#kata05}
 
-Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den **Verantwortlichkeiten**. Diese werden in BPMN durch Pools und Lanes beschrieben.
+Nachdem wir jetzt sehr viel über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den **Verantwortlichkeiten**. Diese werden in BPMN durch Pools und Lanes beschrieben.
 
 **Dauer:**  60 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Pools) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
 - <FEHLT>
 
@@ -170,7 +170,7 @@ Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtyp
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Eventtypen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Eventtypen) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -179,11 +179,11 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Eventtypen) an und modelliere d
 
 ## Unterprozesse und Nachrichtenflüsse (KATA 07) {#kata07}
 
-In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert. Dies wird dir helfen komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
+In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
 
 **Dauer:**  60 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Unterprozesse) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -192,11 +192,11 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Unterprozesse) an und modellier
 
 ## DMN - Grundlagen (KATA 08) {#kata08}
 
-Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Berieche, die besonders für die Automatisierung von Prozessen nützlich sein werden. In dieser Kata lernst du die **Grundelemente** von DMN kennen. du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
+Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
 **Dauer:** 60 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-DMN) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -205,19 +205,19 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-DMN) an und modelliere dann:
 
 ## Datentypen und HIT-Policy (KATA 09) {#kata09}
 
-Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
+Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Datentypen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Datentypen) an und modelliere dann:
 
 1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
 
    a) Der Kunde muss mindestens 18 Jahre alt sein
 
-   b) Nichtmitglieder unter23 Jahre müssen mindestens 5 Jahre Fahrpraxis haben
+   b) Nichtmitglieder unter 23 Jahren müssen mindestens 4 Jahre Fahrpraxis haben
 
-   c) Mitglieder unter23 Jahre müssen mindestens 2 Jahre Fahrerfahrung haben
+   c) Mitglieder unter 23 Jahre müssen mindestens 2 Jahre Fahrpraxis haben
 
 2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
 
@@ -225,9 +225,9 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Datentypen) an und modelliere d
 
    b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
 
-   c) Ein Kunde mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhält ebenfalls Gold Status 
+   c) Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhalten ebenfalls Gold Status 
 
-   d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden
+   d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -237,11 +237,11 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Datentypen) an und modelliere d
 
 ## Dein erstes komplexes DRD (KATA 10) {#kata10}
 
-Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst du wann es Sinn macht Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
+Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst du, wann es Sinn macht, Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
 
 **Dauer:**  45 Minuten
 
-Schaue dir zunächst die [<*Lernuterlagen*>](#LU-DRD) an und modelliere dann:
+Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DRD) an und modelliere dann:
 
 - XXX
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -250,11 +250,11 @@ Schaue dir zunächst die [<*Lernuterlagen*>](#LU-DRD) an und modelliere dann:
 
 ## Dein Meisterstück (KATA 11) {#kata11}
 
-In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatbereich wird dir sicher schnell einfallen.
+In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimalerweise suchst du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatleben wird dir sicher schnell einfallen.
 
-**Dauer:** 120 - 240 Minuten (Je nach Ausprägung Deines Prozesses)
+**Dauer:** 120 - 240 Minuten (Je nach Ausprägung deines Prozesses)
 
-Folgende Komponenten sollte dein Meisterstück mindestens enthalten
+Folgende Komponenten sollte dein Meisterstück mindestens enthalten:
 
 - 3 Pools mit Nachrichtenflüssen & mindestens 2 Lanes in einem Pool
 
@@ -275,7 +275,7 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten
 
 Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-**Pro-Tipp:** Die Feuertaufe - Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
+**Pro-Tipp:** Die Feuertaufe. Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
 
 
 
@@ -286,7 +286,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 - **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 minutes)*
 - **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 minutes)*
 - **Check-out:** Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?
-- **Party Time!**  Schaut ob Ihr ein gemeinsames Mittagessen organisieren könnt. Oder noch besser, ihr geht Abends zusammen aus. Belohnt Euch, denn Ihr habt es verdient! Ihr könnt stolz auf Euch Leistungen sein .*(Die Dauer wählt ihr)*
+- **Party Time!**  Schaut, ob ihr ein gemeinsames Mittagessen organisieren könnt. Oder noch besser, ihr geht Abends zusammen aus. Belohnt Euch, denn ihr habt es verdient! Ihr könnt stolz auf eure Leistungen sein .*(Die Dauer wählt ihr)*
 
 ------
 
