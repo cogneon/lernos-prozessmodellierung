@@ -8,7 +8,7 @@ Wenn du **weitere Fragen** bezüglich lernOS hast, oder **Unterstützung von Gle
 
 Dein [@locutusvonborg](https://www.linkedin.com/in/alexander-rose-loci/)
 
-
+Aus Gründen der besseren Lesbarkeit wird im Folgenden auf die gleichzeitige Verwendung weiblicher und männlicher Sprachformen verzichtet und das generische Maskulinum verwendet. Sämtliche Personenbezeichnungen gelten gleichermaßen für beide Geschlechter.
 
 # Lizenz
 
@@ -40,7 +40,7 @@ Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessm
 
 ### Was ist BPMN?
 
-Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN, deutsch Geschäftsprozessmodell und -notation) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.
+Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.
 
 ### Was ist DMN?
 
@@ -50,11 +50,11 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ## Warum ein Lernpfad Prozessmodellierung?
 
-In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche  unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modeliieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung eine gemeinsame verbindenden  Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
+In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modellieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung durch eine gemeinsame verbindenden Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
 
-Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
+Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal, ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
 
-Das bedeutet auch, das die Übungen eine **steile Lernkurve** für dich bereithalten.  Alle BPMN-Übungen sind so angelegt, das sie auch mit einem Stift und einem Blatt Papier durchführbar sind.
+Das bedeutet auch, dass die Übungen eine **steile Lernkurve** für dich bereithalten.  Alle BPMN-Übungen sind so angelegt, dass sie auch mit einem Stift und einem Blatt Papier durchführbar sind.
 
 Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
@@ -79,7 +79,7 @@ Die meisten Katas stehen in 2 Varianten zur Verfügung:
 1. Eine konkrete vorgegebene Aufgabe
 2. Eine Aufgabe ohne spezielle Vorgaben
 
-Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedenen Leistungsstufen innerhalb eines Circles  bedienen zu wollen. Während Variante 1 eher für Beginner gedacht ist und sehr gut dazu geeignet, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Aufgabenstellungen lösen wollen. 
+Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedene Leistungsstufen innerhalb eines Circles  bedienen zu wollen. Während Variante 1 eher für Beginner gedacht und sehr gut dazu geeignet ist, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Aufgabenstellungen lösen wollen. 
 
 
 
@@ -102,7 +102,7 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 
 **Dauer:** ca. 30 Minuten
 
-Schaue dir zunächst die [<*Lernuterlagen*>](#LU-HappyPath) an und modelliere dann: 
+Schaue dir zunächst die [<*Lernunterlagen*>](#LU-HappyPath) an und modelliere dann: 
 
 <!--Ggf. die Reihenfolge 1 & 2 tauschen. Hinweis Daniel. Dann müsste auch der Variantenterklärteil angepasst werden. Diskussion zum nächsten weekly-->
 
@@ -115,13 +115,13 @@ Schaue dir zunächst die [<*Lernuterlagen*>](#LU-HappyPath) an und modelliere da
 
 ## Triff deine ersten Entscheidungen (KATA 03) {#kata03}
 
-Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen. indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedenen Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst
+Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen, indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedener Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst.
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Gateways) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Gateways) an und modelliere dann:
 
-1. Eine **beliebige Entscheidung ** Deiner Wahl mit mindestens einem XOR und einem AND Gateway  
+1. Eine **beliebige Entscheidung ** deiner Wahl mit mindestens einem XOR und einem AND Gateway  
 2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -136,14 +136,14 @@ Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur 
 
 **Dauer**: 60 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Markierungen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Markierungen) an und modelliere dann:
 
 1. Ein **beliebiges Prozessdiagramm** mit mindestens
    - Drei verschiedenen Attributen 
    - Einem Datenobjekt
    - Einer Assoziation 
    - Einem AND-Gateway
-2. Die "**Tee-Zubereitung**". Alle Tasks haben Attribute
+2. Die "**Tee-Zubereitung**". Alle Tasks haben sinnvolle Attribute
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -152,14 +152,13 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Markierungen) an und modelliere
 
 ## Von Pools und Lanes (KATA 05) {#kata05}
 
-Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den **Verantwortlichkeiten**. Diese werden in BPMN durch Pools und Lanes beschrieben.
+Nachdem wir jetzt sehr viel über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den **Verantwortlichkeiten**. Diese werden in BPMN durch Pools und Lanes beschrieben.
 
 **Dauer:**  60 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Pools) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
 - <FEHLT>
-
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -170,20 +169,27 @@ Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtyp
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Eventtypen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Eventtypen) an und modelliere dann:
 
-- <FEHLT>
+1. Ein **beliebiges Prozessdiagramm** mit mindestens 6 verschiedenen Eventtypen (Start/Zwischen/Ende)
+
+2. Die **Tee-Zubereitung**: Modelliere deine bisherige Tee-Zubereitung weiter. Verwende mindestens:
+   * Einem eingetretenen Bedingungszwischenereignis
+   * Einem angehefteten Fehlerzwischenereignis 
+   * Einem eingetretenen Zeitzwischenereignis
+   * Eine angeheftete Standard Ende Kompensation
+
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
 
 ## Unterprozesse und Nachrichtenflüsse (KATA 07) {#kata07}
 
-In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools funktioniert. Dies wird dir helfen komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
+In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
 
 **Dauer:**  60 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Unterprozesse) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -192,11 +198,11 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Unterprozesse) an und modellier
 
 ## DMN - Grundlagen (KATA 08) {#kata08}
 
-Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Berieche, die besonders für die Automatisierung von Prozessen nützlich sein werden. In dieser Kata lernst du die **Grundelemente** von DMN kennen. du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
+Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
 **Dauer:** 60 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-DMN) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -205,19 +211,19 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-DMN) an und modelliere dann:
 
 ## Datentypen und HIT-Policy (KATA 09) {#kata09}
 
-Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
+Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Datentypen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Datentypen) an und modelliere dann:
 
 1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
 
    a) Der Kunde muss mindestens 18 Jahre alt sein
 
-   b) Nichtmitglieder unter23 Jahre müssen mindestens 5 Jahre Fahrpraxis haben
+   b) Nichtmitglieder unter 23 Jahren müssen mindestens 4 Jahre Fahrpraxis haben
 
-   c) Mitglieder unter23 Jahre müssen mindestens 2 Jahre Fahrerfahrung haben
+   c) Mitglieder unter 23 Jahre müssen mindestens 2 Jahre Fahrpraxis haben
 
 2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
 
@@ -225,9 +231,9 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Datentypen) an und modelliere d
 
    b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
 
-   c) Ein Kunde mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhält ebenfalls Gold Status 
+   c) Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhalten ebenfalls Gold Status 
 
-   d) Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden
+   d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -237,11 +243,11 @@ Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Datentypen) an und modelliere d
 
 ## Dein erstes komplexes DRD (KATA 10) {#kata10}
 
-Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst du wann es Sinn macht Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
+Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst du, wann es Sinn macht, Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
 
 **Dauer:**  45 Minuten
 
-Schaue dir zunächst die [<*Lernuterlagen*>](#LU-DRD) an und modelliere dann:
+Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DRD) an und modelliere dann:
 
 - XXX
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -250,11 +256,11 @@ Schaue dir zunächst die [<*Lernuterlagen*>](#LU-DRD) an und modelliere dann:
 
 ## Dein Meisterstück (KATA 11) {#kata11}
 
-In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimaler Weise suchts du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatbereich wird dir sicher schnell einfallen.
+In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimalerweise suchst du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatleben wird dir sicher schnell einfallen.
 
-**Dauer:** 120 - 240 Minuten (Je nach Ausprägung Deines Prozesses)
+**Dauer:** 120 - 240 Minuten (Je nach Ausprägung deines Prozesses)
 
-Folgende Komponenten sollte dein Meisterstück mindestens enthalten
+Folgende Komponenten sollte dein Meisterstück mindestens enthalten:
 
 - 3 Pools mit Nachrichtenflüssen & mindestens 2 Lanes in einem Pool
 
@@ -275,7 +281,7 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten
 
 Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-**Pro-Tipp:** Die Feuertaufe - Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
+**Pro-Tipp:** Die Feuertaufe. Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
 
 
 
@@ -283,10 +289,10 @@ Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Tei
 
 In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Das Ergebnis eurer Arbeiten habt ihr schon in Woche 11 vorgestellt - jetzt ist die Zeit, den Sprint **gemeinsam ausklingen** zu lassen.
 
-- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 minutes)*
-- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 minutes)*
+- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 Minuten)*
+- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 Minuten)*
 - **Check-out:** Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?
-- **Party Time!**  Schaut ob Ihr ein gemeinsames Mittagessen organisieren könnt. Oder noch besser, ihr geht Abends zusammen aus. Belohnt Euch, denn Ihr habt es verdient! Ihr könnt stolz auf Euch Leistungen sein .*(Die Dauer wählt ihr)*
+- **Party Time!**  Schaut, ob ihr ein gemeinsames Mittagessen organisieren könnt. Oder noch besser, ihr geht Abends zusammen aus. Belohnt Euch, denn ihr habt es verdient! Ihr könnt stolz auf eure Leistungen sein .*(Die Dauer wählt ihr)*
 
 ------
 
@@ -322,11 +328,11 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ## Triff deine ersten Entscheidungen {#LU-Gateways}
 
-Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
+Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiv-Gateway** verzweigenden) dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
 
 
 
-### Exklusives Gateway (XOR) 
+### Exklusive Gateway (XOR) 
 
 Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
 
@@ -338,7 +344,7 @@ Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf **genau einen**
 
 
 
-### Exklusives Gateway (XOR) mit mehreren Enden
+### Exklusive Gateway (XOR) mit mehreren Enden
 
 Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht ausgewählt wird. 
 
@@ -346,7 +352,7 @@ Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es dr
 
 
 
-### Exklusives Gateway (XOR) split und join
+### Exklusive Gateway (XOR) split und join
 
 In diesem Beispiel haben wir zwei Exklusive Gateways. Das erste teilt (split) den Prozess in zwei Zweige und das zweite führt diese Zweige wieder zusammen (join).
 
@@ -354,9 +360,9 @@ In diesem Beispiel haben wir zwei Exklusive Gateways. Das erste teilt (split) de
 
 
 
-### Exklusives Gateway (XOR) Schleifen
+### Exklusive Gateway (XOR) Schleifen
 
-Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen um das gewünschte Ziel zu erreichen.
+Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen, um das gewünschte Ziel zu erreichen.
 
 ![](./images/Exklusives-Gateway-(XOR)-Schleifen.png)
 
@@ -388,7 +394,7 @@ Manchmal benötigen Prozesse noch etwas mehr Flexibilität. Hier kommt das **Ink
 
 ![](./images/Inklusive-Gateway-(OR).png)
 
-Inklusive Gateway (OR) werden genutzt, wenn **eine oder mehrere** Bedingungen möglich sind.
+Inklusive Gateways (OR) werden genutzt, wenn **eine oder mehrere** Bedingungen möglich sind.
 Bei der Zusammenführung wird auf **alle gewählten Zweige** gewartet.
 
 Es gibt in diesem Beispiel 7 mögliche Kombinationen.
@@ -397,7 +403,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 
 
-- Ein Zweig: Nur Steak; nur Salat; nur Paste
+- Ein Zweig: nur Steak; nur Salat; nur Pasta
 - Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
 - Alle Zweige: Pasta, Steak & Salat
 
@@ -434,7 +440,7 @@ Folgende Benennungen von Pools & Lanes haben sich im Einsatz bewährt:
 | Organisationseinheit  | Finanzen, Personal, Vertrieb, Service               |
 | Stelle/Position       | Abteilungsleiter Finanzen, Führungskraft Recht, ... |
 | Prozessbezogene Rolle | Mitarbeiter, Vorgesetzter, Prozessverantwortlicher  |
-| Personen              | Frau Schulze, Herr Meier                            |
+| Person                | Frau Schulze, Herr Meier                            |
 
 Von der Personenbenennung ist jedoch abzuraten, da sich Personen ständig ändern können. Nutze  in dem Fall besser die **prozessbezogenen Rollen**.
 
@@ -501,7 +507,7 @@ Zeitereignisse können Prozesse starten oder verzögern.
 
 ### Eventbasierte Gateways
 
-Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **Ereignisbasierten-Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
+Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **ereignisbasierten Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig, dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist, wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
 
 ![](./images/Ereignisbasierte-Gateways.png)
 
@@ -533,7 +539,7 @@ In diesem Beispiel siehst du die Verwendung von **Bedingungsereignissen** im Ver
 
 ### Angeheftete Zwischenereignisse
 
-Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 15 Minuten dauert, dann bestellen wir nicht, sondern backen Pizza.
+Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 30 Minuten dauert, dann bestellen wir nicht, sondern backen Pizza.
 
 ![](./images/Angeheftete-Zwischenerignisse.png)
 
@@ -578,7 +584,7 @@ Im nächsten  Beispiel wird die Anwendung von **angehängten Zwischenereignissen
 
 ### Nachrichtenflüsse über Poolgrenzen
 
-Externe (Kommunikations)partner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
+Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
 
 ![](./images/Nachrichtenflüsse-über-Poolgrenzen.png)
 
@@ -622,7 +628,7 @@ Das digitale Zeitalter und die zunehmend gesetzlichen Regulierungen drängen Org
 
 
 
-**Decision Model and Notation** (DMN) ist eine grafische Spezifikationssprache, die Elemente definiert um Geschäftsentscheidungen zu modellieren und deren Logik zu dokumentieren. 
+**Decision Model and Notation** (DMN) ist eine grafische Spezifikationssprache, die Elemente definiert, um Geschäftsentscheidungen zu modellieren und deren Logik zu dokumentieren. 
 DMN dient als **Schnittstelle zwischen Modellierung und Implementierung** von Entscheidungslogik (Fachbereich & IT).
 
 Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf **zwei Ebenen** erstellt. Während in der ersten Ebene die **Anforderungen (Informationen)** für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die **Logik (Regeln).**
@@ -637,11 +643,11 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 
 
 
-| Element          | Eigenschaft                                                  |                                                      |
-| ---------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
-| Desicion         | Benutzt Logik um Ergebnis zu bestimmen.                      | Zerlegung in Teilentscheidungen möglich              |
-| Input Data       | Stellt Informationen für Entscheidungen bereit               | Kann von verschiedenen Entscheidungen genutzt werden |
-| Knowledge Source | Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. | z.B. Gesetze, Regularien oder Richtlinien            |
+| Element          | Eigenschaft                                                  | Eigenschaft II                                        |
+| ---------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+| Desicion         | Benutzt Logik um Ergebnis zu bestimmen.                      | Zerlegung in Teilentscheidungen möglich.              |
+| Input Data       | Stellt Informationen für Entscheidungen bereit.              | Kann von verschiedenen Entscheidungen genutzt werden. |
+| Knowledge Source | Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. | z.B. Gesetze, Regularien oder Richtlinien.            |
 
 
 
@@ -649,7 +655,7 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 
 
 
-Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
+Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren:
 
 <u>Entscheidungen identifizieren und abgrenzen</u> 
 
@@ -679,7 +685,7 @@ Das kann z. B. so aussehen:
 - Gibt es externe oder interne Richtlinien? 
 - Wie sind die Abhängigkeiten?
 
-Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im folgenden im Detail erklärt.
+Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im Folgenden im Detail erklärt.
 
 ![](./images/Entscheidungsdiagramm-I.png)
 
@@ -689,7 +695,7 @@ Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente 
 
 Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht **jede Reihe einer Geschäftsregel**. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:
 
-- Personen mit mehr als zwei Unfällen wird keine Versicherung gewährt
+- Personen mit mehr als zwei Unfällen in den letzten 3 Jahren wird keine Versicherung gewährt
 - Personen unter 18 Jahren wird keine Versicherung gewährt
 - Personen mit mehr als vier Punkten wird keine Versicherung gewährt
 
@@ -705,13 +711,13 @@ Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel be
 
 
 
-**Operatoren** werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an [Operatoren](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm).
+**Operatoren** werden benutzt, um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an [Operatoren](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm).
 
 
 
 ### Datentypen für Input-Data Elemente
 
-In der Praxis können Informationen in verschiedenen Arten vorkommen z.B. textuell, als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Es gibt folgende Datentypen:
+In der Praxis können Informationen in verschiedenen Arten vorkommen z. B. als Text , als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Es gibt folgende Datentypen:
 
 - Boolean: Wahr / Falsch (Wahrheitswert) 
 - Zahlwert: 12, 33%, 45€ 
@@ -738,7 +744,7 @@ Eingangsdaten vom Typ **Zahlwert** enthalten **numerische Werte**. Diese können
 
 ![](./images/Datentypen-für-Input-Data-Elemente-(Zahlwert).png)
 
-<u>Einheiten:</u>
+In diesem Beispiel ist der Input Data "Einkaufswert" vom Typ Zahlwert.  Dieser Typ kann folgende Einheiten annehmen.
 
 - Prozent
 - Gewicht
@@ -836,29 +842,29 @@ Operatoren können sein:
 
 
 
-## Datentypen und HIT-Policy {#LU-Datentypen}
+## Datentypen und Hit Policy {#LU-Datentypen}
 
-### Single hit policies 
+### Single Hit Policies 
 
-Bei diesen Hit Policieswird **immer nur eine Regel** in der Entscheidungstabelle angewendet, auch wenn mehrere Regeln zutreffen.
+Bei diesen Hit Policy wird **immer nur eine Regel** in der Entscheidungstabelle angewendet, auch wenn mehrere Regeln zutreffen.
 
 
 
-#### Unique hit policy (U)
+#### Unique Hit Policy (U)
 
-Bei der unique hit policy kann für jede Kombinationen an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind  sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
+Bei der Unique Hit Policy kann für jede Kombination an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind  sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
 
 ![](./images/Unique-hit-policy.png)
 
 Ein "**-**" steht für "**any**" und bedeutet, dass an dieser Stelle jeder mögliche Wert stehen kann.
 
-**In Regel 2:** Ist die gewählte Versandart Expressversand und der Kundentyp Einzelhändler, spielt es keine Rolle ob Nahrungsmittel oder Sachgüterausgewählt ist. Das Ergebnis wird immer eine hohe Lieferpriorität sein.
+**In Regel 2:** Ist die gewählte Versandart Expressversand und der Kundentyp Einzelhändler, spielt es keine Rolle ob Nahrungsmittel oder Sachgüter ausgewählt ist. Das Ergebnis wird immer eine hohe Lieferpriorität sein.
 
 **In Regel 3:** Ist die gewählte Versandart Standardversand, die Güterart Nahrungsmittel und der Kundentyp Großhändler, haben wir eine hohe Lieferpriorität.
 
 
 
-#### First hit policy (F)
+#### First Hit Policy (F)
 
 Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings **nur die erste zutreffende Regel** verwendet. Die First Hit Policy geht von einer **Sortierung der Regeln** aus. Sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine der ersten drei Regeln auf den Sachverhalt zu, kann die **letzte Regel** als allgemeine **“Auffangregel”** genutzt werden.
 
@@ -868,9 +874,9 @@ In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und d
 
 
 
-#### Any hit policy (A)
+#### Any Hit Policy (A)
 
-Bei Verwendung der any hit policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.
+Bei Verwendung der Any Hit Policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.
 
 ![](./images/ANY-hit-policy.png)
 
@@ -878,9 +884,9 @@ Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft,
 
 
 
-#### Priority hit policy (P)
+#### Priority Hit Policy (P)
 
-Mehrere Regeln können für einen Eingabewert eintreffen, wenn die priority hit policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.
+Mehrere Regeln können für einen Eingabewert eintreffen, wenn die Priority Hit Policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.
 
 ![](./images/Priority-hit-policy.png)
 
@@ -888,11 +894,11 @@ Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter '70' und
 
 
 
-### Multi hit policies 
+### Multi Hit Policies 
 
 Bei diesen Hit Policies werden **alle** zutreffenden Regeln betrachtet. Die erhaltenen Ergebnisse können entweder als Liste ausgegeben oder zu einem einzelnen Wert aggregiert werden (z.B. als Summe).
 
-#### Output order policy (O)
+#### Output Order Policy (O)
 
 Liefert alle Treffer in **absteigender Reihenfolge** der Ausgabepriorität. Die Ausgabeprioritäten werden in der geordneten Liste der Ausgabewerte in absteigende Reihenfolge ausgelesen.
 
@@ -906,7 +912,7 @@ Beispielrechnung:
 
 
 
-#### Rule order policy (R)
+#### Rule Order Policy (R)
 
 Die Ausgaben aller **übereinstimmenden Regeln** werden als sortierte Liste zurückgegeben, in der
 Reihenfolge der Regeln.
@@ -919,7 +925,7 @@ Beispielrechnung:
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
 - Output: 26,2,2,3,4
 
-#### Collect policy (C)
+#### Collect Policy (C)
 
 Die Ausgaben aller übereinstimmenden Regeln werden als unsortierte Liste zurückgegeben.
 
@@ -958,15 +964,15 @@ Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine ein
 
 
 
-Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wiederverwendet werden. Ein paar Beispiele für solche wieder verwendbaren Teilentscheidungen sind Status bestimmen oder Berechtigung prüfen.
+Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wieder verwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind Status bestimmen oder Berechtigung prüfen.
 
-In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatt**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
+In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatts**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
 ![](./images/Teilentscheidungen.png)
 
-Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elementes dargestellt werden.
+Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elements dargestellt werden.
 
-Zur Besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.
+Zur besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.
 
 ![](./images/Teilentscheidungen-II.png)
 
@@ -976,8 +982,8 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 | Benennungsstil  | Beschreibung                                                 | Beispiel                      |
 | --------------- | ------------------------------------------------------------ | ----------------------------- |
-| Aktivitätenstil | Selbe Bezeichnung wie zugehörige BPMN Aktivität. Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln | Kundenstatus ermitteln        |
-| Ereignisstil    | Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? z. B. der Kundenstatus. Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge | Kundenstatus                  |
+| Aktivitätenstil | Die selbe Bezeichnung wie die zugehörige BPMN Aktivität. Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln | Kundenstatus ermitteln        |
+| Ereignisstil    | Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge | Kundenstatus                  |
 | Fragenstil      | Die Entscheidung wird als Frage formuliert. **Achtung:** Fragen können sehr umfangreich sein und damit zu langen Bezeichnungen führen | Welchen Status hat der Kunde? |
 
 
@@ -1101,7 +1107,7 @@ Wenn Ihr Euch im Circle noch nicht kennt, lernt Euch in der Woche 0 kennen. Plan
 - **Sprint Planung** siehe unten *(25 Minuten)*
 - **Check-out:** Das nächste Treffen bestätigen. *(5 Minuten)*
 
-Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der "Chef" des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendt. Entscheidet, ob Ihr den [lernOS Canvas](https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas)   als unterstützendes Werkzeug verwenden möchtet.
+Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der "Chef" des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendet. Entscheidet, ob Ihr den [lernOS Canvas](https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas)   als unterstützendes Werkzeug verwenden möchtet.
 
 - **Circle-Moderator:** ...
 - **Tag und Uhrzeit des Weekly:** ...
@@ -1117,7 +1123,7 @@ Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert
 - Was war dir neu?
 - Wo bestehen noch Fragen?
 
-**ProTipp:** in vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
+**ProTipp:** in vielen Fällen ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
 
 **ProTipp:** Wenn du das lernOS OneNote Circle Template verwendest, kannst du ein aktuelles Foto von Deinem Canvas machen und einfügen, damit die anderen Circle-Mitglieder es sehen und Feedback geben können.
 
@@ -1129,11 +1135,11 @@ Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert
 
 **WOCHE 12: Retrospektive & Feier**
 
-In dieser Woche sollte die endgültige Iteration Deiner Key Results vorliegen. Sprecht darüber und zeigt Sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie Ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet Ihr Euch etwas Zeit nehmen, um Euren Erfolg zu feiern!
+In dieser Woche sollte die endgültige Iteration deiner Key Results vorliegen. Sprecht darüber und zeigt sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet ihr euch etwas Zeit nehmen, um euren Erfolg zu feiern!
 
 - **Check-in:** Was habe ich seit dem letzten Check-in getan? Zeigt die finale Iteration der Key Results. Drei-Minuten-Timebox pro Circle-Mitglied. *(15 Minuten)*
-- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 minutes)*
-- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 minutes)*
+- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 Minuten)*
+- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 Minuten)*
 - **Check-out:** Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?
 - **Party Time!** *(Die Dauer wählt ihr)*
 
@@ -1145,15 +1151,13 @@ lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den S
 
 - [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA 'DMN Grundlagen'  und 'Von Pools & Lanes'
 - [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die Sketchnotes zum Aufbau des Lernpfads
-- Bernd Neumayr für ...
+- Bernd Neumayr für Erarbeitung der  Kata 'Dein erstes komplexes DRD'
 - [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die didaktische und technische Unterstützung
 
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 
 - [Alexander Wüstenfeld](https://www.linkedin.com/in/wuestenfeld/)
-- Andreas Schäffler
 - [Daniel Kempa](https://www.linkedin.com/in/daniel-kempa-178570157/)
-- t.b.d.
 
 
 
