@@ -283,8 +283,8 @@ Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Tei
 
 In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Das Ergebnis eurer Arbeiten habt ihr schon in Woche 11 vorgestellt - jetzt ist die Zeit, den Sprint **gemeinsam ausklingen** zu lassen.
 
-- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 minutes)*
-- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 minutes)*
+- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 Minuten)*
+- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 Minuten)*
 - **Check-out:** Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?
 - **Party Time!**  Schaut, ob ihr ein gemeinsames Mittagessen organisieren könnt. Oder noch besser, ihr geht Abends zusammen aus. Belohnt Euch, denn ihr habt es verdient! Ihr könnt stolz auf eure Leistungen sein .*(Die Dauer wählt ihr)*
 
@@ -322,11 +322,11 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ## Triff deine ersten Entscheidungen {#LU-Gateways}
 
-Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
+Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiv-Gateway** verzweigenden) dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
 
 
 
-### Exklusives Gateway (XOR) 
+### Exklusive Gateway (XOR) 
 
 Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf. 
 
@@ -338,7 +338,7 @@ Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf **genau einen**
 
 
 
-### Exklusives Gateway (XOR) mit mehreren Enden
+### Exklusive Gateway (XOR) mit mehreren Enden
 
 Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht ausgewählt wird. 
 
@@ -346,7 +346,7 @@ Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es dr
 
 
 
-### Exklusives Gateway (XOR) split und join
+### Exklusive Gateway (XOR) split und join
 
 In diesem Beispiel haben wir zwei Exklusive Gateways. Das erste teilt (split) den Prozess in zwei Zweige und das zweite führt diese Zweige wieder zusammen (join).
 
@@ -354,9 +354,9 @@ In diesem Beispiel haben wir zwei Exklusive Gateways. Das erste teilt (split) de
 
 
 
-### Exklusives Gateway (XOR) Schleifen
+### Exklusive Gateway (XOR) Schleifen
 
-Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen um das gewünschte Ziel zu erreichen.
+Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen, um das gewünschte Ziel zu erreichen.
 
 ![](./images/Exklusives-Gateway-(XOR)-Schleifen.png)
 
@@ -388,7 +388,7 @@ Manchmal benötigen Prozesse noch etwas mehr Flexibilität. Hier kommt das **Ink
 
 ![](./images/Inklusive-Gateway-(OR).png)
 
-Inklusive Gateway (OR) werden genutzt, wenn **eine oder mehrere** Bedingungen möglich sind.
+Inklusive Gateways (OR) werden genutzt, wenn **eine oder mehrere** Bedingungen möglich sind.
 Bei der Zusammenführung wird auf **alle gewählten Zweige** gewartet.
 
 Es gibt in diesem Beispiel 7 mögliche Kombinationen.
@@ -397,7 +397,7 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 
 
-- Ein Zweig: Nur Steak; nur Salat; nur Paste
+- Ein Zweig: nur Steak; nur Salat; nur Pasta
 - Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
 - Alle Zweige: Pasta, Steak & Salat
 
@@ -434,7 +434,7 @@ Folgende Benennungen von Pools & Lanes haben sich im Einsatz bewährt:
 | Organisationseinheit  | Finanzen, Personal, Vertrieb, Service               |
 | Stelle/Position       | Abteilungsleiter Finanzen, Führungskraft Recht, ... |
 | Prozessbezogene Rolle | Mitarbeiter, Vorgesetzter, Prozessverantwortlicher  |
-| Personen              | Frau Schulze, Herr Meier                            |
+| Person                | Frau Schulze, Herr Meier                            |
 
 Von der Personenbenennung ist jedoch abzuraten, da sich Personen ständig ändern können. Nutze  in dem Fall besser die **prozessbezogenen Rollen**.
 
@@ -501,7 +501,7 @@ Zeitereignisse können Prozesse starten oder verzögern.
 
 ### Eventbasierte Gateways
 
-Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **Ereignisbasierten-Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
+Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit **ereignisbasierten Gateways**. Das **zuerst eintretende Ereignis** bestimmt den Zweig, dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist, wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.
 
 ![](./images/Ereignisbasierte-Gateways.png)
 
@@ -533,7 +533,7 @@ In diesem Beispiel siehst du die Verwendung von **Bedingungsereignissen** im Ver
 
 ### Angeheftete Zwischenereignisse
 
-Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 15 Minuten dauert, dann bestellen wir nicht, sondern backen Pizza.
+Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen** dargestellt werden. Falls das Aussuchen der Pasta länger als 30 Minuten dauert, dann bestellen wir nicht, sondern backen Pizza.
 
 ![](./images/Angeheftete-Zwischenerignisse.png)
 
@@ -578,7 +578,7 @@ Im nächsten  Beispiel wird die Anwendung von **angehängten Zwischenereignissen
 
 ### Nachrichtenflüsse über Poolgrenzen
 
-Externe (Kommunikations)partner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
+Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der Nachrichtenfluss zeigt den **Austausch von Informationen**. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant. 
 
 ![](./images/Nachrichtenflüsse-über-Poolgrenzen.png)
 
@@ -622,7 +622,7 @@ Das digitale Zeitalter und die zunehmend gesetzlichen Regulierungen drängen Org
 
 
 
-**Decision Model and Notation** (DMN) ist eine grafische Spezifikationssprache, die Elemente definiert um Geschäftsentscheidungen zu modellieren und deren Logik zu dokumentieren. 
+**Decision Model and Notation** (DMN) ist eine grafische Spezifikationssprache, die Elemente definiert, um Geschäftsentscheidungen zu modellieren und deren Logik zu dokumentieren. 
 DMN dient als **Schnittstelle zwischen Modellierung und Implementierung** von Entscheidungslogik (Fachbereich & IT).
 
 Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf **zwei Ebenen** erstellt. Während in der ersten Ebene die **Anforderungen (Informationen)** für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die **Logik (Regeln).**
@@ -637,11 +637,11 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 
 
 
-| Element          | Eigenschaft                                                  |                                                      |
-| ---------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
-| Desicion         | Benutzt Logik um Ergebnis zu bestimmen.                      | Zerlegung in Teilentscheidungen möglich              |
-| Input Data       | Stellt Informationen für Entscheidungen bereit               | Kann von verschiedenen Entscheidungen genutzt werden |
-| Knowledge Source | Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. | z.B. Gesetze, Regularien oder Richtlinien            |
+| Element          | Eigenschaft                                                  | Eigenschaft II                                        |
+| ---------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+| Desicion         | Benutzt Logik um Ergebnis zu bestimmen.                      | Zerlegung in Teilentscheidungen möglich.              |
+| Input Data       | Stellt Informationen für Entscheidungen bereit.              | Kann von verschiedenen Entscheidungen genutzt werden. |
+| Knowledge Source | Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden. | z.B. Gesetze, Regularien oder Richtlinien.            |
 
 
 
@@ -649,7 +649,7 @@ Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können
 
 
 
-Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren.
+Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden **Leitfragen** zu orientieren:
 
 <u>Entscheidungen identifizieren und abgrenzen</u> 
 
@@ -679,7 +679,7 @@ Das kann z. B. so aussehen:
 - Gibt es externe oder interne Richtlinien? 
 - Wie sind die Abhängigkeiten?
 
-Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im folgenden im Detail erklärt.
+Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im Folgenden im Detail erklärt.
 
 ![](./images/Entscheidungsdiagramm-I.png)
 
@@ -689,7 +689,7 @@ Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente 
 
 Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht **jede Reihe einer Geschäftsregel**. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:
 
-- Personen mit mehr als zwei Unfällen wird keine Versicherung gewährt
+- Personen mit mehr als zwei Unfällen in den letzten 3 Jahren wird keine Versicherung gewährt
 - Personen unter 18 Jahren wird keine Versicherung gewährt
 - Personen mit mehr als vier Punkten wird keine Versicherung gewährt
 
@@ -705,13 +705,13 @@ Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel be
 
 
 
-**Operatoren** werden benutzt um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an [Operatoren](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm).
+**Operatoren** werden benutzt, um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an [Operatoren](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm).
 
 
 
 ### Datentypen für Input-Data Elemente
 
-In der Praxis können Informationen in verschiedenen Arten vorkommen z.B. textuell, als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Es gibt folgende Datentypen:
+In der Praxis können Informationen in verschiedenen Arten vorkommen z. B. als Text , als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Es gibt folgende Datentypen:
 
 - Boolean: Wahr / Falsch (Wahrheitswert) 
 - Zahlwert: 12, 33%, 45€ 
@@ -738,7 +738,7 @@ Eingangsdaten vom Typ **Zahlwert** enthalten **numerische Werte**. Diese können
 
 ![](./images/Datentypen-für-Input-Data-Elemente-(Zahlwert).png)
 
-<u>Einheiten:</u>
+In diesem Beispiel ist der Input Data "Einkaufswert" vom Typ Zahlwert.  Dieser Typ kann folgende Einheiten annehmen.
 
 - Prozent
 - Gewicht
@@ -836,29 +836,29 @@ Operatoren können sein:
 
 
 
-## Datentypen und HIT-Policy {#LU-Datentypen}
+## Datentypen und Hit Policy {#LU-Datentypen}
 
-### Single hit policies 
+### Single Hit Policies 
 
-Bei diesen Hit Policieswird **immer nur eine Regel** in der Entscheidungstabelle angewendet, auch wenn mehrere Regeln zutreffen.
+Bei diesen Hit Policy wird **immer nur eine Regel** in der Entscheidungstabelle angewendet, auch wenn mehrere Regeln zutreffen.
 
 
 
-#### Unique hit policy (U)
+#### Unique Hit Policy (U)
 
-Bei der unique hit policy kann für jede Kombinationen an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind  sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
+Bei der Unique Hit Policy kann für jede Kombination an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind  sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
 
 ![](./images/Unique-hit-policy.png)
 
 Ein "**-**" steht für "**any**" und bedeutet, dass an dieser Stelle jeder mögliche Wert stehen kann.
 
-**In Regel 2:** Ist die gewählte Versandart Expressversand und der Kundentyp Einzelhändler, spielt es keine Rolle ob Nahrungsmittel oder Sachgüterausgewählt ist. Das Ergebnis wird immer eine hohe Lieferpriorität sein.
+**In Regel 2:** Ist die gewählte Versandart Expressversand und der Kundentyp Einzelhändler, spielt es keine Rolle ob Nahrungsmittel oder Sachgüter ausgewählt ist. Das Ergebnis wird immer eine hohe Lieferpriorität sein.
 
 **In Regel 3:** Ist die gewählte Versandart Standardversand, die Güterart Nahrungsmittel und der Kundentyp Großhändler, haben wir eine hohe Lieferpriorität.
 
 
 
-#### First hit policy (F)
+#### First Hit Policy (F)
 
 Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings **nur die erste zutreffende Regel** verwendet. Die First Hit Policy geht von einer **Sortierung der Regeln** aus. Sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine der ersten drei Regeln auf den Sachverhalt zu, kann die **letzte Regel** als allgemeine **“Auffangregel”** genutzt werden.
 
@@ -868,9 +868,9 @@ In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und d
 
 
 
-#### Any hit policy (A)
+#### Any Hit Policy (A)
 
-Bei Verwendung der any hit policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.
+Bei Verwendung der Any Hit Policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.
 
 ![](./images/ANY-hit-policy.png)
 
@@ -878,9 +878,9 @@ Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft,
 
 
 
-#### Priority hit policy (P)
+#### Priority Hit Policy (P)
 
-Mehrere Regeln können für einen Eingabewert eintreffen, wenn die priority hit policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.
+Mehrere Regeln können für einen Eingabewert eintreffen, wenn die Priority Hit Policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.
 
 ![](./images/Priority-hit-policy.png)
 
@@ -888,11 +888,11 @@ Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter '70' und
 
 
 
-### Multi hit policies 
+### Multi Hit Policies 
 
 Bei diesen Hit Policies werden **alle** zutreffenden Regeln betrachtet. Die erhaltenen Ergebnisse können entweder als Liste ausgegeben oder zu einem einzelnen Wert aggregiert werden (z.B. als Summe).
 
-#### Output order policy (O)
+#### Output Order Policy (O)
 
 Liefert alle Treffer in **absteigender Reihenfolge** der Ausgabepriorität. Die Ausgabeprioritäten werden in der geordneten Liste der Ausgabewerte in absteigende Reihenfolge ausgelesen.
 
@@ -906,7 +906,7 @@ Beispielrechnung:
 
 
 
-#### Rule order policy (R)
+#### Rule Order Policy (R)
 
 Die Ausgaben aller **übereinstimmenden Regeln** werden als sortierte Liste zurückgegeben, in der
 Reihenfolge der Regeln.
@@ -919,7 +919,7 @@ Beispielrechnung:
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
 - Output: 26,2,2,3,4
 
-#### Collect policy (C)
+#### Collect Policy (C)
 
 Die Ausgaben aller übereinstimmenden Regeln werden als unsortierte Liste zurückgegeben.
 
@@ -958,15 +958,15 @@ Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine ein
 
 
 
-Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wiederverwendet werden. Ein paar Beispiele für solche wieder verwendbaren Teilentscheidungen sind Status bestimmen oder Berechtigung prüfen.
+Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wieder verwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind Status bestimmen oder Berechtigung prüfen.
 
-In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatt**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
+In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatts**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
 ![](./images/Teilentscheidungen.png)
 
-Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elementes dargestellt werden.
+Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elements dargestellt werden.
 
-Zur Besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.
+Zur besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.
 
 ![](./images/Teilentscheidungen-II.png)
 
@@ -976,8 +976,8 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 | Benennungsstil  | Beschreibung                                                 | Beispiel                      |
 | --------------- | ------------------------------------------------------------ | ----------------------------- |
-| Aktivitätenstil | Selbe Bezeichnung wie zugehörige BPMN Aktivität. Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln | Kundenstatus ermitteln        |
-| Ereignisstil    | Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? z. B. der Kundenstatus. Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge | Kundenstatus                  |
+| Aktivitätenstil | Die selbe Bezeichnung wie die zugehörige BPMN Aktivität. Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln | Kundenstatus ermitteln        |
+| Ereignisstil    | Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge | Kundenstatus                  |
 | Fragenstil      | Die Entscheidung wird als Frage formuliert. **Achtung:** Fragen können sehr umfangreich sein und damit zu langen Bezeichnungen führen | Welchen Status hat der Kunde? |
 
 
@@ -1101,7 +1101,7 @@ Wenn Ihr Euch im Circle noch nicht kennt, lernt Euch in der Woche 0 kennen. Plan
 - **Sprint Planung** siehe unten *(25 Minuten)*
 - **Check-out:** Das nächste Treffen bestätigen. *(5 Minuten)*
 
-Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der "Chef" des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendt. Entscheidet, ob Ihr den [lernOS Canvas](https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas)   als unterstützendes Werkzeug verwenden möchtet.
+Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der "Chef" des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendet. Entscheidet, ob Ihr den [lernOS Canvas](https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas)   als unterstützendes Werkzeug verwenden möchtet.
 
 - **Circle-Moderator:** ...
 - **Tag und Uhrzeit des Weekly:** ...
@@ -1117,7 +1117,7 @@ Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert
 - Was war dir neu?
 - Wo bestehen noch Fragen?
 
-**ProTipp:** in vielen Fällem ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass Ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
+**ProTipp:** in vielen Fällen ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom): jedes Circle-Mitglied bereitet die Übungen als "Hausaufgabe" vor, so dass ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.
 
 **ProTipp:** Wenn du das lernOS OneNote Circle Template verwendest, kannst du ein aktuelles Foto von Deinem Canvas machen und einfügen, damit die anderen Circle-Mitglieder es sehen und Feedback geben können.
 
@@ -1129,11 +1129,11 @@ Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert
 
 **WOCHE 12: Retrospektive & Feier**
 
-In dieser Woche sollte die endgültige Iteration Deiner Key Results vorliegen. Sprecht darüber und zeigt Sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie Ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet Ihr Euch etwas Zeit nehmen, um Euren Erfolg zu feiern!
+In dieser Woche sollte die endgültige Iteration deiner Key Results vorliegen. Sprecht darüber und zeigt sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet ihr euch etwas Zeit nehmen, um euren Erfolg zu feiern!
 
 - **Check-in:** Was habe ich seit dem letzten Check-in getan? Zeigt die finale Iteration der Key Results. Drei-Minuten-Timebox pro Circle-Mitglied. *(15 Minuten)*
-- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 minutes)*
-- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 minutes)*
+- **Your Learning Moments:** Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure "key learnings"? Überlegt, ob ihr diese als [lernOS Story](https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform) für alle anderen Praktiker veröffentlichen wollt. *(20 Minuten)*
+- **After Action Review:** Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? *(20 Minuten)*
 - **Check-out:** Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?
 - **Party Time!** *(Die Dauer wählt ihr)*
 
@@ -1145,15 +1145,13 @@ lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den S
 
 - [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA 'DMN Grundlagen'  und 'Von Pools & Lanes'
 - [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die Sketchnotes zum Aufbau des Lernpfads
-- Bernd Neumayr für ...
+- Bernd Neumayr für Erarbeitung der  Kata 'Dein erstes komplexes DRD'
 - [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die didaktische und technische Unterstützung
 
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 
 - [Alexander Wüstenfeld](https://www.linkedin.com/in/wuestenfeld/)
-- Andreas Schäffler
 - [Daniel Kempa](https://www.linkedin.com/in/daniel-kempa-178570157/)
-- t.b.d.
 
 
 
