@@ -102,7 +102,7 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 
 **Dauer:** ca. 30 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#Dein erstes Diagramm (Happy-Path)) an und modelliere dann: 
+Schaue dir zunächst die [<*Lernuterlagen*>](#LU-HappyPath) an und modelliere dann: 
 
 <!--Ggf. die Reihenfolge 1 & 2 tauschen. Hinweis Daniel. Dann müsste auch der Variantenterklärteil angepasst werden. Diskussion zum nächsten weekly-->
 
@@ -119,7 +119,7 @@ Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir könn
 
 **Dauer:**  90 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#Triff Deine ersten Entscheidungen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Gateways) an und modelliere dann:
 
 1. Eine **beliebige Entscheidung ** Deiner Wahl mit mindestens einem XOR und einem AND Gateway  
 2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
@@ -136,7 +136,7 @@ Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur 
 
 **Dauer**: 60 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#Exkurs - Markierungen, Aufgabentypen & Daten) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Markierungen) an und modelliere dann:
 
 1. Ein **beliebiges Prozessdiagramm** mit mindestens
    - Drei verschiedenen Attributen 
@@ -156,7 +156,7 @@ Nachdem wir jetzt sehr viele über die Beziehungen und Abhängigkeiten der Eleme
 
 **Dauer:**  60 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#Von Pools und Lanes) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Pools) an und modelliere dann:
 
 - <FEHLT>
 
@@ -170,7 +170,7 @@ Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtyp
 
 **Dauer:**  90 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#Exkurs - Eventtypen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Eventtypen) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -183,7 +183,7 @@ In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikatio
 
 **Dauer:**  60 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#Unterprozesse und Nachrichtenflüsse über Poolgrenzen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Unterprozesse) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -196,7 +196,7 @@ Ab diesem Kapitel tauchen wir in die Spannende Welt der DMN ein. Diese Welt erwe
 
 **Dauer:** 60 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#DMN - Grundlagen) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-DMN) an und modelliere dann:
 
 - <FEHLT>
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -209,7 +209,7 @@ Hit Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die me
 
 **Dauer:**  90 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#Datentypen und HIT-Policy) an und modelliere dann:
+Schaue Dir zunächst die [<*Lernuterlagen*>](#LU-Datentypen) an und modelliere dann:
 
 1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
 
@@ -241,7 +241,7 @@ Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in 
 
 **Dauer:**  45 Minuten
 
-Schaue dir zunächst die [Lernuterlagen](#Dein erstes komplexes DRD) an und modelliere dann:
+Schaue dir zunächst die [<*Lernuterlagen*>](#LU-DRD) an und modelliere dann:
 
 - XXX
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -294,7 +294,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 # Lernunterlagen
 
-## Dein erstes Diagramm (Happy-Path)
+## Dein erstes Diagramm (Happy-Path) {#LU-HappyPath}
 
 - Schau dir die folgenden Folien in Ruhe an:
 
@@ -314,13 +314,13 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ![](./images/Benennung-von-Ereignissen.png)
 
-[Zurück zur KATA](#kata02)
+[<*Zurück zur KATA*>](#kata02)
 
 ------
 
 
 
-## Triff deine ersten Entscheidungen
+## Triff deine ersten Entscheidungen {#LU-Gateways}
 
 Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiven** (verzweigenden) **Gateway** dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
 
@@ -401,25 +401,25 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 - Zwei Zweige: Steak & Salat; Pasta & Steak; Pasta & Salat
 - Alle Zweige: Pasta, Steak & Salat
 
-[Zurück zur KATA](#kata03)
+[<*Zurück zur KATA*>](#kata03)
 
 ------
 
 
 
-## Exkurs - Markierungen, Aufgabentypen & Daten
+## Exkurs - Markierungen, Aufgabentypen & Daten {#LU-Markierungen}
 
 ![](./images/Markierungen,-Aufgaben-Typen-und-Daten.png)
 
 ![](./images/Markierungen,-Aufgaben-Typen-und Daten-I.png)
 
-[Zurück zur KATA](#kata04)
+[<*Zurück zur KATA*>](#kata04)
 
 ------
 
 
 
-## Von Pools und Lanes
+## Von Pools und Lanes {#LU-Pools}
 
 In BPMN werden Verantwortlichkeiten (Organisationseinheiten, Abteilungen, Personen, Rollen) für Aufgaben mit Swimlanes (Pools und Lanes) dargestellt. Ein Prozess "gehört" zu einem Pool und ein Task wird von der jeweiligen Lane ausgeführt.
 
@@ -452,13 +452,13 @@ Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen
 
 
 
-[Zurück zur KATA](#kata05)
+[<*Zurück zur KATA*>](#kata05)
 
 ------
 
 
 
-## Exkurs - Eventtypen
+## Exkurs - Eventtypen {#LU-Eventtypen}
 
 ### Blanko-Zwischenereignis
 
@@ -556,13 +556,13 @@ Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen
 
 Eine **vollständige Übersicht** aller BPMN Ereignisse findest du im [BPMN-Poster](http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf) auf der rechten Seite.
 
-[Zurück zur KATA](#kata06)
+[<*Zurück zur KATA*>](#kata06)
 
 ------
 
 
 
-## Unterprozesse und Nachrichtenflüsse
+## Unterprozesse und Nachrichtenflüsse {#LU-Unterprozesse}
 
 ### Unterprozesse
 
@@ -586,13 +586,13 @@ Externe (Kommunikations)partner werden mit **zugeklappten Pools** dargestellt. D
 
 Stellt die Kommunikation zwischen Pools dar.
 
-[Zurück zur KATA](#kata07)
+[<*Zurück zur KATA*>](#kata07)
 
 ------
 
 
 
-## DMN - Grundlagen
+## DMN - Grundlagen {#LU-DMN}
 
 ### Einführung
 
@@ -830,13 +830,13 @@ Operatoren können sein:
 - Element von
 - Kein Element von
 
-[Zurück zur KATA](#kata08)
+[<*Zurück zur KATA*>](#kata08)
 
 ------
 
 
 
-## Datentypen und HIT-Policy
+## Datentypen und HIT-Policy {#LU-Datentypen}
 
 ### Single hit policies 
 
@@ -936,13 +936,13 @@ Folgende Aggregationen können angewendet werden:
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
 - Output für C+: 37
 
-[Zurück zur KATA](#kata09)
+[<*Zurück zur KATA*>](#kata09)
 
 ------
 
 
 
-## Dein erstes komplexes DRD
+## Dein erstes komplexes DRD {#LU-DRD}
 
 Das Diagramm zeigt, dass sehr viele Informationen berücksichtigt werden müssen, damit der Rabatt bestimmt werden kann. Um **große Entscheidungen** wie diese zu vermeiden, können Teile der Informationen in **untergeordnete Entscheidungen** ausgelagert werden. Doch wann sollten Entscheidungen überhaupt aufgeteilt werden? 
 
@@ -982,7 +982,7 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 
 
-[Zurück zur KATA](#kata10)
+[<*Zurück zur KATA*>](#kata10)
 
 ------
 
