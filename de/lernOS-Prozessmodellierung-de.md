@@ -143,7 +143,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Markierungen) an und modellier
    - Einem Datenobjekt
    - Einer Assoziation 
    - Einem AND-Gateway
-2. Die "**Tee-Zubereitung**". Alle Tasks haben Attribute
+2. Die "**Tee-Zubereitung**". Alle Tasks haben sinnvolle Attribute
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -159,7 +159,6 @@ Nachdem wir jetzt sehr viel über die Beziehungen und Abhängigkeiten der Elemen
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
 - <FEHLT>
-
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -172,7 +171,14 @@ Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtyp
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Eventtypen) an und modelliere dann:
 
-- <FEHLT>
+1. Ein **beliebiges Prozessdiagramm** mit mindestens 6 verschiedenen Eventtypen (Start/Zwischen/Ende)
+
+2. Die **Tee-Zubereitung**: Modelliere deine bisherige Tee-Zubereitung weiter. Verwende mindestens:
+   * Einem eingetretenen Bedingungszwischenereignis
+   * Einem angehefteten Fehlerzwischenereignis 
+   * Einem eingetretenen Zeitzwischenereignis
+   * Eine angeheftete Standard Ende Kompensation
+
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
