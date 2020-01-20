@@ -8,7 +8,7 @@ Wenn du **weitere Fragen** bezüglich lernOS hast, oder **Unterstützung von Gle
 
 Dein [@locutusvonborg](https://www.linkedin.com/in/alexander-rose-loci/)
 
-
+Aus Gründen der besseren Lesbarkeit wird im Folgenden auf die gleichzeitige Verwendung weiblicher und männlicher Sprachformen verzichtet und das generische Maskulinum verwendet. Sämtliche Personenbezeichnungen gelten gleichermaßen für beide Geschlechter.
 
 # Lizenz
 
