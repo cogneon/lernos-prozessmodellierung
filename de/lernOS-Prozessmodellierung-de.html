@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>lernOS-Prozessmodellierung-de</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#über-lernos">Über lernOS</a></li>
+<li><a href="#lizenz">Lizenz</a></li>
+<li><a href="#grundlagen">Grundlagen</a>
+<ul>
+<li><a href="#was-ist-prozessmodellierung">Was ist Prozessmodellierung?</a>
+<ul>
+<li><a href="#was-ist-bpmn">Was ist BPMN?</a></li>
+<li><a href="#was-ist-dmn">Was ist DMN?</a></li>
+</ul></li>
+<li><a href="#warum-ein-lernpfad-prozessmodellierung">Warum ein Lernpfad Prozessmodellierung?</a></li>
+<li><a href="#aufbau-dieses-lernpfades">Aufbau dieses Lernpfades</a></li>
+</ul></li>
+<li><a href="#lernpfad-prozessmodellierung">Lernpfad Prozessmodellierung</a>
+<ul>
+<li><a href="#kata01">Mach dich mit den Grundlagen vertraut (KATA 01)</a></li>
+<li><a href="#kata02">Dein erstes Diagramm (Happy-Path) (KATA 02)</a></li>
+<li><a href="#kata03">Triff deine ersten Entscheidungen (KATA 03)</a></li>
+<li><a href="#kata04">Exkurs - Markierungen, Aufgabentypen &amp; Daten (KATA 04)</a></li>
+<li><a href="#kata05">Von Pools und Lanes (KATA 05)</a></li>
+<li><a href="#kata06">Exkurs - Eventtypen (KATA 06)</a></li>
+<li><a href="#kata07">Unterprozesse und Nachrichtenflüsse (KATA 07)</a></li>
+<li><a href="#kata08">DMN - Grundlagen (KATA 08)</a></li>
+<li><a href="#kata09">Datentypen und HIT-Policy (KATA 09)</a></li>
+<li><a href="#kata10">Dein erstes komplexes DRD (KATA 10)</a></li>
+<li><a href="#kata11">Dein Meisterstück (KATA 11)</a></li>
+<li><a href="#retrospektive-feier">Retrospektive &amp; Feier</a></li>
+</ul></li>
+<li><a href="#lernunterlagen">Lernunterlagen</a>
+<ul>
+<li><a href="#LU-HappyPath">Dein erstes Diagramm (Happy-Path)</a></li>
+<li><a href="#LU-Gateways">Triff deine ersten Entscheidungen</a>
+<ul>
+<li><a href="#exklusive-gateway-xor">Exklusive Gateway (XOR)</a></li>
+<li><a href="#exklusive-gateway-xor-mit-mehreren-enden">Exklusive Gateway (XOR) mit mehreren Enden</a></li>
+<li><a href="#exklusive-gateway-xor-split-und-join">Exklusive Gateway (XOR) split und join</a></li>
+<li><a href="#exklusive-gateway-xor-schleifen">Exklusive Gateway (XOR) Schleifen</a></li>
+<li><a href="#parallele-gateways-and">Parallele Gateways (AND)</a></li>
+<li><a href="#kombination-von-xor-und-and-gateway-das-tokenprinzip">Kombination von XOR und AND Gateway (Das Tokenprinzip)</a></li>
+<li><a href="#inklusive-gateway-or">Inklusive Gateway (OR)</a></li>
+</ul></li>
+<li><a href="#LU-Markierungen">Exkurs - Markierungen, Aufgabentypen &amp; Daten</a></li>
+<li><a href="#LU-Pools">Von Pools und Lanes</a></li>
+<li><a href="#LU-Eventtypen">Exkurs - Eventtypen</a>
+<ul>
+<li><a href="#blanko-zwischenereignis">Blanko-Zwischenereignis</a></li>
+<li><a href="#nachrichten-zwischenereignis">Nachrichten-Zwischenereignis</a></li>
+<li><a href="#zeitereignisse">Zeitereignisse</a></li>
+<li><a href="#eventbasierte-gateways">Eventbasierte Gateways</a></li>
+<li><a href="#eventbasierte-gateways-schleifen">Eventbasierte Gateways (Schleifen)</a></li>
+<li><a href="#bedingungsereignisse">Bedingungsereignisse</a></li>
+<li><a href="#angeheftete-zwischenereignisse">Angeheftete Zwischenereignisse</a></li>
+<li><a href="#link-ereignis">Link-Ereignis</a></li>
+<li><a href="#übersicht-aller-ereignisse">Übersicht aller Ereignisse</a></li>
+</ul></li>
+<li><a href="#LU-Unterprozesse">Unterprozesse und Nachrichtenflüsse</a>
+<ul>
+<li><a href="#unterprozesse">Unterprozesse</a></li>
+<li><a href="#nachrichtenflüsse-über-poolgrenzen">Nachrichtenflüsse über Poolgrenzen</a></li>
+</ul></li>
+<li><a href="#LU-DMN">DMN - Grundlagen</a>
+<ul>
+<li><a href="#einführung">Einführung</a></li>
+<li><a href="#kernelemente-von-dmn">Kernelemente von DMN</a></li>
+<li><a href="#entscheidungstabellen">Entscheidungstabellen</a></li>
+<li><a href="#datentypen-für-input-data-elemente">Datentypen für Input-Data Elemente</a></li>
+</ul></li>
+<li><a href="#LU-Datentypen">Datentypen und Hit Policy</a>
+<ul>
+<li><a href="#single-hit-policies">Single Hit Policies</a></li>
+<li><a href="#multi-hit-policies">Multi Hit Policies</a></li>
+</ul></li>
+<li><a href="#LU-DRD">Dein erstes komplexes DRD</a></li>
+</ul></li>
+<li><a href="#ressourcen-quellennachweise">Ressourcen &amp; Quellennachweise</a>
+<ul>
+<li><a href="#webseiten">Webseiten</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#foren-gruppen">Foren &amp; Gruppen</a></li>
+<li><a href="#literatur">Literatur</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#mooc">MOOC</a></li>
+</ul></li>
+<li><a href="#stop-talking-start-doing">Stop talking, start doing!</a></li>
+<li><a href="#anhang">Anhang</a>
+<ul>
+<li><a href="#circle-moderatorinnen-checkliste">Circle Moderator*innen Checkliste</a></li>
+<li><a href="#danksagungen">Danksagungen</a></li>
+<li><a href="#änderungshistorie">Änderungshistorie</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="über-lernos">Über lernOS</h1>
+<p>Das Verb “lernos” ist die Zukunftsform von “lernen” auf Esperanto (mi lernos = ich werde lernen, ni lernos = wir werden lernen). <strong>lernOS</strong> ist ein <strong>Betriebssystem</strong> für <strong>Lebenslanges Lernen</strong> und <strong>Lernende Organisationen</strong>. lernOS ist aber keine Software, sondern “Brainware”. Es ist eine Art zu Denken und zu Handeln, um als Einzelperson, Team oder Organisation im 21. Jahrhundert erfolgreich zu sein. Das groß geschriebene “OS” im Namen unterstreicht die Bedeutung der Digitalisierung für unsere vernetzte Wissensgesellschaft.</p>
+<p>Zu lernOS gibt es <strong>drei grundlegende Leitfäden</strong>, die den Ansatz auf <strong>individueller Ebene</strong> (lernOS für Dich, <a href="https://cogneon.github.io/lernos-for-you">Präsentation</a>), auf <strong>Ebene von Teams</strong> (lernOS für Teams) und auf <strong>Ebene von Organisationen</strong> (lernOS für Organisationen) beschreiben. Zusätzlich gibt es die <strong>lernOS Toolbox</strong>, die oft genutzte Methoden und Werkzeuge erklärt (z.B. Podcast, Barcamp, Sketchnoting, Expert Debriefing). lernOS ist nicht auf der sprichwörtlichen grünen Wiese entstanden, sondern ist eine Zusammenstellung von bereits bestehenden und bewährten Methoden. Alle lernOS Leitfäden sind unter der <strong>offenen Lizenz Creative Commons Attribution (CC BY)</strong> auf der <a href="https://cogneon.de/lernos">lernOS Webseite</a> verfügbar und können gerne an die eigenen Bedürfnisse angepasst werden.</p>
+<p>Wenn du <strong>weitere Fragen</strong> bezüglich lernOS hast, oder <strong>Unterstützung von Gleichgesinnten</strong> brauchst, kannst du die Community-Plattform <a href="https://community.cogneon.de">CONNECT</a> und den <a href="https://community.cogneon.de/c/lernos/lernos-circlefinder">lernOS CircleFinder</a> nutzen oder mit <a href="https://twitter.com/search?q=%23lernOS">#lernOS</a> auf Twitter schreiben. Beachte: Die Meisterschaft von lernOS ist eine Frage von Monaten oder Jahren, nicht Stunden oder Tagen. Also: <strong>Keep Calm &amp; Learn On!</strong></p>
+<p>Dein <span class="citation" data-cites="locutusvonborg">[@locutusvonborg]</span>(https://www.linkedin.com/in/alexander-rose-loci/)</p>
+<p>Aus Gründen der besseren Lesbarkeit wird im Folgenden auf die gleichzeitige Verwendung weiblicher und männlicher Sprachformen verzichtet und das generische Maskulinum verwendet. Sämtliche Personenbezeichnungen gelten gleichermaßen für beide Geschlechter.</p>
+<h1 id="lizenz">Lizenz</h1>
+<p>lernOS Leitfäden stehen unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de">Creative Commons Namensnennung 4.0 International</a> (CC BY 4.0):</p>
+<p><img src="./images/cc-by.png" /></p>
+<p><strong>Du darfst:</strong></p>
+<ul>
+<li><strong>Teilen</strong> - das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten.</li>
+<li><strong>Bearbeiten</strong> - das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</li>
+</ul>
+<p><strong>Unter folgenden Bedingungen:</strong></p>
+<ul>
+<li><strong>Namensnennung</strong> - Du musst angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden. Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung besonders.</li>
+<li><strong>Keine weiteren Einschränkungen</strong> - Du darst keine zusätzlichen Klauseln oder technische Verfahren einsetzen, die anderen rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</li>
+</ul>
+<p><img src="./images/FreeCulturalWorks.png" /></p>
+<h1 id="grundlagen">Grundlagen</h1>
+<h2 id="was-ist-prozessmodellierung">Was ist Prozessmodellierung?</h2>
+<p>Bei der <strong><a href="https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung">Prozessmodellierung</a></strong> werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist <strong>grafisch</strong> dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem <strong>Darstellen des Ablaufs,</strong> aber auch Daten und Organisation (bzw. Organisationseinheiten) können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der <strong>ganzheitlichen Unternehmensabbildung</strong> und wird in der Regel als ein <strong>Teil des Geschäftsprozessmanagements</strong> verstanden.</p>
+<h3 id="was-ist-bpmn">Was ist BPMN?</h3>
+<p>Die <strong><a href="https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation">Business Process Model and Notation</a></strong> (BPMN) ist eine <strong>grafische Spezifikationssprache</strong> in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.</p>
+<h3 id="was-ist-dmn">Was ist DMN?</h3>
+<p><strong><a href="https://de.wikipedia.org/wiki/Decision_Model_and_Notation">Decision Model and Notation</a></strong> (DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum <strong>Beschreiben und Modellieren von wiederholbaren Entscheidungen</strong> in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten.</p>
+<h2 id="warum-ein-lernpfad-prozessmodellierung">Warum ein Lernpfad Prozessmodellierung?</h2>
+<p>In der aktuellen <a href="https://de.wikipedia.org/wiki/VUCA">VUCA</a>-Welt, in der die <a href="https://de.wikipedia.org/wiki/Digitale_Transformation">digitale Transformation</a> und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modellieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit <a href="https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel">Geschäftsregeln</a> verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung durch eine gemeinsame verbindenden Sprache (BPMN &amp; DMN) die Digitale Transformation entscheidend nach vorne zu bringen.</p>
+<p>Dieser Lernpfad funktioniert für <strong>alle Erfahrungsstufen</strong> und richtet sich somit an alle Interessenten dieses Themas. Es sind <strong>keine Vorkenntnisse</strong> nötig. Es ist egal, ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast.</p>
+<p>Das bedeutet auch, dass die Übungen eine <strong>steile Lernkurve</strong> für dich bereithalten. Alle BPMN-Übungen sind so angelegt, dass sie auch mit einem Stift und einem Blatt Papier durchführbar sind.</p>
+<p>Wie bei allem gilt auch beim Modellieren: <strong>Übung macht den Meister!</strong></p>
+<p>Dafür haben wir den <strong>Lernpfad Prozessmodellierung</strong> entwickelt. Er enthält unter anderem:</p>
+<ul>
+<li>11 Lerninhalte mit den wichtigsten Grundlageninformationen</li>
+<li>11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodellierung</li>
+<li>Zahlreiche Ressourcen zur weiteren Vertiefung</li>
+</ul>
+<h2 id="aufbau-dieses-lernpfades">Aufbau dieses Lernpfades</h2>
+<p><code>Fehlt: Sketchnote von Ralf</code></p>
+<p><code>Inhalt: Trennung von Lerninhalt &amp; KATA. Trennung von BPMN &amp; DMN</code></p>
+<p>Die meisten Katas stehen in 2 Varianten zur Verfügung:</p>
+<ol type="1">
+<li>Eine konkrete vorgegebene Aufgabe</li>
+<li>Eine Aufgabe ohne spezielle Vorgaben</li>
+</ol>
+<p>Es muss <strong>nur eine</strong> der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung, verschiedene Leistungsstufen innerhalb eines Circles bedienen zu wollen. Während Variante 1 eher für Beginner gedacht und sehr gut dazu geeignet ist, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen &amp; Aufgabenstellungen lösen wollen.</p>
+<h1 id="lernpfad-prozessmodellierung">Lernpfad Prozessmodellierung</h1>
+<h2 id="kata01">Mach dich mit den Grundlagen vertraut (KATA 01)</h2>
+<p>In dieser Kata machst du dich mit den <u>wichtigsten Grundelementen</u> der Prozessmodellierung vertraut. Nimm dir etwas Zeit für diese Übung, da du viele neue Dinge lernen wirst. In dieser Kata geht es um das <u>erstmalige Kennenlernen</u>. In den Kata der folgenden Wochen werden wir alle Themen an praktischen Beispielen weiter vertiefen</p>
+<p><strong>Dauer:</strong> ca. 60 Minuten</p>
+<ul>
+<li>Besuche die Seite <a href="https://www.signavio.com/de/bpmn-einfuehrung/">Business Process Model and Notation (BPMN) — Einführung</a> und lies sie dir gründlich durch.</li>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata02">Dein erstes Diagramm (Happy-Path) (KATA 02)</h2>
+<p>In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvorhergesehene Ereignisse. I.d.R. gibt es auch nichts zu entscheiden. In der Welt der Prozessmodellierung nennen wir diesen Weg den Happy-Path. Tatsächlich beginnen wir bei einem neuen Prozessmodell zunächst immer mit der einfachsten Variante. Komplizierter wird es später schon ganz von alleine.</p>
+<p><strong>Dauer:</strong> ca. 30 Minuten</p>
+<p>Schaue dir zunächst die <a href="#LU-HappyPath">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<!--Ggf. die Reihenfolge 1 & 2 tauschen. Hinweis Daniel. Dann müsste auch der Variantenterklärteil angepasst werden. Diskussion zum nächsten weekly-->
+<ol type="1">
+<li>Einen <strong>beliebigen</strong> Happy-Path unter Einhaltung der eben erlernten Regeln</li>
+<li>Einen Happy-Path der den Prozess der “<strong>Tee-Zubereitung</strong>” beschreibt</li>
+</ol>
+<ul>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata03">Triff deine ersten Entscheidungen (KATA 03)</h2>
+<p>Leider, oder besser zum Glück, ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen, indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedener Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst.</p>
+<p><strong>Dauer:</strong> 90 Minuten</p>
+<p>Schaue Dir zunächst die <a href="#LU-Gateways">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<ol type="1">
+<li>Einen <strong>beliebigen Prozess </strong> deiner Wahl mit mindestens zwei verschiedenen Gateway<br />
+</li>
+<li>Die “<strong>Tee-Zubereitung</strong>” mit einem OR Gateway (mindestens 3 Zweige)</li>
+</ol>
+<ul>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata04">Exkurs - Markierungen, Aufgabentypen &amp; Daten (KATA 04)</h2>
+<p>Attribute mit visuellen Effekten</p>
+<p>Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Dennoch kann es sehr hilfreich sein, über die Attribute direkt auf den Objekten einen <strong>schnellen Überblick</strong> zu bekommen. Die Liste in den Lernunterlagen gibt dir einen Überblick über die wichtigsten dieser Attribute.</p>
+<p><strong>Dauer</strong>: 60 Minuten</p>
+<p>Schaue Dir zunächst die <a href="#LU-Markierungen">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<ol type="1">
+<li>Ein <strong>beliebiges Prozessdiagramm</strong> mit mindestens 6 verschiedenen Elementen aus dieser Übung.</li>
+<li>Modelliere die “<strong>Tee-Zubereitung</strong>” weiter aus:
+<ul>
+<li>Jede Aufgabe hat ein zugewiesenes Attribut</li>
+<li>Ein Datenobjekt</li>
+<li>Eine Kombination von XOR und AND Gateway</li>
+</ul></li>
+</ol>
+<ul>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata05">Von Pools und Lanes (KATA 05)</h2>
+<p>Nachdem wir jetzt sehr viel über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den <strong>Verantwortlichkeiten</strong>. Diese werden in BPMN durch Pools und Lanes beschrieben.</p>
+<p><strong>Dauer:</strong> 60 Minuten</p>
+<p>Schaue Dir zunächst die <a href="#LU-Pools">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<ul>
+<li><FEHLT></li>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata06">Exkurs - Eventtypen (KATA 06)</h2>
+<p>Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.</p>
+<p><strong>Dauer:</strong> 90 Minuten</p>
+<p>Schaue Dir zunächst die <a href="#LU-Eventtypen">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<ol type="1">
+<li><p>Ein <strong>beliebiges Prozessdiagramm</strong> mit mindestens 6 verschiedenen Eventtypen (Start/Zwischen/Ende)</p></li>
+<li><p>Die <strong>Tee-Zubereitung</strong>: Modelliere deine bisherige Tee-Zubereitung weiter. Verwende mindestens:</p>
+<ul>
+<li>Einem eingetretenen Bedingungszwischenereignis</li>
+<li>Einem angehefteten Fehlerzwischenereignis</li>
+<li>Einem eingetretenen Zeitzwischenereignis</li>
+<li>Eine angeheftete Standard Ende Kompensation</li>
+</ul></li>
+</ol>
+<ul>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata07">Unterprozesse und Nachrichtenflüsse (KATA 07)</h2>
+<p>In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren.</p>
+<p><strong>Dauer:</strong> 60 Minuten</p>
+<p>Schaue Dir zunächst die <a href="#LU-Unterprozesse">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<ul>
+<li><FEHLT></li>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata08">DMN - Grundlagen (KATA 08)</h2>
+<p>Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die <strong>Grundelemente</strong> von DMN kennen. du erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit <strong>Entscheidungstabellen</strong>.</p>
+<p><strong>Dauer:</strong> 60 Minuten</p>
+<p>Schaue Dir zunächst die <a href="#LU-DMN">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<ul>
+<li><FEHLT></li>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata09">Datentypen und HIT-Policy (KATA 09)</h2>
+<p>Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das <strong>Herzstück</strong> des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen.</p>
+<p><strong>Dauer:</strong> 90 Minuten</p>
+<p>Schaue Dir zunächst die <a href="#LU-Datentypen">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<ol type="1">
+<li><p>Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.</p>
+<ol type="a">
+<li><p>Der Kunde muss mindestens 18 Jahre alt sein</p></li>
+<li><p>Nichtmitglieder unter 23 Jahren müssen mindestens 4 Jahre Fahrpraxis haben</p></li>
+<li><p>Mitglieder unter 23 Jahre müssen mindestens 2 Jahre Fahrpraxis haben</p></li>
+</ol></li>
+<li><p>Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.</p>
+<ol type="a">
+<li><p>Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens1500 € erhalten VIP Status</p></li>
+<li><p>Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status</p></li>
+<li><p>Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhalten ebenfalls Gold Status</p></li>
+<li><p>Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden</p></li>
+</ol></li>
+</ol>
+<ul>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<p><strong>Pro-Tipp:</strong> Wenn du dich noch tiefer mit dem Thema auseinandersetzen willst, findest du hier eine weitere Möglichkeit : <a href="https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm">Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden</a></p>
+<h2 id="kata10">Dein erstes komplexes DRD (KATA 10)</h2>
+<p>Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt. In dieser Kata lernst du, wann es Sinn macht, Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein <strong>Decision Requirements Diagram</strong> (DRD) visualisiert dies anschaulich.</p>
+<p><strong>Dauer:</strong> 45 Minuten</p>
+<p>Schaue dir zunächst die <a href="#LU-DRD">&lt;<em>Lernunterlagen</em>&gt;</a> an und modelliere dann:</p>
+<ul>
+<li>XXX</li>
+<li>Notiere deine Erkenntnisse &amp; Herausforderungen zur Reflektion im Weekly</li>
+</ul>
+<h2 id="kata11">Dein Meisterstück (KATA 11)</h2>
+<p>In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimalerweise suchst du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatleben wird dir sicher schnell einfallen.</p>
+<p><strong>Dauer:</strong> 120 - 240 Minuten (Je nach Ausprägung deines Prozesses)</p>
+<p>Folgende Komponenten sollte dein Meisterstück mindestens enthalten:</p>
+<ul>
+<li><p>3 Pools mit Nachrichtenflüssen &amp; mindestens 2 Lanes in einem Pool</p></li>
+<li><p>1 Unterprozess</p></li>
+<li><p>Tasks mit verschiedenen Attributen</p></li>
+<li><p>Verschiedene Datenobjekte</p></li>
+<li><p>Verschiedene Eventtypen: Mindestens ein Link-Event und ein angeheftetes Kompensations-Zwischenevent sowie ein Signal-Event</p></li>
+<li><p>Verschiedene Gateways: Mindestens ein Event-Gateway</p></li>
+<li><p>1 DRD mit 2 kaskadierenden Decisions und 4 Input-Data &amp; 2 Knowledge-Sources</p></li>
+<li><p>2 unterschiedliche HIT-Policies (Single &amp; Multiple)</p></li>
+</ul>
+<p>Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.</p>
+<p><strong>Pro-Tipp:</strong> Die Feuertaufe. Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.</p>
+<h2 id="retrospektive-feier">Retrospektive &amp; Feier</h2>
+<p>In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Das Ergebnis eurer Arbeiten habt ihr schon in Woche 11 vorgestellt - jetzt ist die Zeit, den Sprint <strong>gemeinsam ausklingen</strong> zu lassen.</p>
+<ul>
+<li><strong>Your Learning Moments:</strong> Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure “key learnings”? Überlegt, ob ihr diese als <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform">lernOS Story</a> für alle anderen Praktiker veröffentlichen wollt. <em>(20 Minuten)</em></li>
+<li><strong>After Action Review:</strong> Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? <em>(20 Minuten)</em></li>
+<li><strong>Check-out:</strong> Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?</li>
+<li><strong>Party Time!</strong> Schaut, ob ihr ein gemeinsames Mittagessen organisieren könnt. Oder noch besser, ihr geht Abends zusammen aus. Belohnt Euch, denn ihr habt es verdient! Ihr könnt stolz auf eure Leistungen sein .<em>(Die Dauer wählt ihr)</em></li>
+</ul>
+<hr />
+<h1 id="lernunterlagen">Lernunterlagen</h1>
+<h2 id="LU-HappyPath">Dein erstes Diagramm (Happy-Path)</h2>
+<ul>
+<li>Schau dir die folgenden Folien in Ruhe an:</li>
+</ul>
+<p><img src="./images/Happy-Path.png" /></p>
+<hr />
+<p><img src="./images/Benennung-von-Ereignissen.png" /></p>
+<p><a href="#kata02">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h2 id="LU-Gateways">Triff deine ersten Entscheidungen</h2>
+<p>Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem <strong>Exklusiv-Gateway</strong> verzweigenden) dargestellt. Dieses Gateway wird häufig genutzt und auch als <strong>XOR-Gateway</strong> bezeichnet.</p>
+<h3 id="exklusive-gateway-xor">Exklusive Gateway (XOR)</h3>
+<p>Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf.</p>
+<p><img src="./images/Exklusive-Gateways-(XOR)-einfach.png" /></p>
+<p>Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf <strong>genau einen</strong> ausgehenden Pfad (Entweder/Oder-Entscheidung)</p>
+<h3 id="exklusive-gateway-xor-mit-mehreren-enden">Exklusive Gateway (XOR) mit mehreren Enden</h3>
+<p>Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht ausgewählt wird.</p>
+<p><img src="./images/Exklusive-Gateways-(XOR)-mehrere-Endergebnisse.png" /></p>
+<h3 id="exklusive-gateway-xor-split-und-join">Exklusive Gateway (XOR) split und join</h3>
+<p>In diesem Beispiel haben wir zwei Exklusive Gateways. Das erste teilt (split) den Prozess in zwei Zweige und das zweite führt diese Zweige wieder zusammen (join).</p>
+<p><img src="./images/Exklusive-Gateways-(XOR)-Split-&amp;-Join.png" /></p>
+<h3 id="exklusive-gateway-xor-schleifen">Exklusive Gateway (XOR) Schleifen</h3>
+<p>Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen, um das gewünschte Ziel zu erreichen.</p>
+<p><img src="./images/Exklusives-Gateway-(XOR)-Schleifen.png" /></p>
+<h3 id="parallele-gateways-and">Parallele Gateways (AND)</h3>
+<p>Aufgaben können oder müssen manchmal parallel ausgeführt werden.</p>
+<p><img src="./images/Parallele-Gateways-(AND).png" /></p>
+<p>Parallele Gateways (AND) aktivieren <strong>alle ausgehenden Zweige gleichzeitig.</strong> Bei der Zusammenführung <strong>wird auf alle Zweige/Pfade gewartet</strong>.</p>
+<h3 id="kombination-von-xor-und-and-gateway-das-tokenprinzip">Kombination von XOR und AND Gateway (Das Tokenprinzip)</h3>
+<p>In diesem Beispiel wird der Salat parallel zum Hauptgericht angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.</p>
+<p>Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell dir das Token wie einen Spielball bzw. eine Kugel vor. Die Kugel wird bei jedem Start des Prozesses erzeugt und durchläuft ihn. Bei einem exklusiven Gateway kann der Token nur einen Weg nehmen. Bei einem parallelen Gateway teilt sich der Token in mehrere Token auf, je nach Anzahl der folgenden Zweige.</p>
+<p>In unserem Beispiel wird also am parallelen Gateway ein zweiter Token erzeugt. Diese beiden Token durchlaufen nun den parallelen Prozessabschnitt, bis sie durch das zweite AND-Gateway wieder zusammengeführt werden. Danach durchläuft der Token den restlichen Prozess und wird am Ende des Prozesses konsumiert .</p>
+<p><img src="./images/Kombination-von-XOR-und-AND-Gateway-(Das-Tokenprinzip).png" /></p>
+<h3 id="inklusive-gateway-or">Inklusive Gateway (OR)</h3>
+<p>Manchmal benötigen Prozesse noch etwas mehr Flexibilität. Hier kommt das <strong>Inklusive Gateway (OR)</strong> zum Einsatz. Im Gegensatz zum parallelen Gateway sind <strong>die ausgehenden Zweige optional,</strong> jedoch muss mindestens einer durchlaufen werden.</p>
+<p><img src="./images/Inklusive-Gateway-(OR).png" /></p>
+<p>Inklusive Gateways (OR) werden genutzt, wenn <strong>eine oder mehrere</strong> Bedingungen möglich sind. Bei der Zusammenführung wird auf <strong>alle gewählten Zweige</strong> gewartet.</p>
+<p>Es gibt in diesem Beispiel 7 mögliche Kombinationen.</p>
+<p><strong>Formel: 2^N-1, hier: 2^3-1 = 7 (N = Anzahl der ausgehenden Zweige)</strong></p>
+<ul>
+<li>Ein Zweig: nur Steak; nur Salat; nur Pasta</li>
+<li>Zwei Zweige: Steak &amp; Salat; Pasta &amp; Steak; Pasta &amp; Salat</li>
+<li>Alle Zweige: Pasta, Steak &amp; Salat</li>
+</ul>
+<p><a href="#kata03">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h2 id="LU-Markierungen">Exkurs - Markierungen, Aufgabentypen &amp; Daten</h2>
+<p><img src="./images/Markierungen,-Aufgaben-Typen-und-Daten.png" /></p>
+<p><img src="./images/Markierungen,-Aufgaben-Typen-und%20Daten-I.png" /></p>
+<p><a href="#kata04">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h2 id="LU-Pools">Von Pools und Lanes</h2>
+<p>In BPMN werden Verantwortlichkeiten (Organisationseinheiten, Abteilungen, Personen, Rollen) für Aufgaben mit Swimlanes (Pools und Lanes) dargestellt. Ein Prozess “gehört” zu einem Pool und ein Task wird von der jeweiligen Lane ausgeführt.</p>
+<p><img src="./images/Von-Pools-und-Lanes-I.png" /></p>
+<p>Folgende Benennungen von Pools &amp; Lanes haben sich im Einsatz bewährt:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Typ</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Organisationseinheit</td>
+<td>Finanzen, Personal, Vertrieb, Service</td>
+</tr>
+<tr class="even">
+<td>Stelle/Position</td>
+<td>Abteilungsleiter Finanzen, Führungskraft Recht, …</td>
+</tr>
+<tr class="odd">
+<td>Prozessbezogene Rolle</td>
+<td>Mitarbeiter, Vorgesetzter, Prozessverantwortlicher</td>
+</tr>
+<tr class="even">
+<td>Person</td>
+<td>Frau Schulze, Herr Meier</td>
+</tr>
+</tbody>
+</table>
+<p>Von der Personenbenennung ist jedoch abzuraten, da sich Personen ständig ändern können. Nutze in dem Fall besser die <strong>prozessbezogenen Rollen</strong>.</p>
+<p>Sabine, Ralf und Alex wollen etwas kochen. Jeder bekommt Aufgaben zugewiesen.</p>
+<p><img src="./images/Sabine,-Ralf-und-Alex-wollen-etwas-kochen.png" /></p>
+<p>Ein Task kann in BPMN nur zu <strong>genau einer Lane</strong> (Rolle / Verantwortlichkeit) gehören.</p>
+<p>Ein <strong>Task</strong> kann auch <strong>mehrere Beteiligte</strong> haben. Dies wird mit zusätzlichen Beteiligten oder weiteren Lanes dargestellt.</p>
+<p><img src="./images/Sabine,-Ralf-und-Alex-wollen-etwas-kochen-II.png" /></p>
+<p><a href="#kata05">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h2 id="LU-Eventtypen">Exkurs - Eventtypen</h2>
+<h3 id="blanko-zwischenereignis">Blanko-Zwischenereignis</h3>
+<p>In diesem Prozess sehen wir ein <strong>Blanko-Zwischenereignis</strong>. Es wird verwendet, um wichtige Zustände oder Meilensteine in einem Prozess darzustellen und hat keine weitere Funktion.</p>
+<p><img src="./images/Blanko-Zwischenereignis.png" /></p>
+<p><strong>Zwischenergebnisse (Blanko)</strong></p>
+<p>Repräsentieren Zustände oder Meilensteine im Prozess und haben keinen Einfluss auf den Prozessverlauf.</p>
+<h3 id="nachrichten-zwischenereignis">Nachrichten-Zwischenereignis</h3>
+<p>Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.</p>
+<p><img src="./images/Nachrichten-Zwischenereignis.png" /></p>
+<p><strong>Nachrichten-Zwischenereignisse</strong></p>
+<p>Werden genutzt bei eingehenden Nachrichten, Waren oder Zahlungen, auf die im Prozess gewartet werden muss.</p>
+<h3 id="zeitereignisse">Zeitereignisse</h3>
+<p>Zeitereignisse können Prozesse starten oder verzögern.</p>
+<p><img src="./images/Zeitereignisse.png" /></p>
+<ul>
+<li><strong>Zwischen-Zeitereignis:</strong> Zeitpunkte (auch wiederkehrende) oder Wartezeiten</li>
+<li><strong>Start-Zeitereignis:</strong> Zu diesen Zeitpunkten wird der Prozess gestartet.</li>
+</ul>
+<h3 id="eventbasierte-gateways">Eventbasierte Gateways</h3>
+<p>Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit <strong>ereignisbasierten Gateways</strong>. Das <strong>zuerst eintretende Ereignis</strong> bestimmt den Zweig, dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist, wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.</p>
+<p><img src="./images/Ereignisbasierte-Gateways.png" /></p>
+<p><strong>Ereignisbasierte Gateways</strong></p>
+<p>Steuern den Prozessfluss anhand von möglichen Ereignissen. Sie warten auf eintretende Ereignisse.</p>
+<h3 id="eventbasierte-gateways-schleifen">Eventbasierte Gateways (Schleifen)</h3>
+<p>Ereignisbasierte Gateways können auch für Schleifen verwendet werden. In diesem Beispiel wollen wir nicht weiter auf unsere Pasta warten, falls diese nach dreimaligen Nachfragen immer noch nicht geliefert wurde.</p>
+<p><img src="./images/Ereignisbasierte-Gateways-(Schleife).png" /></p>
+<p><strong>Ereignis: Bedingung</strong></p>
+<p>Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.</p>
+<h3 id="bedingungsereignisse">Bedingungsereignisse</h3>
+<p>In diesem Beispiel siehst du die Verwendung von <strong>Bedingungsereignissen</strong> im Vergleich zu <strong>Zeitereignissen</strong>.</p>
+<p><img src="./images/Bedingungsereignisse.png" /></p>
+<h3 id="angeheftete-zwischenereignisse">Angeheftete Zwischenereignisse</h3>
+<p>Deadlines oder Abbruchbedingungen können mit <strong>angehefteten Zwischenereignissen</strong> dargestellt werden. Falls das Aussuchen der Pasta länger als 30 Minuten dauert, dann bestellen wir nicht, sondern backen Pizza.</p>
+<p><img src="./images/Angeheftete-Zwischenerignisse.png" /></p>
+<h3 id="link-ereignis">Link-Ereignis</h3>
+<p>Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den Sequenzfluss auf den nächstfolgenden Prozess weiterzuleiten. Zwei zusammengehörende Link-Ereignisse repräsentieren dabei einen Sequenzfluss.</p>
+<p><img src="./images/Link-Ereignis.png" /></p>
+<p><img src="./images/Link-Ereignis-I.png" /></p>
+<p><strong>Link-Ereignis</strong> Ein auslösendes und eintretendes Link-Ereignis mit <strong>gleichem Namen</strong> entspricht einem Sequenzfluss, d.h. Sie können große Prozesse in Abschnitte aufteilen.</p>
+<p>Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der <strong>gleichen Prozesshierachie-Ebene</strong> befinden.</p>
+<h3 id="übersicht-aller-ereignisse">Übersicht aller Ereignisse</h3>
+<p>Eine <strong>vollständige Übersicht</strong> aller BPMN Ereignisse findest du im <a href="http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf">BPMN-Poster</a> auf der rechten Seite.</p>
+<p><a href="#kata06">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h2 id="LU-Unterprozesse">Unterprozesse und Nachrichtenflüsse</h2>
+<h3 id="unterprozesse">Unterprozesse</h3>
+<p>Zugeklappte Unterprozesse fassen mehrere Aufgaben (Tasks) zusammen. Damit können komplexe Prozesse übersichtlich dargestellt werden.</p>
+<p><img src="./images/Unterprozesse.png" /></p>
+<hr />
+<p>Im nächsten Beispiel wird die Anwendung von <strong>angehängten Zwischenereignissen</strong> an Unterprozessen gezeigt. Falls also die Pasta verkoch ist, wird eine Eskalation ausgelöst und Pasta bestellt. Dies sollte jedoch nicht der Standardpfad sein.</p>
+<p><img src="./images/Unterprozesse-II.png" /></p>
+<h3 id="nachrichtenflüsse-über-poolgrenzen">Nachrichtenflüsse über Poolgrenzen</h3>
+<p>Externe Kommunikationspartner werden mit <strong>zugeklappten Pools</strong> dargestellt. Der Nachrichtenfluss zeigt den <strong>Austausch von Informationen</strong>. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant.</p>
+<p><img src="./images/Nachrichtenflüsse-über-Poolgrenzen.png" /></p>
+<p><strong>Nachrichtenfluss</strong></p>
+<p>Stellt die Kommunikation zwischen Pools dar.</p>
+<p><a href="#kata07">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h2 id="LU-DMN">DMN - Grundlagen</h2>
+<h3 id="einführung">Einführung</h3>
+<p><strong>Business Decision Management</strong> (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung. Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer <a href="https://demo.bpmn.io/dmn">DMN Software</a>, um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Menschliche Entscheidungen</th>
+<th>Automatisierte Entscheidungen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Unklare Regeln</td>
+<td>Fehlende Transparenz</td>
+</tr>
+<tr class="even">
+<td>Unsicherheiten</td>
+<td>Veraltete / falsche Entscheidungsgrundlagen</td>
+</tr>
+<tr class="odd">
+<td>Langsame Entscheidungsfindung</td>
+<td>Kostenintensive Anpassung</td>
+</tr>
+<tr class="even">
+<td>Inkonsistente Entscheidungen</td>
+<td>Hoher Kommunikationsaufwand</td>
+</tr>
+</tbody>
+</table>
+<p><strong>BDM</strong> dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.</p>
+<p>Das digitale Zeitalter und die zunehmend gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.</p>
+<table>
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Das digitale Zeitalter</th>
+<th>Erweiterte Vorschriften</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mehr verfügbare Daten</td>
+<td>Pflicht zur Nachvollziehbarkeit &amp; Transparenz: Von der Anforderung bis zur Implementierung</td>
+</tr>
+<tr class="even">
+<td>Big Data Analyse</td>
+<td>Risiken für Verstöße gegen gesetzliche Vorschriften frühzeitig erkennen</td>
+</tr>
+<tr class="odd">
+<td>Schneller auf veränderte Anforderungen reagieren</td>
+<td>Vermeidung von Strafe</td>
+</tr>
+<tr class="even">
+<td><strong>Entscheidungen intelligenter treffen</strong></td>
+<td><strong>Entscheidungen intelligenter treffen</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Decision Model and Notation</strong> (DMN) ist eine grafische Spezifikationssprache, die Elemente definiert, um Geschäftsentscheidungen zu modellieren und deren Logik zu dokumentieren. DMN dient als <strong>Schnittstelle zwischen Modellierung und Implementierung</strong> von Entscheidungslogik (Fachbereich &amp; IT).</p>
+<p>Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf <strong>zwei Ebenen</strong> erstellt. Während in der ersten Ebene die <strong>Anforderungen (Informationen)</strong> für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die <strong>Logik (Regeln).</strong></p>
+<p><img src="./images/Ebenenmodell.png" /></p>
+<p>Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können sie auch unabhängig voneinander existieren.</p>
+<p><img src="./images/Geschäftslogik-vs.-Entscheidungslokok.png" /></p>
+<h3 id="kernelemente-von-dmn">Kernelemente von DMN</h3>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 46%" />
+<col style="width: 41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Element</th>
+<th>Eigenschaft</th>
+<th>Eigenschaft II</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Desicion</td>
+<td>Benutzt Logik um Ergebnis zu bestimmen.</td>
+<td>Zerlegung in Teilentscheidungen möglich.</td>
+</tr>
+<tr class="even">
+<td>Input Data</td>
+<td>Stellt Informationen für Entscheidungen bereit.</td>
+<td>Kann von verschiedenen Entscheidungen genutzt werden.</td>
+</tr>
+<tr class="odd">
+<td>Knowledge Source</td>
+<td>Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden.</td>
+<td>z.B. Gesetze, Regularien oder Richtlinien.</td>
+</tr>
+</tbody>
+</table>
+<p><img src="./images/Decision-Inpitdata-KnowledgeSource.png" /></p>
+<p>Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden <strong>Leitfragen</strong> zu orientieren:</p>
+<p><u>Entscheidungen identifizieren und abgrenzen</u></p>
+<ul>
+<li>Welche Entscheidungen müssen überhaupt getroffen werden?</li>
+<li>Was ist das Ziel dieser Entscheidungen?</li>
+</ul>
+<p><u>Benötigte Anforderungen sammeln</u></p>
+<ul>
+<li>Welche Informationen werden benötigt, um die Entscheidung zu treffen?</li>
+<li>Wird die Logik aus externen Gesetzen / internen Richtlinien vorgeschrieben?</li>
+</ul>
+<p><u>Entscheidungen aufteilen</u></p>
+<ul>
+<li>Müssen die benötigten Informationen ggf. selbst erst ermittelt werden?</li>
+<li>Bei Unterentscheidungen analoges Vorgehen -&gt; Anforderungen sammeln</li>
+</ul>
+<p>Das kann z. B. so aussehen:</p>
+<p><img src="./images/Entscheidungsdiagramm.png" /></p>
+<p><strong>Entscheidungsdiagramme</strong> beantworten folgende <strong>Fragen</strong> auf leicht verständliche Weise:</p>
+<ul>
+<li>Welche Informationen werden benötigt?</li>
+<li>Gibt es vorgelagerte Entscheidungen?</li>
+<li>Gibt es externe oder interne Richtlinien?</li>
+<li>Wie sind die Abhängigkeiten?</li>
+</ul>
+<p>Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im Folgenden im Detail erklärt.</p>
+<p><img src="./images/Entscheidungsdiagramm-I.png" /></p>
+<h3 id="entscheidungstabellen">Entscheidungstabellen</h3>
+<p>Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht <strong>jede Reihe einer Geschäftsregel</strong>. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:</p>
+<ul>
+<li>Personen mit mehr als zwei Unfällen in den letzten 3 Jahren wird keine Versicherung gewährt</li>
+<li>Personen unter 18 Jahren wird keine Versicherung gewährt</li>
+<li>Personen mit mehr als vier Punkten wird keine Versicherung gewährt</li>
+</ul>
+<p><img src="./images/Entscheidungstabelle-01.png" /></p>
+<p>Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel beschreibt dabei eine mögliche Kombination von Eingängen, in welcher jede zu einem bestimmten Ergebnis führt.</p>
+<p><img src="./images/Entscheidungstabelle-02.png" /></p>
+<p><strong>Operatoren</strong> werden benutzt, um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an <a href="https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm">Operatoren</a>.</p>
+<h3 id="datentypen-für-input-data-elemente">Datentypen für Input-Data Elemente</h3>
+<p>In der Praxis können Informationen in verschiedenen Arten vorkommen z. B. als Text , als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Es gibt folgende Datentypen:</p>
+<ul>
+<li>Boolean: Wahr / Falsch (Wahrheitswert)</li>
+<li>Zahlwert: 12, 33%, 45€</li>
+<li>Aufzählung: Hund, Katze, Maus</li>
+<li>Text: Namen, Modellnummer: ED4637K</li>
+<li>Datum: 08.05.1970</li>
+<li>Hierarchie: Abteilungsleiter, Teamleiter, Mitarbeiter</li>
+</ul>
+<h4 id="boolean">Boolean</h4>
+<p>Ein Input Data vom Typ <strong>Boolean</strong> besitzt einen von zwei möglichen Werten. Dieser Wert kann entweder <strong>wahr</strong> oder <strong>falsch</strong> sein. Boolean kann für einfache Abfragen genutzt werden.</p>
+<p><img src="./images/Datentypen-für-Input-Data-Elemente-(Boolean).png" /></p>
+<p>In diesem Beispiel ist der Input Data “Stammkunde” vom Typ Boolean, da es hier nur 2 mögliche Ausprägungen geben kann. Entweder handelt es sich um einen Stammkunden <strong>(wahr)</strong> oder nicht <strong>(falsch)</strong>.</p>
+<h4 id="zahlwert">Zahlwert</h4>
+<p>Eingangsdaten vom Typ <strong>Zahlwert</strong> enthalten <strong>numerische Werte</strong>. Diese können Bereiche oder einfache Zahlen sein. Nummern werden von Operatoren (siehe vorheriges Kapitel) verglichen und können eine Einheit haben.</p>
+<p><img src="./images/Datentypen-für-Input-Data-Elemente-(Zahlwert).png" /></p>
+<p>In diesem Beispiel ist der Input Data “Einkaufswert” vom Typ Zahlwert. Dieser Typ kann folgende Einheiten annehmen.</p>
+<ul>
+<li>Prozent</li>
+<li>Gewicht</li>
+<li>Länge</li>
+<li>Temperatur</li>
+<li>Währung</li>
+</ul>
+<p><strong>Zahlwerte</strong> können in verschiedenen Bereichen angegeben werden.</p>
+<ul>
+<li>Eckige Klammern für <strong>geschlossene Intervalle</strong>
+<ul>
+<li>[1..5] zwischen 1 und 5, inklusive 1 und 5</li>
+</ul></li>
+<li>Runde Klammern für <strong>offene Intervalle</strong>
+<ul>
+<li>(1..5) zwischen 1 und 5, exklusive 1 und 5</li>
+</ul></li>
+<li><strong>Gemischte(halb-offene) Intervalle</strong>
+<ul>
+<li>(1..5] zwischen 1 und 5, exklusive 1 und inklusive 5</li>
+<li>[1..5) zwischen 1 und 5, inklusive 1 und exklusive 5</li>
+</ul></li>
+</ul>
+<h4 id="aufzählung">Aufzählung</h4>
+<p>Ist der Datentyp einer Eingabe <strong>Aufzählung,</strong> wird eine <strong>Liste von Auswahloptionen</strong> vordefiniert. Diese Werte können durch Operatoren mit anderen Eingabewerten / Listen verglichen werden.</p>
+<p>Z.B. Express Versand, Standard Versand, …)</p>
+<p><img src="./images/Datentypen-für-Input-Data-Elemente-(Aufzählung).png" /></p>
+<p>Operatoren können sein:</p>
+<ul>
+<li>Gleich</li>
+<li>Ungleich</li>
+<li>Element von</li>
+<li>Kein Element von</li>
+</ul>
+<h4 id="datum">Datum</h4>
+<p>Ein <strong>Datum</strong> wird genutzt, um <strong>bestimmte Zeitpunkte</strong> festzulegen. Durch Operatoren kann der Wert verglichen werden (zum Beispiel mit dem aktuellen Datum).</p>
+<p><img src="./images/Datentypen-für-Input-Data-Elemente-(Datum).png" /></p>
+<p>Operatoren können sein:</p>
+<ul>
+<li>Gleich</li>
+<li>Ungleich</li>
+<li>Größer als</li>
+<li>Kleiner als</li>
+<li>Größer oder gleich</li>
+<li>Kleiner oder gleich</li>
+</ul>
+<h4 id="text">Text</h4>
+<p>Der Datentyp <strong>Text</strong> wird für <strong>Vermerke und andere textbasierte Informationen</strong> benutzt. Da die Auswahl eines vordefinierten Wertes weniger fehleranfällig ist, als den Wert selbst einzutippen (Leerzeichen, Tippfehler etc.), sollten Texttypen wenn möglich durch Aufzählungen ersetzt werden.</p>
+<p><img src="./images/Datentypen-für-Input-Data-Elemente-(Text).png" /></p>
+<p>Operatoren können sein:</p>
+<ul>
+<li>Gleich</li>
+<li>Ungleich</li>
+<li>Enthält</li>
+<li>Enthält nicht</li>
+<li>Beginnt mit</li>
+<li>Endet mit</li>
+<li>Element von</li>
+<li>Kein Element von</li>
+</ul>
+<h4 id="hierarchie">Hierarchie</h4>
+<p>Ein Eingang vom Typ <strong>Hierarchie</strong> listet <strong>Werte in verschiedenen Kategorien</strong> auf, die voneinander hierarchisch abhängig sind. Dies erlaubt die Anwendung von Entscheidungsregeln für eine gesamte Kategorie und/oder einzelne Werte.</p>
+<p><img src="./images/Datentypen-für-Input-Data-Elemente-(Hierarchie).png" /></p>
+<p>Operatoren können sein:</p>
+<ul>
+<li>Gleich</li>
+<li>Ungleich</li>
+<li>Element von</li>
+<li>Kein Element von</li>
+</ul>
+<p><a href="#kata08">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h2 id="LU-Datentypen">Datentypen und Hit Policy</h2>
+<h3 id="single-hit-policies">Single Hit Policies</h3>
+<p>Bei diesen Hit Policy wird <strong>immer nur eine Regel</strong> in der Entscheidungstabelle angewendet, auch wenn mehrere Regeln zutreffen.</p>
+<h4 id="unique-hit-policy-u">Unique Hit Policy (U)</h4>
+<p>Bei der Unique Hit Policy kann für jede Kombination an Eingaben <strong>nur eine Regel zutreffen.</strong> In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei <strong>nicht erlaubt.</strong></p>
+<p><img src="./images/Unique-hit-policy.png" /></p>
+<p>Ein “<strong>-</strong>” steht für “<strong>any</strong>” und bedeutet, dass an dieser Stelle jeder mögliche Wert stehen kann.</p>
+<p><strong>In Regel 2:</strong> Ist die gewählte Versandart Expressversand und der Kundentyp Einzelhändler, spielt es keine Rolle ob Nahrungsmittel oder Sachgüter ausgewählt ist. Das Ergebnis wird immer eine hohe Lieferpriorität sein.</p>
+<p><strong>In Regel 3:</strong> Ist die gewählte Versandart Standardversand, die Güterart Nahrungsmittel und der Kundentyp Großhändler, haben wir eine hohe Lieferpriorität.</p>
+<h4 id="first-hit-policy-f">First Hit Policy (F)</h4>
+<p>Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings <strong>nur die erste zutreffende Regel</strong> verwendet. Die First Hit Policy geht von einer <strong>Sortierung der Regeln</strong> aus. Sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine der ersten drei Regeln auf den Sachverhalt zu, kann die <strong>letzte Regel</strong> als allgemeine <strong>“Auffangregel”</strong> genutzt werden.</p>
+<p><img src="./images/First-hit-policy.png" /></p>
+<p>In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und der Kunde Großhändler ist. Wenn ja, tritt die Regel ein, ansonsten wird die zweite Regel geprüft. Stimmt diese nicht mit den Eingaben überein, wird die dritte Regel geprüft und so weiter.</p>
+<h4 id="any-hit-policy-a">Any Hit Policy (A)</h4>
+<p>Bei Verwendung der Any Hit Policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.</p>
+<p><img src="./images/ANY-hit-policy.png" /></p>
+<p>Sobald eine der drei Kriterien mit “false” definiert wurde, also nicht zutrifft, führt dies direkt zum Ergebnis der VIP Anforderungen “nicht erfüllt”. Somit sind nur bei einer gültigen Kombination von Input Data die VIP Anforderungen “erfüllt”.</p>
+<h4 id="priority-hit-policy-p">Priority Hit Policy (P)</h4>
+<p>Mehrere Regeln können für einen Eingabewert eintreffen, wenn die Priority Hit Policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.</p>
+<p><img src="./images/Priority-hit-policy.png" /></p>
+<p>Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter ‘70’ und die Krankengeschichte “schlecht” ist. Demnach wären die möglichen Ergebnisse Hoch und Mittel. Da „Mittel“ jedoch gegenüber „Hoch“ eine höhere Priorität besitzt, wird dieses Ergebnis ausgegeben.</p>
+<h3 id="multi-hit-policies">Multi Hit Policies</h3>
+<p>Bei diesen Hit Policies werden <strong>alle</strong> zutreffenden Regeln betrachtet. Die erhaltenen Ergebnisse können entweder als Liste ausgegeben oder zu einem einzelnen Wert aggregiert werden (z.B. als Summe).</p>
+<h4 id="output-order-policy-o">Output Order Policy (O)</h4>
+<p>Liefert alle Treffer in <strong>absteigender Reihenfolge</strong> der Ausgabepriorität. Die Ausgabeprioritäten werden in der geordneten Liste der Ausgabewerte in absteigende Reihenfolge ausgelesen.</p>
+<p><img src="./images/output-order-policy.png" /></p>
+<p>Beispielrechnung:</p>
+<ul>
+<li>Input (50, 31)
+<ul>
+<li>Die Regeln 1,2,4,5 und 6 werden aktiviert</li>
+</ul></li>
+<li>Output: 2,2,3,4,26</li>
+</ul>
+<h4 id="rule-order-policy-r">Rule Order Policy (R)</h4>
+<p>Die Ausgaben aller <strong>übereinstimmenden Regeln</strong> werden als sortierte Liste zurückgegeben, in der Reihenfolge der Regeln.</p>
+<p><img src="./images/Rule-order-policy.png" /></p>
+<p>Beispielrechnung:</p>
+<ul>
+<li>Input (50, 31):
+<ul>
+<li>Die Regeln 1,2,4,5 und 6 werden aktiviert</li>
+</ul></li>
+<li>Output: 26,2,2,3,4</li>
+</ul>
+<h4 id="collect-policy-c">Collect Policy (C)</h4>
+<p>Die Ausgaben aller übereinstimmenden Regeln werden als unsortierte Liste zurückgegeben.</p>
+<p>Folgende Aggregationen können angewendet werden:</p>
+<ul>
+<li>sum +</li>
+<li>min &lt;</li>
+<li>max &gt;</li>
+<li>count #</li>
+</ul>
+<p><img src="./images/collect-policy.png" /></p>
+<ul>
+<li>Input (50, 31):
+<ul>
+<li>Die Regeln 1,2,4,5 und 6 werden aktiviert</li>
+</ul></li>
+<li>Output für C+: 37</li>
+</ul>
+<p><a href="#kata09">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h2 id="LU-DRD">Dein erstes komplexes DRD</h2>
+<p>Das Diagramm zeigt, dass sehr viele Informationen berücksichtigt werden müssen, damit der Rabatt bestimmt werden kann. Um <strong>große Entscheidungen</strong> wie diese zu vermeiden, können Teile der Informationen in <strong>untergeordnete Entscheidungen</strong> ausgelagert werden. Doch wann sollten Entscheidungen überhaupt aufgeteilt werden?</p>
+<p><img src="./images/Große-Entscheidungen.png" /></p>
+<p>Sobald eine Entscheidung <strong>mehr als sechs</strong> Eingänge hat, wird die Entscheidungslogik sehr <strong>komplex</strong>. Jeder einzelne Informationseingang muss schließlich als Regel in der Entscheidungstabelle berücksichtigt werden. Hier ist es empfehlenswert, die verschiedenen Informationseingänge in einzelne Teilentscheidungen aufzuteilen.</p>
+<p>Das Entscheidungsdiagramm ist nun auf eine strategische Entscheidung und drei untergeordnete Entscheidungen aufgeteilt. Dadurch ist das gesamte Diagramm leichter verständlich und die Abhängigkeiten sowie Eingangswerte sind besser erkennbar.</p>
+<p><img src="./images/Große-Entscheidungen-I.png" /></p>
+<p>Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine einzelne Teilentscheidung kann jetzt geändert werden, ohne die Logik in den anderen Teilentscheidungen anpassen zu müssen.</p>
+<p>Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wieder verwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind Status bestimmen oder Berechtigung prüfen.</p>
+<p>In diesem Beispiel wird die Entscheidung <strong>Kundenstatus</strong> in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung <strong>Bestimmung des Rabatts</strong>. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der <strong>Bestimmung der Lieferpriorität</strong> verwendet.</p>
+<p><img src="./images/Teilentscheidungen.png" /></p>
+<p>Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elements dargestellt werden.</p>
+<p>Zur besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.</p>
+<p><img src="./images/Teilentscheidungen-II.png" /></p>
+<p>Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für andere Betrachter klar verständlich ist, was genau entschieden wird, gibt es <strong>verschiedene Benennungsarten.</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 57%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Benennungsstil</th>
+<th>Beschreibung</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aktivitätenstil</td>
+<td>Die selbe Bezeichnung wie die zugehörige BPMN Aktivität. Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln</td>
+<td>Kundenstatus ermitteln</td>
+</tr>
+<tr class="even">
+<td>Ereignisstil</td>
+<td>Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge</td>
+<td>Kundenstatus</td>
+</tr>
+<tr class="odd">
+<td>Fragenstil</td>
+<td>Die Entscheidung wird als Frage formuliert. <strong>Achtung:</strong> Fragen können sehr umfangreich sein und damit zu langen Bezeichnungen führen</td>
+<td>Welchen Status hat der Kunde?</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#kata10">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr />
+<h1 id="ressourcen-quellennachweise">Ressourcen &amp; Quellennachweise</h1>
+<h2 id="webseiten">Webseiten</h2>
+<p><a href="https://www.signavio.com/de/bpmn-einfuehrung/">Business Process Model and Notation (BPMN) — Einführung</a></p>
+<p><a href="https://www.omg.org/spec/BPMN">Object Management Group - Business Process Model and Notation</a></p>
+<p><a href="https://www.omg.org/spec/DMN">Object Management Group - Decision Model and Notation</a></p>
+<p><a href="https://www.ioz.ch/de/prozessmanagement.html">IOZ</a></p>
+<p><a href="https://www.modeling-guidelines.org/de/">BPMN Modelling Guidelines</a></p>
+<p><a href="http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf">BPMN - Poster</a></p>
+<p><a href="https://methodandstyle.com/blog/">Blog von Bruce Silver</a></p>
+<p><a href="https://www.bpmessentials.com/wp-content/uploads/2017/10/Booklet-MethodStyle.pdf">BPMN Methoden &amp; Stil Booklet</a></p>
+<p><a href="https://www.signavio.com/de/downloads/kurzinfos/bpmn-2-0-cheat-sheet/">BPMN 2.0 Cheat Sheet</a></p>
+<p><a href="https://www.signavio.com/de/downloads/kurzinfos/dmn-1-1-cheat-sheet/">DMN 1.1 Cheat Sheet</a></p>
+<h2 id="tools">Tools</h2>
+<p><a href="https://bpmn.io/">Web-based tooling for BPMN, DMN and CMMN</a></p>
+<p><a href="http://www.bicdesign-free.com/webedition/">BIC Design</a></p>
+<p><a href="https://www.bpm-free.de/">BPM Free</a></p>
+<p><a href="https://www.yworks.com/products/yed">yEd Graph Editor</a></p>
+<p><a href="https://www.lucidchart.com/pages/de/landing/process-mapping-software">Lucidchart</a></p>
+<p><a href="https://www.bizagi.com/de/produkte/plattform/modeler">Bizagi Modeler</a></p>
+<h2 id="foren-gruppen">Foren &amp; Gruppen</h2>
+<p><a href="https://www.xing.com/communities/groups/berliner-bpm-offensive-bdbf-1074763">Xing-Forum: Berliner BPM - Offensive</a></p>
+<p><a href="https://www.linkedin.com/groups/111271/">LinkedIN-Gruppe: BPMN</a></p>
+<p><a href="https://www.linkedin.com/groups/115356/">LinkedIN-Gruppe: BPMN and beyond</a></p>
+<p><a href="https://www.linkedin.com/groups/4225568/">LinkedIN-Gruppe: Decision Model and Notation (DMN)</a></p>
+<h2 id="literatur">Literatur</h2>
+<p><a href="https://www.amazon.de/Praxishandbuch-BPMN-2-0-Jakob-Freund/dp/3446442553/">Praxishandbuch BPMN 2.0</a></p>
+<p><a href="https://www.amazon.de/Methode-Zweite-Auflage-Handbuch-Prozessautomatisierung/dp/0982368127">BPMN Methode und Stil - Bruce Silver</a></p>
+<p><a href="https://www.amazon.de/Prozess-Entscheidungsmodellierung-BPMN-Kurzanleitung-Prozessmodellierung/dp/1519542968">Prozess- und Entscheidungsmodellierung in BPMN/DMN - Eine Kurzanleitung</a></p>
+<p><a href="https://epdf.pub/business-process-management-concepts-languages-architectures.html">BUSINESS PROCESS MANAGEMENT - CONCEPTS, LANGUAGES, ARCHITECTURES</a></p>
+<h2 id="video">Video</h2>
+<p><a href="https://youtu.be/VappsiNgx38">BPMN 2.0 - Grundelemente (Tutorial Part 1)</a></p>
+<p><a href="https://youtu.be/pcefgu-D8b0">BPMN 2.0 - Gateways (Tutorial Part 2)</a></p>
+<p><a href="https://youtu.be/QIFSaaAvLzg">BPMN 2.0 - Aktivitäten (Tutorial Part 3)</a></p>
+<p><a href="https://youtu.be/4-OYKum7VnY">BPMN 2.0 - Ereignisse (Tutorial Part 4)</a></p>
+<p><a href="https://youtu.be/9Sjb-R44FBg">BPMN 2.0 - Pools &amp; Lanes (Tutorial Part 5)</a></p>
+<p><a href="https://youtu.be/a2HCoJUG0xs">BPMN 2.0 - Daten (Tutorial Part 6)</a></p>
+<p><a href="https://www.youtube.com/watch?v=jmQUloX_iv8&amp;list=PLsdRG4tvgt7I93dd6O8YDWX9n7_oWwvCg">Webinaraufzeichnungen</a></p>
+<h2 id="mooc">MOOC</h2>
+<p><a href="https://open.hpi.de/courses/bpm2019">Business Processes: Modeling, Simulation, Execution</a></p>
+<p><a href="https://mooc.house/">Modellierung von Geschäftsprozessen mit BPMN</a></p>
+<p><a href="https://mooc.house/">Einführung in die Entscheidungsmodellierung mit DMN</a></p>
+<h1 id="stop-talking-start-doing">Stop talking, start doing!</h1>
+<p>Wenn du diesen Leitfaden gelesen hast, lernOS aber noch nicht aktiv umsetzt, solltest du jetzt damit beginnen! Mit lernOS zu starten ist wirklich einfach. Diese fünf Schritte werden dir beim reibungslosen Start helfen:</p>
+<ol type="1">
+<li><strong>Zeit einplanen:</strong> Definiere das Quartal, in dem du mit lernOS starten möchtest. Trage dir die Zeiten für das Weekly in den Kalender ein. Dieser regelmäßige Termin ist besonders wichtig, wenn du lernOS in einem Circle praktizierst.</li>
+<li><strong>Ziele und Schlüsselergebnisse definieren:</strong> Nutze Woche 0, um deine Ziele und messbare Ergebnisse für den Sprint festzulegen. Wähle ein Ziel, das dir wirklich, wirklich am Herzen liegt.</li>
+<li><strong>Einen Circle gründen:</strong> Suche nach 3-4 Mitstreitern, die im selben Quartal einen Sprint starten wollen. Wenn jemand schon in einem anderen Circle war, kann er die Rolle des Circle-Moderator übernehmen.</li>
+<li><strong>Organisiere das Weekly:</strong> Wenn Ihr Euch im Circle nicht kennt, trefft Euch in Woche 0 am besten persönlich. Nutzt soziale Netzwerke oder Messenger, um zwischen den Treffen zu kommunizieren. Nutzt Videokonferenzen, um virtuelle Treffen zu organisieren.</li>
+<li><strong>Plan, Do, Learn, Repeat:</strong> Nutzt das letzte Weekly in der Woche 12, um die Ergebnisse und die Zusammenarbeit im Kreis zu reflektieren. Entscheidet, ob Ihr einen weiteren Sprint gemeinsam durchlaufen wollt.</li>
+</ol>
+<p>Keep Calm &amp; Learn On! :-)</p>
+<h1 id="anhang">Anhang</h1>
+<h2 id="circle-moderatorinnen-checkliste">Circle Moderator*innen Checkliste</h2>
+<p><strong>WOCHE 0 - Sprint Planung &amp; Get Together</strong></p>
+<p>Wenn Ihr Euch im Circle noch nicht kennt, lernt Euch in der Woche 0 kennen. Plant, wann Ihr Euch trefft, welche Tools Ihr nutzt und wer der Moderator ist.</p>
+<ul>
+<li><strong>Check-in:</strong> Herzlich willkommen! <em>(5 Minuten)</em></li>
+<li><strong>Get together:</strong> Wer bist du? Stell dich vor. Fünf-Minuten-Timebox pro Circle-Mitglied. <em>(25 Minuten)</em></li>
+<li><strong>Sprint Planung</strong> siehe unten <em>(25 Minuten)</em></li>
+<li><strong>Check-out:</strong> Das nächste Treffen bestätigen. <em>(5 Minuten)</em></li>
+</ul>
+<p>Definiert einen Circle-Moderator, der sich um Event- und Zeitmanagement kümmert. Eines der größten Hindernisse für erfolgreiche Circle ist Disziplin und Zeitmanagement. Der Moderator ist nicht der “Chef” des Circle, sondern ein normales Circle-Mitglied, das sich um einen reibungslosen Ablauf kümmert. Legt fest, welchen Lernpfad ihr verwendet. Definiert Tag und Uhrzeit des wöchentlichen Treffens. Definiert, ob Ihr Euch persönlich oder virtuell trefft. Definiert die Tools, die Ihr für Kommunikation und Dokumentation im Circle verwendet. Entscheidet, ob Ihr den <a href="https://github.com/cogneon/lernos-core/tree/master/lernOS%20Canvas">lernOS Canvas</a> als unterstützendes Werkzeug verwenden möchtet.</p>
+<ul>
+<li><strong>Circle-Moderator:</strong> …</li>
+<li><strong>Tag und Uhrzeit des Weekly:</strong> …</li>
+<li><strong>Wöchentliche Treffen sind:</strong> persönlich / virtuell</li>
+<li><strong>Verwendete Tools (können alle sie nutzen?):</strong> …</li>
+<li><strong>Benutzen wir den Canvas:</strong> Ja / Nein</li>
+</ul>
+<p><strong>ProTipp:</strong> Wähle ein Ziel für die nächsten 12 Wochen. Verwende die Fragen “Ist es mir wirklich, wirklich wichtig?” Verwende die Methode <a href="https://de.wikipedia.org/wiki/Objectives_and_Key_Results">Objective &amp; Key Results (OKR)</a>, um dein Ziel genauer zu beschreiben. Schreibe dein Ziel auf. Definiere 2-4 Schlüsselergebnisse pro Ziel, um dir bei der Fortschrittkontrolle zu helfen. Du solltest die Schlüsselergebnisse auf einer Skala von 0,0-1,0 messen können. Um sich ehrgeizige Ziele zu setzen, gilt eine Fertigstellungsrate von 0,7 als Erfolg.</p>
+<p><strong>Pro-Tipp:</strong> Eine strukturierte Dokumentation für die Reflektion im Weekly kann hilfreich sein. Folgende Fragen sollten beantwortet sein:</p>
+<ul>
+<li>Was war dir schon bekannt?</li>
+<li>Was war dir neu?</li>
+<li>Wo bestehen noch Fragen?</li>
+</ul>
+<p><strong>ProTipp:</strong> in vielen Fällen ist die Zeit für das Ausführen der Übungen im Weekly zu kurz. Verwendet daher die Methode <a href="https://en.wikipedia.org/wiki/Flipped_classroom">Flipped Classroom</a>: jedes Circle-Mitglied bereitet die Übungen als “Hausaufgabe” vor, so dass ihr im Weekly mehr Zeit habt, die Ergebnisse zu besprechen.</p>
+<p><strong>ProTipp:</strong> Wenn du das lernOS OneNote Circle Template verwendest, kannst du ein aktuelles Foto von Deinem Canvas machen und einfügen, damit die anderen Circle-Mitglieder es sehen und Feedback geben können.</p>
+<p><strong>WOCHE 1 - 11</strong></p>
+<ul>
+<li><strong>Check-in:</strong> Was habe ich seit dem letzten Check-in getan? Was hat sich bei den Schlüsselergebnissen getan? Was hält mich auf? Zwei-Minuten-Timebox pro Circle-Mitglied. <em>(10 Minuten)</em></li>
+<li><strong>Kata-Diskussion</strong> Zeigt Euch gegenseitig Eure Ergebnisse. Diskutiert Eure Erkenntnisse &amp; Herausforderungen. <em>(45 Minuten)</em></li>
+<li><strong>Check-out:</strong> Was werde ich bis zum nächsten Weekly tun? Eine-Minute-Timebox pro Circle-Mitglied. <em>(5 Minuten)</em></li>
+</ul>
+<p><strong>WOCHE 12: Retrospektive &amp; Feier</strong></p>
+<p>In dieser Woche sollte die endgültige Iteration deiner Key Results vorliegen. Sprecht darüber und zeigt sie im Check-in. Ihr werdet über die Erfahrungen im Circle nachdenken und darüber sprechen, wie ihr den Prozess aufrecht erhalten könnt. Nach dem Weekly solltet ihr euch etwas Zeit nehmen, um euren Erfolg zu feiern!</p>
+<ul>
+<li><strong>Check-in:</strong> Was habe ich seit dem letzten Check-in getan? Zeigt die finale Iteration der Key Results. Drei-Minuten-Timebox pro Circle-Mitglied. <em>(15 Minuten)</em></li>
+<li><strong>Your Learning Moments:</strong> Sprecht über die Momente im Sprint, die für euch besonders waren. Was sind eure “key learnings”? Überlegt, ob ihr diese als <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9KrufUD9Mu9wstGv8ojfChRwPlq2dVi_kAUB04MuymmzUSg/viewform">lernOS Story</a> für alle anderen Praktiker veröffentlichen wollt. <em>(20 Minuten)</em></li>
+<li><strong>After Action Review:</strong> Was war der Plan für den Sprint? Was ist passiert? Gab es eine Abweichung? Was kann man daraus lernen? <em>(20 Minuten)</em></li>
+<li><strong>Check-out:</strong> Gibt es nächste Schritte? Bleibt ihr für einen weiteren Sprint zusammen?</li>
+<li><strong>Party Time!</strong> <em>(Die Dauer wählt ihr)</em></li>
+</ul>
+<h2 id="danksagungen">Danksagungen</h2>
+<p>lernOS ist von vielen Personen und Quellen inspiriert und steht daher <a href="https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen">auf den Schultern von Riesen</a>. Einen Überblick über die Wurzeln und Inspirationen sind <a href="https://github.com/cogneon/lernos-core/wiki">im lernOS Wiki</a> zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:</p>
+<ul>
+<li><a href="https://www.linkedin.com/in/hans-facher-83957018a/">Hans Facher</a> für die Erarbeitung der KATA ‘DMN Grundlagen’ und ‘Von Pools &amp; Lanes’</li>
+<li><a href="https://www.linkedin.com/in/ralf-schramm-00022448/">Ralf Schramm</a> für die Sketchnotes zum Aufbau des Lernpfads</li>
+<li>Bernd Neumayr für Erarbeitung der Kata ‘Dein erstes komplexes DRD’</li>
+<li><a href="https://www.linkedin.com/in/simondueckert/">Simon Dückert</a> für die didaktische und technische Unterstützung</li>
+</ul>
+<p>Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:</p>
+<ul>
+<li><a href="https://www.linkedin.com/in/wuestenfeld/">Alexander Wüstenfeld</a></li>
+<li><a href="https://www.linkedin.com/in/daniel-kempa-178570157/">Daniel Kempa</a></li>
+</ul>
+<h2 id="änderungshistorie">Änderungshistorie</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Version</th>
+<th>Bearbeitet von</th>
+<th>Beschreibung der Änderung</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1.0</td>
+<td>Alexander Rose</td>
+<td>Erste Version des Lernpfads</td>
+<td>2020-02-15</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
