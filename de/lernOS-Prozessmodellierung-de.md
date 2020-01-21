@@ -121,7 +121,7 @@ Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir könn
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Gateways) an und modelliere dann:
 
-1. Eine **beliebige Entscheidung ** deiner Wahl mit mindestens einem XOR und einem AND Gateway  
+1. Einen **beliebigen Prozess ** deiner Wahl mit mindestens zwei verschiedenen Gateway  
 2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
@@ -138,12 +138,11 @@ Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur 
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Markierungen) an und modelliere dann:
 
-1. Ein **beliebiges Prozessdiagramm** mit mindestens
-   - Drei verschiedenen Attributen 
-   - Einem Datenobjekt
-   - Einer Assoziation 
-   - Einem AND-Gateway
-2. Die "**Tee-Zubereitung**". Alle Tasks haben sinnvolle Attribute
+1. Ein **beliebiges Prozessdiagramm** mit mindestens 6 verschiedenen Elementen aus dieser Übung.
+2. Modelliere die "**Tee-Zubereitung**" weiter aus:
+   * Jede Aufgabe hat ein zugewiesenes Attribut
+   * Ein Datenobjekt
+   * Eine Kombination von XOR und AND Gateway
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -968,7 +967,7 @@ Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem
 
 In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatts**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
-![](./images/Teilentscheidungen.png)
+![](./images/Teilentscheidungen-I.png)
 
 Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elements dargestellt werden.
 
