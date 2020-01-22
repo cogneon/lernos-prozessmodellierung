@@ -25,7 +25,6 @@ magick mogrify -size 2500x2500 -resize 2500x2500 images\ebook-cover.jpg
 magick mogrify -crop 1563x2500+102+0 images\ebook-cover.jpg
 pandoc metadata.yaml -s --epub-cover-image=ebook-cover.png -o %filename%.epub %filename%.md
 ebook-convert %filename%.epub %filename%.mobi
-REM del ebook-cover.jpg
+del ebook-cover.jpg
 del ebook-cover.png
-
 pause
