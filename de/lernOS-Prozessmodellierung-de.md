@@ -157,7 +157,22 @@ Nachdem wir jetzt sehr viel über die Beziehungen und Abhängigkeiten der Elemen
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
-- <FEHLT>
+1. Ein **beliebiges Prozessdiagramm** mit mindestens 3 Pools und 6 Lanes
+
+2. Die **„Getränkelieferung“**. Du veranstaltest eine Party und dein Auto ist nicht groß genug um die Getränke selbst zu holen. Deshalb gehst daher auf die Homepage eines Getränkehandels und suchst die gewünschten Getränke aus. 
+
+   Die Bestellung gibst du online auf. Danach geht diese beim Getränkehandel ein. Dort wird deine Bestellung in der Verwaltung bearbeitet und ein Bestellschein erstellt. Dieser wandert elektronisch in die Abteilung für alkoholfreie Getränke und in die Abteilung für alkoholische Getränke. 
+
+   Dort wird geprüft, ob die gewünschte Ware auf Lager ist. Sollte die gewünschte Ware nicht vorhanden sein wird diese im Großmarkt bestellt und gewartet bis diese eingeht. Sollte Sie innerhalb von 24 Stunden nicht geliefert werden, wird von der entsprechenden Abteilung telefonisch erinnert. 
+
+   Wenn die Ware eingeht, bzw. wenn die Ware vorrätig ist, wird sie durch die entsprechende Abteilung zusammengestellt und an das Lager geliefert. Dort werden die Waren aus beiden Abteilungen zusammengebracht, auf eine Palette gepackt und die Rechnung geschrieben. Danach die Verwaltung elektronisch informiert, dass die Bestellung abholbereit ist und eine Kopie der Rechnung übermittelt. 
+
+   Da der Getränkemarkt selbst keine Fahrer beschäftigt wird für die Auslieferung durch die Verwaltung eine Getränkespedition beauftragt. Diese holt die Bestellung und die Rechnung im Lager ab und liefert diese an dich aus. 
+
+   Neben den Getränken erhältst von der Getränkespedition auch die Rechnung, welche du bar begleichst und eine Quittung hierfür bekommst. Du kannst die Getränke nun verstauen und die Party kann beginnen. 
+
+   Die Getränkespedition bringt noch eine Kopie der Quittung und das Bargeld in die Verwaltung des Getränkemarkts. Damit ist der Auftrag für die Getränkespedition erledigt. In der Verwaltung wird noch das Geld verbucht und auch hier ist die Lieferung damit abgeschlossen.
+
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -1148,10 +1163,10 @@ In dieser Woche sollte die endgültige Iteration deiner Key Results vorliegen. S
 
 lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
 
-- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA 'DMN Grundlagen'  und 'Von Pools & Lanes'
-- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die Sketchnotes zum Aufbau des Lernpfads
-- Bernd Neumayr für Erarbeitung der  Kata 'Dein erstes komplexes DRD'
-- [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die didaktische und technische Unterstützung
+- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA '**DMN Grundlagen**', '**Unterprozesse und Nachrichtenflüsse**'  und '**Von Pools & Lanes**'
+- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die **Sketchnotes** zum Aufbau des Lernpfads & sein **technisches GIT-Knowhow**
+- Bernd Neumayr für Erarbeitung der  Kata '**Dein erstes komplexes DRD**' & sein **technisches GIT-Knowhow**
+- [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die **didaktische** und **technische Unterstützung**
 
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
 
