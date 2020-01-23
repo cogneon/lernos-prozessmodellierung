@@ -218,7 +218,12 @@ Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erwe
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
-- <FEHLT>
+1. Modelliere ein **beliebiges DMN** mit mindestens 3 Entscheidungsvarianten
+
+2. **Die Essensentscheidung**
+
+   Du kommst am Abend von der Arbeit und musst dich entscheiden was du Essen willst. Es gibt natürlich viele Möglichkeiten. Wenn du Zeit, Geld und Lust zum Ausgehen hast, gehst du Essen. Wenn du zwar Zeit und Lust hast, aber das nötige Kleingeld fehlt, dann musst du dir Wohl selbst was kochen, genauso ist dies der Fall, wenn dir die Zeit fehlt. Sollest du Zeit und Geld haben, aber einfach keine Lust auszugehen, dann wird etwas zum Essen bestellt. Wenn du alles drei nicht hast, fällt das Abendessen wohl aus. Modelliere dein erstes eigenes DMN und sehe was der Abend bringt.
+
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
