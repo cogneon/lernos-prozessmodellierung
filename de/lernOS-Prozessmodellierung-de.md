@@ -1071,8 +1071,6 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 [BUSINESS PROCESS MANAGEMENT - CONCEPTS, LANGUAGES, ARCHITECTURES](https://epdf.pub/business-process-management-concepts-languages-architectures.html)
 
-
-
 ## Video
 
 [BPMN 2.0 - Grundelemente (Tutorial Part 1)](https://youtu.be/VappsiNgx38)
@@ -1097,7 +1095,7 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 
 [Einführung in die Entscheidungsmodellierung mit DMN](https://mooc.house/)
 
-
+Die überwiegenden hier verwendeten Bilder wurden mit [Signavio](https://www.signavio.com/de/) erstellt.
 
 # Stop talking, start doing!
 
