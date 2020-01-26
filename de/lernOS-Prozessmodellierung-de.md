@@ -117,7 +117,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-HappyPath) an und modelliere d
 
 Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen, indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedener Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst.
 
-**Dauer:**  90 Minuten
+**Dauer:**  60 Minuten
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Gateways) an und modelliere dann:
 
@@ -236,7 +236,9 @@ Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die me
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Datentypen) an und modelliere dann:
 
-1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
+1. Modelliere eine beliebige Hit-Policy mit mindestens drei Eingängen
+
+2. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
 
    a) Der Kunde muss mindestens 18 Jahre alt sein
 
@@ -244,17 +246,19 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Datentypen) an und modelliere 
 
    c) Mitglieder unter 23 Jahre müssen mindestens 2 Jahre Fahrpraxis haben
 
-2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
-
-   a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens1500 € erhalten VIP Status
-
-   b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
-
-   c) Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhalten ebenfalls Gold Status 
-
-   d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden
-
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+
+**Bonus-Kata für Pro's:**
+
+Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
+
+a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens1500 € erhalten VIP Status
+
+b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
+
+c) Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhalten ebenfalls Gold Status 
+
+d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden
 
 **Pro-Tipp:** Wenn du dich noch tiefer mit dem Thema auseinandersetzen willst, findest du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
