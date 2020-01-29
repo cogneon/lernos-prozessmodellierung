@@ -42,6 +42,10 @@ Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessm
 
 Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.
 
+### Was ist BDM
+
+[**Business Decision Management**](https://en.wikipedia.org/wiki/Decision_management) (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung. BDM dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.
+
 ### Was ist DMN?
 
 **[Decision Model and Notation](https://de.wikipedia.org/wiki/Decision_Model_and_Notation)** (DMN) ist ein offizieller Notationsstandard für Entscheidungsregeln im Geschäftsprozessmanagement, der von der Object Management Group (OMG) definiert wurde. Dieser Standard wird zum **Beschreiben und Modellieren von wiederholbaren Entscheidungen** in Organisationen genutzt. DMN ermöglicht Nutzern aus den verschiedensten Abteilungen, effektiv bei der Entscheidungsmodellierung zusammenzuarbeiten. 
@@ -550,8 +554,6 @@ Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen
 
 Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den Sequenzfluss auf den nächstfolgenden Prozess weiterzuleiten. Zwei zusammengehörende Link-Ereignisse repräsentieren dabei einen Sequenzfluss.
 
-(Im unteren Bild ist die Lanebezeichnung nicht aktuell)
-
 ![](./images/Link-Ereignis.png)
 
 ![](./images/Link-Ereignis-I.png)
@@ -559,7 +561,7 @@ Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den
 **Link-Ereignis**
 Ein auslösendes und eintretendes Link-Ereignis mit **gleichem Namen** entspricht einem Sequenzfluss, d.h. Sie können große Prozesse in Abschnitte aufteilen.
 
-Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen Prozesshierachie-Ebene** befinden. (Frage: Was ist hier mit der gleichen Prozesshierachie-Ebene gemeint? Der gleiche Pool?)
+Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen Prozesshierachie-Ebene** befinden. 
 
 
 
@@ -604,8 +606,6 @@ Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der
 
 ### Einführung
 
-(ggf. BDM auch oben in der Einleitung beschreiben, für mich war der Begriff neu)
-
 **Business Decision Management** (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
 Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer [DMN Software](https://demo.bpmn.io/dmn), um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen. 
 
@@ -628,9 +628,6 @@ Das digitale Zeitalter und die zunehmend gesetzlichen Regulierungen drängen Org
 | Mehr verfügbare Daten                            | Pflicht zur Nachvollziehbarkeit & Transparenz: Von der Anforderung bis zur Implementierung |
 | Big Data Analyse                                 | Risiken für Verstöße gegen gesetzliche Vorschriften frühzeitig erkennen |
 | Schneller auf veränderte Anforderungen reagieren | Vermeidung von Strafe                                        |
-| **Entscheidungen intelligenter treffen**         | **Entscheidungen intelligenter treffen**                     |
-
-(Was ist mit der Zeile Entscheidungen intelligenter treffen? Passt der Inhalt und warum fett geschrieben)
 
 
 
@@ -1082,6 +1079,8 @@ Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für 
 [Einführung in die Entscheidungsmodellierung mit DMN](https://mooc.house/)
 
 Die überwiegenden hier verwendeten Bilder wurden mit [Signavio](https://www.signavio.com/de/) erstellt.
+
+
 
 # Stop talking, start doing!
 
