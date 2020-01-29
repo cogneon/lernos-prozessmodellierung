@@ -108,8 +108,6 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 
 Schaue dir zunächst die [<*Lernunterlagen*>](#LU-HappyPath) an und modelliere dann: 
 
-<!--Ggf. die Reihenfolge 1 & 2 tauschen. Hinweis Daniel. Dann müsste auch der Variantenterklärteil angepasst werden. Diskussion zum nächsten weekly-->
-
 1. Einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
 2. Einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
 
@@ -220,9 +218,9 @@ Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erwe
 
 **Dauer:** 60 Minuten
 
-Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
+Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
-1. Modelliere ein **beliebiges DMN** mit mindestens 3 Entscheidungsvarianten
+1. Ein **beliebiges DMN** mit mindestens 3 Entscheidungsvarianten
 
 2. **Die Essensentscheidung**
 
@@ -238,9 +236,11 @@ Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die me
 
 **Dauer:**  90 Minuten
 
-Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Datentypen) an und modelliere dann:
+Schaue dir zunächst die [<*Lernunterlagen*>](#LU-Datentypen) an und modelliere dann:
 
-1. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
+1. Eine Entscheidungstabelle deiner Wahl mit mindestens **drei verschiedenen Eingängen** und **zwei verschiedenen Datentypen.**
+
+2. Ein Autoverleih verwendet verschiedene Regeln bevor ein Auto verliehen wird. Die Firma prüft folgende Regeln um zu entscheiden, ob ein Kunde geeignet ist.
 
    a) Der Kunde muss mindestens 18 Jahre alt sein
 
@@ -248,17 +248,19 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Datentypen) an und modelliere 
 
    c) Mitglieder unter 23 Jahre müssen mindestens 2 Jahre Fahrpraxis haben
 
-2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
-
-   a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens 1.500 € erhalten VIP Status
-
-   b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1.500 € erhalten Gold Status
-
-   c) Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1.000 € erhalten ebenfalls Gold Status 
-
-   d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1.000 € werden Standardkunden
-
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+
+
+
+**Bonus-Kata**: Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
+
+a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens 1.500 € erhalten VIP Status
+
+b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1.500 € erhalten Gold Status
+
+c) Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1.000 € erhalten ebenfalls Gold Status 
+
+d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1.000 € werden Standardkunden
 
 **Pro-Tipp:** Wenn du dich noch tiefer mit dem Thema auseinandersetzen willst, findest du hier eine weitere Möglichkeit : [Literal Expressions (Funktionen in DMN-Entscheidungen) verwenden](https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/use-literal-expressions.htm)
 
