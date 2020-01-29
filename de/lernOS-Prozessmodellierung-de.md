@@ -115,7 +115,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-HappyPath) an und modelliere d
 
 ## Triff deine ersten Entscheidungen (KATA 03) {#kata03}
 
-Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen, indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedener Entscheidungsmöglichkeiten (Gateways) die du in dieser Kata kennenlernen und anwenden wirst.
+Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen, indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedener Entscheidungsmöglichkeiten (Gateways), die du in dieser Kata kennenlernen und anwenden wirst.
 
 **Dauer:**  90 Minuten
 
@@ -159,15 +159,15 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
 1. Ein **beliebiges Prozessdiagramm** mit mindestens 3 Pools und 6 Lanes
 
-2. Die **„Getränkelieferung“**. Du veranstaltest eine Party und dein Auto ist nicht groß genug um die Getränke selbst zu holen. Deshalb gehst daher auf die Homepage eines Getränkehandels und suchst die gewünschten Getränke aus. 
+2. Die **„Getränkelieferung“**. Du veranstaltest eine Party und dein Auto ist nicht groß genug um die Getränke selbst zu holen. Deshalb gehst du daher auf die Homepage eines Getränkehandels und suchst die gewünschten Getränke aus. 
 
    Die Bestellung gibst du online auf. Danach geht diese beim Getränkehandel ein. Dort wird deine Bestellung in der Verwaltung bearbeitet und ein Bestellschein erstellt. Dieser wandert elektronisch in die Abteilung für alkoholfreie Getränke und in die Abteilung für alkoholische Getränke. 
 
-   Dort wird geprüft, ob die gewünschte Ware auf Lager ist. Sollte die gewünschte Ware nicht vorhanden sein wird diese im Großmarkt bestellt und gewartet bis diese eingeht. Sollte Sie innerhalb von 24 Stunden nicht geliefert werden, wird von der entsprechenden Abteilung telefonisch erinnert. 
+   Dort wird geprüft, ob die gewünschte Ware auf Lager ist. Sollte die gewünschte Ware nicht vorhanden sein, wird diese im Großmarkt bestellt und gewartet bis diese eingeht. Sollte die bestellte Ware innerhalb von 24 Stunden nicht geliefert werden, wird von der entsprechenden Abteilung telefonisch erinnert. 
 
-   Wenn die Ware eingeht, bzw. wenn die Ware vorrätig ist, wird sie durch die entsprechende Abteilung zusammengestellt und an das Lager geliefert. Dort werden die Waren aus beiden Abteilungen zusammengebracht, auf eine Palette gepackt und die Rechnung geschrieben. Danach die Verwaltung elektronisch informiert, dass die Bestellung abholbereit ist und eine Kopie der Rechnung übermittelt. 
+   Wenn die Ware eingeht, bzw. wenn die Ware vorrätig ist, wird sie durch die entsprechende Abteilung zusammengestellt und an das Lager geliefert. Dort werden die Waren aus beiden Abteilungen zusammengebracht, auf eine Palette gepackt und die Rechnung geschrieben. Danach wird die Verwaltung elektronisch informiert, dass die Bestellung abholbereit ist und eine Kopie der Rechnung übermittelt.(An wen wird die Rechnung übermittelt?) 
 
-   Da der Getränkemarkt selbst keine Fahrer beschäftigt wird für die Auslieferung durch die Verwaltung eine Getränkespedition beauftragt. Diese holt die Bestellung und die Rechnung im Lager ab und liefert diese an dich aus. 
+   Da der Getränkemarkt selbst keine Fahrer beschäftigt, wird für die Auslieferung durch die Verwaltung eine Getränkespedition beauftragt. Diese holt die Bestellung und die Rechnung im Lager ab und liefert diese an dich aus. 
 
    Neben den Getränken erhältst von der Getränkespedition auch die Rechnung, welche du bar begleichst und eine Quittung hierfür bekommst. Du kannst die Getränke nun verstauen und die Party kann beginnen. 
 
@@ -179,7 +179,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
 ## Exkurs - Eventtypen (KATA 06) {#kata06}
 
-Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten  des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
+Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
 
 **Dauer:**  90 Minuten
 
@@ -210,9 +210,9 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modellie
 
 
 
-## DMN - Grundlagen (KATA 08) {#kata08}
+## Decision Model and Notation (DMN) - Grundlagen (KATA 08) {#kata08}
 
-Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
+Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
 **Dauer:** 60 Minuten
 
@@ -222,7 +222,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
 2. **Die Essensentscheidung**
 
-   Du kommst am Abend von der Arbeit und musst dich entscheiden was du Essen willst. Es gibt natürlich viele Möglichkeiten. Wenn du Zeit, Geld und Lust zum Ausgehen hast, gehst du Essen. Wenn du zwar Zeit und Lust hast, aber das nötige Kleingeld fehlt, dann musst du dir Wohl selbst was kochen, genauso ist dies der Fall, wenn dir die Zeit fehlt. Sollest du Zeit und Geld haben, aber einfach keine Lust auszugehen, dann wird etwas zum Essen bestellt. Wenn du alles drei nicht hast, fällt das Abendessen wohl aus. Modelliere dein erstes eigenes DMN und sehe was der Abend bringt.
+   Du kommst am Abend von der Arbeit und musst dich entscheiden was du Essen willst. Es gibt natürlich viele Möglichkeiten. Wenn du Zeit, Geld und Lust zum Ausgehen hast, gehst du Essen. Wenn du zwar Zeit und Lust hast, aber das nötige Kleingeld fehlt, dann musst du dir wohl selbst etwas kochen, genauso ist dies der Fall, wenn dir die Zeit fehlt. Sollest du Zeit und Geld haben, aber einfach keine Lust auszugehen, dann wird etwas zum Essen bestellt. Wenn du alles drei nicht hast, fällt das Abendessen wohl aus. Modelliere dein erstes eigenes DMN und sehe was der Abend bringt.
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -246,13 +246,13 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Datentypen) an und modelliere 
 
 2. Ein Mobilfunkanbieter bietet seinen Kunden eine neues Premiummodell an, bei dem jeder Kunde VIP, Gold oder Standard Status erhalten kann. Der Status im Speziellen hängt von der Art des Kundenvertrags sowie dem Jahresumsatz ab.
 
-   a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens1500 € erhalten VIP Status
+   a) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz von mindestens 1.500 € erhalten VIP Status
 
-   b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1500 € erhalten Gold Status
+   b) Alle Kunden mit einem Geschäftsvertrag und einem Jahresumsatz unter 1.500 € erhalten Gold Status
 
-   c) Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1000 € erhalten ebenfalls Gold Status 
+   c) Alle Kunden mit einem privaten Vertrag und einem Jahresumsatz von mindestens 1.000 € erhalten ebenfalls Gold Status 
 
-   d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1000 € werden Standardkunden
+   d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1.000 € werden Standardkunden
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -493,10 +493,6 @@ weitere Funktion.
 
 ![](./images/Blanko-Zwischenereignis.png)
 
-**Zwischenergebnisse (Blanko)** 
-
-Repräsentieren Zustände oder Meilensteine im Prozess und haben keinen Einfluss auf den Prozessverlauf.
-
 
 
 ### Nachrichten-Zwischenereignis
@@ -507,11 +503,6 @@ Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Proze
 
 
 
-**Nachrichten-Zwischenereignisse** 
-
-Werden genutzt bei eingehenden Nachrichten, Waren oder Zahlungen, auf die im Prozess gewartet werden muss.
-
-
 
 ### Zeitereignisse
 
@@ -519,8 +510,8 @@ Zeitereignisse können Prozesse starten oder verzögern.
 
 ![](./images/Zeitereignisse.png)
 
-- **Zwischen-Zeitereignis:** Zeitpunkte (auch wiederkehrende) oder Wartezeiten
 - **Start-Zeitereignis:** Zu diesen Zeitpunkten wird der Prozess gestartet.
+- **Zwischen-Zeitereignis:** Zeitpunkte (auch wiederkehrende) oder Wartezeiten oder geplante Verzögerungen des Prozesses
 
 
 
@@ -530,9 +521,6 @@ Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das m
 
 ![](./images/Ereignisbasierte-Gateways.png)
 
-**Ereignisbasierte Gateways**  
-
-Steuern den Prozessfluss anhand von möglichen Ereignissen. Sie warten auf eintretende Ereignisse.
 
 
 
@@ -541,10 +529,6 @@ Steuern den Prozessfluss anhand von möglichen Ereignissen. Sie warten auf eintr
 Ereignisbasierte Gateways können auch für Schleifen verwendet werden. In diesem Beispiel wollen wir nicht weiter auf unsere Pasta warten, falls diese nach dreimaligen Nachfragen immer noch nicht geliefert wurde.
 
 ![](./images/Ereignisbasierte-Gateways-(Schleife).png)
-
-**Ereignis: Bedingung** 
-
-Reaktion auf veränderte Bedingungen und Bezug auf Geschäftsregeln.
 
 
 
@@ -566,6 +550,8 @@ Deadlines oder Abbruchbedingungen können mit **angehefteten Zwischenereignissen
 
 Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den Sequenzfluss auf den nächstfolgenden Prozess weiterzuleiten. Zwei zusammengehörende Link-Ereignisse repräsentieren dabei einen Sequenzfluss.
 
+(Im unteren Bild ist die Lanebezeichnung nicht aktuell)
+
 ![](./images/Link-Ereignis.png)
 
 ![](./images/Link-Ereignis-I.png)
@@ -573,7 +559,7 @@ Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den
 **Link-Ereignis**
 Ein auslösendes und eintretendes Link-Ereignis mit **gleichem Namen** entspricht einem Sequenzfluss, d.h. Sie können große Prozesse in Abschnitte aufteilen.
 
-Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen Prozesshierachie-Ebene** befinden.
+Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der **gleichen Prozesshierachie-Ebene** befinden. (Frage: Was ist hier mit der gleichen Prozesshierachie-Ebene gemeint? Der gleiche Pool?)
 
 
 
@@ -607,9 +593,6 @@ Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der
 
 ![](./images/Nachrichtenflüsse-über-Poolgrenzen.png)
 
-**Nachrichtenfluss**
-
-Stellt die Kommunikation zwischen Pools dar.
 
 [<*Zurück zur KATA*>](#kata07)
 
@@ -620,6 +603,8 @@ Stellt die Kommunikation zwischen Pools dar.
 ## DMN - Grundlagen {#LU-DMN}
 
 ### Einführung
+
+(ggf. BDM auch oben in der Einleitung beschreiben, für mich war der Begriff neu)
 
 **Business Decision Management** (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
 Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer [DMN Software](https://demo.bpmn.io/dmn), um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen. 
@@ -644,6 +629,8 @@ Das digitale Zeitalter und die zunehmend gesetzlichen Regulierungen drängen Org
 | Big Data Analyse                                 | Risiken für Verstöße gegen gesetzliche Vorschriften frühzeitig erkennen |
 | Schneller auf veränderte Anforderungen reagieren | Vermeidung von Strafe                                        |
 | **Entscheidungen intelligenter treffen**         | **Entscheidungen intelligenter treffen**                     |
+
+(Was ist mit der Zeile Entscheidungen intelligenter treffen? Passt der Inhalt und warum fett geschrieben)
 
 
 
@@ -871,7 +858,7 @@ Bei diesen Hit Policy wird **immer nur eine Regel** in der Entscheidungstabelle 
 
 #### Unique Hit Policy (U)
 
-Bei der Unique Hit Policy kann für jede Kombination an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind  sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
+Bei der Unique Hit Policy kann für jede Kombination an Eingaben **nur eine Regel zutreffen.** In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei **nicht erlaubt.**
 
 ![](./images/Unique-hit-policy.png)
 
@@ -927,8 +914,7 @@ Beispielrechnung:
 
 - Input (50, 31) 
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
-- Output: 2,2,3,4,26
-
+- Output: 2,2,3,4,26 
 
 
 #### Rule Order Policy (R)
