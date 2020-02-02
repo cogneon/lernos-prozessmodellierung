@@ -42,7 +42,7 @@ Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessm
 
 Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.
 
-### Was ist BDM
+### Was ist BDM?
 
 [**Business Decision Management**](https://en.wikipedia.org/wiki/Decision_management) (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung. BDM dient als Methode, um komplexe Entscheidungsregeln zu modellieren und so die Entscheidungsfindung zu verbessern.
 
