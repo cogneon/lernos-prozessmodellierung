@@ -4,7 +4,7 @@ Das Verb "lernos" ist die Zukunftsform von "lernen" auf Esperanto (mi lernos = i
 
 Zu lernOS gibt es **drei grundlegende Leitfäden**, die den Ansatz auf **individueller Ebene** (lernOS für Dich, [Präsentation](https://cogneon.github.io/lernos-for-you)), auf **Ebene von Teams** (lernOS für Teams) und auf **Ebene von Organisationen** (lernOS für Organisationen) beschreiben. Zusätzlich gibt es die **lernOS Toolbox**, die oft genutzte Methoden und Werkzeuge erklärt (z.B. Podcast, Barcamp, Sketchnoting, Expert Debriefing). lernOS ist nicht auf der sprichwörtlichen grünen Wiese entstanden, sondern ist eine Zusammenstellung von bereits bestehenden und bewährten Methoden. Alle lernOS Leitfäden sind unter der **offenen Lizenz Creative Commons Attribution (CC BY)** auf der [lernOS Webseite](https://cogneon.de/lernos) verfügbar und können gerne an die eigenen Bedürfnisse angepasst werden.
 
-Wenn du **weitere Fragen** bezüglich lernOS hast, oder **Unterstützung von Gleichgesinnten** brauchst, kannst du die Community-Plattform [CONNECT](https://community.cogneon.de) und den [lernOS CircleFinder](https://community.cogneon.de/c/lernos/lernos-circlefinder) nutzen oder mit [#lernOS](https://twitter.com/search?q=%23lernOS) auf Twitter schreiben. Beachte: Die Meisterschaft von lernOS ist eine Frage von Monaten oder Jahren, nicht Stunden oder Tagen. Also: **Keep Calm & Learn On!**
+Wenn du **weitere Fragen** bezüglich lernOS hast oder **Unterstützung von Gleichgesinnten** suchst, kannst du die Community-Plattform [CONNECT](https://community.cogneon.de) und den [lernOS CircleFinder](https://community.cogneon.de/c/lernos/lernos-circlefinder) nutzen oder mit [#lernOS](https://twitter.com/search?q=%23lernOS) auf Twitter schreiben. Beachte: Die Meisterschaft von lernOS ist eine Frage von Monaten oder Jahren, nicht Stunden oder Tagen. Also: **Keep Calm & Learn On!**
 
 Dein [@locutusvonborg](https://www.linkedin.com/in/alexander-rose-loci/)
 
@@ -36,7 +36,7 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 ## Was ist Prozessmodellierung?
 
-Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten) können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
+Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch der Fluss von Daten und die Zuständigkeit von Organisationen (bzw. Organisationseinheiten) können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
 
 ### Was ist BPMN?
 
@@ -44,7 +44,7 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ### Was ist BDM
 
-[**Business Decision Management**](https://en.wikipedia.org/wiki/Decision_management) (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung. BDM dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.
+[**Business Decision Management**](https://en.wikipedia.org/wiki/Decision_management) (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung. BDM dient als Methode, um komplexe Entscheidungsregeln zu modellieren und so die Entscheidungsfindung zu verbessern.
 
 ### Was ist DMN?
 
@@ -54,9 +54,9 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ## Warum ein Lernpfad Prozessmodellierung?
 
-In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modellieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung durch eine gemeinsame verbindenden Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
+In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche unaufhaltsam vordringt, wird die Kompetenz, bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modellieren zu können, von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit, [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen, um als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung durch eine gemeinsame verbindende Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
 
-Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal, ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
+Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal, ob du noch nie etwas von Prozessmodellierung gehört hast oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
 
 Das bedeutet auch, dass die Übungen eine **steile Lernkurve** für dich bereithalten.  Alle BPMN-Übungen sind so angelegt, dass sie auch mit einem Stift und einem Blatt Papier durchführbar sind.
 
@@ -73,8 +73,6 @@ Dafür haben wir den **Lernpfad Prozessmodellierung** entwickelt. Er enthält un
 ## Aufbau dieses Lernpfades
 
 `Fehlt: Sketchnote von Ralf`
-
-`Inhalt: Trennung von Lerninhalt & KATA. Trennung von BPMN & DMN`
 
 
 
