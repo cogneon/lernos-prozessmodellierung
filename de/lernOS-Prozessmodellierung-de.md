@@ -351,7 +351,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ## Triff deine ersten Entscheidungen {#LU-Gateways}
 
-Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiv-Gateway** verzweigenden) dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
+Mit Gateways kannst du den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiv-Gateway** (verzweigenden) dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
 
 
 
@@ -403,7 +403,7 @@ Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Be
 
 ### Kombination von XOR und AND Gateway (Das Tokenprinzip)
 
-In diesem Beispiel wird der Salat parallel zum Hauptgericht angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.
+Im folgenden Beispiel wird der Salat parallel zum Hauptgericht, Steak oder Pasta, angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.
 
 Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell dir das Token wie einen Spielball bzw. eine Kugel vor. Die Kugel wird bei jedem Start des Prozesses erzeugt und durchläuft ihn. Bei einem exklusiven Gateway kann der Token nur einen Weg nehmen. Bei einem parallelen Gateway teilt sich der Token in mehrere Token auf, je nach Anzahl der folgenden Zweige.
 
@@ -501,7 +501,7 @@ weitere Funktion.
 
 ### Nachrichten-Zwischenereignis
 
-Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.
+Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen, bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.
 
 ![](./images/Nachrichten-Zwischenereignis.png)
 
@@ -609,6 +609,8 @@ Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der
 **Business Decision Management** (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
 Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer [DMN Software](https://demo.bpmn.io/dmn), um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen. 
 
+Im folgenden findest du eine kurze, unvollständige Darstellung der **Nachteile "klassischer" Entscheidungswege**.
+
 
 | Menschliche Entscheidungen    | Automatisierte Entscheidungen               |
 | ----------------------------- | ------------------------------------------- |
@@ -619,7 +621,7 @@ Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, aller
 
 **BDM** dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.
 
-Das digitale Zeitalter und die zunehmend gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.
+Das digitale Zeitalter und die zunehmenden gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.
 
 
 
@@ -696,7 +698,7 @@ Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente 
 
 ### Entscheidungstabellen
 
-Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht **jede Reihe einer Geschäftsregel**. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:
+Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht **jede Zeile einer Geschäftsregel**. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:
 
 - Personen mit mehr als zwei Unfällen in den letzten 3 Jahren wird keine Versicherung gewährt
 - Personen unter 18 Jahren wird keine Versicherung gewährt
@@ -931,18 +933,18 @@ Beispielrechnung:
 
 Die Ausgaben aller übereinstimmenden Regeln werden als unsortierte Liste zurückgegeben.
 
-Folgende Aggregationen können angewendet werden:
+Alternativ können folgende Aggregationen der Ausgabewerte angewendet werden, wodurch nur genau ein Ergebnis auf Basis der Aggregation geliefert wird:
 
-- sum +
-- min <
-- max >
-- count #
+- Summierung: "+"
+- Minimum:  "<"
+- Maximum: ">"
+- Anzahl: "#"
 
 ![](./images/collect-policy.png)
 
 - Input (50, 31):
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
-- Output für C+: 37
+- Output für C+ (Summierung): 37
 
 [<*Zurück zur KATA*>](#kata09)
 
@@ -966,7 +968,7 @@ Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine ein
 
 
 
-Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wieder verwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind Status bestimmen oder Berechtigung prüfen.
+Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wieder verwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind "Status bestimmen" oder "Berechtigung prüfen".
 
 In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatts**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
