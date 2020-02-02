@@ -4,7 +4,7 @@ Das Verb "lernos" ist die Zukunftsform von "lernen" auf Esperanto (mi lernos = i
 
 Zu lernOS gibt es **drei grundlegende Leitfäden**, die den Ansatz auf **individueller Ebene** (lernOS für Dich, [Präsentation](https://cogneon.github.io/lernos-for-you)), auf **Ebene von Teams** (lernOS für Teams) und auf **Ebene von Organisationen** (lernOS für Organisationen) beschreiben. Zusätzlich gibt es die **lernOS Toolbox**, die oft genutzte Methoden und Werkzeuge erklärt (z.B. Podcast, Barcamp, Sketchnoting, Expert Debriefing). lernOS ist nicht auf der sprichwörtlichen grünen Wiese entstanden, sondern ist eine Zusammenstellung von bereits bestehenden und bewährten Methoden. Alle lernOS Leitfäden sind unter der **offenen Lizenz Creative Commons Attribution (CC BY)** auf der [lernOS Webseite](https://cogneon.de/lernos) verfügbar und können gerne an die eigenen Bedürfnisse angepasst werden.
 
-Wenn du **weitere Fragen** bezüglich lernOS hast, oder **Unterstützung von Gleichgesinnten** brauchst, kannst du die Community-Plattform [CONNECT](https://community.cogneon.de) und den [lernOS CircleFinder](https://community.cogneon.de/c/lernos/lernos-circlefinder) nutzen oder mit [#lernOS](https://twitter.com/search?q=%23lernOS) auf Twitter schreiben. Beachte: Die Meisterschaft von lernOS ist eine Frage von Monaten oder Jahren, nicht Stunden oder Tagen. Also: **Keep Calm & Learn On!**
+Wenn du **weitere Fragen** bezüglich lernOS hast oder **Unterstützung von Gleichgesinnten** suchst, kannst du die Community-Plattform [CONNECT](https://community.cogneon.de) und den [lernOS CircleFinder](https://community.cogneon.de/c/lernos/lernos-circlefinder) nutzen oder mit [#lernOS](https://twitter.com/search?q=%23lernOS) auf Twitter schreiben. Beachte: Die Meisterschaft von lernOS ist eine Frage von Monaten oder Jahren, nicht Stunden oder Tagen. Also: **Keep Calm & Learn On!**
 
 Dein [@locutusvonborg](https://www.linkedin.com/in/alexander-rose-loci/)
 
@@ -36,7 +36,7 @@ lernOS Leitfäden stehen unter der Lizenz [Creative Commons Namensnennung 4.0 In
 
 ## Was ist Prozessmodellierung?
 
-Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch Daten und Organisation (bzw. Organisationseinheiten) können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
+Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessmodellierung)**  werden Geschäftsprozesse oder Ausschnitte daraus abstrahiert, meist **grafisch** dargestellt und somit modelliert. Der Schwerpunkt liegt auf dem **Darstellen des Ablaufs,** aber auch der Fluss von Daten und die Zuständigkeit von Organisationen (bzw. Organisationseinheiten) können modelliert werden. Prozessmodellierung ist ein zentraler Aspekt der **ganzheitlichen Unternehmensabbildung** und wird in der Regel als ein **Teil des Geschäftsprozessmanagements** verstanden. 
 
 ### Was ist BPMN?
 
@@ -44,7 +44,7 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ### Was ist BDM
 
-[**Business Decision Management**](https://en.wikipedia.org/wiki/Decision_management) (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung. BDM dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.
+[**Business Decision Management**](https://en.wikipedia.org/wiki/Decision_management) (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung. BDM dient als Methode, um komplexe Entscheidungsregeln zu modellieren und so die Entscheidungsfindung zu verbessern.
 
 ### Was ist DMN?
 
@@ -54,9 +54,9 @@ Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Busine
 
 ## Warum ein Lernpfad Prozessmodellierung?
 
-In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche unaufhaltsam vordringt, wird die Kompetenz bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modellieren zu können von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung durch eine gemeinsame verbindenden Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
+In der aktuellen [VUCA](https://de.wikipedia.org/wiki/VUCA)-Welt, in der die [digitale Transformation](https://de.wikipedia.org/wiki/Digitale_Transformation) und die damit verbundene Automatisierung von Arbeitsabläufen und Geschäftsprozessen in jede Branche unaufhaltsam vordringt, wird die Kompetenz, bestehende Geschäftsprozesse lesen und neue Geschäftsprozesse modellieren zu können, von sehr hohem Nutzen für dich sein. In Kombination mit der Fertigkeit, [Geschäftsregeln](https://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel) verstehen und modellieren zu können, besitzt du die optimalen Voraussetzungen, um als Bindeglied zwischen dem Business (Fachbereich) und der IT-Abteilung durch eine gemeinsame verbindende Sprache (BPMN & DMN) die Digitale Transformation entscheidend nach vorne zu bringen.
 
-Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal, ob du noch nie etwas von Prozessmodellierung gehört hast, oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
+Dieser Lernpfad funktioniert für **alle Erfahrungsstufen** und richtet sich somit an alle Interessenten dieses Themas. Es sind **keine Vorkenntnisse** nötig. Es ist egal, ob du noch nie etwas von Prozessmodellierung gehört hast oder bereits erfolgreich erste Modellierungen vorgenommen hast. 
 
 Das bedeutet auch, dass die Übungen eine **steile Lernkurve** für dich bereithalten.  Alle BPMN-Übungen sind so angelegt, dass sie auch mit einem Stift und einem Blatt Papier durchführbar sind.
 
@@ -73,8 +73,6 @@ Dafür haben wir den **Lernpfad Prozessmodellierung** entwickelt. Er enthält un
 ## Aufbau dieses Lernpfades
 
 `Fehlt: Sketchnote von Ralf`
-
-`Inhalt: Trennung von Lerninhalt & KATA. Trennung von BPMN & DMN`
 
 
 
@@ -109,7 +107,7 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 Schaue dir zunächst die [<*Lernunterlagen*>](#LU-HappyPath) an und modelliere dann: 
 
 1. Einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
-2. Einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
+2. Einen Happy-Path, der den Prozess der "**Tee-Zubereitung**" beschreibt
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -132,9 +130,9 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Gateways) an und modelliere da
 
 ## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA 04) {#kata04}
 
-Attribute mit visuellen Effekten
+*Attribute mit visuellen Effekten*
 
-Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Dennoch kann es sehr hilfreich sein, über die Attribute direkt auf den Objekten einen **schnellen Überblick** zu bekommen. Die Liste in den Lernunterlagen gibt dir einen Überblick über die wichtigsten dieser Attribute. 
+Die BPMN-Spezifikation sieht eine Vielzahl von Attributen der Objekte vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Dennoch kann es sehr hilfreich sein, über die Attribute direkt auf den Objekten einen **schnellen Überblick** zu bekommen. Die Liste in den Lernunterlagen gibt dir einen Überblick über die wichtigsten dieser Attribute. 
 
 **Dauer**: 60 Minuten
 
@@ -181,7 +179,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
 ## Exkurs - Eventtypen (KATA 06) {#kata06}
 
-Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
+Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in "*eintretend*" und "*auslösend*" unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
 
 **Dauer:**  90 Minuten
 
@@ -201,7 +199,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Eventtypen) an und modelliere 
 
 ## Unterprozesse und Nachrichtenflüsse (KATA 07) {#kata07}
 
-In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
+In dieser Kata lernst du die Funktion von Unterprozessen sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
 
 **Dauer:**  60 Minuten
 
@@ -214,7 +212,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modellie
 
 ## Decision Model and Notation (DMN) - Grundlagen (KATA 08) {#kata08}
 
-Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
+Ab diesem Kapitel tauchen wir in die spannende Welt der Modellierung von Regelwerken ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN & DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
 **Dauer:** 60 Minuten
 
@@ -224,7 +222,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
 2. **Die Essensentscheidung**
 
-   Du kommst am Abend von der Arbeit und musst dich entscheiden was du Essen willst. Es gibt natürlich viele Möglichkeiten. Wenn du Zeit, Geld und Lust zum Ausgehen hast, gehst du Essen. Wenn du zwar Zeit und Lust hast, aber das nötige Kleingeld fehlt, dann musst du dir wohl selbst etwas kochen, genauso ist dies der Fall, wenn dir die Zeit fehlt. Sollest du Zeit und Geld haben, aber einfach keine Lust auszugehen, dann wird etwas zum Essen bestellt. Wenn du alles drei nicht hast, fällt das Abendessen wohl aus. Modelliere dein erstes eigenes DMN und sehe was der Abend bringt.
+   Du kommst am Abend von der Arbeit und musst dich entscheiden, was du Essen willst. Es gibt natürlich viele Möglichkeiten. Wenn du Zeit, Geld und Lust zum Ausgehen hast, gehst du Essen. Wenn du zwar Zeit und Lust hast, aber das nötige Kleingeld fehlt, dann musst du dir wohl selbst etwas kochen, genauso ist dies der Fall, wenn dir die Zeit fehlt. Sollest du Zeit und Geld haben, aber einfach keine Lust auszugehen, dann wird etwas zum Essen bestellt. Wenn du alles drei nicht hast, fällt das Abendessen wohl aus. Modelliere dein erstes eigenes DMN und sehe was der Abend bringt.
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -268,7 +266,7 @@ d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1.000
 
 ## Dein erstes komplexes DRD (KATA 10) {#kata10}
 
-Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst du, wann es Sinn macht, Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
+Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie in ihre Einzelteile zerlegt. In dieser Kata lernst du, wann es Sinn macht, Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
 
 **Dauer:**  45 Minuten
 
@@ -281,7 +279,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DRD) an und modelliere dann:
 
 ## Dein Meisterstück (KATA 11) {#kata11}
 
-In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimalerweise suchst du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatleben wird dir sicher schnell einfallen.
+In der letzten Kata geht es um's Ganze. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimalerweise suchst du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatleben wird dir sicher schnell einfallen.
 
 **Dauer:** 120 - 240 Minuten (Je nach Ausprägung deines Prozesses)
 
@@ -306,7 +304,7 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten:
 
 Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-**Pro-Tipp:** Die Feuertaufe. Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
+**Pro-Tipp:** Die Feuertaufe. Lass dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
 
 
 
@@ -353,7 +351,7 @@ In dieser Woche gibt es kein klar definiertes Programm mit weiteren Übungen. Da
 
 ## Triff deine ersten Entscheidungen {#LU-Gateways}
 
-Mit Gateways kann man den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiv-Gateway** verzweigenden) dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
+Mit Gateways kannst du den Prozessfluss steuern. Entscheidungen werden mit dem **Exklusiv-Gateway** (verzweigenden) dargestellt. Dieses Gateway wird häufig genutzt und auch als **XOR-Gateway** bezeichnet. 
 
 
 
@@ -405,7 +403,7 @@ Parallele Gateways (AND) aktivieren **alle ausgehenden Zweige gleichzeitig.** Be
 
 ### Kombination von XOR und AND Gateway (Das Tokenprinzip)
 
-In diesem Beispiel wird der Salat parallel zum Hauptgericht angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.
+Im folgenden Beispiel wird der Salat parallel zum Hauptgericht, Steak oder Pasta, angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.
 
 Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell dir das Token wie einen Spielball bzw. eine Kugel vor. Die Kugel wird bei jedem Start des Prozesses erzeugt und durchläuft ihn. Bei einem exklusiven Gateway kann der Token nur einen Weg nehmen. Bei einem parallelen Gateway teilt sich der Token in mehrere Token auf, je nach Anzahl der folgenden Zweige.
 
@@ -503,7 +501,7 @@ weitere Funktion.
 
 ### Nachrichten-Zwischenereignis
 
-Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.
+Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen, bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.
 
 ![](./images/Nachrichten-Zwischenereignis.png)
 
@@ -611,6 +609,8 @@ Externe Kommunikationspartner werden mit **zugeklappten Pools** dargestellt. Der
 **Business Decision Management** (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
 Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer [DMN Software](https://demo.bpmn.io/dmn), um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen. 
 
+Im folgenden findest du eine kurze, unvollständige Darstellung der **Nachteile "klassischer" Entscheidungswege**.
+
 
 | Menschliche Entscheidungen    | Automatisierte Entscheidungen               |
 | ----------------------------- | ------------------------------------------- |
@@ -621,7 +621,7 @@ Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, aller
 
 **BDM** dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.
 
-Das digitale Zeitalter und die zunehmend gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.
+Das digitale Zeitalter und die zunehmenden gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.
 
 
 
@@ -698,7 +698,7 @@ Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente 
 
 ### Entscheidungstabellen
 
-Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht **jede Reihe einer Geschäftsregel**. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:
+Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht **jede Zeile einer Geschäftsregel**. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:
 
 - Personen mit mehr als zwei Unfällen in den letzten 3 Jahren wird keine Versicherung gewährt
 - Personen unter 18 Jahren wird keine Versicherung gewährt
@@ -933,18 +933,18 @@ Beispielrechnung:
 
 Die Ausgaben aller übereinstimmenden Regeln werden als unsortierte Liste zurückgegeben.
 
-Folgende Aggregationen können angewendet werden:
+Alternativ können folgende Aggregationen der Ausgabewerte angewendet werden, wodurch nur genau ein Ergebnis auf Basis der Aggregation geliefert wird:
 
-- sum +
-- min <
-- max >
-- count #
+- Summierung: "+"
+- Minimum:  "<"
+- Maximum: ">"
+- Anzahl: "#"
 
 ![](./images/collect-policy.png)
 
 - Input (50, 31):
   - Die Regeln 1,2,4,5 und 6 werden aktiviert
-- Output für C+: 37
+- Output für C+ (Summierung): 37
 
 [<*Zurück zur KATA*>](#kata09)
 
@@ -968,7 +968,7 @@ Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine ein
 
 
 
-Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wieder verwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind Status bestimmen oder Berechtigung prüfen.
+Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wieder verwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind "Status bestimmen" oder "Berechtigung prüfen".
 
 In diesem Beispiel wird die Entscheidung **Kundenstatus** in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung **Bestimmung des Rabatts**. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der **Bestimmung der Lieferpriorität** verwendet.
 
