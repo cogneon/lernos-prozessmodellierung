@@ -107,7 +107,7 @@ In einer idealen Welt geht immer alles glatt. Es gibt keine Störungen oder unvo
 Schaue dir zunächst die [<*Lernunterlagen*>](#LU-HappyPath) an und modelliere dann: 
 
 1. Einen **beliebigen** Happy-Path unter Einhaltung der eben erlernten Regeln 
-2. Einen Happy-Path der den Prozess der "**Tee-Zubereitung**" beschreibt
+2. Einen Happy-Path, der den Prozess der "**Tee-Zubereitung**" beschreibt
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -130,9 +130,9 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Gateways) an und modelliere da
 
 ## Exkurs - Markierungen, Aufgabentypen &  Daten (KATA 04) {#kata04}
 
-Attribute mit visuellen Effekten
+*Attribute mit visuellen Effekten*
 
-Die BPMN-Spezifikation sieht eine Vielzahl von Attributen vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Dennoch kann es sehr hilfreich sein, über die Attribute direkt auf den Objekten einen **schnellen Überblick** zu bekommen. Die Liste in den Lernunterlagen gibt dir einen Überblick über die wichtigsten dieser Attribute. 
+Die BPMN-Spezifikation sieht eine Vielzahl von Attributen der Objekte vor, jedoch haben nur wenige dieser Attribute auch visuelle Auswirkungen. Dennoch kann es sehr hilfreich sein, über die Attribute direkt auf den Objekten einen **schnellen Überblick** zu bekommen. Die Liste in den Lernunterlagen gibt dir einen Überblick über die wichtigsten dieser Attribute. 
 
 **Dauer**: 60 Minuten
 
@@ -179,7 +179,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
 ## Exkurs - Eventtypen (KATA 06) {#kata06}
 
-Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in Eintretend und Ausgelöst unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
+Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in "*eintretend*" und "*auslösend*" unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
 
 **Dauer:**  90 Minuten
 
@@ -199,7 +199,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Eventtypen) an und modelliere 
 
 ## Unterprozesse und Nachrichtenflüsse (KATA 07) {#kata07}
 
-In dieser Kata lernst du die Funktion von Unterprozessen, sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
+In dieser Kata lernst du die Funktion von Unterprozessen sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
 
 **Dauer:**  60 Minuten
 
@@ -212,7 +212,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modellie
 
 ## Decision Model and Notation (DMN) - Grundlagen (KATA 08) {#kata08}
 
-Ab diesem Kapitel tauchen wir in die spannende Welt der DMN ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN und DMN und beschäftigst dich mit **Entscheidungstabellen**.
+Ab diesem Kapitel tauchen wir in die spannende Welt der Modellierung von Regelwerken ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN & DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
 **Dauer:** 60 Minuten
 
@@ -222,7 +222,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
 2. **Die Essensentscheidung**
 
-   Du kommst am Abend von der Arbeit und musst dich entscheiden was du Essen willst. Es gibt natürlich viele Möglichkeiten. Wenn du Zeit, Geld und Lust zum Ausgehen hast, gehst du Essen. Wenn du zwar Zeit und Lust hast, aber das nötige Kleingeld fehlt, dann musst du dir wohl selbst etwas kochen, genauso ist dies der Fall, wenn dir die Zeit fehlt. Sollest du Zeit und Geld haben, aber einfach keine Lust auszugehen, dann wird etwas zum Essen bestellt. Wenn du alles drei nicht hast, fällt das Abendessen wohl aus. Modelliere dein erstes eigenes DMN und sehe was der Abend bringt.
+   Du kommst am Abend von der Arbeit und musst dich entscheiden, was du Essen willst. Es gibt natürlich viele Möglichkeiten. Wenn du Zeit, Geld und Lust zum Ausgehen hast, gehst du Essen. Wenn du zwar Zeit und Lust hast, aber das nötige Kleingeld fehlt, dann musst du dir wohl selbst etwas kochen, genauso ist dies der Fall, wenn dir die Zeit fehlt. Sollest du Zeit und Geld haben, aber einfach keine Lust auszugehen, dann wird etwas zum Essen bestellt. Wenn du alles drei nicht hast, fällt das Abendessen wohl aus. Modelliere dein erstes eigenes DMN und sehe was der Abend bringt.
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
@@ -266,7 +266,7 @@ d) Alle Kunden Kunden mit privaten Verträgen und einem Jahresumsatz unter 1.000
 
 ## Dein erstes komplexes DRD (KATA 10) {#kata10}
 
-Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie zerlegt.  In dieser Kata lernst du, wann es Sinn macht, Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
+Wie im richtigen Leben zeigt sich auch hier, dass sich Komplexität leichter in den Griff bekommen lässt, wenn man sie in ihre Einzelteile zerlegt. In dieser Kata lernst du, wann es Sinn macht, Entscheidungen in Teilentscheidungen zu zerlegen und welche verschiedenen Namenskonventionen es gibt. Ein **Decision Requirements Diagram** (DRD) visualisiert dies anschaulich.
 
 **Dauer:**  45 Minuten
 
@@ -279,7 +279,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DRD) an und modelliere dann:
 
 ## Dein Meisterstück (KATA 11) {#kata11}
 
-In der letzten Kata geht es um alles. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimalerweise suchst du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatleben wird dir sicher schnell einfallen.
+In der letzten Kata geht es um's Ganze. Alles was du bisher gelernt hast, sollst du in deinem Meisterstück korrekt zur Anwendung bringen. Optimalerweise suchst du dir einen Prozess aus, den du selber gut kennst und den du auch gut beschreiben kannst. Ein Beispiel aus deiner täglichen Arbeit oder aus deinem Privatleben wird dir sicher schnell einfallen.
 
 **Dauer:** 120 - 240 Minuten (Je nach Ausprägung deines Prozesses)
 
@@ -304,7 +304,7 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten:
 
 Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-**Pro-Tipp:** Die Feuertaufe. Lasse dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
+**Pro-Tipp:** Die Feuertaufe. Lass dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
 
 
 
