@@ -117,7 +117,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-HappyPath) an und modelliere d
 
 Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir können die Dinge beeinflussen, indem wir entscheiden. BPMN bietet eine ganze Reihe verschiedener Entscheidungsmöglichkeiten (Gateways), die du in dieser Kata kennenlernen und anwenden wirst.
 
-**Dauer:**  90 Minuten
+**Dauer:**  60 Minuten
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Gateways) an und modelliere dann:
 
@@ -153,7 +153,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Markierungen) an und modellier
 
 Nachdem wir jetzt sehr viel über die Beziehungen und Abhängigkeiten der Elemente in einem Prozessdiagramm gelernt haben, kommen wir nun zu den **Verantwortlichkeiten**. Diese werden in BPMN durch Pools und Lanes beschrieben.
 
-**Dauer:**  60 Minuten
+**Dauer:**  90 Minuten
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
@@ -205,7 +205,8 @@ In dieser Kata lernst du die Funktion von Unterprozessen sowie die Kommunikation
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modelliere dann:
 
-- <FEHLT>
+- Ein **beliebiges Prozessdiagramm** mit mindestens einem Unterprozess und einem Nachrichtenfluss
+- Die **Getränkelieferung 1.1**: In der KATA05 habt ihr die Getränkelieferung bereits modelliert. Diese werden wir nun noch etwas optimieren. Die Abläufe in der Abteilung für alkoholfreie Getränke und alkoholische Getränke sind eigentlich komplett identisch. Wir können daher einen Unterprozess nutzen, auf den beide Abteilungen zugreifen. Modelliere das in den bestehenden Prozess. Außerdem gibt es auch noch den Getränkegroßmarkt. Dieses haben wir bisher noch nicht berücksichtigt. Da wir nicht wissen, was dort abläuft, finde eine Möglichkeit diesen trotzdem darzustellen und die Kommunikation zwischen Getränkemarkt und Großhandel zu modellieren.
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -214,7 +215,7 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modellie
 
 Ab diesem Kapitel tauchen wir in die spannende Welt der Modellierung von Regelwerken ein. Diese Welt erweitert die dir bisher bekannten Möglichkeiten der Modellierung enorm und erschließt ganz neue Bereiche, die besonders für die Automatisierung von Prozessen nützlich sind. In dieser Kata lernst du die **Grundelemente** von DMN kennen. Du  erarbeitest die Unterschiede zwischen BPMN & DMN und beschäftigst dich mit **Entscheidungstabellen**.
 
-**Dauer:** 60 Minuten
+**Dauer:** 90 Minuten
 
 Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
