@@ -72,10 +72,6 @@ Dafür haben wir den **Lernpfad Prozessmodellierung** entwickelt. Er enthält un
 
 ## Aufbau dieses Lernpfades
 
-`Fehlt: Sketchnote von Ralf`
-
-
-
 Die meisten Katas stehen in 2 Varianten zur Verfügung:
 
 1. Eine konkrete vorgegebene Aufgabe
@@ -291,6 +287,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DRD) an und modelliere dann:
      - Zubereitunsart (Beutel, Lose)
      - Geschätze Zubereitungszeit
      
+   
    a) Wenn mehr als 3 Gäste dann ist die Liefereinheit eine Kanne und die Zubereitunsart ist Lose
    
    b) Wenn (Zucker, Honig) und Süsstoff dann Liefereinheit Tasse und Zubereitunsart Beutel
