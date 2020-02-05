@@ -291,10 +291,15 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DRD) an und modelliere dann:
      - Zubereitunsart (Beutel, Lose)
      - Geschätze Zubereitungszeit
    a) Wenn mehr als 3 Gäste dann ist die Liefereinheit eine Kanne und die Zubereitunsart ist Lose
+   
    b) Wenn (Zucker, Honig) und Süsstoff dann Liefereinheit Tasse und Zubereitunsart Beutel
+   
    c) Wenn Roibusch Tee ist dann die Zubereitunsart Beutel
+   
    d) Für jeden Gast 1 Minute Zubereitungszeit
+   
    e) Für eine Kanne 2 Minuten Zubereitunszeit extra
+   
    f) Für Lose 1 Minute Zubereitungszeit extra
    
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
