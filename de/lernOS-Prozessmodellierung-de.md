@@ -290,6 +290,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DRD) an und modelliere dann:
      - Liefereinheit (Tasse, Kanne)
      - Zubereitunsart (Beutel, Lose)
      - Geschätze Zubereitungszeit
+     
    a) Wenn mehr als 3 Gäste dann ist die Liefereinheit eine Kanne und die Zubereitunsart ist Lose
    
    b) Wenn (Zucker, Honig) und Süsstoff dann Liefereinheit Tasse und Zubereitunsart Beutel
