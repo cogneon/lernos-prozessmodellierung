@@ -1180,9 +1180,9 @@ In dieser Woche sollte die endgültige Iteration deiner Key Results vorliegen. S
 
 lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
 
-- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA '**DMN Grundlagen**', '**Unterprozesse und Nachrichtenflüsse**'  und '**Von Pools & Lanes**'
-- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die **Sketchnotes** zum Aufbau des Lernpfads & sein **technisches GIT-Knowhow**
+- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA '**DMN Grundlagen**', '**Unterprozesse und Nachrichtenflüsse**', '**Von Pools & Lanes**' sowie Feedback
 - Bernd Neumayr für Erarbeitung der  Kata '**Dein erstes komplexes DRD**' & sein **technisches GIT-Knowhow**
+- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für  sein **technisches GIT-Knowhow**, Korrekturen & kreative Inputs
 - [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die **didaktische** und **technische Unterstützung**
 
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
