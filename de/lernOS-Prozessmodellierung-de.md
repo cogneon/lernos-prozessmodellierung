@@ -227,7 +227,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
 ## Datentypen und HIT-Policy (KATA 09) {#kata09}
 
-Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
+Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die genau eine,  mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
 **Dauer:**  90 Minuten
 
