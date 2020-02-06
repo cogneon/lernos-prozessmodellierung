@@ -40,7 +40,7 @@ Bei der **[Prozessmodellierung](https://de.wikipedia.org/wiki/Geschäftsprozessm
 
 ### Was ist BPMN?
 
-Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.
+Die **[Business Process Model and Notation](https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation)** (BPMN) ist eine **grafische Spezifikationssprache** in der Wirtschaftsinformatik und im Prozessmanagement. Sie stellt Symbole zur Verfügung, mit denen Fach-, Methoden- und Informatikspezialisten Geschäftsprozesse und Arbeitsabläufe modellieren und dokumentieren können.  BPMN wurde der von der Object Management Group (OMG) definiert. [ISO-Norm: 19510:2013](https://www.omg.org/spec/BPMN/ISO/19510/PDF)
 
 ### Was ist BDM?
 
@@ -117,7 +117,7 @@ Leider, oder besser zum Glück,  ist der Happy-Path die Ausnahme. Denn wir könn
 
 Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Gateways) an und modelliere dann:
 
-1. Einen **beliebigen Prozess ** deiner Wahl mit mindestens zwei verschiedenen Gateway  
+1. Einen **beliebigen Prozess** deiner Wahl mit mindestens zwei verschiedenen Gateway  
 2. Die "**Tee-Zubereitung**" mit einem OR Gateway (mindestens 3 Zweige)
 
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
