@@ -465,6 +465,8 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 ## Exkurs - Markierungen, Aufgabentypen & Daten {#LU-Markierungen}
 
+Hier lernst du die Attribute (Symbole links-oben oder unten-mittig), die BPMN für uns bereit stellt. 
+
 ![](./images/Markierungen,-Aufgaben-Typen-und-Daten.png)
 
 ![](./images/Markierungen,-Aufgaben-Typen-und Daten-I.png)
