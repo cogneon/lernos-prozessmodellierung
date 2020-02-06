@@ -910,7 +910,7 @@ In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und d
 
 Bei Verwendung der Any Hit Policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.
 
-![](./images/ANY-hit-policy.png)
+![](./images/Any-hit-policy.png)
 
 Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft, führt dies direkt zum Ergebnis der VIP Anforderungen "nicht erfüllt". Somit sind nur bei einer gültigen Kombination von Input Data die VIP Anforderungen "erfüllt". 
 
