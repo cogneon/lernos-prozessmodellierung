@@ -227,7 +227,7 @@ Schaue dir zunächst die [<*Lernunterlagen*>](#LU-DMN) an und modelliere dann:
 
 ## Datentypen und HIT-Policy (KATA 09) {#kata09}
 
-Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
+Hit-Policies bestimmen, wie die Entscheidungstabelle mit Eingaben umgeht, die genau eine,  mehrere oder gar keine Regeln erfüllen. Sie stellen das **Herzstück** des DMN-Universums dar, denn genau hier werden die Entscheidungen nach den vorgegebenen Regelwerken getroffen. 
 
 **Dauer:**  90 Minuten
 
@@ -331,7 +331,7 @@ Folgende Komponenten sollte dein Meisterstück mindestens enthalten:
 
 Bringe dein Meisterstück in das letzte Weekly mit und stelle es den anderen Teilnehmern vor.
 
-**Pro-Tipp:** Die Feuertaufe. Lass dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert aber erheblich länger.
+**Pro-Tipp:** Die Feuertaufe. Lass dein Meisterstück von den anderen Circlern im Weekly präsentieren. Wenn die anderen deinen Prozess ohne Rückfragen verstehen, dann hast du die Meisterprüfung mit Auszeichnung bestanden. Diese Variante dauert natürlich länger, bitte beachte das bei deiner Zeitplanung.
 
 
 
@@ -464,6 +464,8 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 
 ## Exkurs - Markierungen, Aufgabentypen & Daten {#LU-Markierungen}
+
+Hier lernst du die Attribute (Symbole links-oben oder unten-mittig), die BPMN für uns bereit stellt. 
 
 ![](./images/Markierungen,-Aufgaben-Typen-und-Daten.png)
 
@@ -1180,9 +1182,9 @@ In dieser Woche sollte die endgültige Iteration deiner Key Results vorliegen. S
 
 lernOS ist von vielen Personen und Quellen inspiriert und steht daher [auf den Schultern von Riesen](https://de.wikipedia.org/wiki/Zwerge_auf_den_Schultern_von_Riesen). Einen Überblick über die Wurzeln und Inspirationen sind [im lernOS Wiki](https://github.com/cogneon/lernos-core/wiki) zusammengestellt. Für diesen Leitfaden möchte ich besonders danken:
 
-- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA '**DMN Grundlagen**', '**Unterprozesse und Nachrichtenflüsse**'  und '**Von Pools & Lanes**'
-- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für die **Sketchnotes** zum Aufbau des Lernpfads & sein **technisches GIT-Knowhow**
+- [Hans Facher](https://www.linkedin.com/in/hans-facher-83957018a/)  für die Erarbeitung der KATA '**DMN Grundlagen**', '**Unterprozesse und Nachrichtenflüsse**', '**Von Pools & Lanes**' sowie Feedback
 - Bernd Neumayr für Erarbeitung der  Kata '**Dein erstes komplexes DRD**' & sein **technisches GIT-Knowhow**
+- [Ralf Schramm](https://www.linkedin.com/in/ralf-schramm-00022448/) für  sein **technisches GIT-Knowhow**, Korrekturen & kreative Inputs
 - [Simon Dückert](https://www.linkedin.com/in/simondueckert/) für die **didaktische** und **technische Unterstützung**
 
 Ein großes Dankeschön für konstruktives Feedback und Korrekturen geht an:
