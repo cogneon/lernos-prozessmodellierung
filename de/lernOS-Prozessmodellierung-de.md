@@ -64,7 +64,7 @@ Wie bei allem gilt auch beim Modellieren: **Übung macht den Meister!**
 
 Dafür haben wir den **Lernpfad Prozessmodellierung** entwickelt. Er enthält unter anderem:
 
-- 11 Lerninhalte mit den wichtigsten Grundlageninformationen
+- 10 Lerninhalte mit den wichtigsten Grundlageninformationen
 - 11 Katas (Übungen) zu den wichtigsten Bereichen der Prozessmodellierung
 - Zahlreiche Ressourcen zur weiteren Vertiefung
 
@@ -74,10 +74,10 @@ Dafür haben wir den **Lernpfad Prozessmodellierung** entwickelt. Er enthält un
 
 Die meisten Katas stehen in 2 Varianten zur Verfügung:
 
-1. Eine konkrete vorgegebene Aufgabe
 2. Eine Aufgabe ohne spezielle Vorgaben
+2. Eine konkrete vorgegebene Aufgabe
 
-Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedene Leistungsstufen innerhalb eines Circles  bedienen zu wollen. Während Variante 1 eher für Beginner gedacht und sehr gut dazu geeignet ist, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 2 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Aufgabenstellungen lösen wollen. 
+Es muss **nur eine** der beiden Varianten bis zum nächsten Weekly erarbeitet werden. Beide Varianten haben didaktische  Vor- und Nachteile. Dieser Ansatz trägt dem Umstand Rechnung,  verschiedene Leistungsstufen innerhalb eines Circles  bedienen zu wollen. Während Variante 2 eher für Beginner gedacht und sehr gut dazu geeignet ist, sich im Weekly gegenseitiges Feedback zu geben, ist Variante 1 eher für Fortgeschrittene gedacht, die bereits ihre konkreten eigenen Ideen & Aufgabenstellungen lösen wollen. 
 
 
 
@@ -173,7 +173,21 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Pools) an und modelliere dann:
 
 
 
-## Exkurs - Eventtypen (KATA 06) {#kata06}
+## Unterprozesse und Nachrichtenflüsse (KATA 06) {#kata06}
+
+In dieser Kata lernst du die Funktion von Unterprozessen sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
+
+**Dauer:**  60 Minuten
+
+Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modelliere dann:
+
+- Ein **beliebiges Prozessdiagramm** mit mindestens einem Unterprozess und einem Nachrichtenfluss
+- Die **Getränkelieferung 1.1**: In der KATA05 habt ihr die Getränkelieferung bereits modelliert. Diese werden wir nun noch etwas optimieren. Die Abläufe in der Abteilung für alkoholfreie Getränke und alkoholische Getränke sind eigentlich komplett identisch. Wir können daher einen Unterprozess nutzen, auf den beide Abteilungen zugreifen. Modelliere das in den bestehenden Prozess. Außerdem gibt es auch noch den Getränkegroßmarkt. Dieses haben wir bisher noch nicht berücksichtigt. Da wir nicht wissen, was dort abläuft, finde eine Möglichkeit diesen trotzdem darzustellen und die Kommunikation zwischen Getränkemarkt und Großhandel zu modellieren.
+- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
+
+
+
+## Exkurs - Eventtypen (KATA 07) {#kata07}
 
 Neben den schon bekannten Events, bietet BPMN eine ganze Reihe weiterer Eventtypen, um alle Eventualitäten des richtigen Lebens abbilden zu können. Grundsätzlich unterscheiden wir in Start-, Zwischen- und Endereignisse. Die Zwischenereignisse werden nochmals in "*eintretend*" und "*auslösend*" unterteilt. In dieser Kata lernst du die häufigsten Eventtypen kennen.
 
@@ -189,20 +203,6 @@ Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Eventtypen) an und modelliere 
    * Einem eingetretenen Zeitzwischenereignis
    * Eine angeheftete Standard Ende Kompensation
 
-- Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
-
-
-
-## Unterprozesse und Nachrichtenflüsse (KATA 07) {#kata07}
-
-In dieser Kata lernst du die Funktion von Unterprozessen sowie die Kommunikation zwischen verschiedenen Pools kennen. Dies wird dir helfen, komplexere Prozesse übersichtlich zu halten und die Kommunikation zwischen verschiedenen Organisationen zu visualisieren. 
-
-**Dauer:**  60 Minuten
-
-Schaue Dir zunächst die [<*Lernunterlagen*>](#LU-Unterprozesse) an und modelliere dann:
-
-- Ein **beliebiges Prozessdiagramm** mit mindestens einem Unterprozess und einem Nachrichtenfluss
-- Die **Getränkelieferung 1.1**: In der KATA05 habt ihr die Getränkelieferung bereits modelliert. Diese werden wir nun noch etwas optimieren. Die Abläufe in der Abteilung für alkoholfreie Getränke und alkoholische Getränke sind eigentlich komplett identisch. Wir können daher einen Unterprozess nutzen, auf den beide Abteilungen zugreifen. Modelliere das in den bestehenden Prozess. Außerdem gibt es auch noch den Getränkegroßmarkt. Dieses haben wir bisher noch nicht berücksichtigt. Da wir nicht wissen, was dort abläuft, finde eine Möglichkeit diesen trotzdem darzustellen und die Kommunikation zwischen Getränkemarkt und Großhandel zu modellieren.
 - Notiere deine Erkenntnisse & Herausforderungen zur Reflektion im Weekly
 
 
@@ -463,20 +463,6 @@ Es gibt in diesem Beispiel 7 mögliche Kombinationen.
 
 
 
-## Exkurs - Markierungen, Aufgabentypen & Daten {#LU-Markierungen}
-
-Hier lernst du die Attribute (Symbole links-oben oder unten-mittig), die BPMN für uns bereit stellt. 
-
-![](./images/Markierungen,-Aufgaben-Typen-und-Daten.png)
-
-![](./images/Markierungen,-Aufgaben-Typen-und Daten-I.png)
-
-[<*Zurück zur KATA*>](#kata04)
-
-------
-
-
-
 ## Von Pools und Lanes {#LU-Pools}
 
 In BPMN werden Verantwortlichkeiten (Organisationseinheiten, Abteilungen, Personen, Rollen) für Aufgaben mit Swimlanes (Pools und Lanes) dargestellt. Ein Prozess "gehört" zu einem Pool und ein Task wird von der jeweiligen Lane ausgeführt.
@@ -511,6 +497,20 @@ Ein **Task** kann auch **mehrere Beteiligte** haben. Dies wird mit zusätzlichen
 
 
 [<*Zurück zur KATA*>](#kata05)
+
+------
+
+
+
+## Exkurs - Markierungen, Aufgabentypen & Daten {#LU-Markierungen}
+
+Hier lernst du die Attribute (Symbole links-oben oder unten-mittig), die BPMN für uns bereit stellt. 
+
+![](./images/Markierungen,-Aufgaben-Typen-und-Daten.png)
+
+![](./images/Markierungen,-Aufgaben-Typen-und Daten-I.png)
+
+[<*Zurück zur KATA*>](#kata04)
 
 ------
 

@@ -1,9 +1,7 @@
 @echo off
 echo Starting lernOS Guide Generation ...
-
 REM Required Software
 REM See lernOS Core tbd.
-
 REM Variables
 set filename="lernOS-Prozessmodellierung-de"
 set dest_folder="generate"
