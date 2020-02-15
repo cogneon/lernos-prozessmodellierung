@@ -4,7 +4,6 @@
 :: Notwendige Software inkscape, Batchfile liegt im Verzeichnis der umzuwandelnden Datein
 :: Quelle:https://gist.github.com/JohannesDeml/779b29128cdd7f216ab5000466404f11
 
-
 set "inkscapePath=C:\Programme\Inkscape\inkscape.exe"
 set /a count=0
 set validInput1=svg
