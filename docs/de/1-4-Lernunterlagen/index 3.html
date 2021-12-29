@@ -1,0 +1,1343 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://cogneon.github.io/1-4-Lernunterlagen/" rel="canonical"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-8.1.0" name="generator"/>
+<title>Lernunterlagen - lernOS Prozessmodellierung Leitfaden</title>
+<link href="../assets/stylesheets/main.82f3c0b9.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.9204c3b2.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.cogneon.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img alt="" src="https://analytics.cogneon.de/matomo.php?idsite=5&amp;rec=1" style="border:0;"/></p></noscript>
+<!-- End Matomo Code -->
+</head>
+<body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="lernos" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#lernunterlagen">
+          Zum Inhalt
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="lernOS Prozessmodellierung Leitfaden" class="md-header__button md-logo" data-md-component="logo" href=".." title="lernOS Prozessmodellierung Leitfaden">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            lernOS Prozessmodellierung Leitfaden
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Lernunterlagen
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Suche" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Suche" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</label>
+<nav aria-label="Suche" class="md-search__options">
+<button aria-label="Zurücksetzen" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/cogneon/lernos-template/" title="Quellcode">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    cogneon/lernos-template
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="lernOS Prozessmodellierung Leitfaden" class="md-nav__button md-logo" data-md-component="logo" href=".." title="lernOS Prozessmodellierung Leitfaden">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"></path></svg>
+</a>
+    lernOS Prozessmodellierung Leitfaden
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/cogneon/lernos-template/" title="Quellcode">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    cogneon/lernos-template
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+        Willkommen
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Grundlagen
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Grundlagen" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Grundlagen
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../1-1-Was-ist-Prozessmodellierung/">
+        Was ist Prozessmodellierung
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../1-2-Warum-ein-Lernpfad-PM/">
+        Warum ein Lernpfad Prozessmodellierung?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../1-3-Aufbau-des-Lernpfads/">
+        Aufbau des Lernpfads
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Lernunterlagen
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Lernunterlagen
+      </a>
+<nav aria-label="Inhaltsverzeichnis" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lernunterlagen">
+    Lernunterlagen
+  </a>
+<nav aria-label="Lernunterlagen" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dein-erstes-diagramm-happy-path-lu-happypath">
+    Dein erstes Diagramm (Happy-Path) {#LU-HappyPath}
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#triff-deine-ersten-entscheidungen-lu-gateways">
+    Triff deine ersten Entscheidungen {#LU-Gateways}
+  </a>
+<nav aria-label="Triff deine ersten Entscheidungen {#LU-Gateways}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exklusive-gateway-xor">
+    Exklusive Gateway (XOR)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exklusive-gateway-xor-mit-mehreren-enden">
+    Exklusive Gateway (XOR) mit mehreren Enden
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exklusive-gateway-xor-split-und-join">
+    Exklusive Gateway (XOR) split und join
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exklusive-gateway-xor-schleifen">
+    Exklusive Gateway (XOR) Schleifen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#parallele-gateways-and">
+    Parallele Gateways  (AND)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kombination-von-xor-und-and-gateway-das-tokenprinzip">
+    Kombination von XOR und AND Gateway (Das Tokenprinzip)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inklusive-gateway-or">
+    Inklusive Gateway (OR)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#von-pools-und-lanes-lu-pools">
+    Von Pools und Lanes {#LU-Pools}
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exkurs-markierungen-aufgabentypen-daten-lu-markierungen">
+    Exkurs - Markierungen, Aufgabentypen &amp; Daten {#LU-Markierungen}
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exkurs-eventtypen-lu-eventtypen">
+    Exkurs - Eventtypen {#LU-Eventtypen}
+  </a>
+<nav aria-label="Exkurs - Eventtypen {#LU-Eventtypen}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#blanko-zwischenereignis">
+    Blanko-Zwischenereignis
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#nachrichten-zwischenereignis">
+    Nachrichten-Zwischenereignis
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#zeitereignisse">
+    Zeitereignisse
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#eventbasierte-gateways">
+    Eventbasierte Gateways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#eventbasierte-gateways-schleifen">
+    Eventbasierte Gateways (Schleifen)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bedingungsereignisse">
+    Bedingungsereignisse
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#angeheftete-zwischenereignisse">
+    Angeheftete Zwischenereignisse
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#link-ereignis">
+    Link-Ereignis
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ubersicht-aller-ereignisse">
+    Übersicht aller Ereignisse
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unterprozesse-und-nachrichtenflusse-lu-unterprozesse">
+    Unterprozesse und Nachrichtenflüsse {#LU-Unterprozesse}
+  </a>
+<nav aria-label="Unterprozesse und Nachrichtenflüsse {#LU-Unterprozesse}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unterprozesse">
+    Unterprozesse
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#nachrichtenflusse-uber-poolgrenzen">
+    Nachrichtenflüsse über Poolgrenzen
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dmn-grundlagen-lu-dmn">
+    DMN - Grundlagen {#LU-DMN}
+  </a>
+<nav aria-label="DMN - Grundlagen {#LU-DMN}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#einfuhrung">
+    Einführung
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kernelemente-von-dmn">
+    Kernelemente von DMN
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#entscheidungstabellen">
+    Entscheidungstabellen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#datentypen-fur-input-data-elemente">
+    Datentypen für Input-Data Elemente
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#datentypen-und-hit-policy-lu-datentypen">
+    Datentypen und Hit Policy {#LU-Datentypen}
+  </a>
+<nav aria-label="Datentypen und Hit Policy {#LU-Datentypen}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#single-hit-policies">
+    Single Hit Policies
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multi-hit-policies">
+    Multi Hit Policies
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dein-erstes-komplexes-drd-lu-drd">
+    Dein erstes komplexes DRD {#LU-DRD}
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../1-5-Ressourcen/">
+        Ressourcen &amp; Quellennachweise
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          Lernpfad
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Lernpfad" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Lernpfad
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-1-Kata-Grundlagen/">
+        Mach dich mit den Grundlagen vertraut (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-2-Kata-Happy-Path/">
+        Dein erstes Diagramm (Happy-Path) (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-3-Kata-Entscheidungen/">
+        Triff deine ersten Entscheidungen (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-4-Kata-Markierungen/">
+        Exkurs-Markierungen, Aufgabentypen &amp; Daten (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-5-Kata-Pools-Lanes/">
+        Von Pools und Lanes (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-6-Kata-Unterprozesse/">
+        Unterprozesse und Nachrichtenflüsse (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-7-Kata-Eventtypen/">
+        Exkurs-Eventtypen (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-8-Kata-DMN/">
+        Decision Model and Notation(DMN)-Grundlagen (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-9-Kata-Datentypen/">
+        Datentypen und HIT-Policy (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-10-Kata-DRD/">
+        Dein erstes komplexes DRD (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-11-Kata-Meisterstueck/">
+        Dein Meisterstück (Kata)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-12-Kata-Retrospektive/">
+        Retrospektive &amp; Feier
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../3-0-Anhang/">
+        Anhang
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+          Download
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Download" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Download
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://github.com/cogneon/lernos-prozessmodellierung/blob/master/de/lernOS-Prozessmodellierung-Guide-de.pdf">
+        PDF-Version
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://github.com/cogneon/lernos-prozessmodellierung/blob/master/de/lernOS-Prozessmodellierung-Guide-de.docx">
+        Word-Version
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://github.com/cogneon/lernos-prozessmodellierung/blob/master/de/lernOS-Prozessmodellierung-Guide-de.html">
+        HTML-Version
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://github.com/cogneon/lernos-prozessmodellierung/blob/master/de/lernOS-Prozessmodellierung-Guide-de.epub">
+        E-Book (epub)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://github.com/cogneon/lernos-prozessmodellierung/blob/master/de/lernOS-Prozessmodellierung-Guide-de.mobi">
+        E-Book (mobi)
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6">
+          Links
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Links" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          Links
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://lernos.org">
+        lernOS Website
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://community.cogneon.de">
+        lernOS Community
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://web.peerfinder.app">
+        Peerfinder
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Inhaltsverzeichnis" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lernunterlagen">
+    Lernunterlagen
+  </a>
+<nav aria-label="Lernunterlagen" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dein-erstes-diagramm-happy-path-lu-happypath">
+    Dein erstes Diagramm (Happy-Path) {#LU-HappyPath}
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#triff-deine-ersten-entscheidungen-lu-gateways">
+    Triff deine ersten Entscheidungen {#LU-Gateways}
+  </a>
+<nav aria-label="Triff deine ersten Entscheidungen {#LU-Gateways}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exklusive-gateway-xor">
+    Exklusive Gateway (XOR)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exklusive-gateway-xor-mit-mehreren-enden">
+    Exklusive Gateway (XOR) mit mehreren Enden
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exklusive-gateway-xor-split-und-join">
+    Exklusive Gateway (XOR) split und join
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exklusive-gateway-xor-schleifen">
+    Exklusive Gateway (XOR) Schleifen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#parallele-gateways-and">
+    Parallele Gateways  (AND)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kombination-von-xor-und-and-gateway-das-tokenprinzip">
+    Kombination von XOR und AND Gateway (Das Tokenprinzip)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inklusive-gateway-or">
+    Inklusive Gateway (OR)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#von-pools-und-lanes-lu-pools">
+    Von Pools und Lanes {#LU-Pools}
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exkurs-markierungen-aufgabentypen-daten-lu-markierungen">
+    Exkurs - Markierungen, Aufgabentypen &amp; Daten {#LU-Markierungen}
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exkurs-eventtypen-lu-eventtypen">
+    Exkurs - Eventtypen {#LU-Eventtypen}
+  </a>
+<nav aria-label="Exkurs - Eventtypen {#LU-Eventtypen}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#blanko-zwischenereignis">
+    Blanko-Zwischenereignis
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#nachrichten-zwischenereignis">
+    Nachrichten-Zwischenereignis
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#zeitereignisse">
+    Zeitereignisse
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#eventbasierte-gateways">
+    Eventbasierte Gateways
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#eventbasierte-gateways-schleifen">
+    Eventbasierte Gateways (Schleifen)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bedingungsereignisse">
+    Bedingungsereignisse
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#angeheftete-zwischenereignisse">
+    Angeheftete Zwischenereignisse
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#link-ereignis">
+    Link-Ereignis
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ubersicht-aller-ereignisse">
+    Übersicht aller Ereignisse
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unterprozesse-und-nachrichtenflusse-lu-unterprozesse">
+    Unterprozesse und Nachrichtenflüsse {#LU-Unterprozesse}
+  </a>
+<nav aria-label="Unterprozesse und Nachrichtenflüsse {#LU-Unterprozesse}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#unterprozesse">
+    Unterprozesse
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#nachrichtenflusse-uber-poolgrenzen">
+    Nachrichtenflüsse über Poolgrenzen
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dmn-grundlagen-lu-dmn">
+    DMN - Grundlagen {#LU-DMN}
+  </a>
+<nav aria-label="DMN - Grundlagen {#LU-DMN}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#einfuhrung">
+    Einführung
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kernelemente-von-dmn">
+    Kernelemente von DMN
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#entscheidungstabellen">
+    Entscheidungstabellen
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#datentypen-fur-input-data-elemente">
+    Datentypen für Input-Data Elemente
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#datentypen-und-hit-policy-lu-datentypen">
+    Datentypen und Hit Policy {#LU-Datentypen}
+  </a>
+<nav aria-label="Datentypen und Hit Policy {#LU-Datentypen}" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#single-hit-policies">
+    Single Hit Policies
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multi-hit-policies">
+    Multi Hit Policies
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dein-erstes-komplexes-drd-lu-drd">
+    Dein erstes komplexes DRD {#LU-DRD}
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<!--
+  Copyright (c) 2016-2021 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+<!-- Edit button -->
+<a class="md-content__button md-icon" href="https://github.com/cogneon/lernos-template/edit/master/docs/1-4-Lernunterlagen.md" title="Seite editieren">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
+</a>
+<!--
+  Hack: check whether the content contains a h1 headline. If it
+  doesn't, the page title (or respectively site name) is used
+  as the main headline.
+-->
+<h1>Lernunterlagen</h1>
+<!-- Markdown content -->
+<h2 id="lernunterlagen">Lernunterlagen</h2>
+<h3 id="dein-erstes-diagramm-happy-path-lu-happypath">Dein erstes Diagramm (Happy-Path) {#LU-HappyPath}</h3>
+<ul>
+<li>Schau dir die folgenden Folien in Ruhe an:</li>
+</ul>
+<p><img alt="" src="../images/Happy-Path.png"/></p>
+<hr/>
+<p><img alt="" src="../images/Benennung-von-Ereignissen.png"/></p>
+<p><a href="#kata02">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr/>
+<h3 id="triff-deine-ersten-entscheidungen-lu-gateways">Triff deine ersten Entscheidungen {#LU-Gateways}</h3>
+<p>Mit Gateways kannst du den Prozessfluss steuern. Entscheidungen werden mit dem <strong>Exklusiv-Gateway</strong> (verzweigenden) dargestellt. Dieses Gateway wird häufig genutzt und auch als <strong>XOR-Gateway</strong> bezeichnet.</p>
+<h4 id="exklusive-gateway-xor">Exklusive Gateway (XOR)</h4>
+<p>Im folgenden Beispiel teilt das Exklusive Gateway den Prozess in zwei mögliche Zweige auf.</p>
+<p><img alt="" src="../images/Exklusive-Gateways-%28XOR%29-einfach.png"/></p>
+<p>Exklusive Gateways (XOR) lenken den eingehenden Prozessfluss auf <strong>genau einen</strong> ausgehenden Pfad (Entweder/Oder-Entscheidung)</p>
+<h4 id="exklusive-gateway-xor-mit-mehreren-enden">Exklusive Gateway (XOR) mit mehreren Enden</h4>
+<p>Ein Prozess kann auch mehrere Endereignisse haben. Im diesem Beispiel gibt es drei mögliche Endereignisse. Welches davon eintritt, hängt von der Entscheidung ab, welches Gericht ausgewählt wird.</p>
+<p><img alt="" src="../images/Exklusive-Gateways-%28XOR%29-mehrere-Endergebnisse.png"/></p>
+<h4 id="exklusive-gateway-xor-split-und-join">Exklusive Gateway (XOR) split und join</h4>
+<p>In diesem Beispiel haben wir zwei Exklusive Gateways. Das erste teilt (split) den Prozess in zwei Zweige und das zweite führt diese Zweige wieder zusammen (join).</p>
+<p><img alt="" src="../images/Exklusive-Gateways-%28XOR%29-Split-%26-Join.png"/></p>
+<h4 id="exklusive-gateway-xor-schleifen">Exklusive Gateway (XOR) Schleifen</h4>
+<p>Schleifen werden benutzt um darzustellen, dass Teile eines Prozesses unter Umständen wiederholt werden müssen, um das gewünschte Ziel zu erreichen.</p>
+<p><img alt="" src="../images/Exklusives-Gateway-%28XOR%29-Schleifen.png"/></p>
+<h4 id="parallele-gateways-and">Parallele Gateways  (AND)</h4>
+<p>Aufgaben können oder müssen manchmal parallel ausgeführt werden.</p>
+<p><img alt="" src="../images/Parallele-Gateways-%28AND%29.png"/></p>
+<p>Parallele Gateways (AND) aktivieren <strong>alle ausgehenden Zweige gleichzeitig.</strong> Bei der Zusammenführung <strong>wird auf alle Zweige/Pfade gewartet</strong>.</p>
+<h4 id="kombination-von-xor-und-and-gateway-das-tokenprinzip">Kombination von XOR und AND Gateway (Das Tokenprinzip)</h4>
+<p>Im folgenden Beispiel wird der Salat parallel zum Hauptgericht, Steak oder Pasta, angerichtet. Es gibt zwei mögliche Kombinationen für die Mahlzeit: Steak mit Salat oder Pasta mit Salat.</p>
+<p>Das Tokenprinzip in BPMN beschreibt, wie ein Prozess durchlaufen wird. Stell dir das Token wie einen Spielball bzw. eine Kugel vor. Die Kugel wird bei jedem Start des Prozesses erzeugt und durchläuft ihn. Bei einem exklusiven Gateway kann der Token nur einen Weg nehmen. Bei einem parallelen Gateway teilt sich der Token in mehrere Token auf, je nach Anzahl der folgenden Zweige.</p>
+<p>In unserem Beispiel wird also am parallelen Gateway ein zweiter Token erzeugt. Diese beiden Token durchlaufen nun den parallelen Prozessabschnitt, bis sie durch das zweite AND-Gateway wieder zusammengeführt werden. Danach durchläuft der Token den restlichen Prozess und wird am Ende des Prozesses konsumiert .</p>
+<p><img alt="" src="../images/Kombination-von-XOR-und-AND-Gateway-%28Das-Tokenprinzip%29.png"/></p>
+<h4 id="inklusive-gateway-or">Inklusive Gateway (OR)</h4>
+<p>Manchmal benötigen Prozesse noch etwas mehr Flexibilität. Hier kommt das <strong>Inklusive Gateway (OR)</strong> zum Einsatz. Im Gegensatz zum parallelen Gateway sind <strong>die ausgehenden Zweige optional,</strong> jedoch muss mindestens einer durchlaufen werden.</p>
+<p><img alt="" src="../images/Inklusive-Gateway-%28OR%29.png"/></p>
+<p>Inklusive Gateways (OR) werden genutzt, wenn <strong>eine oder mehrere</strong> Bedingungen möglich sind.
+Bei der Zusammenführung wird auf <strong>alle gewählten Zweige</strong> gewartet.</p>
+<p>Es gibt in diesem Beispiel 7 mögliche Kombinationen.</p>
+<p><strong>Formel: 2^N-1, hier: 2^3-1 = 7 (N = Anzahl der ausgehenden Zweige)</strong></p>
+<ul>
+<li>Ein Zweig: nur Steak; nur Salat; nur Pasta</li>
+<li>Zwei Zweige: Steak &amp; Salat; Pasta &amp; Steak; Pasta &amp; Salat</li>
+<li>Alle Zweige: Pasta, Steak &amp; Salat</li>
+</ul>
+<p><a href="#kata03">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr/>
+<h3 id="von-pools-und-lanes-lu-pools">Von Pools und Lanes {#LU-Pools}</h3>
+<p>In BPMN werden Verantwortlichkeiten (Organisationseinheiten, Abteilungen, Personen, Rollen) für Aufgaben mit Swimlanes (Pools und Lanes) dargestellt. Ein Prozess "gehört" zu einem Pool und ein Task wird von der jeweiligen Lane ausgeführt.</p>
+<p><img alt="" src="../images/Von-Pools-und-Lanes-I.png"/></p>
+<p>Folgende Benennungen von Pools &amp; Lanes haben sich im Einsatz bewährt:</p>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Organisationseinheit</td>
+<td>Finanzen, Personal, Vertrieb, Service</td>
+</tr>
+<tr>
+<td>Stelle/Position</td>
+<td>Abteilungsleiter Finanzen, Führungskraft Recht, ...</td>
+</tr>
+<tr>
+<td>Prozessbezogene Rolle</td>
+<td>Mitarbeiter, Vorgesetzter, Prozessverantwortlicher</td>
+</tr>
+<tr>
+<td>Person</td>
+<td>Frau Schulze, Herr Meier</td>
+</tr>
+</tbody>
+</table>
+<p>Von der Personenbenennung ist jedoch abzuraten, da sich Personen ständig ändern können. Nutze  in dem Fall besser die <strong>prozessbezogenen Rollen</strong>.</p>
+<p>Sabine, Ralf und Alex wollen etwas kochen.  Jeder bekommt Aufgaben zugewiesen.</p>
+<p><img alt="" src="../images/Sabine%2C-Ralf-und-Alex-wollen-etwas-kochen.png"/></p>
+<p>Ein Task kann in BPMN nur zu <strong>genau einer Lane</strong> (Rolle / Verantwortlichkeit) gehören.</p>
+<p>Ein <strong>Task</strong> kann auch <strong>mehrere Beteiligte</strong> haben. Dies wird mit zusätzlichen Beteiligten oder weiteren Lanes dargestellt.</p>
+<p><img alt="" src="../images/Sabine%2C-Ralf-und-Alex-wollen-etwas-kochen-II.png"/></p>
+<p><a href="#kata05">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr/>
+<h3 id="exkurs-markierungen-aufgabentypen-daten-lu-markierungen">Exkurs - Markierungen, Aufgabentypen &amp; Daten {#LU-Markierungen}</h3>
+<p>Hier lernst du die Attribute (Symbole links-oben oder unten-mittig), die BPMN für uns bereit stellt.</p>
+<p><img alt="" src="../images/Markierungen-Aufgaben-Typen-und-Daten.png"/></p>
+<p><img alt="" src="../images/Markierungen-Aufgaben-Typen-und-Daten-I.png"/></p>
+<p><a href="#kata04">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr/>
+<h3 id="exkurs-eventtypen-lu-eventtypen">Exkurs - Eventtypen {#LU-Eventtypen}</h3>
+<h4 id="blanko-zwischenereignis">Blanko-Zwischenereignis</h4>
+<p>In diesem Prozess sehen wir ein <strong>Blanko-Zwischenereignis</strong>. Es wird verwendet, um
+wichtige Zustände oder Meilensteine in einem Prozess darzustellen und hat keine
+weitere Funktion.</p>
+<p><img alt="" src="../images/Blanko-Zwischenereignis.png"/></p>
+<h4 id="nachrichten-zwischenereignis">Nachrichten-Zwischenereignis</h4>
+<p>Manchmal müssen erst Nachrichten, Waren oder Artikel eintreffen, bevor der Prozess weiterlaufen kann. Dies wird durch ein Nachrichten-Zwischenereignis dargestellt. Im Beispiel unten muss die Pizza erst geliefert werden, bevor sie verzehrt werden kann.</p>
+<p><img alt="" src="../images/Nachrichten-Zwischenereignis.png"/></p>
+<h4 id="zeitereignisse">Zeitereignisse</h4>
+<p>Zeitereignisse können Prozesse starten oder verzögern.</p>
+<p><img alt="" src="../images/Zeitereignisse.png"/></p>
+<ul>
+<li><strong>Start-Zeitereignis:</strong> Zu diesen Zeitpunkten wird der Prozess gestartet.</li>
+<li><strong>Zwischen-Zeitereignis:</strong> Zeitpunkte (auch wiederkehrende) oder Wartezeiten oder geplante Verzögerungen des Prozesses</li>
+</ul>
+<h4 id="eventbasierte-gateways">Eventbasierte Gateways</h4>
+<p>Im Prozess können unterschiedliche Ereignisse auftreten. Dargestellt wird das mit <strong>ereignisbasierten Gateways</strong>. Das <strong>zuerst eintretende Ereignis</strong> bestimmt den Zweig, dem der Prozessfluss folgt. Solange noch kein Ereignis eingetreten ist, wartet der Prozess. Im Beispiel rufen wir die Pizzeria an, falls sie nach 60 Minuten nicht geliefert hat.</p>
+<p><img alt="" src="../images/Ereignisbasierte-Gateways.png"/></p>
+<h4 id="eventbasierte-gateways-schleifen">Eventbasierte Gateways (Schleifen)</h4>
+<p>Ereignisbasierte Gateways können auch für Schleifen verwendet werden. In diesem Beispiel wollen wir nicht weiter auf unsere Pasta warten, falls diese nach dreimaligen Nachfragen immer noch nicht geliefert wurde.</p>
+<p><img alt="" src="../images/Ereignisbasierte-Gateways-%28Schleife%29.png"/></p>
+<h4 id="bedingungsereignisse">Bedingungsereignisse</h4>
+<p>In diesem Beispiel siehst du die Verwendung von <strong>Bedingungsereignissen</strong> im Vergleich zu <strong>Zeitereignissen</strong>.</p>
+<p><img alt="" src="../images/Bedingungsereignisse.png"/></p>
+<h4 id="angeheftete-zwischenereignisse">Angeheftete Zwischenereignisse</h4>
+<p>Deadlines oder Abbruchbedingungen können mit <strong>angehefteten Zwischenereignissen</strong> dargestellt werden. Falls das Aussuchen der Pasta länger als 30 Minuten dauert, dann bestellen wir nicht, sondern backen Pizza.</p>
+<p><img alt="" src="../images/Angeheftete-Zwischenerignisse.png"/></p>
+<h4 id="link-ereignis">Link-Ereignis</h4>
+<p>Link-Ereignisse können genutzt werden, um komplexe Modelle aufzuteilen oder den Sequenzfluss auf den nächstfolgenden Prozess weiterzuleiten. Zwei zusammengehörende Link-Ereignisse repräsentieren dabei einen Sequenzfluss.</p>
+<p><img alt="" src="../images/Link-Ereignis.png"/></p>
+<p><img alt="" src="../images/Link-Ereignis-I.png"/></p>
+<p><strong>Link-Ereignis</strong>
+Ein auslösendes und eintretendes Link-Ereignis mit <strong>gleichem Namen</strong> entspricht einem Sequenzfluss, d.h. Sie können große Prozesse in Abschnitte aufteilen.</p>
+<p>Laut BPMN-Standard sollten sich die verlinkten Prozesse immer auf der <strong>gleichen Prozesshierachie-Ebene</strong> befinden.</p>
+<h4 id="ubersicht-aller-ereignisse">Übersicht aller Ereignisse</h4>
+<p>Eine <strong>vollständige Übersicht</strong> aller BPMN Ereignisse findest du im <a href="http://www.bpmb.de/images/BPMN2_0_Poster_DE.pdf">BPMN-Poster</a> auf der rechten Seite.</p>
+<p><a href="#kata06">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr/>
+<h3 id="unterprozesse-und-nachrichtenflusse-lu-unterprozesse">Unterprozesse und Nachrichtenflüsse {#LU-Unterprozesse}</h3>
+<h4 id="unterprozesse">Unterprozesse</h4>
+<p>Zugeklappte Unterprozesse fassen mehrere Aufgaben (Tasks) zusammen. Damit können komplexe Prozesse übersichtlich dargestellt werden.</p>
+<p><img alt="" src="../images/Unterprozesse.png"/></p>
+<hr/>
+<p>Im nächsten  Beispiel wird die Anwendung von <strong>angehängten Zwischenereignissen</strong> an Unterprozessen gezeigt. Falls also die Pasta verkoch ist, wird eine Eskalation ausgelöst und Pasta bestellt. Dies sollte jedoch nicht der Standardpfad sein.</p>
+<p><img alt="" src="../images/Unterprozesse-II.png"/></p>
+<h4 id="nachrichtenflusse-uber-poolgrenzen">Nachrichtenflüsse über Poolgrenzen</h4>
+<p>Externe Kommunikationspartner werden mit <strong>zugeklappten Pools</strong> dargestellt. Der Nachrichtenfluss zeigt den <strong>Austausch von Informationen</strong>. Der zugeklappte Pool verbirgt alle internen Aufgaben des Lieferanten, denn diese sind für uns in diesem Fall irrelevant.</p>
+<p><img alt="" src="../images/Nachrichtenfl%C3%BCsse-%C3%BCber-Poolgrenzen.png"/></p>
+<p><a href="#kata07">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr/>
+<h3 id="dmn-grundlagen-lu-dmn">DMN - Grundlagen {#LU-DMN}</h3>
+<h4 id="einfuhrung">Einführung</h4>
+<p><strong>Business Decision Management</strong> (BDM) stellt Konzepte, Methoden und Techniken für die Darstellung, Verwaltung, Konfiguration, Durchführung und Analyse von Geschäftsentscheidungen zur Verfügung.
+Die Übungen in den folgenden Katas sind zwar auch auf dem Papier machbar, allerdings empfehle ich die Nutzung einer <a href="https://demo.bpmn.io/dmn">DMN Software</a>, um mit den verschiedenen Varianten zu experimentieren und sich die Ergebnisse der selbst geschriebenen Entscheidungstabellen bestätigen zu lassen.</p>
+<p>Im folgenden findest du eine kurze, unvollständige Darstellung der <strong>Nachteile "klassischer" Entscheidungswege</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Menschliche Entscheidungen</th>
+<th>Automatisierte Entscheidungen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unklare Regeln</td>
+<td>Fehlende Transparenz</td>
+</tr>
+<tr>
+<td>Unsicherheiten</td>
+<td>Veraltete / falsche Entscheidungsgrundlagen</td>
+</tr>
+<tr>
+<td>Langsame Entscheidungsfindung</td>
+<td>Kostenintensive Anpassung</td>
+</tr>
+<tr>
+<td>Inkonsistente Entscheidungen</td>
+<td>Hoher Kommunikationsaufwand</td>
+</tr>
+</tbody>
+</table>
+<p><strong>BDM</strong> dient als Methode, um diese Probleme zu überwinden und die Entscheidungsfindung zu verbessern.</p>
+<p>Das digitale Zeitalter und die zunehmenden gesetzlichen Regulierungen drängen Organisationen zu mehr Transparenz und Optimierung ihrer Entscheidungen.</p>
+<table>
+<thead>
+<tr>
+<th>Das digitale Zeitalter</th>
+<th>Erweiterte Vorschriften</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mehr verfügbare Daten</td>
+<td>Pflicht zur Nachvollziehbarkeit &amp; Transparenz: Von der Anforderung bis zur Implementierung</td>
+</tr>
+<tr>
+<td>Big Data Analyse</td>
+<td>Risiken für Verstöße gegen gesetzliche Vorschriften frühzeitig erkennen</td>
+</tr>
+<tr>
+<td>Schneller auf veränderte Anforderungen reagieren</td>
+<td>Vermeidung von Strafe</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Decision Model and Notation</strong> (DMN) ist eine grafische Spezifikationssprache, die Elemente definiert, um Geschäftsentscheidungen zu modellieren und deren Logik zu dokumentieren.
+DMN dient als <strong>Schnittstelle zwischen Modellierung und Implementierung</strong> von Entscheidungslogik (Fachbereich &amp; IT).</p>
+<p>Geschäftsprozessmodelle können Entscheidungsdiagramme enthalten. Diese werden auf <strong>zwei Ebenen</strong> erstellt. Während in der ersten Ebene die <strong>Anforderungen (Informationen)</strong> für Entscheidungen beschrieben werden, beinhaltet die zweite Ebene die <strong>Logik (Regeln).</strong></p>
+<p><img alt="" src="../images/Ebenenmodell.png"/></p>
+<p>Beide Modelle haben ihren eigenen Zweck und ergänzen einander. Trotzdem können sie auch unabhängig voneinander existieren.</p>
+<p><img alt="" src="../images/Gesch%C3%A4ftslogik-vs.-Entscheidungslokok.png"/></p>
+<h4 id="kernelemente-von-dmn">Kernelemente von DMN</h4>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Eigenschaft</th>
+<th>Eigenschaft II</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desicion</td>
+<td>Benutzt Logik um Ergebnis zu bestimmen.</td>
+<td>Zerlegung in Teilentscheidungen möglich.</td>
+</tr>
+<tr>
+<td>Input Data</td>
+<td>Stellt Informationen für Entscheidungen bereit.</td>
+<td>Kann von verschiedenen Entscheidungen genutzt werden.</td>
+</tr>
+<tr>
+<td>Knowledge Source</td>
+<td>Beschreibt die Quelle, aus der Regeln für die Entscheidung vorgegeben werden.</td>
+<td>z.B. Gesetze, Regularien oder Richtlinien.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../images/Decision-Inpitdata-KnowledgeSource.png"/></p>
+<p>Bei der Erstellung von DMN-Modellen kann es hilfreich sein, sich an folgenden <strong>Leitfragen</strong> zu orientieren:</p>
+<p><u>Entscheidungen identifizieren und abgrenzen</u></p>
+<ul>
+<li>Welche Entscheidungen müssen überhaupt getroffen werden?</li>
+<li>Was ist das Ziel dieser Entscheidungen?</li>
+</ul>
+<p><u>Benötigte Anforderungen sammeln</u></p>
+<ul>
+<li>Welche Informationen werden benötigt, um die Entscheidung zu treffen?</li>
+<li>Wird die Logik aus externen Gesetzen / internen Richtlinien vorgeschrieben?</li>
+</ul>
+<p><u>Entscheidungen aufteilen</u></p>
+<ul>
+<li>Müssen die benötigten Informationen ggf. selbst erst ermittelt werden?</li>
+<li>Bei Unterentscheidungen analoges Vorgehen -&gt; Anforderungen sammeln</li>
+</ul>
+<p>Das kann z. B. so aussehen:</p>
+<p><img alt="" src="../images/Entscheidungsdiagramm.png"/></p>
+<p><strong>Entscheidungsdiagramme</strong> beantworten folgende <strong>Fragen</strong> auf leicht verständliche Weise:</p>
+<ul>
+<li>Welche Informationen werden benötigt?</li>
+<li>Gibt es vorgelagerte Entscheidungen?</li>
+<li>Gibt es externe oder interne Richtlinien?</li>
+<li>Wie sind die Abhängigkeiten?</li>
+</ul>
+<p>Hier siehst du ein beispielhaftes Entscheidungsdiagramm. Die genutzten Elemente werden im Folgenden im Detail erklärt.</p>
+<p><img alt="" src="../images/Entscheidungsdiagramm-I.png"/></p>
+<h4 id="entscheidungstabellen">Entscheidungstabellen</h4>
+<p>Entscheidungslogik wird durch eine Tabelle dargestellt, die aus verschiedenen Komponenten besteht. In der Tabelle entspricht <strong>jede Zeile einer Geschäftsregel</strong>. Im Fall einer Autoversicherungsgesellschaft könnten solche Geschäftsregeln z. B. lauten:</p>
+<ul>
+<li>Personen mit mehr als zwei Unfällen in den letzten 3 Jahren wird keine Versicherung gewährt</li>
+<li>Personen unter 18 Jahren wird keine Versicherung gewährt</li>
+<li>Personen mit mehr als vier Punkten wird keine Versicherung gewährt</li>
+</ul>
+<p><img alt="" src="../images/Entscheidungstabelle-01.png"/></p>
+<p>Diese Entscheidungstabelle beinhaltet 4 Geschäftsregeln. Jede einzelne Regel beschreibt dabei eine mögliche Kombination von Eingängen, in welcher jede zu einem bestimmten Ergebnis führt.</p>
+<p><img alt="" src="../images/Entscheidungstabelle-02.png"/></p>
+<p><strong>Operatoren</strong> werden benutzt, um Geschäftsregeln in der Tabelle abzubilden. Es gibt eine große Bandbreite an <a href="https://documentation.signavio.com/suite/de/Content/process-manager/userguide/dmn/define-decision-logic.htm">Operatoren</a>.</p>
+<h4 id="datentypen-fur-input-data-elemente">Datentypen für Input-Data Elemente</h4>
+<p>In der Praxis können Informationen in verschiedenen Arten vorkommen z. B. als Text , als ein Zahlwert oder als ein Datum. Daher muss auch für jeden Input Data der zutreffende Datentyp festgelegt werden. Es gibt folgende Datentypen:</p>
+<ul>
+<li>Boolean: Wahr / Falsch (Wahrheitswert)</li>
+<li>Zahlwert: 12, 33%, 45€</li>
+<li>Aufzählung: Hund, Katze, Maus</li>
+<li>Text: Namen, Modellnummer: ED4637K</li>
+<li>Datum: 08.05.1970</li>
+<li>Hierarchie: Abteilungsleiter, Teamleiter, Mitarbeiter</li>
+</ul>
+<p><strong>Boolean</strong></p>
+<p>Ein Input Data vom Typ <strong>Boolean</strong> besitzt einen von zwei möglichen Werten. Dieser Wert kann entweder <strong>wahr</strong> oder <strong>falsch</strong> sein. Boolean kann für einfache Abfragen genutzt werden.</p>
+<p><img alt="" src="../images/Datentypen-f%C3%BCr-Input-Data-Elemente-%28Boolean%29.png"/></p>
+<p>In diesem Beispiel ist der Input Data "Stammkunde" vom Typ Boolean, da es hier nur 2 mögliche Ausprägungen geben kann. Entweder handelt es sich um einen Stammkunden <strong>(wahr)</strong> oder nicht <strong>(falsch)</strong>.</p>
+<p><strong>Zahlwert</strong></p>
+<p>Eingangsdaten vom Typ <strong>Zahlwert</strong> enthalten <strong>numerische Werte</strong>. Diese können Bereiche oder einfache Zahlen sein. Nummern werden von Operatoren (siehe vorheriges Kapitel) verglichen und können eine Einheit haben.</p>
+<p><img alt="" src="../images/Datentypen-f%C3%BCr-Input-Data-Elemente-%28Zahlwert%29.png"/></p>
+<p>In diesem Beispiel ist der Input Data "Einkaufswert" vom Typ Zahlwert.  Dieser Typ kann folgende Einheiten annehmen.</p>
+<ul>
+<li>Prozent</li>
+<li>Gewicht</li>
+<li>Länge</li>
+<li>Temperatur</li>
+<li>Währung</li>
+</ul>
+<p><strong>Zahlwerte</strong> können in verschiedenen Bereichen angegeben werden.</p>
+<ul>
+<li>Eckige Klammern für <strong>geschlossene Intervalle</strong></li>
+<li>
+<p>[1..5] zwischen 1 und 5, inklusive 1 und 5</p>
+</li>
+<li>
+<p>Runde Klammern für <strong>offene Intervalle</strong></p>
+</li>
+<li>
+<p>(1..5) zwischen 1 und 5, exklusive 1 und 5</p>
+</li>
+<li>
+<p><strong>Gemischte(halb-offene) Intervalle</strong></p>
+</li>
+<li>(1..5] zwischen 1 und 5, exklusive 1 und inklusive 5</li>
+<li>[1..5) zwischen 1 und 5, inklusive 1 und exklusive 5</li>
+</ul>
+<p><strong>Aufzählung</strong></p>
+<p>Ist der Datentyp einer Eingabe <strong>Aufzählung,</strong> wird eine <strong>Liste von Auswahloptionen</strong> vordefiniert. Diese Werte können durch Operatoren mit anderen Eingabewerten / Listen verglichen werden.</p>
+<p>Z.B. Express Versand, Standard Versand, ...)</p>
+<p><img alt="" src="../images/Datentypen-f%C3%BCr-Input-Data-Elemente-%28Aufz%C3%A4hlung%29.png"/></p>
+<p>Operatoren können sein:</p>
+<ul>
+<li>Gleich</li>
+<li>Ungleich</li>
+<li>Element von</li>
+<li>Kein Element von</li>
+</ul>
+<p><strong>Datum</strong></p>
+<p>Ein <strong>Datum</strong> wird genutzt, um <strong>bestimmte Zeitpunkte</strong> festzulegen. Durch Operatoren kann der Wert verglichen werden (zum Beispiel mit dem aktuellen Datum).</p>
+<p><img alt="" src="../images/Datentypen-f%C3%BCr-Input-Data-Elemente-%28Datum%29.png"/></p>
+<p>Operatoren können sein:</p>
+<ul>
+<li>Gleich</li>
+<li>Ungleich</li>
+<li>Größer als</li>
+<li>Kleiner als</li>
+<li>Größer oder gleich</li>
+<li>Kleiner oder gleich</li>
+</ul>
+<p><strong>Text</strong></p>
+<p>Der Datentyp <strong>Text</strong> wird für <strong>Vermerke und andere textbasierte Informationen</strong> benutzt. Da die Auswahl eines vordefinierten Wertes weniger fehleranfällig ist, als den Wert selbst einzutippen (Leerzeichen, Tippfehler etc.), sollten Texttypen wenn möglich durch Aufzählungen ersetzt werden.</p>
+<p><img alt="" src="../images/Datentypen-f%C3%BCr-Input-Data-Elemente-%28Text%29.png"/></p>
+<p>Operatoren können sein:</p>
+<ul>
+<li>Gleich</li>
+<li>Ungleich</li>
+<li>Enthält</li>
+<li>Enthält nicht</li>
+<li>Beginnt mit</li>
+<li>Endet mit</li>
+<li>Element von</li>
+<li>Kein Element von</li>
+</ul>
+<p><strong>Hierarchie</strong></p>
+<p>Ein Eingang vom Typ <strong>Hierarchie</strong> listet <strong>Werte in verschiedenen Kategorien</strong> auf, die voneinander hierarchisch abhängig sind. Dies erlaubt die Anwendung von Entscheidungsregeln für eine gesamte Kategorie und/oder einzelne Werte.</p>
+<p><img alt="" src="../images/Datentypen-f%C3%BCr-Input-Data-Elemente-%28Hierarchie%29.png"/></p>
+<p>Operatoren können sein:</p>
+<ul>
+<li>Gleich</li>
+<li>Ungleich</li>
+<li>Element von</li>
+<li>Kein Element von</li>
+</ul>
+<p><a href="#kata08">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr/>
+<h3 id="datentypen-und-hit-policy-lu-datentypen">Datentypen und Hit Policy {#LU-Datentypen}</h3>
+<h4 id="single-hit-policies">Single Hit Policies</h4>
+<p>Bei diesen Hit Policy wird <strong>immer nur eine Regel</strong> in der Entscheidungstabelle angewendet, auch wenn mehrere Regeln zutreffen.</p>
+<p><strong>Unique Hit Policy (U)</strong></p>
+<p>Bei der Unique Hit Policy kann für jede Kombination an Eingaben <strong>nur eine Regel zutreffen.</strong> In diesem Kontext wird angenommen, dass alle Eingaben unabhängig voneinander sind, sodass jede Kombination tatsächlich möglich ist. Überlappende Regeln sind dabei <strong>nicht erlaubt.</strong></p>
+<p><img alt="" src="../images/Unique-hit-policy.png"/></p>
+<p>Ein "<strong>-</strong>" steht für "<strong>any</strong>" und bedeutet, dass an dieser Stelle jeder mögliche Wert stehen kann.</p>
+<p><strong>In Regel 2:</strong> Ist die gewählte Versandart Expressversand und der Kundentyp Einzelhändler, spielt es keine Rolle ob Nahrungsmittel oder Sachgüter ausgewählt ist. Das Ergebnis wird immer eine hohe Lieferpriorität sein.</p>
+<p><strong>In Regel 3:</strong> Ist die gewählte Versandart Standardversand, die Güterart Nahrungsmittel und der Kundentyp Großhändler, haben wir eine hohe Lieferpriorität.</p>
+<p><strong>First Hit Policy (F)</strong></p>
+<p>Wird die First Hit Policy genutzt, können sich Regeln überschneiden, es wird allerdings <strong>nur die erste zutreffende Regel</strong> verwendet. Die First Hit Policy geht von einer <strong>Sortierung der Regeln</strong> aus. Sie werden von oben nach unten ausgewertet. Trifft in diesem Beispiel keine der ersten drei Regeln auf den Sachverhalt zu, kann die <strong>letzte Regel</strong> als allgemeine <strong>“Auffangregel”</strong> genutzt werden.</p>
+<p><img alt="" src="../images/First-hit-policy.png"/></p>
+<p>In diesem Beispiel wird zuerst geprüft, ob die Versandart Express Versand und der Kunde Großhändler ist. Wenn ja, tritt die Regel ein, ansonsten wird die zweite Regel geprüft. Stimmt diese nicht mit den Eingaben überein, wird die dritte Regel geprüft und so weiter.</p>
+<p><strong>Any Hit Policy (A)</strong></p>
+<p>Bei Verwendung der Any Hit Policy decken mehrere Regeln die gleiche Kombination an Eingabewerten ab. Diese Überschneidung ist jedoch nur erlaubt, wenn die Regeln auch zum gleichen Ergebnis führen.</p>
+<p><img alt="" src="../images/Any-hit-policy.png"/></p>
+<p>Sobald eine der drei Kriterien mit "false" definiert wurde, also nicht zutrifft, führt dies direkt zum Ergebnis der VIP Anforderungen "nicht erfüllt". Somit sind nur bei einer gültigen Kombination von Input Data die VIP Anforderungen "erfüllt".</p>
+<p><strong>Priority Hit Policy (P)</strong></p>
+<p>Mehrere Regeln können für einen Eingabewert eintreffen, wenn die Priority Hit Policy genutzt wird. Die Ergebnisse werden nach ihrer Priorität geordnet. Das Ergebnis mit der höchsten Priorität wird zurückgegeben.</p>
+<p><img alt="" src="../images/Priority-hit-policy.png"/></p>
+<p>Im obigen Beispiel, treffen Regel 3 und 4 zu, wenn das angegebene Alter '70' und die Krankengeschichte “schlecht” ist. Demnach wären die möglichen Ergebnisse Hoch und Mittel. Da „Mittel“ jedoch gegenüber „Hoch“ eine höhere Priorität besitzt, wird dieses Ergebnis ausgegeben.</p>
+<h4 id="multi-hit-policies">Multi Hit Policies</h4>
+<p>Bei diesen Hit Policies werden <strong>alle</strong> zutreffenden Regeln betrachtet. Die erhaltenen Ergebnisse können entweder als Liste ausgegeben oder zu einem einzelnen Wert aggregiert werden (z.B. als Summe).</p>
+<p><strong>Output Order Policy (O)</strong></p>
+<p>Liefert alle Treffer in <strong>absteigender Reihenfolge</strong> der Ausgabepriorität. Die Ausgabeprioritäten werden in der geordneten Liste der Ausgabewerte in absteigende Reihenfolge ausgelesen.</p>
+<p><img alt="" src="../images/output-order-policy.png"/></p>
+<p>Beispielrechnung:</p>
+<ul>
+<li>Input (50, 31)</li>
+<li>Die Regeln 1,2,4,5 und 6 werden aktiviert</li>
+<li>Output: 2,2,3,4,26</li>
+</ul>
+<p><strong>Rule Order Policy (R)</strong></p>
+<p>Die Ausgaben aller <strong>übereinstimmenden Regeln</strong> werden als sortierte Liste zurückgegeben, in der
+Reihenfolge der Regeln.</p>
+<p><img alt="" src="../images/rule-order-policy.png"/></p>
+<p>Beispielrechnung:</p>
+<ul>
+<li>Input (50, 31):</li>
+<li>Die Regeln 1,2,4,5 und 6 werden aktiviert</li>
+<li>Output: 26,2,2,3,4</li>
+</ul>
+<p><strong>Collect Policy (C)</strong></p>
+<p>Die Ausgaben aller übereinstimmenden Regeln werden als unsortierte Liste zurückgegeben.</p>
+<p>Alternativ können folgende Aggregationen der Ausgabewerte angewendet werden, wodurch nur genau ein Ergebnis auf Basis der Aggregation geliefert wird:</p>
+<ul>
+<li>Summierung: "+"</li>
+<li>Minimum:  "&lt;"</li>
+<li>Maximum: "&gt;"</li>
+<li>Anzahl: "#"</li>
+</ul>
+<p><img alt="" src="../images/collect-policy.png"/></p>
+<ul>
+<li>Input (50, 31):</li>
+<li>Die Regeln 1,2,4,5 und 6 werden aktiviert</li>
+<li>Output für C+ (Summierung): 37</li>
+</ul>
+<p><a href="#kata09">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<hr/>
+<h3 id="dein-erstes-komplexes-drd-lu-drd">Dein erstes komplexes DRD {#LU-DRD}</h3>
+<p>Das Diagramm zeigt, dass sehr viele Informationen berücksichtigt werden müssen, damit der Rabatt bestimmt werden kann. Um <strong>große Entscheidungen</strong> wie diese zu vermeiden, können Teile der Informationen in <strong>untergeordnete Entscheidungen</strong> ausgelagert werden. Doch wann sollten Entscheidungen überhaupt aufgeteilt werden?</p>
+<p><img alt="" src="../images/Gro%C3%9Fe-Entscheidungen.png"/></p>
+<p>Sobald eine Entscheidung <strong>mehr als sechs</strong> Eingänge hat, wird die Entscheidungslogik sehr <strong>komplex</strong>. Jeder einzelne Informationseingang muss schließlich als Regel in der Entscheidungstabelle berücksichtigt werden. Hier ist es empfehlenswert, die verschiedenen Informationseingänge in einzelne Teilentscheidungen aufzuteilen.</p>
+<p>Das Entscheidungsdiagramm ist nun auf eine strategische Entscheidung und drei untergeordnete Entscheidungen aufgeteilt. Dadurch ist das gesamte Diagramm leichter verständlich und die Abhängigkeiten sowie Eingangswerte sind besser erkennbar.</p>
+<p><img alt="" src="../images/Gro%C3%9Fe-Entscheidungen-I.png"/></p>
+<p>Zusätzlich ist die enthaltene Entscheidungslogik einfacher anzupassen. Eine einzelne Teilentscheidung kann jetzt geändert werden, ohne die Logik in den anderen Teilentscheidungen anpassen zu müssen.</p>
+<p>Teilentscheidungen können in anderen Entscheidungsmodellen, ggf. sogar in einem ganz anderen Kontext, wieder verwendet werden. Ein paar Beispiele für solche wiederverwendbaren Teilentscheidungen sind "Status bestimmen" oder "Berechtigung prüfen".</p>
+<p>In diesem Beispiel wird die Entscheidung <strong>Kundenstatus</strong> in zwei verschiedenen Modellen benötigt und kann dabei selbst in einem eigenen Entscheidungsmodell beschrieben sein. Im Ersten dient sie als Eingang für die Entscheidung <strong>Bestimmung des Rabatts</strong>. Im zweiten Entscheidungsdiagramm wird sie als Eingang zur Ermittlung der <strong>Bestimmung der Lieferpriorität</strong> verwendet.</p>
+<p><img alt="" src="../images/Teilentscheidungen-I.png"/></p>
+<p>Häufig werden Entscheidungen durch verschiedene externe oder interne Vorgaben bzw. Richtlinien beeinflusst. Dies kann durch die Verwendung des „Knowledge Source“ Elements dargestellt werden.</p>
+<p>Zur besseren Übersicht ist es dabei oft hilfreich, die Entscheidung aufzuteilen und die beeinflussten Teilbereiche separat darzustellen.</p>
+<p><img alt="" src="../images/Teilentscheidungen-II.png"/></p>
+<p>Jede Entscheidung in einem Diagramm muss benannt werden. Damit jedoch auch für andere Betrachter klar verständlich ist, was genau entschieden wird, gibt es <strong>verschiedene Benennungsarten.</strong> </p>
+<table>
+<thead>
+<tr>
+<th>Benennungsstil</th>
+<th>Beschreibung</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aktivitätenstil</td>
+<td>Die selbe Bezeichnung wie die zugehörige BPMN Aktivität. Objekt-Verb-Stil. Typische Verben sind prüfen, bestimmen, berechnen, auswählen und ermitteln</td>
+<td>Kundenstatus ermitteln</td>
+</tr>
+<tr>
+<td>Ereignisstil</td>
+<td>Die Entscheidung wird nach Ihrem Ausgang benannt. Was wird entschieden? Enthält oft Wörter wie Anwendbarkeit, Eignung, Punktzahl oder Rangfolge</td>
+<td>Kundenstatus</td>
+</tr>
+<tr>
+<td>Fragenstil</td>
+<td>Die Entscheidung wird als Frage formuliert. <strong>Achtung:</strong> Fragen können sehr umfangreich sein und damit zu langen Bezeichnungen führen</td>
+<td>Welchen Status hat der Kunde?</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#kata10">&lt;<em>Zurück zur KATA</em>&gt;</a></p>
+<!-- Source file information -->
+<!-- Get setting from mkdocs.yml, but allow page-level overrides -->
+<!-- Inject Disqus into current page -->
+<h2 id="__comments">Kommentare</h2>
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function() {
+      this.page.url = "https://cogneon.github.io/1-4-Lernunterlagen/"
+      this.page.identifier =
+        "1-4-Lernunterlagen/"
+
+    }
+
+    /* Set up for the first time */
+    if (typeof DISQUS === "undefined") {
+      var script = document.createElement("script")
+      script.async = true
+      script.src = "https://lernos.disqus.com/embed.js"
+      script.setAttribute("data-timestamp", Date.now())
+
+      /* Inject script tag */
+      document.body.appendChild(script)
+
+    /* Set up on navigation (instant loading) */
+    } else {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      })
+    }
+  </script>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Zurück: Aufbau des Lernpfads" class="md-footer__link md-footer__link--prev" href="../1-3-Aufbau-des-Lernpfads/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Zurück
+              </span>
+              Aufbau des Lernpfads
+            </div>
+</div>
+</a>
+<a aria-label="Weiter: Ressourcen &amp; Quellennachweise" class="md-footer__link md-footer__link--next" href="../1-5-Ressourcen/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Weiter
+              </span>
+              Ressourcen &amp; Quellennachweise
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://twitter.com/lern_os" rel="noopener" target="_blank" title="twitter.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+</a>
+<a class="md-social__link" href="https://www.linkedin.com/showcase/lern-os" rel="noopener" target="_blank" title="www.linkedin.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+</a>
+<a class="md-social__link" href="https://github.com/cogneon" rel="noopener" target="_blank" title="github.com">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}, "search": "../assets/javascripts/workers/search.cefbb252.min.js"}</script>
+<script src="../assets/javascripts/bundle.17f42bbf.min.js"></script>
+</body>
+</html>
